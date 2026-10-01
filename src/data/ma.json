@@ -1,0 +1,707 @@
+[
+  {
+    "id": "ma-001",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Why would one company want to acquire another company?",
+    "keyAnswer": "A buyer acquires when it believes the target is worth more inside its hands than the price it pays: through cost or revenue synergies, faster growth than it could build organically, new capabilities, products or geographies, industry consolidation and pricing power, or because it thinks the target is simply undervalued. Some deals are also defensive, pre-empting a rival from buying the asset.",
+    "explanation": "The standard answer is that the acquirer expects the combined business to be worth more than the two separate parts, so that paying a premium still creates value. Interviewers want a structured list, ideally with the caveat that not every motive is a good one.\n\n### Classic strategic rationales\n\n- **Synergies**: cost savings (duplicate overhead, procurement, plants) or revenue upside (cross-selling, distribution reach).\n- **Growth**: buying revenue, customers or market share is faster than building it; relevant for mature acquirers with low organic growth.\n- **Capabilities**: technology, IP, patents, talent (\"acqui-hire\"), a brand or a regulatory licence that would take years to develop.\n- **Geography**: entering a new country or region with an established local platform.\n- **Consolidation / market power**: reducing the number of competitors can improve pricing and purchasing leverage (subject to antitrust review).\n- **Vertical integration**: securing supply or distribution, capturing a supplier's or distributor's margin.\n- **Undervaluation**: the buyer believes the market misprices the target, often in a downturn.\n- **Defensive**: buying a target so a competitor cannot, or getting bigger to avoid being acquired.\n\n### Weaker or often-criticised rationales\n\n- **Diversification** for its own sake: shareholders can diversify themselves more cheaply.\n- **EPS accretion** alone: a deal can be accretive and still destroy value.\n- **Empire building / management ego**: size for its own sake, which is a classic agency problem.\n- **Tax motives** (for example historical inversions) can work but rarely justify a deal on their own.\n\nA good closing line: the test is whether the present value of the benefits exceeds the premium paid plus integration costs and risk, not whether the deal \"makes strategic sense\" in the abstract.",
+    "commonMistakes": [
+      "Listing only \"synergies\" without distinguishing cost from revenue synergies.",
+      "Presenting diversification or EPS accretion as strong rationales without caveats."
+    ],
+    "followUps": [
+      "Which of those rationales do you find least convincing, and why?",
+      "How would you test whether an acquisition created value after the fact?"
+    ],
+    "tags": ["m&a", "strategy", "synergies", "rationale"]
+  },
+  {
+    "id": "ma-002",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Walk me through a merger model from start to finish.",
+    "keyAnswer": "You set the purchase price and consideration mix, build sources and uses, allocate the purchase price to write-ups, intangibles, a deferred tax liability and goodwill, then combine the income statements with the financing effects and synergies to get pro forma net income and EPS, which you compare to the acquirer's standalone EPS to measure accretion or dilution. Finally you build the combined balance sheet, check leverage and credit stats, and run sensitivities.",
+    "explanation": "A merger model answers one core question: does the acquirer's EPS go up or down after the deal, and what does the combined company look like? The typical build is:\n\n1. **Assumptions**: target share price, offer premium, number of diluted target shares, purchase price (equity value) and enterprise value, consideration mix (cash on hand, new debt, new shares), interest rates, acquirer share price, tax rate (assume 25%), transaction and financing fees, synergies and their phase-in.\n2. **Sources and uses**: uses are the equity purchase price, refinancing of target debt (if any), and fees; sources are cash, new debt and new equity issued.\n3. **Purchase price allocation (PPA)**: eliminate the target's existing goodwill, write assets up to fair value, identify intangibles, create a deferred tax liability on the write-ups, and plug the remainder as goodwill.\n4. **Pro forma income statement**: add the two companies' revenue and operating income, layer in synergies, subtract integration costs, add new depreciation and amortisation from the write-ups, subtract interest on new debt, subtract foregone interest on cash used, then compute pro forma taxes and net income.\n5. **Pro forma shares**: acquirer diluted shares plus new shares issued (purchase price funded with stock divided by acquirer share price, or target shares times the exchange ratio).\n6. **Accretion / dilution**: pro forma EPS versus standalone acquirer EPS, usually for 2 to 3 forecast years; also compute the synergies needed to break even.\n7. **Pro forma balance sheet**: combine both, apply the adjustments (cash out, new debt, new equity, target equity eliminated, goodwill and write-ups, DTL).\n8. **Credit and ownership checks**: pro forma leverage and coverage ratios, pro forma ownership split, contribution analysis.\n9. **Sensitivities**: accretion/dilution across offer price, consideration mix and synergy levels.\n\nMention that the inputs usually come from a standalone operating model for each company, and that the model is as good as the synergy and financing assumptions behind it.",
+    "commonMistakes": [
+      "Forgetting the foregone interest on cash used to fund the deal.",
+      "Skipping the deferred tax liability in the PPA, which overstates net identifiable assets.",
+      "Describing an LBO model (returns to a sponsor) instead of a merger model (impact on the acquirer)."
+    ],
+    "followUps": [
+      "Which assumptions matter most to the accretion/dilution result?",
+      "How do you treat transaction fees versus financing fees in the model?"
+    ],
+    "tags": ["merger model", "accretion dilution", "walkthrough", "ppa"]
+  },
+  {
+    "id": "ma-003",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What does it mean for a deal to be accretive or dilutive, and how do you calculate pro forma EPS?",
+    "keyAnswer": "A deal is accretive if the acquirer's pro forma EPS after the deal is higher than its standalone EPS, and dilutive if it is lower. Pro forma EPS equals combined net income, adjusted for after-tax interest on new debt, foregone interest on cash, new D&A from write-ups and synergies, divided by the acquirer's shares plus any new shares issued.",
+    "explanation": "Accretion/dilution compares what the acquirer's shareholders earn per share with and without the deal. It is the headline output of every merger model.\n\n### Formula\n\n```\nPro forma NI = Acquirer NI + Target NI\n             + after-tax synergies\n             - after-tax interest on new debt\n             - after-tax foregone interest on cash used\n             - after-tax amortisation of new intangibles / write-ups\nPro forma EPS = Pro forma NI / (Acquirer shares + New shares issued)\nAccretion %  = Pro forma EPS / Standalone EPS - 1\n```\n\n### Worked example (tax rate 25%)\n\n- Acquirer: net income $500m, 200m shares, EPS $2.50, share price $50 (P/E 20x).\n- Target: net income $120m, equity purchase price $2,400m (P/E 20x).\n- Ignore synergies, fees and write-ups for simplicity.\n\n**Scenario A: all debt at 5%**\n\n- Pre-tax interest = $2,400m × 5% = $120m; after-tax = $90m.\n- Pro forma NI = 500 + 120 − 90 = **$530m**; shares unchanged at 200m.\n- Pro forma EPS = $2.65 versus $2.50 → **6.0% accretive**.\n\n**Scenario B: all stock**\n\n- New shares = $2,400m / $50 = 48m.\n- Pro forma NI = 500 + 120 = $620m; shares = 248m.\n- Pro forma EPS = $2.50 → **neutral**, because both companies trade at the same P/E.\n\nThe debt case is accretive because the after-tax cost of debt (3.75%) is below the target's earnings yield (1/20 = 5%). The stock case is neutral because the acquirer pays with a currency that costs exactly what the target yields. Interviewers usually want you to say that accretion is a first-year screen, not a measure of value creation.",
+    "commonMistakes": [
+      "Using pre-tax interest expense instead of after-tax.",
+      "Dividing by the acquirer's old share count after an all-stock deal.",
+      "Treating accretion as proof the deal creates value."
+    ],
+    "followUps": [
+      "What if the deal is funded half cash from the balance sheet and half stock?",
+      "How much synergy would be needed to make the dilutive case break even?"
+    ],
+    "tags": ["accretion dilution", "pro forma eps", "merger model", "example"]
+  },
+  {
+    "id": "ma-004",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "In an all-stock deal, how can you tell quickly whether the deal will be accretive or dilutive?",
+    "keyAnswer": "Compare the P/E multiples: if the acquirer's P/E is higher than the P/E it pays for the target, the deal is accretive; if lower, it is dilutive; if equal, it is neutral. The acquirer is swapping expensive shares for cheaper earnings, so each new share brings in more earnings than it dilutes.",
+    "explanation": "In an all-stock deal the only cost of the acquisition currency is the earnings yield of the acquirer's own shares, which is the inverse of its P/E. The target delivers its earnings yield, the inverse of the price-to-earnings multiple actually paid (including the premium). So the test is simply which yield is higher.\n\n```\nAcquirer P/E > Target P/E paid  →  accretive\nAcquirer P/E < Target P/E paid  →  dilutive\nAcquirer P/E = Target P/E paid  →  neutral\n```\n\n### Worked example\n\nAcquirer: net income $500m, 200m shares, EPS $2.50, share price $50, so P/E = 20x. Target net income $120m.\n\n| Price paid for target | Implied P/E | New shares ($50 each) | Pro forma NI | Pro forma shares | Pro forma EPS | Result |\n|---|---|---|---|---|---|---|\n| $1,800m | 15x | 36m | $620m | 236m | $2.63 | +5.1% accretive |\n| $2,400m | 20x | 48m | $620m | 248m | $2.50 | neutral |\n| $3,000m | 25x | 60m | $620m | 260m | $2.38 | −4.6% dilutive |\n\nThe intuition: at 15x the acquirer issues $1,800m of stock yielding 5% in earnings to buy a stream yielding 6.7% ($120m / $1,800m), so earnings per share rise.\n\n### Caveats to mention\n\n- Use the **P/E paid** (offer price including premium), not the target's unaffected trading multiple.\n- Use forward P/Es consistently for both companies.\n- The rule ignores synergies, intangible amortisation and fees, which can flip the answer.\n- It says nothing about value creation: a high-P/E acquirer can \"buy\" accretion from a low-P/E target whose earnings are low quality or shrinking.",
+    "commonMistakes": [
+      "Comparing against the target's pre-deal trading P/E rather than the multiple actually paid.",
+      "Mixing trailing P/E for one company with forward P/E for the other."
+    ],
+    "followUps": [
+      "Does the rule still hold once you add intangible amortisation?",
+      "What is the equivalent rule for a cash or debt-funded deal?"
+    ],
+    "tags": ["accretion dilution", "all-stock", "p/e", "rule of thumb"]
+  },
+  {
+    "id": "ma-005",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "A deal is funded with a mix of cash, debt and stock. Without building a full model, how do you judge whether it is accretive? Give a numerical example.",
+    "keyAnswer": "Compute the weighted average after-tax cost of the acquisition currency: cash costs the after-tax interest you forgo, debt costs the after-tax interest rate, and stock costs the acquirer's earnings yield (1/P/E). If that blended cost is below the target's earnings yield (target net income divided by the equity price paid), the deal is accretive.",
+    "explanation": "Every dollar used to buy the target has an earnings cost. Cash on the balance sheet was earning interest that disappears; new debt adds interest; new shares spread earnings over more holders. Compare the blended cost to what the target's earnings deliver on the price paid.\n\n```\nCost of cash  = interest rate on cash × (1 − t)\nCost of debt  = interest rate on new debt × (1 − t)\nCost of stock = 1 / acquirer P/E  (= acquirer EPS / share price, already after tax)\nTarget yield  = target net income / equity purchase price\n```\n\n### Worked example (tax rate 25%)\n\nAcquirer: net income $200m, 80m shares, EPS $2.50, price $50 (P/E 20x). Target: net income $45m, equity purchase price $1,000m, so target earnings yield = 4.5%.\n\nFunding: 40% cash (earning 2%), 30% new debt at 6%, 30% stock.\n\n| Source | Weight | After-tax cost | Weighted |\n|---|---|---|---|\n| Cash | 40% | 2% × 0.75 = 1.50% | 0.60% |\n| Debt | 30% | 6% × 0.75 = 4.50% | 1.35% |\n| Stock | 30% | 1 / 20 = 5.00% | 1.50% |\n| **Blended cost** | | | **3.45%** |\n\nTarget yield 4.5% > blended cost 3.45% → **accretive**.\n\nCheck with the full calculation: foregone interest after tax = $400m × 1.5% = $6m; new interest after tax = $300m × 4.5% = $13.5m; new shares = $300m / $50 = 6m. Pro forma NI = 200 + 45 − 6 − 13.5 = $225.5m; shares = 86m; EPS = $2.62 versus $2.50, about 4.9% accretive. The shortcut and the model agree.\n\nThe general ordering in a low-rate world is cash cheapest, then debt, then stock, which is why cash-rich acquirers with high P/Es rarely issue shares. When rates are high or the acquirer's P/E is very high, that ordering can reverse.",
+    "commonMistakes": [
+      "Forgetting to tax-effect the interest on cash and debt while the stock cost is already after tax.",
+      "Using the target's trading price rather than the price paid to compute the target's yield."
+    ],
+    "followUps": [
+      "What happens to this analysis if interest rates rise by 200 basis points?",
+      "How do synergies and new intangible amortisation change the comparison?"
+    ],
+    "tags": ["accretion dilution", "cost of acquisition", "mixed consideration", "example"]
+  },
+  {
+    "id": "ma-006",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Why would a deal be dilutive, and is dilution always a bad thing?",
+    "keyAnswer": "A deal is dilutive when the earnings the target brings are smaller than the cost of the currency used to buy it: paying a higher P/E than your own in stock, financing with expensive debt, giving up high-yielding cash, or absorbing large intangible amortisation and integration costs. Dilution is not automatically bad: a deal can be dilutive in year one yet create value if synergies ramp up or the target brings growth, and accretion can equally hide value destruction.",
+    "explanation": "### Drivers of dilution\n\n- **Multiple paid above the acquirer's own**: in a stock deal, issuing shares at a 15x P/E to buy earnings at 25x spreads less earnings over more shares.\n- **Expensive financing**: if the after-tax cost of new debt exceeds the target's earnings yield on the price paid, debt funding dilutes.\n- **Foregone interest** on cash used, which matters more when rates are high.\n- **Purchase accounting**: amortisation of newly identified intangibles and extra depreciation on asset write-ups reduce book net income without any cash effect.\n- **One-off costs**: transaction fees, integration expenses, restructuring charges.\n- **Target with low or negative earnings**: a loss-making growth company is almost always dilutive on current-year EPS.\n- **Synergy timing**: cost synergies typically phase in over 2 to 3 years, so year one looks worst.\n\n### Why dilution is not always bad\n\nEPS is an accounting measure, not value. A deal that is dilutive because of non-cash amortisation may be strongly cash-accretive. Buying a fast-growing target can be dilutive now and accretive later as its earnings catch up. Conversely, a deal can be accretive simply because the acquirer used cheap debt, while overpaying and destroying value. The right test is whether the present value of the target plus synergies exceeds the price paid plus integration costs.\n\nIn practice, though, public acquirers care about dilution because the market often punishes dilutive announcements, management guidance is tied to EPS, and boards use accretion as a proxy for discipline. Many acquirers therefore say a deal will be \"accretive by year two\" or report \"cash EPS\" excluding deal amortisation.",
+    "commonMistakes": [
+      "Saying dilution always means the acquirer overpaid.",
+      "Ignoring non-cash purchase accounting charges as a source of dilution."
+    ],
+    "followUps": [
+      "If a deal is dilutive on GAAP EPS but accretive on cash EPS, how do you present it to the board?",
+      "How would you decide whether a dilutive deal still makes sense?"
+    ],
+    "tags": ["accretion dilution", "value creation", "conceptual"]
+  },
+  {
+    "id": "ma-007",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Cash, debt or stock: how does an acquirer decide what to pay with, and what are the trade-offs of each?",
+    "keyAnswer": "Cash from the balance sheet is usually the cheapest and sends the strongest signal but drains liquidity; new debt is tax-advantaged and avoids dilution but raises leverage and rating risk; stock preserves cash and shares the risk with target shareholders but dilutes ownership and EPS and can signal the acquirer thinks its shares are overvalued. The choice depends on relative cost, balance sheet capacity, deal size relative to the acquirer, and what the target's shareholders want.",
+    "explanation": "### Cash on hand\n\n- **Pros**: cheapest currency when cash earns little; no dilution; certainty of value for the target; simple, fast; signals confidence.\n- **Cons**: reduces liquidity and flexibility; foregone interest; taxable event for target shareholders; limited by cash available.\n\n### New debt\n\n- **Pros**: interest is tax-deductible so after-tax cost is low; no ownership dilution; can be accretive when the target's earnings yield exceeds the after-tax rate.\n- **Cons**: raises leverage and may trigger a downgrade; covenants and refinancing risk; financing fees; depends on debt market conditions; too much leverage limits future strategic options.\n\n### Stock\n\n- **Pros**: no cash outlay; preserves credit profile; target shareholders share the upside and the risk; can be tax-deferred for target shareholders if structured as a reorganisation; the only option when the target is large relative to the acquirer.\n- **Cons**: dilutes existing holders and EPS if the acquirer's P/E is below the multiple paid; market may read it as a signal the acquirer's stock is overvalued (acquirer shares typically fall on announcement); target value fluctuates with the acquirer's price; shareholder vote may be needed above roughly 20% of shares outstanding.\n\n### How the decision is made\n\n1. Rank the after-tax cost of each source against the target's earnings yield.\n2. Check pro forma leverage against the rating the acquirer wants to keep.\n3. Consider deal size: a target worth half the acquirer cannot be bought with cash alone.\n4. Consider the target's preferences: founders may want stock for tax deferral, financial sellers want cash.\n5. Consider relative valuation: issue stock when your shares are richly valued, pay cash when they look cheap.\n\nMost large deals use a mix, which lets the acquirer optimise cost, keep an investment-grade rating and give target holders a choice.",
+    "commonMistakes": [
+      "Claiming stock is \"free\" because no cash leaves the company.",
+      "Forgetting that cash deals are usually taxable for target shareholders while qualifying stock deals can defer tax."
+    ],
+    "followUps": [
+      "Why might an acquirer with plenty of cash still choose to issue stock?",
+      "How do you decide the maximum amount of debt the acquirer can raise for the deal?"
+    ],
+    "tags": ["consideration", "cash vs stock", "financing", "deal structure"]
+  },
+  {
+    "id": "ma-008",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What is an exchange ratio, how do you calculate it, and what is the difference between a fixed and a floating exchange ratio?",
+    "keyAnswer": "The exchange ratio is the number of acquirer shares each target shareholder receives per target share; it equals the offer price per target share divided by the acquirer's share price. A fixed ratio locks the number of shares and lets the value move with the acquirer's stock, while a floating ratio locks the dollar value and lets the number of shares move.",
+    "explanation": "### Calculation\n\n```\nExchange ratio = Offer price per target share / Acquirer share price\n```\n\nExample: target trades at $48, the acquirer offers a 25% premium, so $60 per share. The acquirer's stock is $40, so the exchange ratio is 60 / 40 = **1.5x**: each target share becomes 1.5 acquirer shares. If the target has 100m diluted shares, the acquirer issues 150m new shares.\n\nThe ratio can also be derived from relative valuation: implied ratio = target implied value per share / acquirer value per share, which is why bankers show the exchange ratio implied by each valuation method and by contribution analysis.\n\n### Fixed exchange ratio\n\n- The share count is set at signing (1.5x).\n- Value received moves with the acquirer's price between signing and closing: if the acquirer falls to $36, the target holder gets $54 instead of $60.\n- Target shareholders bear the acquirer's price risk; the acquirer knows exactly how much dilution it faces.\n- Most common in stock deals, especially mergers of equals, because it keeps pro forma ownership fixed.\n\n### Floating (fixed-value) exchange ratio\n\n- The dollar value per share is set ($60); the number of shares is calculated at closing from the then-current acquirer price (often a volume-weighted average over 10 to 20 days).\n- The acquirer bears the price risk: if its stock falls, it must issue more shares, which increases dilution and reduces its shareholders' pro forma ownership.\n- Gives the target certainty, similar to cash.\n\n### Hybrid: collars\n\nMany deals use a fixed ratio within a band of acquirer prices and a floating mechanism outside it, with walk-away rights at the extremes. That allocates the price risk between the parties rather than to one side.",
+    "commonMistakes": [
+      "Dividing the acquirer's price by the target's price (inverting the ratio).",
+      "Using the target's unaffected price rather than the offer price in the numerator."
+    ],
+    "followUps": [
+      "Which side prefers a fixed ratio, and why?",
+      "How does a collar modify a fixed exchange ratio?"
+    ],
+    "tags": ["exchange ratio", "stock deal", "fixed vs floating", "example"]
+  },
+  {
+    "id": "ma-009",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is a collar in a stock-for-stock deal, and how do the two main types work?",
+    "keyAnswer": "A collar limits how much the deal value or share count can change between signing and closing as the acquirer's stock moves. A fixed-exchange-ratio collar keeps the ratio constant inside a price band and converts to a fixed value outside it; a fixed-value collar keeps the dollar value constant inside the band and converts to a fixed ratio outside it. Both are often paired with walk-away rights at the band edges.",
+    "explanation": "Stock deals take months to close, and the acquirer's share price can move materially. A collar is the contractual device that shares that risk.\n\n### Fixed exchange ratio with a collar\n\n- Inside the band, the ratio is fixed, so value per target share floats.\n- Outside the band, the ratio adjusts so the target receives a fixed value equal to the band boundary.\n\nExample: ratio 1.5x, acquirer price $40 at signing, band $36 to $44.\n\n| Acquirer price at closing | Mechanism | Shares per target share | Value per target share |\n|---|---|---|---|\n| $44 or above | Ratio floats | 66 / price (1.5 at $44) | capped at $66 |\n| $40 (in band) | Fixed ratio | 1.50 | $60 |\n| $36 to $44 | Fixed ratio | 1.50 | $54 to $66 |\n| $36 or below | Ratio floats | 54 / price (1.5 at $36) | floored at $54 |\n\nThe target is protected below $36 and the acquirer's dilution is protected above $44 (it stops paying ever more value).\n\n### Fixed value with a collar\n\n- Inside the band, the value per share is fixed ($60) and the share count floats.\n- Outside the band, the ratio freezes at the boundary ratio, so the value starts to move again.\n\nExample: $60 fixed value while the acquirer trades between $36 and $44. At $36 the ratio would be 1.667x; if the stock falls below $36 the ratio stays at 1.667x and value drops below $60. At $44 the ratio is 1.364x and stays there if the price rises further, so the target starts to participate in upside.\n\n### Walk-away rights\n\nEither side may have the right to terminate if the price breaches the band, sometimes with a \"top-up\" option for the acquirer to add shares or cash to keep the deal alive. In negotiations, the width of the band and the location of the walk-away triggers are traded against the headline price.",
+    "commonMistakes": [
+      "Mixing up which variable is fixed inside versus outside the band.",
+      "Describing a collar as a hedge the target buys in the market rather than a contractual term."
+    ],
+    "followUps": [
+      "Who benefits from a wider collar band?",
+      "How would you model a collar in a merger model's sensitivity table?"
+    ],
+    "tags": ["collar", "exchange ratio", "stock deal", "risk allocation"]
+  },
+  {
+    "id": "ma-010",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What are synergies, what is the difference between revenue and cost synergies, and which does the market take more seriously?",
+    "keyAnswer": "Synergies are the extra value created because the two businesses are worth more combined than apart. Cost synergies are savings from removing duplication (overhead, headcount, facilities, procurement); revenue synergies are extra sales from cross-selling, pricing or broader distribution. Investors and acquirers give far more credit to cost synergies because they are within management's control, measurable and usually realised, while revenue synergies depend on customer behaviour and often fail to materialise.",
+    "explanation": "### Cost synergies\n\n- Eliminating duplicate corporate functions (finance, HR, IT, listing costs).\n- Headcount reductions in overlapping sales forces or management layers.\n- Consolidating plants, warehouses, offices and distribution networks.\n- Procurement scale: better terms from suppliers.\n- Lower financing costs for the combined entity.\n\n### Revenue synergies\n\n- Cross-selling each company's products to the other's customers.\n- Access to new geographies or channels.\n- Pricing power from reduced competition (watch antitrust).\n- Combining technologies into new products.\n\n### Why cost synergies are more credible\n\nCost actions are decisions management can take unilaterally and track line by line. Revenue synergies require customers to buy more, competitors not to respond and sales teams to execute, and deals often suffer **dis-synergies** (customer attrition, key staff leaving, distraction). As a rule of thumb, acquirers announce cost synergies with specific numbers and treat revenue synergies qualitatively or at a steep haircut.\n\n### How synergies are modelled\n\n1. State run-rate synergies (e.g. $100m pre-tax).\n2. Phase them in: typical schedule 25% / 60% / 100% over three years.\n3. Include **one-time costs to achieve** (restructuring, severance, systems), often 1.0 to 1.5x the run-rate amount, usually incurred in years one and two.\n4. Tax-effect them: $100m pre-tax at 25% tax = $75m to net income.\n5. For revenue synergies, apply a contribution margin, not the full revenue, because extra sales carry cost of goods sold.\n\n### Valuing synergies\n\nCapitalise after-tax run-rate synergies at a multiple or discount them: $75m after tax at a 10x P/E is roughly $750m of value, less the present value of costs to achieve. If that is below the premium paid, the acquirer is transferring value to the target's shareholders.",
+    "commonMistakes": [
+      "Adding revenue synergies straight to EBITDA without a margin assumption.",
+      "Forgetting the one-time costs required to achieve cost synergies.",
+      "Assuming 100% of run-rate synergies in year one."
+    ],
+    "followUps": [
+      "How would you sanity-check a management synergy estimate?",
+      "What are dis-synergies and where do they show up?"
+    ],
+    "tags": ["synergies", "cost synergies", "revenue synergies", "merger model"]
+  },
+  {
+    "id": "ma-011",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "A stock deal is 4% dilutive. How do you calculate the pre-tax synergies needed to make it break even on EPS?",
+    "keyAnswer": "Compute the net income shortfall: standalone EPS times pro forma shares minus pro forma net income. That is the after-tax synergy needed; divide by one minus the tax rate to get pre-tax synergies. Then judge whether that number is plausible relative to the target's cost base.",
+    "explanation": "Breakeven synergies are a standard output of a merger model because they translate an abstract dilution number into an operational target: \"we need $X of cost savings for this deal to be EPS-neutral.\"\n\n### Formula\n\n```\nAfter-tax synergies needed = Standalone EPS × Pro forma shares − Pro forma NI\nPre-tax synergies needed   = After-tax synergies needed / (1 − t)\n```\n\n### Worked example (tax rate 25%)\n\n- Acquirer: NI $500m, 200m shares, EPS $2.50, share price $50 (P/E 20x).\n- Target: NI $100m, bought for $2,500m in stock (25x P/E).\n- New shares = 2,500 / 50 = 50m; pro forma shares = 250m.\n- Pro forma NI = $600m; pro forma EPS = $2.40, i.e. **4.0% dilutive**.\n\nBreakeven:\n\n- Required NI = $2.50 × 250m = $625m.\n- Shortfall = 625 − 600 = **$25m after tax**.\n- Pre-tax synergies = 25 / 0.75 = **$33.3m**.\n\nIf the target's operating cost base is $600m, $33m is about 5.5% of costs, which is a plausible cost-synergy level for an in-market deal (typical ranges are 3 to 10% of the target's cost base, higher for direct competitors). If the number came out at 25% of the target's costs, the deal would be unrealistic on an EPS basis.\n\n### Refinements\n\n- Do it per forecast year, since synergies phase in and the dilution gap changes.\n- Include costs to achieve in the early years, which push breakeven further out.\n- For cash or debt deals the same logic applies: the shortfall is driven by after-tax interest rather than share count.\n- Breakeven on EPS is not breakeven on value; also compare the capitalised synergies to the premium paid.",
+    "commonMistakes": [
+      "Reporting the after-tax number as if it were pre-tax.",
+      "Computing breakeven only for year one when synergies ramp over several years."
+    ],
+    "followUps": [
+      "How would you judge whether $33m of synergies is realistic?",
+      "What synergy level makes the deal value-neutral rather than EPS-neutral?"
+    ],
+    "tags": ["synergies", "breakeven", "accretion dilution", "example"]
+  },
+  {
+    "id": "ma-012",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Walk me through purchase price allocation. Why does a deferred tax liability get created on asset write-ups?",
+    "keyAnswer": "Under acquisition accounting the acquirer records the target's identifiable assets and liabilities at fair value: it writes up PP&E, recognises intangibles like customer relationships and technology, and books a deferred tax liability equal to the write-ups times the tax rate because, in a stock deal, the tax basis of those assets does not change. The excess of the purchase price over the fair value of net identifiable assets is goodwill.",
+    "explanation": "### The steps\n\n1. Start with the target's book value of equity (net assets).\n2. Eliminate the target's existing goodwill, which has no value on its own.\n3. Write tangible assets up (or down) to fair value: PP&E, inventory, sometimes real estate.\n4. Identify and value intangibles that were never on the target's books because they were internally generated: customer relationships, brands/trademarks, technology and patents, order backlog, non-compete agreements, licences.\n5. Adjust liabilities to fair value (e.g. debt at market value, contingent liabilities, unfavourable contracts).\n6. Create a **deferred tax liability (DTL)** on the write-ups.\n7. Goodwill = purchase price − fair value of net identifiable assets after the DTL.\n\n### Why the DTL arises\n\nIn a stock acquisition the acquirer buys the target's shares, so the target's tax basis in its assets carries over unchanged. Book value rises with the write-up, tax basis does not. Going forward, book depreciation and amortisation on the write-up exceed what is deductible for tax, so book pre-tax income is lower than taxable income and the company will pay more cash tax than its book tax expense implies. That future extra tax is a liability recognised at the deal date.\n\n```\nDTL = (PP&E write-up + identified intangibles) × tax rate\n```\n\nExample at 25%: PP&E written up by $200m and $300m of intangibles identified → DTL = $500m × 25% = **$125m**. The DTL reverses as the write-ups are depreciated and amortised, matching the periods in which the book charge exceeds the tax deduction.\n\nBecause the DTL reduces net identifiable assets, it increases goodwill by the same amount. In an asset deal or a 338(h)(10) election the tax basis is stepped up too, so there is no book-tax difference and no DTL on the write-ups.",
+    "commonMistakes": [
+      "Creating a DTL in an asset deal where tax basis also steps up.",
+      "Forgetting that the DTL increases goodwill rather than reducing it."
+    ],
+    "followUps": [
+      "What happens to the DTL over time?",
+      "Which intangibles are commonly identified and over what lives are they amortised?"
+    ],
+    "ifrsNote": "IFRS 3 and ASC 805 are largely converged on PPA. Two differences worth knowing: IFRS lets the acquirer measure non-controlling interests either at fair value (full goodwill) or at the proportionate share of net assets (partial goodwill), whereas US GAAP requires fair value; and IFRS recognises the target's contingent liabilities at fair value when there is a present obligation that can be measured reliably, a broader test than US GAAP's.",
+    "tags": ["ppa", "deferred tax liability", "write-ups", "intangibles", "example"]
+  },
+  {
+    "id": "ma-013",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "An acquirer pays $1,000m for a target with $400m of book equity, including $100m of existing goodwill. It writes PP&E up by $150m and identifies $250m of intangibles. Tax rate is 25%. How much goodwill is created?",
+    "keyAnswer": "Goodwill is $400m. Fair value of net identifiable assets = $400m book equity − $100m old goodwill + $400m of write-ups − $100m deferred tax liability = $600m, so goodwill = $1,000m − $600m = $400m.",
+    "explanation": "Goodwill is the residual after the purchase price is allocated to everything that can be identified and valued. Build it step by step:\n\n```\nPurchase price (equity value paid)             1,000\n\nTarget book equity                               400\n  less: existing target goodwill written off     (100)\n  plus: PP&E write-up                             150\n  plus: identified intangibles                    250\n  less: DTL = (150 + 250) × 25%                  (100)\nFair value of net identifiable assets            600\n\nGoodwill = 1,000 − 600                           400\n```\n\n### Why each adjustment\n\n- **Existing goodwill** is not an identifiable asset; it is the residual from the target's own past deals and is replaced by the new goodwill.\n- **Write-ups** raise the value of what the buyer actually acquired, so less of the price is \"unexplained\".\n- **The DTL** exists because the tax basis of the assets does not step up in a stock deal; it is a real future cash cost and reduces net assets, which pushes goodwill up by $100m.\n\n### Sanity checks\n\n- Goodwill plus intangibles here equal $650m, 65% of the price, which is typical for a people- or brand-heavy business.\n- If the deal had been an asset purchase (or a 338(h)(10) election), the DTL would not exist and goodwill would be $300m.\n- If the price had been $550m, you would get negative goodwill of $50m, a bargain purchase gain.\n\nIn the merger model, goodwill and the $400m of write-ups go on the pro forma balance sheet, the $100m DTL goes to liabilities, and the target's $400m of equity disappears, replaced by whatever new acquirer shares were issued.",
+    "commonMistakes": [
+      "Forgetting to remove the target's existing goodwill from book equity, which understates new goodwill.",
+      "Subtracting the DTL from goodwill instead of from net identifiable assets.",
+      "Using enterprise value instead of equity purchase price as the starting point."
+    ],
+    "followUps": [
+      "How would the answer change in an asset deal?",
+      "What is the annual earnings impact of the $250m of intangibles if amortised over 10 years?"
+    ],
+    "ifrsNote": "Under IFRS 3, if less than 100% is acquired the acquirer can choose partial goodwill (NCI at its share of net assets) or full goodwill (NCI at fair value); US GAAP only allows the full-goodwill method, so for the same deal IFRS goodwill can be lower.",
+    "tags": ["goodwill", "ppa", "deferred tax liability", "example"]
+  },
+  {
+    "id": "ma-014",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Why is goodwill created in an acquisition, and what happens to the goodwill already sitting on the target's balance sheet?",
+    "keyAnswer": "Goodwill is created because the buyer pays more than the fair value of the target's identifiable net assets, reflecting things that cannot be booked separately: expected synergies, the control premium, the assembled workforce, going-concern value and market position. The target's old goodwill is written off in the purchase price allocation and replaced by the new goodwill calculated from this deal.",
+    "explanation": "### Why the price exceeds identifiable net assets\n\nA company's balance sheet records assets at historical cost and excludes most internally created value. When an acquirer pays a premium, the gap between the price and the fair value of identifiable assets and liabilities is captured in a single line, goodwill. It represents:\n\n- **Synergies** the buyer expects and has paid for in the premium.\n- **Control premium**: the right to direct the business and its cash flows.\n- **Assembled workforce**, management quality and culture, which accounting standards prohibit recognising as a separate intangible.\n- **Going-concern value**: the fact that the assets work together as a system.\n- **Market position, customer loyalty and reputation** beyond what customer relationship and brand intangibles capture.\n- Occasionally, plain **overpayment**, which later shows up as an impairment.\n\nGoodwill is not amortised under US GAAP for public companies or under IFRS; it is tested for impairment at least annually, and impairments are not reversed.\n\n### The target's existing goodwill\n\nThe target's own goodwill came from its earlier acquisitions and is simply a historical residual; it is not an identifiable asset that the acquirer can value. In the PPA it is **written off** (removed from the target's net assets) before write-ups are applied, and the acquirer's new goodwill is computed from scratch:\n\n```\nNew goodwill = Purchase price − (Target book equity − old goodwill + write-ups − DTL)\n```\n\nSo the combined balance sheet shows the acquirer's existing goodwill plus the new goodwill from this deal, never the target's old balance. Removing the old goodwill lowers net identifiable assets and therefore increases the new goodwill by the same amount; it does not change total assets in the combined balance sheet, it just re-labels them.",
+    "commonMistakes": [
+      "Adding the target's old goodwill to the new goodwill on the pro forma balance sheet.",
+      "Saying goodwill is amortised over 40 years (that rule ended in 2001 for US GAAP)."
+    ],
+    "followUps": [
+      "When is goodwill impaired and what does an impairment say about the deal?",
+      "Can goodwill ever be tax-deductible?"
+    ],
+    "tags": ["goodwill", "ppa", "conceptual"]
+  },
+  {
+    "id": "ma-015",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is negative goodwill, and how is a bargain purchase accounted for?",
+    "keyAnswer": "Negative goodwill arises when the fair value of the target's net identifiable assets exceeds the price paid, which happens in distressed or forced sales. After re-checking the valuation, the acquirer recognises the excess immediately as a bargain purchase gain in the income statement rather than as a negative asset.",
+    "explanation": "### When it happens\n\nA buyer rarely gets to pay less than the fair value of what it buys, so a bargain purchase signals special circumstances: a forced seller (bankruptcy, regulatory order, liquidity crisis), a distressed asset with few bidders, a seller exiting a non-core unit quickly, or a government-brokered rescue of a bank. It can also be a sign that the fair values are wrong.\n\n### Accounting treatment\n\n1. The acquirer must first **reassess** whether all assets and liabilities were identified and whether fair values and the consideration were measured correctly. Standards deliberately make this a hurdle because a gain on day one is unusual.\n2. If the excess remains, it is recorded as a **gain in the income statement** in the acquisition period, attributed to the acquirer. No negative goodwill asset or liability remains on the balance sheet.\n3. The gain is non-cash and non-recurring, so analysts strip it out of normalised earnings; it also increases retained earnings and therefore book equity.\n\n### Illustration (tax rate 25%)\n\nPurchase price $550m. Net identifiable assets at fair value after the DTL $600m. Negative goodwill = $50m, recognised as a $50m bargain purchase gain. The combined equity rises by the $50m gain, which is exactly what keeps the pro forma balance sheet balanced: assets acquired of $600m against $550m of consideration.\n\n### Why not spread it over time\n\nBefore 2001 in the US and before IFRS 3 in 2004, negative goodwill was allocated to reduce non-current assets or amortised into income. Current standards treat the excess as evidence of a genuinely good deal (or mismeasurement) and require immediate recognition so balance sheets do not carry artificial negative assets.\n\nIn a merger model this is rare, but the mechanics matter: with negative goodwill the model should show a one-off gain and zero goodwill for the deal, not a negative line in intangible assets.",
+    "commonMistakes": [
+      "Recording negative goodwill as a negative asset or as a liability.",
+      "Treating the bargain purchase gain as recurring operating income."
+    ],
+    "followUps": [
+      "What would make you suspicious of a reported bargain purchase gain?",
+      "How does the gain affect the pro forma balance sheet balance?"
+    ],
+    "tags": ["negative goodwill", "bargain purchase", "ppa", "distressed"]
+  },
+  {
+    "id": "ma-016",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "How does the amortisation of newly identified intangibles affect the acquirer's EPS, and why do acquirers often report \"cash EPS\" after a deal?",
+    "keyAnswer": "Intangibles recognised in the PPA are amortised over their useful lives, which adds a non-cash expense that lowers pro forma net income and EPS even though no cash leaves the business. Acquirers therefore present cash or adjusted EPS that adds back the after-tax deal amortisation, arguing it better reflects the economic earnings of the combined company.",
+    "explanation": "### The mechanics\n\nUnlike goodwill, identified intangibles with finite lives are amortised:\n\n| Intangible | Typical life |\n|---|---|\n| Customer relationships | 5 to 15 years |\n| Developed technology | 3 to 7 years |\n| Trade names (finite) | 5 to 20 years, or indefinite |\n| Order backlog | 1 to 2 years |\n| Non-compete agreements | 2 to 5 years |\n\nExample: $250m of intangibles amortised straight-line over 10 years creates $25m of annual pre-tax amortisation. At a 25% tax rate the after-tax hit is $18.75m. With 250m pro forma shares, EPS falls by **$0.075 per year** for a decade. Extra depreciation on PP&E write-ups works the same way.\n\nNote the tax interaction: in a stock deal the amortisation is not tax-deductible, but the book tax expense is still reduced because the deferred tax liability created at closing unwinds; the cash tax bill does not change. Net income therefore falls by the after-tax amount, and the DTL shrinks by $6.25m a year.\n\n### Why cash EPS\n\nManagement argues the amortisation is an accounting artefact of the purchase price, not a cost of running the business, and that it distorts comparisons with peers that grew organically and never booked such intangibles. So they report:\n\n```\nCash (adjusted) EPS = GAAP EPS + after-tax deal amortisation per share\n```\n\nIn the example, a deal that is $0.05 dilutive on GAAP EPS is $0.025 accretive on cash EPS. Serial acquirers in software, pharma and consumer brands almost always guide on this basis.\n\n### The sceptic's view\n\nThe premium was real cash paid, so ignoring its cost forever is generous; the analysis should at least check that returns on the capital invested exceed the cost of capital. Interviewers like candidates who can present both the management argument and this caveat.",
+    "commonMistakes": [
+      "Amortising goodwill alongside the intangibles.",
+      "Forgetting to tax-effect the amortisation when adjusting EPS."
+    ],
+    "followUps": [
+      "Does the amortisation affect the cash flow statement?",
+      "If the intangibles were amortised over 5 years instead of 10, what happens to dilution?"
+    ],
+    "ifrsNote": "Treatment is the same under IFRS (IAS 38). One practical difference: an IFRS target may already carry capitalised development costs on its balance sheet, which are revalued rather than newly identified in the PPA, whereas a US GAAP target would have expensed them.",
+    "tags": ["intangibles", "amortisation", "cash eps", "accretion dilution"]
+  },
+  {
+    "id": "ma-017",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "How are transaction fees and financing fees treated differently in a merger model?",
+    "keyAnswer": "Transaction fees (advisory, legal, accounting) are expensed immediately and reduce retained earnings at closing; they are not added to goodwill. Financing fees for new debt are capitalised, presented as a reduction of the debt's carrying amount, and amortised into interest expense over the life of the debt. Both are usually excluded from the run-rate pro forma EPS as non-recurring, but the financing fee amortisation is a recurring charge.",
+    "explanation": "### Transaction (advisory) fees\n\n- Investment banking, legal, due diligence and accounting fees.\n- Under both US GAAP (ASC 805) and IFRS 3 they are **expensed as incurred**; they are not part of the consideration and do not increase goodwill.\n- In the model: a use of funds in sources and uses; in the pro forma balance sheet they reduce cash (or increase debt) and reduce retained earnings by the same amount. Because they are one-off, most models exclude them from pro forma EPS or show them only in the closing year.\n- Example: $30m of fees reduce pro forma equity by $30m.\n\n### Financing fees\n\n- Underwriting and arrangement fees on new debt, commitment fees on bridge loans.\n- They are **capitalised** and amortised over the term of the debt. Under US GAAP (since ASU 2015-03) and IFRS 9 they are shown as a direct deduction from the debt balance rather than as a separate asset, and amortisation flows through interest expense (effective interest method, often approximated as straight-line in models).\n- Example: $20m of fees on $1,000m of 5-year notes → $4m per year of additional non-cash interest expense; the debt initially appears on the balance sheet at $980m and accretes to $1,000m.\n- Fees on **equity** issuance are different again: they reduce additional paid-in capital, so they never touch the income statement.\n\n### Why the distinction matters\n\n- Transaction fees hit equity once; financing fees hit EPS every year the debt is outstanding.\n- In sources and uses both are uses of funds, so they increase the amount of financing needed.\n- When debt is repaid early the unamortised financing fees are written off, which is why refinancing creates a loss on extinguishment.\n\n```\nUses: Equity purchase price + refinanced target debt + transaction fees + financing fees\nSources: Cash used + new debt + new equity\n```",
+    "commonMistakes": [
+      "Capitalising advisory fees into goodwill (allowed under old pooling or pre-2009 rules, not today).",
+      "Forgetting to include the fees in sources and uses."
+    ],
+    "followUps": [
+      "How do equity issuance costs get recorded?",
+      "What happens to unamortised financing fees if the debt is refinanced after two years?"
+    ],
+    "tags": ["transaction fees", "financing fees", "merger model", "accounting"]
+  },
+  {
+    "id": "ma-018",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What adjustments do you make to build the combined balance sheet at closing?",
+    "keyAnswer": "Add the two balance sheets line by line, then: reduce cash by the cash used and fees, add new debt raised, add new equity for shares issued, eliminate the target's entire shareholders' equity, remove the target's old goodwill, add asset write-ups and identified intangibles, add the new deferred tax liability, and add the new goodwill as the plug. If done right, the sheet balances.",
+    "explanation": "The combined balance sheet is the acquirer plus the target plus a column of deal adjustments. Using the numbers from a typical example: purchase price $1,000m funded with $600m new debt, $300m of new shares and $100m cash; target book equity $400m including $100m old goodwill; PP&E write-up $150m; intangibles $250m; tax 25% so DTL $100m; new goodwill $400m.\n\n### Asset side\n\n| Line | Adjustment |\n|---|---|\n| Cash | −100 (cash used) |\n| PP&E | +150 (write-up) |\n| Intangibles | +250 (identified) |\n| Goodwill | −100 (target's old) +400 (new) = +300 |\n| **Total assets** | **+600** |\n\n### Liabilities and equity side\n\n| Line | Adjustment |\n|---|---|\n| New debt | +600 |\n| Deferred tax liability | +100 |\n| Target shareholders' equity | −400 (eliminated) |\n| Acquirer equity (new shares) | +300 |\n| **Total L&E** | **+600** |\n\nBoth sides move by $600m, so the combined sheet balances. The target's equity is eliminated because the acquirer now owns those net assets directly; it is replaced by the consideration (debt, cash, new shares).\n\n### Additional adjustments to remember\n\n- **Transaction fees**: reduce cash and reduce retained earnings (expensed).\n- **Financing fees**: reduce cash and are netted against the new debt balance.\n- **Target debt refinanced**: remove the target's debt and add replacement debt or cash used.\n- **Fair value of target debt**: if assumed, it is recorded at fair value.\n- **Non-controlling interest** if less than 100% is bought.\n- Intercompany balances between the two companies are eliminated.\n\nA quick check: new goodwill is the plug that makes the sheet balance; if it does not balance, the usual culprits are the old goodwill, the DTL or the fees.",
+    "commonMistakes": [
+      "Keeping the target's equity on the combined balance sheet.",
+      "Netting new goodwill against the target's old goodwill without removing the old one from equity first."
+    ],
+    "followUps": [
+      "How would the sheet change if the deal were all cash?",
+      "Where do the transaction fees appear?"
+    ],
+    "tags": ["balance sheet", "merger model", "ppa", "example"]
+  },
+  {
+    "id": "ma-019",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "How do you calculate pro forma ownership after a stock deal, and why does it matter?",
+    "keyAnswer": "Pro forma ownership of the target's shareholders equals the new shares issued divided by the total shares after the deal, where new shares equal target diluted shares times the exchange ratio (or the stock portion of the price divided by the acquirer's share price). It matters because it shows how much of the combined company's value, earnings and voting power each group gives up or receives.",
+    "explanation": "### Calculation\n\n```\nNew shares issued   = Target diluted shares × Exchange ratio\n                    = Stock consideration / Acquirer share price\nTarget % ownership  = New shares / (Acquirer existing shares + New shares)\nAcquirer % ownership = 1 − Target %\n```\n\nExample: the acquirer has 200m shares at $50. It pays $2,500m entirely in stock, so new shares = 2,500 / 50 = 50m. Target shareholders own 50 / 250 = **20%** of the combined company; acquirer shareholders own 80%. If the target has 100m shares, the exchange ratio is 0.5x and 100m × 0.5 confirms the 50m new shares.\n\nUse diluted shares for both companies (treasury stock method for options, if-converted for convertibles), because options and RSUs typically convert or are rolled over in the deal.\n\n### Why it matters\n\n- **Value sharing**: if the target contributes 25% of pro forma earnings but receives 20% ownership, acquirer shareholders capture the difference (before synergies). Contribution analysis formalises this comparison.\n- **Control**: above 50% the \"acquirer\" is actually being acquired in economic terms; mergers of equals aim for roughly 50/50.\n- **Shareholder vote**: NYSE and Nasdaq require an acquirer shareholder vote if it issues more than 20% of its outstanding shares, which affects timing and deal certainty.\n- **Governance**: ownership often drives board seats and management roles in the merged company.\n- **Tax**: in a reorganisation, target shareholders generally need to receive a meaningful share of stock (continuity of interest) for the stock portion to be tax-deferred.\n\nIn a mixed deal, only the stock portion dilutes ownership; the cash portion simply leaves the balance sheet. That is why acquirers who want to limit dilution lean toward cash and debt.",
+    "commonMistakes": [
+      "Dividing new shares by the acquirer's old shares instead of the total after the deal.",
+      "Using basic rather than diluted share counts."
+    ],
+    "followUps": [
+      "If the acquirer must issue more than 20% of its shares, what changes procedurally?",
+      "How does pro forma ownership tie to contribution analysis?"
+    ],
+    "tags": ["pro forma ownership", "exchange ratio", "stock deal", "example"]
+  },
+  {
+    "id": "ma-020",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What is the difference between an asset purchase, a stock purchase and a 338(h)(10) election, and who prefers which?",
+    "keyAnswer": "In a stock purchase the buyer acquires the target's shares, inherits all its assets and liabilities, and the tax basis of the assets carries over; in an asset purchase the buyer picks specific assets and liabilities and gets a stepped-up tax basis it can depreciate, but the seller faces potential double taxation. A 338(h)(10) election lets a qualifying stock sale be taxed as if it were an asset sale, giving the buyer the step-up with the legal simplicity of a stock deal; buyers prefer step-ups, sellers prefer stock sales unless compensated.",
+    "explanation": "### Stock purchase\n\n- Buyer acquires the legal entity, including every known and unknown liability.\n- No change in the tax basis of the assets; book write-ups create a deferred tax liability.\n- Seller shareholders pay a single layer of capital gains tax.\n- Needed for public targets (shareholders own stock, not assets) and keeps contracts, licences and permits in place.\n\n### Asset purchase\n\n- Buyer chooses assets and assumed liabilities, leaving unwanted liabilities behind.\n- Tax basis is stepped up to the price paid, so the buyer gets extra depreciation and amortisation deductions (goodwill and intangibles deductible over 15 years in the US).\n- A C-corporation seller is taxed on the gain at the corporate level, and shareholders are taxed again when proceeds are distributed: **double taxation**.\n- Operationally messy: contracts and licences must be assigned, title transferred, often with transfer taxes.\n\n### Value of the step-up (tax rate 25%)\n\nBuyer pays $500m for assets with $100m tax basis → $400m step-up. If amortised over 15 years, deductions of $26.7m a year save $6.7m of cash tax annually. Discounted at 10% that is worth roughly $50m, so the buyer can pay more in an asset deal, which is the basis for negotiating a gross-up to the seller.\n\n### Section 338(h)(10) election\n\n- A joint election by buyer and seller for a stock purchase to be treated as an asset purchase for tax purposes only.\n- Available when the target is a subsidiary of a consolidated group or an **S-corporation**; S-corps are pass-through entities, so there is no corporate-level tax and the seller's cost of the election is mostly the recharacterisation of some gain as ordinary income (depreciation recapture).\n- The buyer gets the step-up, the seller keeps legal simplicity; the price typically rises to share the tax benefit.\n- A related 338(g) election is unilateral by the buyer and used mainly for foreign targets.\n\n### Who prefers what\n\n- **Buyers**: asset deals or 338(h)(10) for the step-up and liability shield.\n- **C-corp sellers**: stock deals to avoid double tax.\n- **S-corp and subsidiary sellers**: often agree to 338(h)(10) for a higher price.\n- **Public deals**: nearly always stock purchases.",
+    "commonMistakes": [
+      "Claiming a DTL arises on write-ups in asset deals.",
+      "Suggesting 338(h)(10) is available for a public C-corp target with many shareholders."
+    ],
+    "followUps": [
+      "How would you quantify the gross-up a seller should demand for agreeing to a 338(h)(10) election?",
+      "What happens to the target's NOLs in each structure?"
+    ],
+    "tags": ["asset deal", "stock deal", "338(h)(10)", "tax", "deal structure"]
+  },
+  {
+    "id": "ma-021",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "Is goodwill tax-deductible? Explain the difference between book goodwill and tax goodwill.",
+    "keyAnswer": "In a stock deal, goodwill is not tax-deductible; it exists only for book purposes and no deferred tax is recognised on it. In an asset deal or with a 338(h)(10) election, the purchased goodwill and intangibles are amortised for US tax over 15 years under Section 197, which creates real cash tax savings even though book goodwill is never amortised, and the resulting book-tax difference builds a deferred tax liability over time.",
+    "explanation": "### Two different goodwill numbers\n\n- **Book goodwill** (ASC 350 / IFRS): purchase price less fair value of net identifiable assets; not amortised, tested for impairment.\n- **Tax goodwill** (Section 197 in the US): exists only when the buyer obtains a stepped-up tax basis, i.e. an asset purchase, a 338(h)(10) or 338(g) election, or a purchase of a disregarded entity such as an LLC. It is the residual of the tax purchase price after allocating to tangible assets and identified intangibles, and it is amortised straight-line over **15 years** together with other Section 197 intangibles (customer lists, trade names, workforce, non-competes).\n\n### Stock deal\n\nThe target's tax attributes carry over, so no tax goodwill is created. Book goodwill has zero tax basis, but the standards make an explicit exception: no DTL is recorded on goodwill at acquisition, because doing so would just gross up goodwill in a circular way. The amortisation of identified intangibles is non-deductible, hence the DTL on those write-ups.\n\n### Asset deal / 338(h)(10)\n\nExample (tax rate 25%): tax goodwill of $300m → $20m deduction per year for 15 years → **$5m of cash tax savings per year**. Discounted at 10%, the 15-year annuity is worth about $38m to the buyer. Bankers often show the \"value of the step-up\" as part of the pricing analysis.\n\nBecause book goodwill stays at $300m while tax basis falls by $20m each year, a temporary difference grows: after year one the DTL is $20m × 25% = $5m, after 15 years $75m. Cash taxes are lower than book tax expense during the amortisation period, then the relationship reverses only if the goodwill is later impaired or sold.\n\n### Why interviewers ask\n\nIt tests whether you know that goodwill creation in a model has no tax consequence in the common stock-deal case, but can be a genuine source of value, and a reason to pay more, when the structure allows a step-up.",
+    "commonMistakes": [
+      "Deducting goodwill amortisation for tax in a stock deal.",
+      "Recording a DTL on goodwill in a stock acquisition."
+    ],
+    "followUps": [
+      "Why do standards prohibit recognising a DTL on goodwill at acquisition?",
+      "How do you incorporate the step-up value in the offer price?"
+    ],
+    "tags": ["goodwill", "tax", "section 197", "338(h)(10)"]
+  },
+  {
+    "id": "ma-022",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What is an earn-out, when is it used, and what are the drawbacks?",
+    "keyAnswer": "An earn-out is deferred, contingent consideration paid to the seller only if the target hits agreed targets such as revenue or EBITDA over one to three years after closing. It bridges a valuation gap when buyer and seller disagree on the outlook, and keeps management motivated, but it invites disputes over how the metric is measured and how the business is run post-closing.",
+    "explanation": "### Why use one\n\n- **Valuation gap**: the seller believes in a hockey-stick forecast; the buyer will pay for it only if it happens.\n- **Risk sharing** on uncertain outcomes: a drug approval, a large contract renewal, a new product launch.\n- **Retention**: when the sellers are the management team, the earn-out keeps them engaged.\n- **Financing**: part of the price is paid out of the target's own future profits.\n\nTypical in private deals, especially in services, software, healthcare and founder-owned businesses. Rare in public deals, where contingent value rights (CVRs) play a similar role.\n\n### Key terms to negotiate\n\n- **Metric**: revenue is harder to manipulate but ignores profitability; EBITDA rewards profit but the buyer controls cost allocations. Milestones (regulatory, customer wins) are objective.\n- **Period**: usually 1 to 3 years; longer periods increase disputes.\n- **Payout curve**: all-or-nothing versus linear between floor and cap; caps limit buyer exposure.\n- **Operating covenants**: how the business will be run, what the buyer may not do (strip costs, reallocate customers) and whether the earn-out accelerates on a resale or integration.\n- **Accounting definitions**: a frozen set of policies to measure the metric.\n\n### Drawbacks\n\n- Disputes and litigation are common; sellers suspect the buyer of suppressing the metric.\n- Conflicts with integration: the buyer cannot merge the business without destroying the measurement basis.\n- Management may optimise the metric at the expense of the long term.\n\n### Accounting\n\nUnder ASC 805 and IFRS 3 the earn-out is **contingent consideration**, recognised at fair value at closing as part of the purchase price (so it increases goodwill). If classified as a liability it is remeasured each period through earnings, so a target that outperforms generates an accounting expense for the buyer; if settled in a fixed number of shares it is equity and not remeasured. Payments linked to continued employment are compensation expense, not purchase price.",
+    "commonMistakes": [
+      "Treating earn-out payments as expense when paid rather than as consideration at fair value on day one.",
+      "Ignoring that employment-linked earn-outs are compensation, not purchase price."
+    ],
+    "followUps": [
+      "Would you prefer revenue or EBITDA as the earn-out metric if you were the seller?",
+      "How does an earn-out affect the acquirer's leverage ratios?"
+    ],
+    "tags": ["earn-out", "contingent consideration", "deal structure", "private m&a"]
+  },
+  {
+    "id": "ma-023",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What are termination (breakup) fees and reverse breakup fees, and why do merger agreements include them?",
+    "keyAnswer": "A breakup fee is paid by the target to the buyer if the target walks away, typically to accept a superior offer, and compensates the buyer for its costs and lost opportunity; it usually runs around 2 to 4% of equity value. A reverse breakup fee is paid by the buyer if the deal fails for reasons on its side, such as financing not being available or antitrust approval being refused, and is often larger. They allocate deal risk and discourage frivolous exits without being so large that they block a better offer.",
+    "explanation": "### Target termination fee\n\n- Triggered when the target's board exercises its **fiduciary out** to accept a superior proposal, changes its recommendation, or shareholders vote the deal down after a competing bid appears.\n- Purpose: reimburse the buyer for diligence, advisory and financing costs, and give the buyer some protection for having set the price that others then top.\n- Size: commonly 2 to 4% of equity value in the US; Delaware courts scrutinise fees that are so large they would deter competing bids (generally above roughly 4 to 5%). Fees after a **go-shop** period are often lower (1 to 2%) to encourage competing offers.\n\n### Reverse termination fee\n\n- Paid by the **buyer** when it fails to close: financing falls through (common in private-equity deals, where the sponsor's liability is capped at the fee), regulatory approval is refused, or the buyer breaches the agreement.\n- Size: often 4 to 8% of equity value, higher when antitrust risk is significant; in large strategic deals with hard regulatory hurdles fees above 10% have been agreed.\n- Gives the target compensation for the disruption, employee uncertainty and share price damage of a failed deal.\n\n### Related deal protections\n\n- **No-shop**: target may not solicit other bids, but can respond to unsolicited superior proposals.\n- **Go-shop**: target may actively seek bids for 30 to 45 days after signing.\n- **Matching rights**: buyer can match a superior proposal before the target terminates.\n- **Voting agreements** from major shareholders.\n- **Hell-or-high-water** clauses obliging the buyer to accept any antitrust remedy.\n\n### Europe\n\nThe UK Takeover Code has, since 2011, generally **prohibited** target break fees and most other deal protections for UK public targets, so bidders there rely on irrevocable undertakings from shareholders instead. Many continental jurisdictions allow but limit them.",
+    "commonMistakes": [
+      "Confusing which party pays a reverse breakup fee.",
+      "Quoting fees as a percentage of enterprise value rather than equity value."
+    ],
+    "followUps": [
+      "Why do private-equity buyers typically agree to reverse termination fees?",
+      "How does a go-shop change the fee structure?"
+    ],
+    "tags": ["breakup fee", "reverse breakup fee", "deal protection", "merger agreement"]
+  },
+  {
+    "id": "ma-024",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What is a merger of equals, and is it really \"equal\"?",
+    "keyAnswer": "A merger of equals is an all-stock combination of two companies of similar size in which neither side pays a meaningful premium, ownership of the combined company is split close to 50/50, and governance, board seats and management roles are shared. In accounting and often in practice it is never fully equal: one entity must be identified as the acquirer, and one culture or team usually ends up dominating.",
+    "explanation": "### Defining features\n\n- Similar market capitalisations (within roughly 60/40).\n- **All-stock** consideration with an exchange ratio set near market values, so little or no premium (typically 0 to 10%).\n- Pro forma ownership close to 50/50, which keeps EPS accretion and dilution modest for both sides.\n- Shared governance: combined board, split chairman/CEO roles, often a new name and sometimes a new headquarters.\n- Rationale is usually cost synergies and scale rather than a strategic bet on one business.\n\n### Why structure it this way\n\n- No premium means value is created only through synergies, which both sets of shareholders share pro rata.\n- Avoids the leverage or cash outlay of a takeover and preserves ratings.\n- Can be tax-deferred for both shareholder groups.\n- Politically easier for two proud management teams.\n\n### Why it is rarely equal\n\n- **Accounting**: there is no pooling of interests any more (abolished in the US in 2001, under IFRS in 2004). One company must be the accounting acquirer, determined by relative size, who issues shares, who controls the board and management; the other's assets are written up and goodwill is created.\n- **Social issues**: who becomes CEO, where the headquarters sits and whose systems survive are typically decided in favour of one side, and that side effectively acquires the other. Such negotiations over governance often matter more than the exchange ratio.\n- **Market reaction**: investors look at the implied premium in the exchange ratio relative to the unaffected prices and contribution analysis; a 52/48 split can hide a real premium to one side.\n- **Execution risk**: without a clear owner, integration can stall; well-known examples of failed MOEs are often cited.\n\n### What bankers analyse\n\nContribution analysis (revenue, EBITDA, net income, equity value), relative valuation ranges, exchange ratio sensitivity, synergy sharing, and pro forma accretion to both sides, since each board needs a fairness opinion.",
+    "commonMistakes": [
+      "Saying that no goodwill arises in a merger of equals.",
+      "Describing an MOE as a deal with a standard 30% premium."
+    ],
+    "followUps": [
+      "How is the accounting acquirer determined?",
+      "How do you set the exchange ratio in an MOE?"
+    ],
+    "tags": ["merger of equals", "stock deal", "governance", "contribution analysis"]
+  },
+  {
+    "id": "ma-025",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Explain hostile versus friendly deals, the difference between a tender offer and a merger, and what a proxy fight is.",
+    "keyAnswer": "A friendly deal is negotiated with and recommended by the target's board; a hostile deal goes around a board that has rejected the approach. The bidder can do that with a tender offer, buying shares directly from shareholders, or a proxy fight, persuading shareholders to replace the board with directors who will approve the deal. A merger, by contrast, is a board-approved agreement that is put to a shareholder vote and binds all shares at once.",
+    "explanation": "### Friendly versus hostile\n\n- **Friendly**: bidder approaches the board privately, signs an NDA, does diligence, negotiates a merger agreement, and the board recommends it. Most deals are friendly.\n- **Hostile**: board rejects the approach (or the bidder skips it). The bidder may send a public **bear hug** letter to pressure the board, then launch a tender offer and/or proxy fight. Hostile bids are riskier: no diligence beyond public information, higher costs, defences, and the target's management may leave.\n\n### Tender offer versus merger\n\n| | Tender offer | Statutory merger |\n|---|---|---|\n| Who agrees | Shareholders individually tender | Board approves, shareholders vote |\n| Speed (US) | Minimum 20 business days, often 4 to 8 weeks | 3 to 6 months (proxy statement, SEC review, vote) |\n| Result | Bidder owns tendered shares; must then squeeze out the rest | All shares converted at once |\n| Use | Hostile bids, fast friendly cash deals (often two-step) | Stock deals, most negotiated deals |\n\nIn a **two-step** friendly deal the acquirer launches a tender offer under a merger agreement and, once it reaches the required threshold (in Delaware a short-form merger needs 90%, or a majority via section 251(h)), completes a back-end merger to acquire the remaining shares without a vote. An **exchange offer** is a tender offer paid in stock.\n\n### Proxy fight\n\nShareholders elect directors. A hostile bidder or activist solicits proxies to vote in its own nominees at the annual meeting (or via written consent), who then redeem the poison pill and approve the deal. It is the only way around a pill, which is why a **staggered board** (only a third of seats up each year) is such a strong defence: winning control takes two elections.\n\n### Why it matters in Europe\n\nMany European regimes (e.g. the UK Takeover Code) impose a mandatory offer once a bidder passes 30%, strict timetables and limited board defences, so hostile bids there are mostly tender offers governed by a regulator rather than board-level litigation.",
+    "commonMistakes": [
+      "Saying a tender offer requires board approval.",
+      "Confusing a proxy fight (replacing directors) with a tender offer (buying shares)."
+    ],
+    "followUps": [
+      "Why would a bidder choose a tender offer over a one-step merger in a friendly deal?",
+      "What is a bear hug letter?"
+    ],
+    "tags": ["hostile", "tender offer", "proxy fight", "merger process"]
+  },
+  {
+    "id": "ma-026",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What takeover defences can a target use against a hostile bidder?",
+    "keyAnswer": "The main structural defences are a poison pill (rights plan that massively dilutes anyone crossing an ownership threshold), a staggered board, supermajority voting and dual-class shares; reactive tactics include finding a white knight, selling the crown jewels, a leveraged recapitalisation, a Pac-Man counterbid, litigation and golden parachutes. Most defences aim to buy time and bargaining power rather than block a sale outright.",
+    "explanation": "### Preventive (structural) defences\n\n- **Poison pill / shareholder rights plan**: if any holder crosses a trigger (10 to 20%), all other shareholders can buy new shares at a steep discount, diluting the bidder. Boards can adopt pills without a vote and redeem them to allow a friendly deal; investors dislike long-dated pills, so many are adopted only when a threat appears.\n- **Staggered (classified) board**: only one-third of directors are elected each year, so a bidder needs two annual meetings to gain control and redeem the pill.\n- **Supermajority provisions**: 67 to 80% approval required for a merger with an interested shareholder.\n- **Dual-class shares** giving founders voting control.\n- **Fair price provisions** and state anti-takeover statutes (e.g. Delaware section 203 freezing business combinations with 15% holders for three years).\n- **Golden parachutes**: large severance for executives on a change of control; mainly a retention tool and a modest cost increase.\n\n### Reactive tactics\n\n- **White knight**: a friendlier acquirer invited to make a competing bid; a **white squire** buys a blocking minority stake instead.\n- **Crown jewel defence**: sell or option the asset the bidder wants most.\n- **Leveraged recapitalisation**: borrow to pay a special dividend or buyback, delivering value to shareholders and making the target less attractive.\n- **Pac-Man**: the target bids for the bidder.\n- **Scorched earth / asset restructuring**: acquisitions or divestitures that make the target harder to digest.\n- **Greenmail**: buying back the bidder's stake at a premium (now rare and tax-penalised in the US).\n- **Litigation and regulatory lobbying** to delay.\n- **Just say no**: in Delaware a board can refuse to redeem the pill if it has a reasonable basis, as long as the defence is proportionate.\n\n### How bankers use this\n\nOn the sell side, a defence profile analysis tells the board how much time it has and what leverage it holds; on the buy side it determines whether a tender offer plus proxy fight can succeed. Defences generally raise the final price rather than prevent sales, which is why courts allow them within limits.",
+    "commonMistakes": [
+      "Describing a poison pill as something the bidder swallows rather than a rights plan diluting it.",
+      "Listing golden parachutes as a strong deterrent; the cost is usually trivial relative to deal value."
+    ],
+    "followUps": [
+      "Why are staggered boards and poison pills so powerful in combination?",
+      "How does the UK Takeover Code treat board defences compared with Delaware?"
+    ],
+    "tags": ["takeover defenses", "poison pill", "staggered board", "hostile"]
+  },
+  {
+    "id": "ma-027",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Walk me through a sell-side M&A process. What is the difference between a broad auction, a targeted auction and a negotiated sale?",
+    "keyAnswer": "The bank prepares marketing materials (teaser, CIM, model, data room), contacts buyers under NDA, collects first-round indications of interest, runs management presentations and diligence for a shortlist, receives final bids with a marked-up purchase agreement, then negotiates, signs and closes. A broad auction maximises competition and price but costs time and confidentiality; a targeted auction limits the field to the most logical buyers; a negotiated sale deals with one party for speed and secrecy at the risk of leaving value on the table.",
+    "explanation": "### Typical timeline (4 to 6 months)\n\n1. **Preparation (4 to 6 weeks)**: engagement letter, valuation, buyer list, teaser (one to two anonymous pages), confidential information memorandum (CIM), management model, virtual data room, vendor due diligence reports (increasingly common in Europe).\n2. **First round (4 to 6 weeks)**: teaser and NDA sent to buyers; CIM and process letter to those who sign; buyers submit non-binding **indications of interest (IOIs)** with a valuation range, structure, financing and key assumptions.\n3. **Second round (4 to 8 weeks)**: shortlist invited to **management presentations**, full data room access, site visits and expert sessions; a draft **sale and purchase agreement (SPA)** is circulated for mark-up.\n4. **Final bids**: binding offers with committed financing, a marked-up SPA and confirmatory diligence plan; the seller may run a \"best and final\" round.\n5. **Negotiation and signing**: often grants **exclusivity** to the winner under a letter of intent (LOI) for final diligence; sign the SPA.\n6. **Closing**: regulatory approvals, shareholder votes, financing funding, completion accounts or locked-box pricing mechanics.\n\n### Choosing the process\n\n| Process | Buyers contacted | Pros | Cons |\n|---|---|---|---|\n| Broad auction | 50 to 100+ strategics and sponsors | Max competition and price; evidence for fairness | Leaks, long, burdens management, deters some buyers |\n| Targeted auction | 5 to 20 logical buyers | Competitive tension with more confidentiality | May miss an unexpected bidder |\n| Negotiated sale | One (occasionally two) | Fast, confidential, easiest for management | Little price tension; weaker fairness evidence |\n\nA seller chooses based on the number of credible buyers, confidentiality needs (customers, employees, competitors), speed, and whether a pre-emptive bidder already exists. Public company sales also layer in the board process, fairness opinion and disclosure obligations.",
+    "commonMistakes": [
+      "Mixing up the order: IOIs come before management presentations, not after.",
+      "Forgetting the SPA mark-up as part of final bids, which is where deal certainty is really judged."
+    ],
+    "followUps": [
+      "What goes into a CIM versus a teaser?",
+      "How do you decide which buyers to invite to a targeted auction?"
+    ],
+    "tags": ["sell-side process", "auction", "cim", "process"]
+  },
+  {
+    "id": "ma-028",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Describe the buy-side process and the main due diligence workstreams an acquirer runs.",
+    "keyAnswer": "On the buy side the bank helps the client screen and prioritise targets, approach them, value the business, structure consideration and financing, coordinate due diligence, negotiate price and the purchase agreement, obtain approvals and close. Diligence covers financial (quality of earnings and net debt), tax, legal, commercial, operational, IT, HR, environmental and regulatory areas, and its findings feed directly into price, structure and contract protections.",
+    "explanation": "### The process\n\n1. **Strategy and screening**: define criteria (size, geography, capability), build a long list, score and shortlist targets.\n2. **Approach**: discreet contact with the owner or board, NDA, preliminary information.\n3. **Preliminary valuation**: standalone value plus synergies, accretion/dilution, ability to pay; set a walk-away price before negotiating.\n4. **Indication of interest / LOI**: price range, structure, key conditions, exclusivity request.\n5. **Due diligence**: confirm the thesis and find issues that change price or terms.\n6. **Financing**: commitment letters from lenders, equity bridge, rating agency discussions.\n7. **Negotiation of the SPA or merger agreement**: price mechanism (locked box vs completion accounts), representations and warranties, indemnities or W&I insurance, conditions, termination fees.\n8. **Approvals**: boards, shareholders if required, antitrust and other regulators.\n9. **Signing, closing and integration planning** (the 100-day plan starts before closing).\n\n### Due diligence workstreams\n\n| Area | Focus |\n|---|---|\n| Financial | Quality of earnings (one-offs, run-rate EBITDA), net debt and debt-like items, working capital normal level, forecasts |\n| Tax | Exposures, structure, step-up availability, NOLs, transfer pricing |\n| Legal | Contracts, change-of-control clauses, litigation, IP ownership, title |\n| Commercial | Market size, competitive position, customer concentration and interviews, pricing |\n| Operational | Supply chain, capacity, capex needs, synergy validation |\n| HR | Key people, retention, pensions, labour agreements |\n| IT / cyber | Systems, integration cost, data protection |\n| Environmental | Contamination, liabilities, permits |\n| Regulatory | Licences, antitrust risk, foreign investment review |\n\nDiligence findings translate into: price adjustments (e.g. lower run-rate EBITDA), debt-like items in the EV-to-equity bridge (pensions, deferred revenue, litigation), specific indemnities, escrow or holdback amounts, closing conditions, and sometimes walking away. A good answer links each diligence area to how it changes the model or the contract rather than reciting a list.",
+    "commonMistakes": [
+      "Presenting diligence as a box-ticking exercise rather than as inputs to price and SPA terms.",
+      "Omitting financing and rating agency work from the buy-side timeline."
+    ],
+    "followUps": [
+      "What is a quality of earnings report and what typically comes out of it?",
+      "What is the difference between locked box and completion accounts?"
+    ],
+    "tags": ["buy-side process", "due diligence", "process", "spa"]
+  },
+  {
+    "id": "ma-029",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "What is a fairness opinion, who gets one, and what are its limitations?",
+    "keyAnswer": "A fairness opinion is a letter from an investment bank to a company's board stating that the consideration in a transaction is fair, from a financial point of view, to the shareholders (or to the company). Boards of public targets, and sometimes acquirers, obtain one to document that they met their fiduciary duties. It is based on standard valuation work, is not a recommendation or a price maximisation guarantee, and critics note the conflict when the same bank earns a success fee.",
+    "explanation": "### What it is\n\nA short letter, delivered to the board at the meeting that approves the deal, supported by a detailed presentation (the \"fairness book\") containing comparable companies, precedent transactions, DCF, LBO analysis for a financial buyer, premiums paid, and for stock deals contribution and pro forma analysis. The opinion is typically disclosed and summarised in the proxy statement or scheme document.\n\n### Why boards obtain one\n\n- **Fiduciary duty**: after the Delaware case *Smith v. Van Gorkom* (1985), where directors were held liable for approving a sale without adequate information, a fairness opinion became standard evidence that a board acted on an informed basis under the business judgment rule.\n- **Disclosure**: shareholders voting on a deal see the bank's analyses and conclusions.\n- **Special committees** in conflicted deals (management buyouts, controlling shareholder transactions) almost always use an independent bank's opinion.\n- Acquirers obtain one when issuing a large amount of stock or when the deal is transformational.\n\n### Limitations and criticisms\n\n- It states that the price is **within a range of fairness**, not that it is the best obtainable; a price at the bottom of the range can still be \"fair\".\n- It relies on management projections and public information; the bank does not audit anything.\n- It is a point-in-time view with no obligation to update.\n- **Conflict of interest**: the advising bank's fee is often contingent on closing, which is why boards sometimes hire a second bank purely for the opinion on a fixed fee, and why disclosure of bank fees and prior relationships is required.\n- The fee for an opinion alone is usually modest; the sell-side advisory fee is the real economics.\n\n### Europe\n\nIn the UK, the equivalent is the Rule 3 adviser's confirmation that the offer is fair and reasonable; in Germany and other markets, independent expert reports accompany squeeze-outs and certain mergers.",
+    "commonMistakes": [
+      "Saying a fairness opinion guarantees the shareholders got the highest price.",
+      "Claiming the opinion is addressed to shareholders rather than to the board."
+    ],
+    "followUps": [
+      "Why might a board hire a second bank just for the fairness opinion?",
+      "Which analyses are usually included in a fairness book?"
+    ],
+    "tags": ["fairness opinion", "board", "fiduciary duty", "process"]
+  },
+  {
+    "id": "ma-030",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is a leveraged recapitalisation, and how does it compare with selling the company in a merger?",
+    "keyAnswer": "A leveraged recap is when a company borrows heavily and pays the proceeds to shareholders as a special dividend or large buyback, so existing holders keep ownership while the business becomes more levered. Unlike a merger, no control changes hands and no premium is received; the value delivered comes from the tax shield and financial discipline of debt rather than synergies, so it is often used as an alternative to a sale or as a defence against a hostile bid.",
+    "explanation": "### Mechanics\n\nA company with $1,000m EBITDA and $1,000m of debt (1.0x) issues $3,000m of new debt and uses it to buy back shares or pay a special dividend. Leverage rises to 4.0x; share count falls (buyback) or shareholders receive cash (dividend). Equity holders keep the upside of the business with a smaller equity base, similar to an LBO without a change of owner.\n\n### Why do it\n\n- **Return capital** when the balance sheet is underlevered and growth options are limited.\n- **Takeover defence**: the special dividend delivers much of the value a bidder would have paid, and the extra debt makes the target harder to finance for a hostile acquirer (a bidder would have to assume or refinance it).\n- **Alternative to a sale**: shareholders who want liquidity get cash, while those who believe in the business keep their shares; no control premium is needed because there is no change of control.\n- **Signalling**: management and the board show confidence in cash flows.\n- Private companies and sponsors use it to extract value without exiting (a dividend recap).\n\n### Compared with a merger / sale\n\n| | Leveraged recap | Sale / merger |\n|---|---|---|\n| Control | Unchanged | Transfers to buyer |\n| Premium | None; value from tax shield and leverage | Buyer pays premium funded by synergies |\n| Management | Stays | Often replaced or integrated |\n| Risk | Shareholders bear higher financial risk | Shareholders exit (cash) or share risk (stock) |\n| Synergies | None | Potentially large |\n| Rating | Falls, often to high yield | Depends on the acquirer |\n\nIn a sell-side pitch the recap is the \"stay independent\" case: the board compares the share price after a recap (standalone value plus tax shield, minus distress costs) with the bid. If a bidder's premium exceeds what leverage alone can deliver, the sale wins. Recaps also appear in merger models as a comparison point: an acquirer that merely re-levers the target has not created value beyond what the target could have done itself.",
+    "commonMistakes": [
+      "Confusing a leveraged recap with an LBO; in a recap existing public shareholders remain owners.",
+      "Claiming a recap creates synergies."
+    ],
+    "followUps": [
+      "What limits how much debt a company can take on in a recap?",
+      "How does a leveraged recap affect EPS?"
+    ],
+    "tags": ["leveraged recapitalisation", "defense", "capital return", "alternatives"]
+  },
+  {
+    "id": "ma-031",
+    "category": "M&A / Merger Models",
+    "difficulty": "Basic",
+    "question": "Strategic buyers versus financial buyers: who can usually pay more for a target, and why?",
+    "keyAnswer": "Strategic buyers can usually pay more because they capture synergies, have a lower cost of capital, use their own stock as currency and are not bound to a fixed exit or a 20%-plus IRR hurdle. Financial buyers are limited by how much debt the target's cash flows support and the returns their investors require, so they only win when strategics are absent, when cheap financing is abundant, or when they can add the target to an existing platform with its own synergies.",
+    "explanation": "### Why strategics generally win on price\n\n- **Synergies**: a strategic can share some of the cost and revenue synergies with the seller; a sponsor buying a standalone asset has none.\n- **Cost of capital**: a large investment-grade company funds with cheap debt and equity priced at its own WACC; a sponsor's equity needs 20%+ IRR.\n- **Holding period**: no requirement to exit in 3 to 7 years, so no reliance on a particular exit multiple.\n- **Currency**: can pay in stock, which may be richly valued and is tax-deferred for sellers.\n- **Different accounting lens**: strategics think about EPS accretion; a deal that is accretive because of cheap debt can look good even at a high price.\n\n### When financial buyers pay more\n\n- No logical strategic, or strategics are blocked by antitrust or distracted.\n- **Platform add-ons**: a sponsor's portfolio company is itself a strategic buyer with synergies.\n- Cheap and abundant leverage pushes LBO valuations up.\n- Sponsors move faster, offer certainty (reverse termination fee, no shareholder vote) and management continuity, which sellers sometimes value above a slightly higher price.\n- Strategics may be constrained by their own low share price or rating.\n\n### How bankers use the distinction\n\n- A sell-side banker runs both strategic and sponsor tracks; the LBO analysis sets a **floor** valuation (what a sponsor can pay and still earn its IRR), while the synergy-adjusted strategic value sets the **ceiling**.\n- The seller's ideal is a strategic bidding against a credible sponsor, forcing the strategic to share more synergies.\n- In pitch books, ability-to-pay analyses show the maximum price each type of buyer can offer while keeping its constraint (IRR or accretion/leverage).\n\nA crisp interview answer: strategics usually, because of synergies and cost of capital; but \"usually\" is not \"always\", and process design is about making both compete.",
+    "commonMistakes": [
+      "Saying financial buyers can never outbid strategics.",
+      "Ignoring that sponsor-owned platforms behave like strategic buyers."
+    ],
+    "followUps": [
+      "How would you run a process to extract more synergies from a strategic bidder?",
+      "Why might a seller take a lower sponsor bid over a higher strategic bid?"
+    ],
+    "tags": ["strategic buyer", "financial buyer", "ability to pay", "process"]
+  },
+  {
+    "id": "ma-032",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "Why would an acquirer choose an all-stock deal even though it is dilutive to EPS?",
+    "keyAnswer": "Because EPS is not the only consideration: the acquirer's stock may be richly valued so shares are the cheapest currency in value terms, the deal may be too large to fund with cash or debt without losing its rating, the target's holders may want a tax-deferred stock deal and to share in the upside, or the acquirer may be buying growth or capabilities whose payoff comes after the dilution period. Many such deals become accretive in year two or three once synergies ramp.",
+    "explanation": "### Reasons an all-stock structure can still be right\n\n1. **Relative valuation**: if the acquirer believes its own shares are expensive (high P/E), issuing them is cheap in intrinsic terms even if the mechanical P/E comparison shows dilution against a target trading at an even higher multiple for good reasons (growth).\n2. **Deal size**: a target worth 50% or more of the acquirer cannot be bought with cash or debt without pushing leverage beyond what rating agencies and lenders accept.\n3. **Preserve balance sheet flexibility**: keeping cash and debt capacity for capex, further deals or a downturn.\n4. **Risk sharing**: target shareholders remain invested, so if the thesis fails they share the loss; important when the target is early-stage or cyclical.\n5. **Tax**: stock consideration in a qualifying reorganisation is tax-deferred for target shareholders, which matters to founders and long-term holders and can lower the price they require.\n6. **Target preference / MOE dynamics**: management and holders of the target may want to participate in the combined entity's upside; a merger of equals is by nature all-stock.\n7. **Growth versus current earnings**: acquiring a high-growth target with little current profit is dilutive now but can lift the acquirer's growth rate and multiple.\n8. **Cash EPS**: dilution driven by non-cash intangible amortisation may be ignored by investors who focus on adjusted EPS.\n\n### How the board frames it\n\n- Show accretion/dilution over 3 years with and without synergies; often \"dilutive in year one, accretive from year two\".\n- Compare the premium paid to the capitalised value of synergies: value creation matters more than EPS.\n- Show leverage and rating outcomes under the alternative cash/debt structure to demonstrate why stock was necessary.\n- Highlight pro forma ownership and governance.\n\n### Market reaction\n\nAll-stock announcements are often met with a falling acquirer share price because investors infer that management thinks the shares are overvalued (the signalling effect). Boards accept that if the strategic logic and long-term accretion are strong; the deal's value, not day-one EPS, is the test.",
+    "commonMistakes": [
+      "Answering only \"because it preserves cash\" without the valuation, size and tax arguments.",
+      "Ignoring the signalling cost of issuing stock."
+    ],
+    "followUps": [
+      "How would you convince an EPS-focused investor that a dilutive stock deal is sound?",
+      "What is the continuity-of-interest requirement in a tax-free reorganisation?"
+    ],
+    "tags": ["all-stock", "dilution", "deal rationale", "consideration"]
+  },
+  {
+    "id": "ma-033",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "Can a deal be EPS-accretive yet destroy shareholder value? Explain why accretion can be misleading.",
+    "keyAnswer": "Yes. Accretion only compares earnings yields and financing costs; it ignores whether the price paid exceeds the target's intrinsic value plus synergies. Buying any company with cheap debt is almost automatically accretive, and buying a low-P/E target with stock is accretive even if the target's earnings are shrinking. Value is created only when the present value of the target plus synergies exceeds the price paid including the premium and integration costs.",
+    "explanation": "### Why accretion is a weak test\n\n- **Financing illusion**: when the after-tax cost of debt is 3%, any target with an earnings yield above 3% (a P/E below 33x) is accretive if debt-funded. That says nothing about whether the target is worth the price; it only says debt is cheap. The extra leverage also raises the acquirer's risk, which EPS ignores.\n- **Multiple arbitrage**: a 20x acquirer buying a 10x target in stock is accretive. But the market may price the target at 10x because its earnings are declining or risky; after the deal the combined company's multiple may fall toward a blend, and the share price can drop even as EPS rises.\n- **Non-cash and timing effects**: accretion is often computed before one-time costs and with run-rate synergies, or on a cash EPS basis that excludes the amortisation of the premium just paid.\n- **No discounting**: EPS is a single-year number; a deal can be accretive in year one and destroy value thereafter if the target needs heavy capex or its earnings fade.\n- **Earnings quality**: EPS can be increased through a lower combined tax rate or cost-cutting that harms the franchise.\n\n### The value test\n\n```\nValue created = PV(target standalone) + PV(synergies) − PV(costs to achieve) − Price paid\n```\n\nExample: target intrinsic value $4,000m, run-rate after-tax synergies $60m capitalised at 10x = $600m, costs to achieve $100m. Maximum price before value destruction ≈ $4,500m. If the acquirer pays $5,000m (a premium of $1,000m over the unaffected market value of $4,000m), it destroys roughly $500m even if cheap debt makes the deal 5% accretive.\n\n### What the market actually does\n\nAnnouncement returns to acquirers depend on the premium relative to credible synergies, the consideration (stock deals fare worse), and the strategic logic, far more than on reported accretion. Interviewers want you to say: accretion is a necessary conversation with the board and with EPS-focused investors, but the decision should rest on NPV, return on invested capital versus cost of capital, and the credibility of the synergies.",
+    "commonMistakes": [
+      "Treating EPS accretion as the definition of a good deal.",
+      "Forgetting that leverage used to fund an accretive deal increases the equity's risk."
+    ],
+    "followUps": [
+      "Give an example of a dilutive deal that created value.",
+      "What return metric would you use alongside accretion to evaluate a deal?"
+    ],
+    "tags": ["accretion dilution", "value creation", "npv", "conceptual"]
+  },
+  {
+    "id": "ma-034",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "How does an acquisition affect the acquirer's credit rating and leverage, and how do you analyse that in the model?",
+    "keyAnswer": "Debt-funded deals raise pro forma leverage and lower coverage, so agencies may downgrade or place the acquirer on watch; stock-funded deals can be neutral or even credit-positive. In the model you compute pro forma Debt/EBITDA, net debt/EBITDA, EBITDA/interest and FFO/debt for the combined company, including synergies and planned debt paydown, and compare them with the thresholds agencies publish for each rating band.",
+    "explanation": "### Why rating matters in deal design\n\nAn investment-grade rating lowers the cost of all the acquirer's debt, not just the acquisition financing, and keeps access to commercial paper and bond markets. Most acquirers set a target rating and back-solve the maximum debt they can raise, which then drives the cash/stock mix.\n\n### Worked example\n\nAcquirer: EBITDA $1,000m, debt $2,000m, so 2.0x, rated BBB. It buys a target with EBITDA $300m for an EV of $3,600m (12x).\n\n| Funding | Pro forma debt | Pro forma EBITDA | Debt/EBITDA | Likely rating view |\n|---|---|---|---|---|\n| All debt | $5,600m | $1,300m | 4.3x | Downgrade toward BB |\n| 50% debt / 50% stock | $3,800m | $1,300m | 2.9x | Possibly BBB− with deleveraging plan |\n| All stock | $2,000m | $1,300m | 1.5x | Neutral to positive |\n\nWith $100m of run-rate synergies, the 50/50 case becomes 3,800 / 1,400 = 2.7x, and if the company commits to repay $400m a year from free cash flow it returns to about 2.0x within two to three years, which agencies often accept.\n\n### What the agencies look at\n\n- Pro forma leverage and coverage, and the **path back** to target metrics (deleveraging commitments, suspended buybacks).\n- Business risk after the deal: diversification, scale, integration risk, synergy credibility.\n- Management's financial policy and track record.\n- Structural features: change-of-control puts in the target's bonds, acquisition bridge loans, whether new debt is senior to existing bonds.\n\n### Model outputs to show\n\n- Credit statistics table for each forecast year under each financing scenario.\n- Rating agency \"adjusted\" debt including leases, pensions and hybrids.\n- Bond covenant headroom and any repayment required by change-of-control clauses.\n- Interest cost sensitivity to a one-notch downgrade.\n\nMentioning that bankers pre-sound rating agencies under confidentiality before announcement, and that a \"rating watch negative\" is typical at announcement, shows practical understanding.",
+    "commonMistakes": [
+      "Looking only at year-one leverage without the deleveraging path.",
+      "Forgetting that assumed target debt and refinanced debt are both part of pro forma debt."
+    ],
+    "followUps": [
+      "How would you decide the maximum debt the acquirer can raise while staying investment grade?",
+      "What is a change-of-control put and how does it affect the sources and uses?"
+    ],
+    "tags": ["credit rating", "leverage", "financing", "merger model"]
+  },
+  {
+    "id": "ma-035",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is contribution analysis, and how is it used in a stock-for-stock merger?",
+    "keyAnswer": "Contribution analysis compares what each company brings to the combined entity (revenue, EBITDA, net income, equity value, sometimes cash flow) with the share of the combined company each set of shareholders will own. If one side contributes 35% of earnings but receives 25% of the shares, the exchange ratio looks unfavourable to it unless differences in growth, margins or leverage justify the gap.",
+    "explanation": "### Mechanics\n\n1. Lay out each company's metrics for the current and next forecast years.\n2. Compute each company's share of the combined total for each metric.\n3. Convert the contribution into an **implied exchange ratio** and implied ownership, adjusting EV-based metrics (revenue, EBITDA) for each company's net debt to get to equity contribution.\n4. Compare with the proposed exchange ratio and ownership.\n\n### Example\n\n| Metric | Acquirer | Target | Target % contribution |\n|---|---|---|---|\n| Revenue | $800m | $400m | 33% |\n| EBITDA | $200m | $100m | 33% |\n| Net income | $100m | $40m | 29% |\n| Equity value (market) | $2,000m | $600m | 23% |\n\nIf the proposed deal gives target shareholders 25% of the combined company, they receive slightly more than their market value share (a modest premium) but less than their earnings contribution. That gap is defensible if the acquirer has higher growth or a stronger balance sheet, and indefensible if the target is the faster-growing business. The implied exchange ratio from the EBITDA contribution (33%) would be: new shares = acquirer shares × 0.33 / 0.67; with 200m acquirer shares and 100m target shares that is about 100m new shares, a 1.0x ratio, versus the roughly 0.67x ratio implied by 25% ownership.\n\n### Adjustments and caveats\n\n- EBITDA and revenue contributions are enterprise-value measures; subtract each company's net debt before translating into equity ownership, otherwise a levered company looks like it contributes more than it is worth.\n- Use forward years to reflect growth differences.\n- Net income already reflects leverage and tax, so it maps more directly to ownership.\n- Contribution analysis ignores synergies and relative multiples; it is a sanity check on the exchange ratio, used alongside relative DCF and comparables.\n\n### Where it appears\n\nFairness opinions for stock deals, MOE negotiations where neither side wants to admit paying a premium, and board materials explaining why a 52/48 split is fair. It is also a quick way to see who is \"really\" acquiring whom.",
+    "commonMistakes": [
+      "Comparing EBITDA contribution directly with equity ownership without adjusting for net debt.",
+      "Treating contribution as a valuation method rather than a cross-check."
+    ],
+    "followUps": [
+      "Why might a company fairly receive less ownership than its EBITDA contribution?",
+      "How do you adjust contribution analysis for different leverage levels?"
+    ],
+    "tags": ["contribution analysis", "exchange ratio", "merger of equals", "example"]
+  },
+  {
+    "id": "ma-036",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "A client is considering a 25% premium for a public target. How would you evaluate whether that offer makes sense, both on a value per share basis and on implied multiples?",
+    "keyAnswer": "Translate the offer into a price per share and check it against the target's intrinsic value range (DCF, comparables, precedents, LBO floor) and against premiums paid in similar deals; then compute the implied equity value and enterprise value and the resulting EV/EBITDA and P/E multiples and compare them with trading and transaction comps. Finally, test whether the premium is covered by the present value of synergies, because that determines whether the acquirer's shareholders gain.",
+    "explanation": "### Step 1: offer price and implied values\n\nTarget unaffected price $40; 25% premium → **$50 offer**. Diluted shares (treasury stock method at $50) 100m → equity value **$5,000m**. Net debt $1,000m → enterprise value **$6,000m**.\n\n### Step 2: implied multiples\n\n| Metric | Target figure | Implied multiple | Trading comps | Precedent deals |\n|---|---|---|---|---|\n| LTM EBITDA | $500m | 12.0x | 9 to 11x | 11 to 13x |\n| NTM EBITDA | $550m | 10.9x | 8 to 10x | 10 to 12x |\n| LTM net income | $250m | 20.0x P/E | 15 to 18x | 18 to 22x |\n\nThe offer sits above where peers trade (as it should, given control) and inside the precedent range, which is the first sign the premium is reasonable.\n\n### Step 3: premiums paid analysis\n\nMeasure the premium to the unaffected price 1 day, 1 week and 1 month before announcement (or before rumours) and to the 52-week high. Compare with premiums paid in recent deals in the sector: typical control premiums cluster around 20 to 40%. A 25% premium is unremarkable unless the stock had already run up on speculation, in which case the premium to the true unaffected price is higher.\n\n### Step 4: intrinsic value per share\n\nA DCF of the target's standalone plan might give $42 to $52 per share; an LBO analysis might show a sponsor could pay up to $46. The $50 offer is inside the DCF range and above the sponsor floor, which supports it from the seller's perspective.\n\n### Step 5: does the premium make sense for the buyer\n\nThe premium is $10 × 100m = **$1,000m**. If run-rate cost synergies are $80m pre-tax ($60m after tax at 25%), capitalised at the acquirer's 12x P/E they are worth about $720m, minus $100m of costs to achieve, roughly $620m. The buyer would be paying $1,000m for $620m of value, transferring about $380m to the target's shareholders. To justify 25%, the buyer needs either more synergies (about $110m pre-tax) or a conviction that the standalone value is well above $40.\n\n### Pulling it together\n\nPresent a football field with the offer line, the premium benchmarks, the implied multiples versus comps, the accretion/dilution outcome and the synergy coverage of the premium. The recommendation is a range and a walk-away price, not a single number.",
+    "commonMistakes": [
+      "Computing the premium on the current (already rumoured) price rather than the unaffected price.",
+      "Comparing implied EV multiples with the target's trading multiples only, without precedent transaction multiples."
+    ],
+    "followUps": [
+      "What if the target's stock is near its 52-week high?",
+      "How would your analysis change if the consideration were stock rather than cash?"
+    ],
+    "tags": ["premium", "implied multiples", "premiums paid", "deal evaluation", "example"]
+  },
+  {
+    "id": "ma-037",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "The target has large net operating losses. How does Section 382 affect their use after the acquisition, and how do you value them?",
+    "keyAnswer": "After an ownership change of more than 50 percentage points, Section 382 caps the NOLs the acquirer can use each year at the target's equity value at the change date multiplied by the long-term tax-exempt rate. You value the NOLs by projecting the annual usable amount, applying the tax rate to get cash tax savings, and discounting; the cap can stretch usage over many years and sharply reduce the present value.",
+    "explanation": "### The rule\n\nNOLs are a tax asset: they shelter future taxable income. To stop companies buying loss-makers purely for their tax losses, US Section 382 applies once an **ownership change** occurs (cumulative shift of more than 50 percentage points among 5%-shareholders within a three-year window, which any acquisition of a majority stake triggers).\n\n```\nAnnual limitation = Equity value of the loss company immediately before the change\n                    × long-term tax-exempt rate (published monthly by the IRS)\n```\n\n### Worked example (tax rate 25%)\n\nTarget equity value at closing $500m; long-term tax-exempt rate 3.4%; target NOLs $200m.\n\n- Annual NOL usage cap = 500 × 3.4% = **$17m** of NOLs per year.\n- Annual cash tax saving = 17 × 25% = **$4.25m**.\n- Years to use all NOLs = 200 / 17 ≈ 11.8 years (subject to the NOL expiry rules; post-2017 federal NOLs do not expire but can only offset 80% of taxable income).\n- Undiscounted value = 200 × 25% = $50m; discounted at 8% over about 12 years the present value is roughly $32m.\n\nWithout the cap, a profitable acquirer could use the whole $200m in year one, worth $50m immediately, so the limitation removes about a third of the value in this case.\n\n### Refinements\n\n- **Built-in gains**: if the target's assets have unrealised gains (NUBIG), recognised gains in the five years after the change increase the limitation.\n- **Continuity of business**: the loss company's business must continue for two years, or the NOLs are lost entirely.\n- **Structure**: in an asset deal or a 338(h)(10) election the NOLs stay with the seller, who uses them against the gain on sale; only a stock deal transfers them.\n- **Bankruptcy exception**: special rules apply to ownership changes in Chapter 11.\n- The deal premium itself affects the limit, because the equity value used is the fair market value at the change date.\n\n### In the model\n\nShow a schedule of beginning NOL balance, usage (minimum of the cap and taxable income), ending balance and tax savings; add the present value of the savings to the equity value the acquirer can justify, or include it as an item in the price negotiation. Note that many buyers refuse to pay for NOLs because of their uncertainty.",
+    "commonMistakes": [
+      "Assuming the acquirer can use all the target's NOLs immediately.",
+      "Applying the limitation to the acquirer's own NOLs (it applies to the loss company's)."
+    ],
+    "followUps": [
+      "What happens to the NOLs in an asset purchase?",
+      "How would a higher purchase price change the Section 382 limitation?"
+    ],
+    "tags": ["nol", "section 382", "tax", "example"]
+  },
+  {
+    "id": "ma-038",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is the difference between a spin-off, a carve-out and a split-off, and why would a company choose one over another?",
+    "keyAnswer": "A spin-off distributes shares of a subsidiary pro rata to the parent's shareholders, creating an independent listed company and raising no cash; a carve-out is an IPO of a minority stake in the subsidiary that raises cash while the parent keeps control; a split-off offers parent shareholders the choice of exchanging their parent shares for subsidiary shares, which works like a buyback. The choice depends on whether the parent needs cash, wants to keep control, wants to shrink its share count, and on tax.",
+    "explanation": "### Spin-off\n\n- Parent distributes 100% (or at least 80%) of the subsidiary's shares as a dividend in kind; shareholders end up with two stocks.\n- Generally **tax-free** to the parent and its shareholders under US Section 355 if the conditions are met (active business for five years, no pre-arranged sale, valid business purpose, no \"device\" to distribute earnings).\n- No cash raised, though the subsidiary often borrows before the spin and pays a dividend to the parent (a \"leveraged spin\").\n- Rationale: unlock the sum-of-the-parts discount, give each business its own currency, management focus, different investor bases; often the response to activist pressure.\n\n### Equity carve-out\n\n- Parent sells a minority stake (usually under 20% to preserve the option of a later tax-free spin) in an IPO of the subsidiary.\n- Raises cash for the parent or the subsidiary and establishes a market valuation; the parent keeps consolidation and control.\n- Often step one of a two-step separation: carve-out, then spin or split-off of the remainder.\n\n### Split-off\n\n- Parent shareholders may **exchange** parent shares for subsidiary shares, usually at a discount to encourage participation.\n- Reduces the parent's share count, so it is economically a share repurchase paid with the subsidiary's shares; can be tax-free under the same Section 355 rules.\n- Useful when the parent wants to retire shares or when a large shareholder wants to swap into the subsidiary.\n\n### Comparison\n\n| | Spin-off | Carve-out | Split-off |\n|---|---|---|---|\n| Cash to parent | No (except pre-spin dividend) | Yes | No |\n| Parent control after | None | Retained | None |\n| Parent share count | Unchanged | Unchanged | Reduced |\n| Tax (US) | Tax-free if 355 met | Taxable on the stake sold | Tax-free if 355 met |\n| Shareholder choice | None | None | Yes |\n\n### Why it matters in M&A\n\nSeparations are the sell-side of corporate development: they are alternatives to selling a division, and spun entities are frequent acquisition targets after the two-year restriction. Bankers also design the capital structure of the new company and the stranded costs analysis for the parent.",
+    "commonMistakes": [
+      "Saying a spin-off raises cash for the parent.",
+      "Confusing a split-off with a split-up (where the parent dissolves into several new companies)."
+    ],
+    "followUps": [
+      "Why might a company do a carve-out IPO before a full spin-off?",
+      "What is a Reverse Morris Trust?"
+    ],
+    "ifrsNote": "Under IFRS (IFRIC 17), a pro rata distribution of a subsidiary's shares is measured at the fair value of the shares distributed and the parent recognises a gain or loss on the difference from carrying value. Under US GAAP a spin-off is recorded at the carrying amount of the net assets, with no gain, so the same spin-off produces a different parent P&L.",
+    "tags": ["spin-off", "carve-out", "split-off", "divestiture"]
+  },
+  {
+    "id": "ma-039",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "When would a company set up a joint venture instead of making an acquisition, and what are the drawbacks?",
+    "keyAnswer": "A joint venture shares ownership, cost and risk of a specific business with a partner, so it suits situations where a company needs a capability or market access it cannot or does not want to buy outright: entering a regulated or foreign market that requires a local partner, pooling R&D or capex that neither party can fund alone, or combining complementary assets without paying a control premium. The drawbacks are shared control, misaligned incentives, slow decision-making and messy exits.",
+    "explanation": "### What a JV is\n\nA separate legal entity (or contractual alliance) owned by two or more parties who contribute assets, cash, IP or people and share profits according to an agreed split. Common forms: 50/50 JVs, majority/minority JVs with governance protections, and project JVs in energy, mining, autos, semiconductors and telecoms.\n\n### Reasons to prefer a JV over an acquisition\n\n- **Access without control premium**: no need to buy an entire company to get one asset or capability.\n- **Regulatory or political constraints**: foreign ownership caps, antitrust concerns, government preference for local partners.\n- **Risk and capital sharing**: large capex (a chip fab, an offshore field) or uncertain technology.\n- **Complementary skills**: one party brings technology, the other distribution or local knowledge.\n- **Optionality**: a JV can be a step toward a full acquisition, with call/put options on the partner's stake.\n- **Speed**: no need to integrate two whole organisations.\n\n### Drawbacks\n\n- **Shared control**: deadlock on strategy, capex and dividends; governance clauses (reserved matters, casting votes, escalation) are heavily negotiated.\n- **Misaligned incentives**: partners compete elsewhere, transfer pricing and IP leakage disputes, differing time horizons.\n- **Exit**: buy-sell provisions (Russian roulette, Texas shoot-out), rights of first refusal, drag-along and tag-along clauses are needed because partners rarely want to exit at the same time.\n- **Accounting**: a 50/50 JV is typically equity-accounted, so revenue and EBITDA do not consolidate, which can make the parent look smaller; only its share of profit shows in the income statement. Under US GAAP and IFRS 11, joint ventures are equity-method investments; joint operations under IFRS are proportionally accounted.\n- **Culture and management**: dual reporting lines and secondees.\n\n### Deal-team work on JVs\n\nValuing each party's contribution to set the ownership split (similar to contribution analysis in a merger), modelling the JV's distributions, negotiating the shareholders' agreement, and designing exit mechanics. Many large \"mergers\" are structured as JVs when a full combination is blocked by regulators or national interests.",
+    "commonMistakes": [
+      "Assuming JV revenue consolidates into the parent's financials.",
+      "Ignoring exit mechanics, which are usually the hardest part of a JV negotiation."
+    ],
+    "followUps": [
+      "How would you value each partner's contribution to set the ownership split?",
+      "What is a Russian roulette clause?"
+    ],
+    "tags": ["joint venture", "alternatives", "governance", "equity method"]
+  },
+  {
+    "id": "ma-040",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What additional issues arise in a cross-border acquisition, and which regulatory approvals can block a deal?",
+    "keyAnswer": "Cross-border deals add currency risk on the consideration and the target's earnings, withholding taxes and repatriation constraints on cash, differences in accounting, law, labour rules and takeover codes, and political sensitivity. Deals can be blocked or conditioned by antitrust authorities (US DOJ/FTC under HSR, the European Commission, the UK CMA, China's SAMR), foreign investment screens (CFIUS in the US, the UK NSIA, EU member state FDI regimes), sector regulators (banking, telecoms, defence, utilities) and, for listed targets, takeover panels and shareholder votes.",
+    "explanation": "### Cross-border considerations\n\n- **Currency**: the purchase price may be in a different currency from the acquirer's funding; between signing and closing the cost can move materially. Acquirers use deal-contingent forwards or options, or fund in the target's currency to create a natural hedge. The target's earnings then translate into the acquirer's reporting currency, adding earnings volatility to the accretion/dilution analysis.\n- **Tax**: withholding taxes on dividends, interest and royalties flowing out of the target's country; availability of tax treaties; whether cash can be repatriated at all (capital controls); interest deductibility limits on acquisition debt pushed down into the target; controlled foreign company rules; transfer pricing. The acquisition vehicle (holding company location) is designed around these.\n- **Accounting and reporting**: IFRS versus US GAAP targets, different fiscal years, conversion of financials for the model.\n- **Legal and labour**: works councils and consultation obligations (mandatory in much of Europe before signing), employee protection on transfers, different contract and litigation regimes.\n- **Takeover regulation for listed targets**: mandatory bid thresholds (30% in the UK and many EU markets), squeeze-out thresholds (90 to 95%), put-up-or-shut-up deadlines, restrictions on deal protections.\n- **Political and reputational risk**: national champions, strategic sectors, public opinion.\n- **Valuation inputs**: country risk premium, local risk-free rate and inflation in the DCF of the target.\n\n### Regulatory approvals that can stop a deal\n\n| Regime | Examples | Typical outcome |\n|---|---|---|\n| Antitrust / merger control | HSR (US), EU Merger Regulation, CMA (UK), SAMR (China) | Clearance, remedies (divestitures, behavioural commitments) or prohibition; second requests and Phase II reviews add 6 to 12 months |\n| Foreign direct investment / national security | CFIUS (US), NSIA (UK), FDI screens in Germany, France, Italy, Australia (FIRB) | Mitigation agreements, forced divestiture of sensitive assets, or blocking |\n| Sector regulators | Bank regulators, telecom/media authorities, energy regulators, defence ministries | Fitness tests, licence conditions, ownership caps |\n| Securities and takeover regulators | SEC, Takeover Panel, local exchanges | Timetable, disclosure, mandatory offer rules |\n| Shareholders | Acquirer vote above 20% issuance, target vote | Deal may fail the vote |\n\n### How deals manage the risk\n\nConditions precedent and long-stop dates in the agreement; reverse termination fees sized to regulatory risk; hell-or-high-water or capped remedy commitments; pre-filing engagement with authorities; carving out sensitive assets before closing; ticking fees to compensate the seller for delay.",
+    "commonMistakes": [
+      "Listing only antitrust and forgetting foreign investment and sector regulators.",
+      "Ignoring the timing cost of regulatory review in the model and in deal protections."
+    ],
+    "followUps": [
+      "How would you hedge the purchase price in a cross-border deal?",
+      "What is a hell-or-high-water clause and who wants it?"
+    ],
+    "tags": ["cross-border", "regulatory approval", "antitrust", "cfius", "currency"]
+  },
+  {
+    "id": "ma-041",
+    "category": "M&A / Merger Models",
+    "difficulty": "Advanced",
+    "question": "What is a reverse merger, and how does a SPAC transaction work?",
+    "keyAnswer": "A reverse merger is how a private company becomes listed by merging into an already-public shell, with the private company's owners ending up in control, avoiding a traditional IPO. A SPAC is a purpose-built version: a blank-check company raises cash in an IPO, holds it in trust, and has about two years to merge with a private target in a \"de-SPAC\" that takes the target public, typically with a PIPE to add capital and with public SPAC holders allowed to redeem their shares.",
+    "explanation": "### Reverse merger\n\n- A listed shell (often a former operating company with no business left) issues a large number of shares to the private company's shareholders in exchange for their shares; those holders now own most of the combined entity and control the board.\n- Accounting treats the private company as the acquirer (a reverse acquisition), so its historical financials become those of the listed entity.\n- Advantages: faster and cheaper than an IPO, less market-timing risk. Disadvantages: no new capital unless combined with a financing, thin liquidity, weaker investor scrutiny, historically associated with fraud and shell problems.\n\n### SPAC (special purpose acquisition company)\n\n1. **IPO**: sponsor raises, say, $300m by selling units (one share plus a fraction of a warrant) at $10; proceeds sit in a trust. The sponsor receives founder shares, typically 20% of post-IPO equity, for a nominal price (the \"promote\"), plus private placement warrants that fund the search.\n2. **Search**: 18 to 24 months to find a target, usually 2 to 5 times the trust size.\n3. **Announcement and de-SPAC**: merger agreement, proxy/registration statement with projections (allowed, unlike in an IPO), and often a **PIPE** (private investment in public equity) from institutions that validates the valuation and adds cash.\n4. **Redemptions**: public SPAC holders can redeem shares for the trust value (about $10 plus interest) even if they vote in favour, so cash delivered can be far below the trust; minimum cash conditions protect the target.\n5. **Closing**: the target becomes the listed company; sponsor promote and warrants dilute all holders.\n\n### Why targets use SPACs\n\n- Negotiated valuation and price certainty versus an IPO book-build.\n- Ability to market with forward projections.\n- Speed, and access for companies that are early-stage or complex to sell to IPO investors.\n\n### Drawbacks\n\n- Heavy dilution from the promote, warrants and PIPE discounts; the effective cost of capital is high.\n- Redemption risk leaves uncertain proceeds.\n- Post-merger performance has on average been poor, and regulators have tightened disclosure and liability rules, which reduced SPAC activity after the 2020 to 2021 boom.\n\nFrom an M&A analyst's view a de-SPAC is modelled like a stock-for-stock merger: pro forma ownership across target holders, public SPAC holders, sponsor and PIPE investors at various redemption levels, plus sources and uses of the trust cash.",
+    "commonMistakes": [
+      "Describing a SPAC as a form of leveraged buyout.",
+      "Forgetting that redemptions can remove most of the trust cash."
+    ],
+    "followUps": [
+      "How does the sponsor promote affect the effective price a target receives?",
+      "Why can SPACs include projections in their filings when IPOs typically do not?"
+    ],
+    "tags": ["spac", "reverse merger", "going public", "alternatives"]
+  }
+]

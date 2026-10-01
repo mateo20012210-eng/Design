@@ -1,0 +1,26 @@
+{
+  "$comment": "Feeds for the weekly Market Pulse. Add/remove entries freely; set enabled=false to pause one. authority 1-5 decides which outlet is kept as the representative when several cover the same story. Run `npm run verify-feeds` to check every feed (use --apply to disable the ones that fail).",
+  "sources": [
+    { "name": "CNBC Finance", "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html", "region": "North America", "enabled": true, "authority": 4, "notes": "Public RSS; headlines + summaries with links." },
+    { "name": "CNBC Business", "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html", "region": "North America", "enabled": true, "authority": 4 },
+    { "name": "Wall Street Journal Markets", "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "region": "North America", "enabled": true, "authority": 5, "notes": "Dow Jones public RSS (headline + short description + link; articles are paywalled)." },
+    { "name": "Wall Street Journal Business", "url": "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml", "region": "North America", "enabled": true, "authority": 5 },
+    { "name": "Financial Times Companies", "url": "https://www.ft.com/companies?format=rss", "region": "Europe", "enabled": true, "authority": 5, "notes": "FT section RSS; headlines + standfirst + link only (articles paywalled)." },
+    { "name": "Financial Times M&A", "url": "https://www.ft.com/mergers-acquisitions?format=rss", "region": "Europe", "enabled": true, "authority": 5 },
+    { "name": "NYT DealBook", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml", "region": "North America", "enabled": true, "authority": 4 },
+    { "name": "PE Hub", "url": "https://www.pehub.com/feed/", "region": "North America", "enabled": true, "authority": 4, "notes": "Private equity deal news." },
+    { "name": "Private Equity International", "url": "https://www.privateequityinternational.com/feed/", "region": "Global", "enabled": true, "authority": 4 },
+    { "name": "PitchBook News", "url": "https://pitchbook.com/news/rss", "region": "Global", "enabled": true, "authority": 4, "notes": "Unverified URL — verify-feeds will flag it if it does not resolve." },
+    { "name": "Mergers & Acquisitions (The Middle Market)", "url": "https://www.themiddlemarket.com/feed", "region": "North America", "enabled": true, "authority": 3, "notes": "Unverified URL." },
+    { "name": "LatinFinance", "url": "https://www.latinfinance.com/feed/", "region": "Latin America", "enabled": true, "authority": 3, "notes": "Unverified URL." },
+    { "name": "Google News · M&A", "url": "https://news.google.com/rss/search?q=%28acquisition+OR+merger+OR+takeover+OR+%22agrees+to+buy%22%29+%28billion+OR+million%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "enabled": true, "authority": 2, "notes": "Fallback aggregator. Items carry the original publisher as source." },
+    { "name": "Google News · Private equity", "url": "https://news.google.com/rss/search?q=%28%22private+equity%22+OR+buyout+OR+%22take-private%22%29+%28billion+OR+million%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "enabled": true, "authority": 2 },
+    { "name": "Google News · IPOs", "url": "https://news.google.com/rss/search?q=%28IPO+OR+%22initial+public+offering%22+OR+listing%29+%28raises+OR+prices+OR+debut%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "enabled": true, "authority": 2 },
+    { "name": "Google News · Leveraged finance", "url": "https://news.google.com/rss/search?q=%28%22leveraged+loan%22+OR+%22high-yield+bond%22+OR+%22private+credit%22+OR+refinancing%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "enabled": true, "authority": 2 },
+    { "name": "Google News · Restructuring", "url": "https://news.google.com/rss/search?q=%28%22Chapter+11%22+OR+restructuring+OR+%22debt-for-equity%22+OR+insolvency%29+%28creditors+OR+bondholders+OR+lenders%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "enabled": true, "authority": 2 },
+    { "name": "Google News · Europe deals", "url": "https://news.google.com/rss/search?q=%28acquisition+OR+merger+OR+buyout+OR+IPO%29+%28Europe+OR+London+OR+Paris+OR+Frankfurt+OR+Madrid+OR+Milan%29+when%3A7d&hl=en-GB&gl=GB&ceid=GB%3Aen", "region": "Europe", "enabled": true, "authority": 2 },
+    { "name": "Google News · Latin America deals", "url": "https://news.google.com/rss/search?q=%28acquisition+OR+merger+OR+buyout+OR+IPO%29+%28Brazil+OR+Mexico+OR+Chile+OR+Colombia+OR+Argentina+OR+%22Latin+America%22%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "region": "Latin America", "enabled": true, "authority": 2 },
+    { "name": "Google News · Asia-Pacific deals", "url": "https://news.google.com/rss/search?q=%28acquisition+OR+merger+OR+buyout+OR+IPO%29+%28Japan+OR+China+OR+%22Hong+Kong%22+OR+India+OR+Singapore+OR+Australia%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "region": "APAC", "enabled": true, "authority": 2 },
+    { "name": "Google News · Middle East & Africa deals", "url": "https://news.google.com/rss/search?q=%28acquisition+OR+merger+OR+buyout+OR+IPO%29+%28Saudi+OR+UAE+OR+Dubai+OR+Qatar+OR+Africa+OR+%22Middle+East%22%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen", "region": "Middle East & Africa", "enabled": true, "authority": 2 }
+  ]
+}

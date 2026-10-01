@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "acc-001",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Walk me through the three financial statements.",
+    "keyAnswer": "The income statement shows revenue, expenses and net income over a period. The balance sheet is a snapshot of assets, liabilities and shareholders' equity at one date, with assets equal to liabilities plus equity. The cash flow statement starts from net income, adjusts for non-cash items and working-capital changes, then adds investing and financing flows to explain the change in cash.",
+    "explanation": "### Income statement (period)\nRevenue minus expenses equals net income. It is built on **accrual accounting**: revenue is recorded when earned and expenses when incurred, not when cash moves. Key lines: revenue, COGS, gross profit, operating expenses (SG&A, R&D), D&A, operating income (EBIT), interest, pre-tax income, taxes, net income.\n\n### Balance sheet (point in time)\nA snapshot that must always satisfy **Assets = Liabilities + Shareholders' Equity**. Assets (cash, receivables, inventory, PP&E, goodwill) are what the company controls; liabilities (payables, accrued expenses, deferred revenue, debt) are what it owes; equity is the residual claim (common stock, APIC, retained earnings, treasury stock, accumulated OCI).\n\n### Cash flow statement (period)\nBecause net income is not cash, the CFS reconciles the two:\n\n- **Cash from operations (CFO)**: net income, plus non-cash charges (D&A, SBC, impairments), plus or minus changes in operating working capital.\n- **Cash from investing (CFI)**: capex, acquisitions, purchases and sales of investments.\n- **Cash from financing (CFF)**: debt raised or repaid, shares issued or repurchased, dividends.\n\nThe sum is the net change in cash, which ties to the balance sheet.\n\n### Why all three?\nEach answers a different question: profitability (IS), financial position (BS) and liquidity (CFS). A company can be profitable yet run out of cash, or report losses while generating cash, so no single statement is sufficient.",
+    "commonMistakes": [
+      "Describing the balance sheet as covering a period rather than a single date",
+      "Forgetting to say that the CFS starts from net income and ends at the change in cash",
+      "Listing line items without explaining the accrual-versus-cash distinction"
+    ],
+    "followUps": [
+      "How do the three statements connect to each other?",
+      "Which statement is the most important and why?",
+      "Where does net income appear on the balance sheet?"
+    ],
+    "ifrsNote": "IFRS uses the terms \"statement of financial position\" (balance sheet) and \"statement of profit or loss and other comprehensive income\". IFRS balance sheets often list non-current items first and present liquidity in reverse order, but the identity A = L + E and the three-statement logic are identical.",
+    "tags": [
+      "three statements",
+      "income statement",
+      "balance sheet",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-002",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "If you could only look at one financial statement to judge a company, which would you choose and why?",
+    "keyAnswer": "The cash flow statement, because cash is what actually pays creditors, funds investment and returns capital, and it is far harder to manipulate than accrual earnings. It also reveals how much of net income is real cash and where cash is being deployed.",
+    "explanation": "### Why the cash flow statement\n- **Cash is reality.** Net income depends on judgement calls: revenue recognition timing, depreciation lives, provisions, capitalisation choices. The change in cash is a fact.\n- **It exposes the quality of earnings.** A firm with net income of $50 but CFO of -$30 is funding growth with external capital or stretching receivables; the IS alone would hide that.\n- **It shows capital allocation.** CFI tells you how much is reinvested; CFF tells you whether the business is funded by debt, equity or its own cash.\n- **It is closest to valuation.** Discounted cash flow, FCF yields and credit analysis all start from cash flows, not accounting profit.\n\n### Why not the others\n- The **income statement** ignores capex, working capital and financing, and is most exposed to accounting choices.\n- The **balance sheet** is a static snapshot: it shows what is there, not how it got there, and historical cost can be far from economic value.\n\n### The classic follow-up\n\"If you could pick two?\" Choose the **income statement and balance sheet**, because with two consecutive balance sheets and the income statement you can rebuild the cash flow statement. You cannot reverse-engineer the other two from the CFS alone.\n\n### Caveat\nCash flow can be flattered too: delaying payables, cutting capex or selling receivables. That is why the CFS should be read with the balance sheet changes behind it.",
+    "commonMistakes": [
+      "Saying \"income statement because it shows profit\" without addressing accrual distortions",
+      "Not knowing that the CFS can be rebuilt from the other two statements",
+      "Claiming cash flow cannot be manipulated at all"
+    ],
+    "followUps": [
+      "If you could choose two statements, which ones?",
+      "How can a company game its cash flow from operations?",
+      "Why is EBITDA not a substitute for cash flow?"
+    ],
+    "tags": [
+      "three statements",
+      "cash flow statement",
+      "quality of earnings"
+    ]
+  },
+  {
+    "id": "acc-003",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "How do the three financial statements link together?",
+    "keyAnswer": "Net income from the income statement is the first line of the cash flow statement and flows into retained earnings on the balance sheet. Non-cash items and changes in balance-sheet working capital adjust net income to cash from operations; investing and financing flows change PP&E, debt and equity; and the ending cash on the cash flow statement becomes the cash balance on the balance sheet.",
+    "explanation": "### The links, one by one\n| From | To | Mechanism |\n|---|---|---|\n| Net income (IS) | CFS, line 1 | Starting point of cash from operations |\n| Net income (IS) | Retained earnings (BS) | RE end = RE begin + net income - dividends |\n| D&A, SBC, impairments (IS) | CFO add-backs (CFS) | Non-cash expenses reduced NI but not cash |\n| Working-capital accounts (BS) | CFO (CFS) | Increase in an operating asset uses cash; increase in an operating liability provides cash |\n| Capex, acquisitions (CFS, CFI) | PP&E, goodwill (BS) | PP&E end = PP&E begin + capex - depreciation |\n| Debt issued/repaid, equity issued/bought back, dividends (CFS, CFF) | Debt, common stock, treasury stock, RE (BS) | Financing flows change the right side of the balance sheet |\n| Net change in cash (CFS) | Cash (BS) | Cash end = cash begin + net change |\n\n### Why the balance sheet balances\nEvery item on the CFS changes either cash or another balance-sheet line. If the CFS is complete and correct, the change in cash equals the net change in all the other accounts, so assets still equal liabilities plus equity.\n\n### Mini example (25% tax)\nDepreciation rises by $10: net income falls $7.5; on the CFS, NI is -7.5 and D&A is +10, so cash rises $2.5; on the BS, cash +2.5 and PP&E -10 give assets -7.5, matched by retained earnings -7.5. The three statements tie.",
+    "commonMistakes": [
+      "Only mentioning the net income link and forgetting the cash and retained-earnings links",
+      "Getting the working-capital sign backwards (an asset increase uses cash)",
+      "Not being able to prove the balance sheet balances with a numerical example"
+    ],
+    "followUps": [
+      "Walk me through how a $10 increase in depreciation flows through the statements.",
+      "Where does capex appear on each statement?",
+      "What is the roll-forward formula for retained earnings and for PP&E?"
+    ],
+    "tags": [
+      "three statements",
+      "linkages",
+      "retained earnings",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-004",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Depreciation goes up by $10. Walk me through the impact on the three statements, assuming a 25% tax rate.",
+    "keyAnswer": "Income statement: operating income falls $10, taxes fall $2.5, net income falls $7.5. Cash flow statement: net income is down $7.5 but the $10 depreciation is added back, so cash rises $2.5. Balance sheet: cash is up $2.5, PP&E is down $10, so assets fall $7.5, matched by retained earnings falling $7.5.",
+    "explanation": "### Income statement\n- Depreciation expense +$10, so pre-tax income -$10.\n- Taxes fall by 25% x 10 = $2.5.\n- **Net income -$7.5.**\n\n### Cash flow statement\n- Start with net income: -$7.5.\n- Depreciation is non-cash, so add it back: +$10.\n- **Cash from operations +$2.5**; no change to investing or financing.\n- Net change in cash: **+$2.5**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | +2.5 |\n| PP&E (net) | -10.0 |\n| **Total assets** | **-7.5** |\n| Retained earnings | -7.5 |\n| **Total L + E** | **-7.5** |\n\nBoth sides fall by $7.5, so the balance sheet balances.\n\n### The intuition\nDepreciation itself never moves cash (the cash left when the asset was bought). The only cash effect is the **tax shield**: because depreciation is tax-deductible, the company pays $2.5 less tax. That is why net income falls but cash goes up.\n\nInterviewers often ask this with a wrinkle: \"What if depreciation is not tax-deductible?\" Then net income falls the full $10, the add-back is +$10, cash is unchanged, PP&E -$10 and retained earnings -$10.",
+    "commonMistakes": [
+      "Saying cash falls because \"depreciation is an expense\"",
+      "Forgetting the tax effect and reporting net income down $10",
+      "Only reducing PP&E without also adjusting cash and retained earnings"
+    ],
+    "followUps": [
+      "What if the depreciation were not tax-deductible?",
+      "Would you rather have higher depreciation or lower depreciation as a shareholder?",
+      "Now assume the company uses accelerated depreciation for tax only. What changes?"
+    ],
+    "tags": [
+      "walkthrough",
+      "depreciation",
+      "tax shield",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-005",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "A company buys $10 of inventory and pays cash. Walk me through the three statements, then tell me what happens when the inventory is sold for $15.",
+    "keyAnswer": "On purchase nothing hits the income statement; cash from operations falls $10 because inventory rose, and on the balance sheet cash is down $10 and inventory up $10. On sale, revenue of $15 and COGS of $10 give $5 of pre-tax income and $3.75 of net income; inventory falls $10, which is added back on the CFS, so cash rises $13.75 if the sale is for cash.",
+    "explanation": "### Step 1: purchase\n- **Income statement**: no change. Inventory is an asset until sold; buying it is not an expense.\n- **Cash flow statement**: increase in inventory is a use of cash within working capital, so CFO is **-$10**.\n- **Balance sheet**: cash -$10, inventory +$10; total assets unchanged, so nothing changes on the liabilities and equity side.\n\n### Step 2: sale for $15 cash (25% tax)\n- **Income statement**: revenue +$15, COGS +$10, pre-tax income +$5, tax $1.25, **net income +$3.75**.\n- **Cash flow statement**: net income +$3.75; inventory decreases by $10 (a source of cash) so +$10; **CFO +$13.75**.\n- **Balance sheet**: cash +$13.75, inventory -$10, so assets +$3.75; retained earnings +$3.75. Balanced.\n\n### Combined over both steps\nCash: -10 + 13.75 = **+$3.75**, exactly the net income, because once the inventory has been bought and sold there is no remaining accrual difference.\n\n### Why this question is asked\nIt tests whether you know that **expense recognition follows the sale (matching principle)**, not the purchase, and that inventory is a working-capital item that flows through CFO, not CFI.\n\nIf the inventory were bought on credit instead of with cash, accounts payable would rise $10 alongside inventory, and CFO would show -$10 for inventory and +$10 for payables, leaving cash unchanged until the supplier is paid.",
+    "commonMistakes": [
+      "Expensing the inventory at purchase",
+      "Putting the inventory purchase in cash from investing",
+      "Forgetting to add back the inventory decrease when it is sold"
+    ],
+    "followUps": [
+      "What if the inventory were bought on credit?",
+      "How does the answer change under LIFO vs FIFO in an inflationary environment?",
+      "What happens if the inventory becomes obsolete and must be written down?"
+    ],
+    "tags": [
+      "walkthrough",
+      "inventory",
+      "working capital",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-006",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Accrued expenses increase by $10. What happens on each of the three statements?",
+    "keyAnswer": "An accrued expense is a cost recognised before it is paid, so operating expenses rise $10, taxes fall $2.5 and net income falls $7.5. On the CFS, net income is -7.5 but the $10 increase in accrued liabilities is a source of cash, so cash rises $2.5. On the balance sheet cash is +2.5, accrued liabilities +10 and retained earnings -7.5.",
+    "explanation": "### What an accrual is\nThe company has consumed a service (wages, utilities, interest, bonuses) but has not yet paid for it. Under accrual accounting the expense is booked now; the cash leaves later.\n\n### Income statement\n- Operating expense +$10, pre-tax income -$10.\n- Taxes -$2.5 (assuming the expense is tax-deductible when accrued).\n- **Net income -$7.5.**\n\n### Cash flow statement\n- Net income: -$7.5.\n- Increase in accrued liabilities (an operating liability rising) is a source of cash: +$10.\n- **CFO +$2.5**, net change in cash +$2.5.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | +2.5 |\n| Accrued liabilities | +10.0 |\n| Retained earnings | -7.5 |\n\nAssets +2.5 = Liabilities +10 + Equity -7.5. Balanced.\n\n### When the accrual is paid\nNext period the company pays the $10: no income-statement effect, accrued liabilities fall $10 (a use of cash on the CFS), cash falls $10. Over the two periods the net cash effect is -$7.5, matching the after-tax cost.\n\n### Why cash goes up initially\nThe expense reduced taxes today, but the cash payment to the supplier or employee has not happened yet. The combination is a short-term cash benefit of the tax saving.",
+    "commonMistakes": [
+      "Treating the accrual as having no income-statement effect, as if it were deferred revenue",
+      "Showing cash down $10 in the period the expense is accrued",
+      "Forgetting the tax effect"
+    ],
+    "followUps": [
+      "What is the difference between accrued expenses and accounts payable?",
+      "What happens when the accrued expense is actually paid?",
+      "How is this different from a $10 increase in deferred revenue?"
+    ],
+    "tags": [
+      "walkthrough",
+      "accrued expenses",
+      "working capital",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-007",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "The company records $10 of revenue but the customer has not paid yet. Walk me through the effect on the three statements.",
+    "keyAnswer": "Revenue rises $10, so with 25% tax net income rises $7.5. On the cash flow statement net income is +7.5 but accounts receivable rose $10, which is a use of cash, so cash falls $2.5. On the balance sheet cash is -2.5, receivables +10, so assets are +7.5, matched by retained earnings +7.5.",
+    "explanation": "### Income statement\n- Revenue +$10 (recognised when the performance obligation is satisfied, not when cash arrives).\n- Pre-tax income +$10, tax +$2.5 (assume taxes are paid in cash this period).\n- **Net income +$7.5.**\n\n### Cash flow statement\n- Net income: +$7.5.\n- Increase in accounts receivable: -$10 (an operating asset rose, so cash was not collected).\n- **CFO -$2.5.** Cash falls because the company paid tax on income it has not collected.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | -2.5 |\n| Accounts receivable | +10.0 |\n| **Total assets** | **+7.5** |\n| Retained earnings | +7.5 |\n\n### When the customer pays\nLater, cash +$10 and receivables -$10: no income-statement effect, CFO +$10. Across both periods net cash is +$7.5, equal to net income.\n\n### Why interviewers like this one\nIt shows the gap between **profit and cash**: a fast-growing company booking sales on credit can report rising net income while burning cash. It also tests the sign convention for working capital on the CFS: **asset up = cash down**.",
+    "commonMistakes": [
+      "Saying cash is unchanged, forgetting that tax is still paid",
+      "Recording the revenue only when cash is received",
+      "Adding the receivable increase instead of subtracting it on the CFS"
+    ],
+    "followUps": [
+      "What if the customer never pays?",
+      "How would this look for a company whose receivables are growing faster than revenue?",
+      "What is the opposite case, where cash is collected before revenue is earned?"
+    ],
+    "tags": [
+      "walkthrough",
+      "accounts receivable",
+      "revenue recognition",
+      "working capital"
+    ]
+  },
+  {
+    "id": "acc-008",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "A customer pays $10 upfront for a service you will deliver next year. Walk me through the statements now and when the service is delivered.",
+    "keyAnswer": "Now: no income-statement effect, cash from operations rises $10 because deferred revenue rose, and the balance sheet shows cash +10 and deferred revenue +10. On delivery: revenue +10 and net income +7.5; on the CFS net income is +7.5 but deferred revenue falls 10, so cash falls 2.5 from the tax paid; on the balance sheet cash -2.5, deferred revenue -10, retained earnings +7.5.",
+    "explanation": "### Period 1: cash received, nothing delivered\n- **Income statement**: no change. Revenue cannot be recognised until the performance obligation is satisfied.\n- **Cash flow statement**: increase in deferred revenue (an operating liability) is a source of cash: **CFO +$10**.\n- **Balance sheet**: cash +$10, deferred revenue +$10. Assets +10 = Liabilities +10.\n\n### Period 2: service delivered (25% tax)\n- **Income statement**: revenue +$10, pre-tax +$10, tax $2.5, **net income +$7.5**.\n- **Cash flow statement**: net income +$7.5, decrease in deferred revenue -$10, **CFO -$2.5** (the only cash movement is the tax payment).\n- **Balance sheet**: cash -$2.5, deferred revenue -$10, retained earnings +$7.5. Assets -2.5 = Liabilities -10 + Equity +7.5.\n\n### Across both periods\nCash +10 - 2.5 = **+$7.5**, equal to net income once everything has unwound.\n\n### Why it matters\n- Deferred revenue is common in software subscriptions, airlines, publishers and gyms. Growing deferred revenue is a **positive working-capital signal** because customers are financing the business.\n- It is a liability even though it is not \"owed\" in cash: the obligation is to deliver the service.\n- Tax note: for simplicity, we assume tax follows book recognition. In practice cash tax is often paid when cash is received, which would create a deferred tax asset; interviewers rarely go there unless you raise it.",
+    "commonMistakes": [
+      "Recognising revenue when the cash arrives",
+      "Calling deferred revenue an asset",
+      "Forgetting that cash falls on delivery because of tax"
+    ],
+    "followUps": [
+      "Why is deferred revenue a liability if the company never has to repay cash?",
+      "How does deferred revenue differ from accrued liabilities?",
+      "How would an acquirer treat the target's deferred revenue in a deal?"
+    ],
+    "tags": [
+      "walkthrough",
+      "deferred revenue",
+      "working capital",
+      "revenue recognition"
+    ]
+  },
+  {
+    "id": "acc-009",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "A company pays a $10 insurance premium in cash today covering next year. Walk me through both periods on the three statements.",
+    "keyAnswer": "This creates a prepaid expense. Today: no income-statement effect, prepaid expenses rise $10 which is a use of cash on the CFS, so cash falls $10; the balance sheet shows cash -10 and prepaid +10. Next year the $10 is expensed: net income falls $7.5, the $10 decrease in prepaids is added back so cash rises $2.5, and the balance sheet shows cash +2.5, prepaid -10, retained earnings -7.5.",
+    "explanation": "### Period 1: payment\n- **Income statement**: nothing. Paying for a future benefit creates an asset, not an expense.\n- **Cash flow statement**: increase in prepaid expenses (operating asset) is a use of cash: **CFO -$10**.\n- **Balance sheet**: cash -$10, prepaid expenses +$10. Total assets unchanged.\n\n### Period 2: expense recognised (25% tax)\n- **Income statement**: insurance expense +$10, pre-tax -$10, tax -$2.5, **net income -$7.5**.\n- **Cash flow statement**: net income -$7.5; decrease in prepaids is a source of cash: +$10; **CFO +$2.5**.\n- **Balance sheet**: cash +$2.5, prepaid -$10, so assets -$7.5; retained earnings -$7.5.\n\n### Two-period total\nCash -10 + 2.5 = **-$7.5**, the after-tax cost of the insurance.\n\n### Compare with the mirror-image accounts\n| Account | Cash first or expense/revenue first? | Balance-sheet side |\n|---|---|---|\n| Prepaid expense | Cash first, expense later | Asset |\n| Accrued liability | Expense first, cash later | Liability |\n| Deferred revenue | Cash first, revenue later | Liability |\n| Accounts receivable | Revenue first, cash later | Asset |\n\nKnowing these four pairs lets you answer almost any working-capital walkthrough. The tax assumption here is that the deduction follows the book expense; if the tax authority allowed the deduction when paid, a deferred tax liability would briefly appear.",
+    "commonMistakes": [
+      "Expensing the premium when it is paid",
+      "Treating the prepaid decrease as a use of cash in period 2",
+      "Mixing up prepaid expenses (asset) with accrued expenses (liability)"
+    ],
+    "followUps": [
+      "How is a prepaid expense different from capex?",
+      "Where do prepaid expenses sit in the net working capital calculation?",
+      "What happens if the policy is cancelled and the premium refunded?"
+    ],
+    "tags": [
+      "walkthrough",
+      "prepaid expenses",
+      "working capital",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-010",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "A company issues $100 of debt and uses it to buy equipment at the end of the year. What happens on the three statements in year 1?",
+    "keyAnswer": "Nothing changes on the income statement because no depreciation or interest has accrued yet. On the cash flow statement, capex of -$100 in investing is offset by +$100 of debt issuance in financing, so cash is flat. On the balance sheet, PP&E rises $100 and debt rises $100.",
+    "explanation": "### Income statement\nNo impact in year 1. Buying an asset is not an expense; the cost will reach the IS gradually as **depreciation** over its useful life, and the debt will generate **interest expense** from next year.\n\n### Cash flow statement\n- Cash from operations: no change.\n- Cash from investing: capital expenditure **-$100**.\n- Cash from financing: proceeds from debt **+$100**.\n- Net change in cash: **$0**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| PP&E | +100 |\n| Long-term debt | +100 |\n\nAssets +100 = Liabilities +100. Equity unchanged.\n\n### Why the timing assumption matters\nIf the purchase happened at the start of the year, year 1 would already include depreciation and interest, which is the follow-up interviewers usually ask next. Stating the assumption (\"purchased on the last day of the year\") shows you understand the mechanics rather than reciting a script.\n\n### What it tells you about the business\nThe company is growing its asset base with leverage: leverage ratios (debt/EBITDA) rise immediately, while any return on the equipment arrives only when it starts producing revenue. Interest coverage will fall next year as interest expense begins.",
+    "commonMistakes": [
+      "Recording the $100 purchase as an expense on the income statement",
+      "Putting the capex in operating cash flow",
+      "Forgetting that the financing inflow exactly offsets the investing outflow"
+    ],
+    "followUps": [
+      "Now walk me through year 2 with 10-year straight-line depreciation and 5% interest.",
+      "What if the equipment were bought with cash instead of debt?",
+      "How would this change EV and leverage ratios?"
+    ],
+    "ifrsNote": "Under IAS 16, IFRS allows a revaluation model for PP&E: after initial recognition the asset can be carried at fair value, with increases going to a revaluation surplus in OCI. US GAAP permits only the historical-cost model. In practice most IFRS companies also use cost.",
+    "tags": [
+      "walkthrough",
+      "capex",
+      "debt",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-011",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Same equipment: now it is year 2. The $100 asset depreciates straight-line over 10 years and the $100 of debt carries 5% interest paid in cash. Walk me through the three statements, with a 25% tax rate.",
+    "keyAnswer": "Depreciation is $10 and interest is $5, so pre-tax income falls $15, taxes fall $3.75 and net income falls $11.25. On the CFS, net income is -11.25 and depreciation is added back +10, so cash falls $1.25. On the balance sheet, cash -1.25 and PP&E -10 give assets -11.25, matched by retained earnings -11.25; debt is unchanged because no principal was repaid.",
+    "explanation": "### Income statement\n- Depreciation: 100 / 10 = **$10**.\n- Interest: 5% x 100 = **$5**.\n- Pre-tax income -$15; taxes -25% x 15 = -$3.75.\n- **Net income -$11.25.**\n\n### Cash flow statement\n- Net income: -$11.25.\n- Add back depreciation (non-cash): +$10.\n- Interest was paid in cash and is already inside net income, so no further adjustment.\n- **CFO -$1.25**; CFI and CFF are zero (no capex, no principal repayment).\n- Net change in cash: **-$1.25**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | -1.25 |\n| PP&E (net) | -10.00 |\n| **Total assets** | **-11.25** |\n| Debt | 0 |\n| Retained earnings | -11.25 |\n\nAssets -11.25 = Liabilities 0 + Equity -11.25. Balanced.\n\n### Reading the result\nThe cash drain is just the after-tax interest: 5 x (1 - 0.25) = $3.75, offset by the depreciation tax shield of 10 x 0.25 = $2.5, net **-$1.25**. The depreciation itself does not consume cash; interest does.\n\n### Variations interviewers add\n- **Principal repayment of $10**: an extra -$10 in CFF, debt -$10, cash -$10 more.\n- **Equipment generating revenue**: add the revenue and its tax, and the picture turns positive if the asset earns more than its depreciation plus after-tax interest.\n- **Purchase at the start of year 1**: these effects would already appear in year 1.",
+    "commonMistakes": [
+      "Treating interest as non-cash and adding it back",
+      "Forgetting to add back depreciation",
+      "Changing the debt balance when only interest, not principal, was paid"
+    ],
+    "followUps": [
+      "How would the answer change if $10 of principal were also repaid?",
+      "What is the after-tax cost of this debt?",
+      "Would you prefer to fund this with debt or equity, and why from an accounting view?"
+    ],
+    "tags": [
+      "walkthrough",
+      "depreciation",
+      "interest expense",
+      "debt"
+    ]
+  },
+  {
+    "id": "acc-012",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "A company writes down $100 of goodwill. How do the three statements change?",
+    "keyAnswer": "The income statement shows a $100 impairment charge; if it is tax-deductible net income falls $75, otherwise it falls the full $100. On the CFS the write-down is non-cash and added back, so cash rises by the tax saving ($25) or is unchanged if non-deductible. On the balance sheet goodwill falls $100 and retained earnings fall by the net income hit, with cash up by any tax saving.",
+    "explanation": "### Case A: impairment is tax-deductible (the usual interview simplification)\n- **Income statement**: impairment expense +$100, pre-tax income -$100, taxes -$25, **net income -$75**.\n- **Cash flow statement**: net income -$75, add back non-cash impairment +$100, **CFO +$25**.\n- **Balance sheet**: cash +$25, goodwill -$100, so assets -$75; retained earnings -$75.\n\n### Case B: impairment is not tax-deductible (common in practice for goodwill)\n- **Income statement**: net income **-$100**.\n- **Cash flow statement**: -100 + 100 = **$0** cash effect.\n- **Balance sheet**: goodwill -$100, retained earnings -$100.\n\n| | Case A | Case B |\n|---|---|---|\n| Net income | -75 | -100 |\n| Cash | +25 | 0 |\n| Goodwill | -100 | -100 |\n| Retained earnings | -75 | -100 |\n\n### What it means economically\nA write-down is an admission that an acquisition (or asset) is worth less than what was paid. It is a **non-cash** charge, so it does not affect liquidity, but it signals poor capital allocation and can breach covenants based on equity or net worth. The same mechanics apply to impairing PP&E or other intangibles.\n\nGoodwill is **never amortised** under US GAAP for public companies; it is tested for impairment at least annually, and once written down it cannot be written back up.",
+    "commonMistakes": [
+      "Showing a cash outflow for the impairment",
+      "Forgetting to add the charge back on the cash flow statement",
+      "Assuming goodwill is amortised like other intangibles"
+    ],
+    "followUps": [
+      "Why might goodwill impairment not be tax-deductible?",
+      "How does a write-down affect EBITDA and credit ratios?",
+      "How is the impairment test performed?"
+    ],
+    "ifrsNote": "IAS 36 allows impairment losses on PP&E and intangibles to be reversed in later periods if the recoverable amount recovers, up to the carrying value that would have existed without the impairment. Goodwill impairments can never be reversed under either framework.",
+    "tags": [
+      "walkthrough",
+      "impairment",
+      "goodwill",
+      "non-cash"
+    ]
+  },
+  {
+    "id": "acc-013",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Walk me through what happens on the three statements when a company raises $100 by issuing new shares.",
+    "keyAnswer": "There is no income-statement effect. On the cash flow statement, $100 of proceeds appears in financing, so cash rises $100. On the balance sheet cash is up $100 and shareholders' equity (common stock and APIC) is up $100.",
+    "explanation": "### Income statement\nNo change. Raising equity is a transaction with owners, not revenue. Transaction fees (underwriting) are normally netted against the proceeds in equity rather than expensed, so even fees do not usually hit net income.\n\n### Cash flow statement\n- CFO: no change.\n- CFI: no change.\n- CFF: proceeds from issuance of common stock **+$100**.\n- Net change in cash: **+$100**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | +100 |\n| Common stock + APIC | +100 |\n\nAssets +100 = Equity +100.\n\n### What happens afterwards\n- **Share count rises**, so EPS is diluted unless the cash earns more than the current return on equity.\n- Interest income on the new cash would appear in later periods (and be taxed).\n- Credit metrics improve: net debt falls by $100 and leverage declines.\n\n### Why it is asked\nIt checks that you do not confuse financing with profit, that you know where equity issuance sits on the CFS, and that you can keep the balance sheet in balance without touching retained earnings. The mirror transaction, a share repurchase, is the usual follow-up.",
+    "commonMistakes": [
+      "Putting the proceeds in operating cash flow",
+      "Increasing retained earnings instead of common stock and APIC",
+      "Treating the issuance as income"
+    ],
+    "followUps": [
+      "Now the company uses the $100 to buy back shares. What changes?",
+      "How does issuing equity affect EPS and leverage?",
+      "Where do underwriting fees go?"
+    ],
+    "tags": [
+      "walkthrough",
+      "equity issuance",
+      "financing",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-014",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "A company repurchases $100 of its own shares. How do the statements change?",
+    "keyAnswer": "No impact on the income statement. The cash flow statement shows -$100 in financing, so cash falls $100. On the balance sheet cash falls $100 and equity falls $100 through a treasury stock contra-account, so both sides drop by $100.",
+    "explanation": "### Income statement\nNothing. Buying back shares is a capital transaction; no gain or loss is ever recorded on a company's own stock, regardless of the price paid versus the price originally issued.\n\n### Cash flow statement\n- CFF: repurchase of common stock **-$100**.\n- Net change in cash: **-$100**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | -100 |\n| Treasury stock (contra-equity) | -100 |\n\nAssets -100 = Equity -100.\n\n### Second-order effects\n- **Shares outstanding fall**, so EPS rises even though net income is unchanged. This is often the stated motive.\n- **Forgone interest income** on the cash (or interest expense if the buyback is debt-funded) reduces future net income.\n- **Leverage rises** mechanically as equity shrinks; a large buyback can push book equity negative.\n- Book value per share may rise or fall depending on whether the buyback price is above or below book value per share.\n\n### How buybacks and dividends compare\nBoth return cash to shareholders and reduce equity by the cash amount. A dividend reduces **retained earnings**; a buyback creates **treasury stock** (or, if the shares are retired, reduces common stock and APIC). Neither touches the income statement.",
+    "commonMistakes": [
+      "Recording a loss or expense for the repurchase",
+      "Reducing retained earnings instead of creating treasury stock",
+      "Forgetting that EPS rises because the share count falls"
+    ],
+    "followUps": [
+      "Is a buyback always accretive to EPS?",
+      "What is treasury stock and how is it presented?",
+      "How would a debt-funded buyback differ?"
+    ],
+    "tags": [
+      "walkthrough",
+      "share buyback",
+      "treasury stock",
+      "financing"
+    ]
+  },
+  {
+    "id": "acc-015",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "The company pays a $10 cash dividend. Walk me through the three statements.",
+    "keyAnswer": "Dividends are not an expense, so the income statement is unchanged. The cash flow statement shows -$10 in financing and cash falls $10. On the balance sheet, cash is down $10 and retained earnings are down $10.",
+    "explanation": "### Income statement\nNo effect. Dividends are a distribution of profits already earned, not a cost of earning them, so they sit below net income (they appear in the statement of shareholders' equity and in EPS-related disclosures, not as an expense).\n\n### Cash flow statement\n- CFO: no change (US GAAP requires dividends **paid** in financing).\n- CFF: dividends paid **-$10**.\n- Net change in cash: **-$10**.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | -10 |\n| Retained earnings | -10 |\n\nAssets -10 = Equity -10.\n\n### Declared but not yet paid\nIf the dividend is declared at year-end and paid next period, the balance sheet shows **dividends payable +$10** and retained earnings -$10, with no cash movement until payment. This is a classic variation.\n\n### Stock dividends and splits\nA stock dividend moves value from retained earnings to common stock/APIC with no cash effect; a stock split changes only the share count and par value. Neither changes total equity.\n\n### Why it matters\nDividends reduce the equity cushion and cash available for reinvestment; a payout above net income over time pushes retained earnings and eventually equity negative. For a lender, dividends are a leakage that covenants frequently restrict.",
+    "commonMistakes": [
+      "Treating dividends as an expense that reduces net income",
+      "Placing dividends paid in operating cash flow",
+      "Ignoring the declared-but-unpaid case"
+    ],
+    "followUps": [
+      "Where do dividends received from an investment appear?",
+      "What happens if the dividend is declared but not yet paid?",
+      "Would you rather return cash via dividends or buybacks?"
+    ],
+    "ifrsNote": "IAS 7 lets a company classify dividends paid in either operating or financing activities (and dividends received in operating or investing), as long as the choice is applied consistently. IFRS 18 narrows these options from 2027 for most companies.",
+    "tags": [
+      "walkthrough",
+      "dividends",
+      "retained earnings",
+      "financing"
+    ]
+  },
+  {
+    "id": "acc-016",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "What is a deferred tax liability, how does it arise from accelerated depreciation, and how does it unwind? Use numbers.",
+    "keyAnswer": "A DTL is tax the company will owe in the future because book income exceeds taxable income today, most commonly because tax depreciation is faster than book depreciation. If book depreciation is $10 and tax depreciation is $20 on pre-tax book income of $100, book tax expense is $25 but cash tax is $22.5, creating a $2.5 DTL; later, when tax depreciation drops below book depreciation, cash tax exceeds book tax and the DTL reverses.",
+    "explanation": "### Why it happens\nCompanies keep two sets of books: GAAP for shareholders and tax for the authorities. Tax codes often permit **accelerated depreciation** (MACRS, bonus depreciation), which lowers taxable income early and raises it later. Total depreciation over the asset's life is the same under both; only timing differs.\n\n### Year 1 example (25% tax rate)\n| | Book | Tax |\n|---|---|---|\n| Income before depreciation | 110 | 110 |\n| Depreciation | 10 | 20 |\n| Pre-tax income | 100 | 90 |\n| Tax at 25% | 25.0 (expense) | 22.5 (cash paid) |\n\n- **Income statement**: tax expense $25, net income $75.\n- **Cash flow statement**: net income 75, add back the $2.5 increase in DTL (tax expensed but not paid): CFO benefits by **+$2.5** relative to book tax.\n- **Balance sheet**: DTL +$2.5 (liability), cash higher by $2.5 than if tax had been fully paid.\n\n### How it unwinds\nIn later years tax depreciation falls to, say, $5 while book stays $10: taxable income is now $5 higher than book income, cash tax exceeds book tax by $1.25, and the DTL decreases by $1.25. On the CFS the decrease in DTL is a **use of cash**. Over the full life the DTL returns to zero.\n\n### Interview angles\n- A **growing** capital-intensive company keeps adding new assets, so its DTL keeps growing and may never reverse in aggregate; some analysts treat it as quasi-permanent financing.\n- DTLs also arise in acquisitions when assets are written up for book but not for tax (a merger-model topic).\n- In a DCF you use the cash taxes implied by the tax books, so the change in deferred taxes is a cash-flow adjustment.",
+    "commonMistakes": [
+      "Saying a DTL arises when the company pays more tax than it expenses (that is a DTA)",
+      "Forgetting that the reversal is a cash outflow later",
+      "Assuming the DTL is interest-bearing debt"
+    ],
+    "followUps": [
+      "What creates a deferred tax asset?",
+      "How does an acquisition with an asset write-up create a DTL?",
+      "Should a growing company's DTL be treated as debt in valuation?"
+    ],
+    "tags": [
+      "deferred taxes",
+      "dtl",
+      "depreciation",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-017",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Explain deferred tax assets, including how net operating losses create one and what happens when the NOL is used.",
+    "keyAnswer": "A DTA represents future tax savings: the company has paid or expensed more tax for the tax authority than for book, or has losses it can offset against future profits. A $100 NOL at a 25% rate creates a $25 DTA. When the company later earns $100 of pre-tax income, it records $25 of book tax expense but pays nothing in cash; the DTA falls by $25 and the decrease is added back in cash from operations.",
+    "explanation": "### Sources of DTAs\n- **Net operating losses (NOLs)** carried forward to offset future taxable income.\n- Expenses recognised for book before they are deductible for tax: warranty provisions, bad-debt allowances, deferred compensation, some SBC.\n- Revenue taxed before it is recognised for book (e.g. cash received upfront taxed immediately).\n\n### NOL example (25% tax)\n**Year 1**: pre-tax loss of $100. Book tax benefit = $25, so net loss = **-$75**. Cash tax is zero, so on the CFS the $25 increase in the DTA is a **use of cash** relative to net income (net loss -75, minus 25 = CFO -100 from this item). Balance sheet: DTA +$25, retained earnings -$75.\n\n**Year 2**: pre-tax income of $100. Book tax expense = $25, net income **$75**. The NOL shelters the full $100, so cash tax = $0. The DTA decreases by $25, which is added back: CFO = 75 + 25 = **$100**. Balance sheet: DTA -$25, cash +$100, retained earnings +$75.\n\n### Valuation allowance\nIf management doubts it will ever generate enough taxable income, it books a **valuation allowance** against the DTA, which raises tax expense and reduces net income. Reversing the allowance when prospects improve produces a one-off tax benefit, a classic non-recurring item.\n\n### Why it matters in deals\nNOLs have real value because they reduce future cash taxes, but Section 382 limits their annual use after a change of ownership (roughly the equity value at the deal date multiplied by the long-term tax-exempt rate). Where the NOL belongs in the EV bridge is an Enterprise Value topic.",
+    "commonMistakes": [
+      "Saying the DTA itself is cash",
+      "Forgetting that using an NOL still produces book tax expense",
+      "Confusing a DTA increase (use of cash) with a DTL increase (source of cash)"
+    ],
+    "followUps": [
+      "What is a valuation allowance and when is it released?",
+      "How do Section 382 limits affect NOL value in an acquisition?",
+      "Can a company have both a DTA and a DTL at the same time?"
+    ],
+    "ifrsNote": "IAS 12 does not use a valuation allowance; a DTA is recognised only to the extent that future taxable profit is probable, so the asset is shown net rather than gross less allowance. The economics are the same.",
+    "tags": [
+      "deferred taxes",
+      "dta",
+      "nol",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-018",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "The company records $10 of stock-based compensation. Walk me through the three statements and explain why it is added back on the cash flow statement.",
+    "keyAnswer": "SBC is an operating expense, so pre-tax income falls $10, tax falls $2.5 and net income falls $7.5. It is paid in shares, not cash, so the $10 is added back on the CFS and cash actually rises $2.5 from the tax saving. On the balance sheet cash is +2.5, retained earnings -7.5 and APIC +10, so equity is +2.5.",
+    "explanation": "### Income statement (25% tax)\n- SBC expense +$10 (inside SG&A, R&D or COGS depending on who received it).\n- Pre-tax income -$10, taxes -$2.5 (assume deductible for simplicity).\n- **Net income -$7.5.**\n\n### Cash flow statement\n- Net income: -$7.5.\n- Add back SBC (non-cash): +$10.\n- **CFO +$2.5**, net change in cash +$2.5.\n\n### Balance sheet\n| Line | Change |\n|---|---|\n| Cash | +2.5 |\n| Retained earnings | -7.5 |\n| APIC | +10.0 |\n| **Total equity** | **+2.5** |\n\nAssets +2.5 = Equity +2.5. The company \"paid\" employees with equity, so equity rises by the value given away while retained earnings absorb the expense.\n\n### Why the add-back is legitimate for the CFS, but dangerous for valuation\nThe add-back is correct mechanically: no cash left the company. But the shareholders did pay, through **dilution**: more shares now share the same cash flows. Treating SBC as \"free\" by adding it back to FCF or adjusted EBITDA overstates value unless you also count the extra shares.\n\n### Tax timing nuance\nThe tax deduction usually comes at vesting or exercise, based on the share price then, not when the book expense is recognised. The difference creates a deferred tax asset. In an interview, stating the simplifying assumption that the deduction matches the expense is fine.",
+    "commonMistakes": [
+      "Showing a cash outflow for SBC",
+      "Forgetting the APIC increase, which breaks the balance sheet",
+      "Claiming SBC has no cost to shareholders"
+    ],
+    "followUps": [
+      "Is SBC a real expense? Should you subtract it from FCF?",
+      "How does SBC affect the diluted share count?",
+      "Why do tech companies emphasise \"adjusted EBITDA\" excluding SBC?"
+    ],
+    "tags": [
+      "walkthrough",
+      "stock-based compensation",
+      "non-cash",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-019",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Is stock-based compensation a real expense? How should an analyst treat it?",
+    "keyAnswer": "Yes. It is a genuine cost of attracting and retaining employees that shareholders pay through dilution rather than cash. The right treatment is either to leave SBC as an expense when valuing per-share cash flows, or to add it back but then fully reflect the dilution in the share count; adding it back and ignoring dilution double-counts the benefit.",
+    "explanation": "### The case that it is real\n- **Economic substance**: the company could have paid cash salaries instead. Issuing shares and immediately paying cash wages would be identical to SBC, yet nobody would add back cash wages.\n- **Recurring**: for most tech companies SBC is 5-25% of revenue every year, not a one-off.\n- **Dilution is a transfer of value** from existing holders to employees; FCF per share falls even if total FCF does not.\n- Buybacks used to \"offset dilution\" turn SBC into a very real cash outflow.\n\n### The case for adding it back\n- The CFS add-back is correct for measuring **cash generated** in the period.\n- Comparability: peers with different pay mixes (cash vs equity) can be compared on an ex-SBC basis, provided dilution is handled.\n- Non-cash charges do not affect liquidity or debt-service capacity, so lenders focus on cash EBITDA.\n\n### Consistent treatments\n| Approach | Numerator | Denominator |\n|---|---|---|\n| Treat as expense | FCF after SBC | Current diluted shares |\n| Add back | FCF before SBC | Shares including all future expected grants |\n\nBoth work; mixing them (adding back SBC and using today's share count) inflates value.\n\n### Practical signals\nLook at SBC as % of revenue, the growth in diluted shares outstanding, and whether \"adjusted\" metrics strip SBC. A company whose GAAP operating income is negative only because of SBC is still transferring real value to employees every year.\n\n### Where this sits in the statements\nOn the income statement SBC is an operating expense; on the CFS it is a non-cash add-back; on the balance sheet it increases APIC. Options and RSUs enter the diluted share count via the treasury stock method, which belongs to the Enterprise Value topic.",
+    "commonMistakes": [
+      "Answering \"no, because it is non-cash\"",
+      "Adding back SBC to FCF while using the undiluted share count",
+      "Treating SBC as non-recurring"
+    ],
+    "followUps": [
+      "How would you adjust a DCF for SBC?",
+      "Why might a lender ignore SBC but an equity investor not?",
+      "How do you compare two companies with different cash and equity pay mixes?"
+    ],
+    "tags": [
+      "stock-based compensation",
+      "dilution",
+      "quality of earnings",
+      "non-cash"
+    ]
+  },
+  {
+    "id": "acc-020",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "How does a bad-debt allowance work, and what happens on the three statements when a company books $10 of bad-debt expense and later writes off the receivable?",
+    "keyAnswer": "Under the allowance method the company estimates uncollectible receivables and books bad-debt expense of $10, reducing net income by $7.5 at 25% tax, with a $10 allowance that reduces net receivables; the expense is non-cash, so CFO rises $2.5. When a specific customer defaults, the receivable and the allowance are both reduced with no further income-statement effect.",
+    "explanation": "### Step 1: recognising the estimated loss (25% tax)\n- **Income statement**: bad-debt expense +$10 (in SG&A), pre-tax -$10, tax -$2.5, **net income -$7.5**.\n- **Cash flow statement**: net income -$7.5; the increase in the allowance is a non-cash charge, added back as +$10 (often shown inside the change in receivables); **CFO +$2.5**.\n- **Balance sheet**: cash +$2.5; allowance for doubtful accounts +$10, so **net receivables -$10**; assets -$7.5; retained earnings -$7.5. Balanced.\n\n### Step 2: the actual write-off\nA $10 invoice is deemed uncollectible: gross receivables -$10, allowance -$10. Net receivables, net income and cash are unchanged. The loss was already recognised in step 1; the write-off just cleans up the ledger.\n\n### Step 3: unexpected recovery\nIf the customer later pays, the entry is reversed and cash rises $10; net receivables fall. Some companies release part of the allowance through the income statement instead.\n\n### Why the allowance method\nIt follows the matching principle: credit losses are a cost of the sales that created them, so they are estimated and expensed in the same period as the revenue. The direct write-off method (expense only when a specific account fails) is not permitted for material amounts under GAAP.\n\n### CECL\nSince 2020 US GAAP (ASC 326) requires a lifetime **expected credit loss** estimate at origination, which front-loads provisions, particularly for banks. IFRS 9 uses a staged expected-loss model with a similar intent.\n\n### What analysts watch\nAllowance as a % of gross receivables and days sales outstanding. A falling allowance ratio while DSO rises can mean earnings are being flattered by under-provisioning.",
+    "commonMistakes": [
+      "Hitting the income statement again at the time of write-off",
+      "Showing a cash outflow for bad-debt expense",
+      "Confusing the allowance (contra-asset) with a liability"
+    ],
+    "followUps": [
+      "What is the difference between the allowance method and the direct write-off method?",
+      "How would you spot a company under-provisioning for bad debts?",
+      "How does CECL change the timing of credit-loss recognition?"
+    ],
+    "tags": [
+      "bad debt",
+      "allowance",
+      "accounts receivable",
+      "walkthrough"
+    ]
+  },
+  {
+    "id": "acc-021",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Interest expense increases by $10 and is paid in cash. Walk me through the statements. How would interest income differ?",
+    "keyAnswer": "Interest expense reduces pre-tax income by $10, taxes by $2.5 and net income by $7.5. Because it was paid in cash and is already inside net income, there is no add-back, so cash falls $7.5. On the balance sheet cash is -7.5 and retained earnings -7.5. Interest income of $10 is the mirror image: net income +7.5, cash +7.5.",
+    "explanation": "### Interest expense of $10 (25% tax)\n- **Income statement**: interest expense +$10, pre-tax income -$10, tax -$2.5, **net income -$7.5**.\n- **Cash flow statement**: net income -$7.5; interest is a cash operating item under US GAAP, so no adjustment; **CFO -$7.5**.\n- **Balance sheet**: cash -$7.5, retained earnings -$7.5.\n\nNote the after-tax cost of interest: $10 x (1 - 25%) = **$7.5**. This is why debt's cost is quoted after tax in WACC.\n\n### If the interest were accrued rather than paid\nAdd +$10 for the increase in interest payable on the CFS: CFO becomes **+$2.5**, and the balance sheet shows cash +2.5, interest payable +10, retained earnings -7.5. The cash leaves when the coupon is paid.\n\n### If the interest were PIK (paid in kind)\nPIK interest is added to the debt principal instead of paid in cash. It is expensed on the IS, added back on the CFS as non-cash, and debt rises $10. Cash rises by the tax saving.\n\n### Interest income of $10\n- **IS**: pre-tax +$10, tax +$2.5, **net income +$7.5**.\n- **CFS**: no adjustment if received in cash; **CFO +$7.5**.\n- **BS**: cash +$7.5, retained earnings +$7.5.\n\n### Why interviewers ask\nIt checks that you do not add back interest as if it were non-cash, that you understand the tax shield on debt, and that you know under US GAAP interest paid and received both sit in operating cash flow even though the debt itself is a financing item.",
+    "commonMistakes": [
+      "Adding back interest expense on the CFS as a non-cash item",
+      "Putting interest paid in cash from financing under US GAAP",
+      "Forgetting the tax effect so net income falls by $10"
+    ],
+    "followUps": [
+      "What if the interest is PIK?",
+      "Where does interest paid appear under IFRS?",
+      "Why is the cost of debt tax-effected in WACC?"
+    ],
+    "ifrsNote": "Under IAS 7 interest paid may be shown in operating or financing cash flows, and interest received in operating or investing, as an accounting policy choice. Many European companies put interest paid in financing, which makes their CFO look higher than a US GAAP peer.",
+    "tags": [
+      "walkthrough",
+      "interest expense",
+      "interest income",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-022",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Inventory is written down by $10 because it has become obsolete. Walk me through the three statements and how it differs from a goodwill impairment.",
+    "keyAnswer": "The write-down goes through COGS (or a separate line), so pre-tax income falls $10, taxes fall $2.5 and net income falls $7.5; it is non-cash, so it is added back on the CFS and cash rises $2.5. On the balance sheet inventory is down $10, cash up $2.5 and retained earnings down $7.5. Unlike goodwill, inventory write-downs are usually tax-deductible, hit gross margin, and under IFRS can be reversed.",
+    "explanation": "### The rule\nInventory is carried at the **lower of cost and net realisable value** (US GAAP for FIFO/average cost; LIFO and retail method use lower of cost or market). When selling price less costs to complete and sell falls below cost, the difference is written down immediately.\n\n### Three statements (25% tax, deductible)\n- **Income statement**: COGS +$10, gross profit -$10, pre-tax -$10, tax -$2.5, **net income -$7.5**. Gross margin declines, unlike a goodwill impairment which sits below operating profit or in a separate line.\n- **Cash flow statement**: net income -$7.5; the write-down is a non-cash reduction of inventory, shown either as a separate add-back or inside the change in inventory: +$10; **CFO +$2.5**.\n- **Balance sheet**: cash +$2.5, inventory -$10, assets -$7.5; retained earnings -$7.5.\n\n### Comparison with a goodwill impairment\n| | Inventory write-down | Goodwill impairment |\n|---|---|---|\n| IS line | COGS / gross margin | Separate operating line |\n| Usually tax-deductible? | Yes | Often no |\n| Size | Typically small, recurring | Large, lumpy |\n| Reversal (US GAAP) | Not allowed | Not allowed |\n| Reversal (IFRS) | Allowed up to original cost | Never |\n| EBITDA | Often included (hurts EBITDA) | Usually added back |\n\n### Analyst angle\nRepeated inventory write-downs signal weak demand forecasting or pricing pressure. Because they go through COGS, \"adjusted\" figures sometimes exclude them, so check reconciliations. A later reversal under IFRS flatters gross margin in the recovery period.",
+    "commonMistakes": [
+      "Treating the write-down as a cash outflow",
+      "Putting it below EBIT like an impairment",
+      "Assuming reversals are allowed under US GAAP"
+    ],
+    "followUps": [
+      "How does lower of cost and net realisable value differ from lower of cost or market?",
+      "Does an inventory write-down affect EBITDA?",
+      "How would LIFO vs FIFO change the likelihood of write-downs in inflation?"
+    ],
+    "ifrsNote": "IAS 2 requires inventory write-downs to be reversed (up to the original cost) if the net realisable value later recovers; US GAAP prohibits reversals. IAS 2 also prohibits LIFO.",
+    "tags": [
+      "inventory",
+      "write-down",
+      "walkthrough",
+      "cogs"
+    ]
+  },
+  {
+    "id": "acc-023",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "What is the difference between capitalising and expensing a cost, and how does the choice affect the three statements? Use a $100 example.",
+    "keyAnswer": "Expensing puts the full $100 on the income statement now, cutting net income by $75 at 25% tax; capitalising records a $100 asset and spreads the cost through depreciation or amortisation, so year-1 net income falls only $15 if it is depreciated over five years. Cash out the door is the same $100 either way, but it sits in operating cash flow if expensed and in investing if capitalised, and taxes are deferred when the deduction is spread.",
+    "explanation": "### The principle\nA cost is **capitalised** when it creates a future economic benefit lasting beyond the current period (buildings, equipment, acquired software, certain development costs). It is **expensed** when the benefit is consumed now (salaries, rent, advertising, most R&D under US GAAP).\n\n### Year-1 comparison, $100 spent, 5-year life, 25% tax\n| | Expense | Capitalise |\n|---|---|---|\n| IS charge in year 1 | 100 | 20 (depreciation) |\n| Tax saving in year 1 | 25 | 5 |\n| Net income impact | -75 | -15 |\n| CFO | -75 | +5 (NI -15 + D&A 20) |\n| CFI | 0 | -100 |\n| Total cash | -75 | -95 |\n| Balance sheet | RE -75 | PP&E +80, RE -15, cash -95 |\n\nCapitalising makes year 1 look far more profitable, boosts CFO and EBITDA, and creates an asset. Over five years total expense is identical ($100) and total cash tax saving converges, but capitalising **delays** the tax deduction (assuming tax follows book), so the time value is slightly worse.\n\n### Where companies have discretion\n- Software development (US GAAP: capitalise after technological feasibility or, for internal-use software, in the application-development stage).\n- Interest during construction (must be capitalised).\n- Repairs vs improvements.\n- Customer-acquisition costs under ASC 340-40.\n\n### Red flags\nRising capitalised costs as a share of spending, a jump in \"other assets\", or CFO growing while FCF does not can indicate aggressive capitalisation (WorldCom is the classic case). Analysts often normalise by treating capitalised development as an operating cost, or by looking at FCF, which captures the cash either way.",
+    "commonMistakes": [
+      "Saying the cash impact differs between the two treatments (it is the same cash, just classified differently)",
+      "Forgetting that capitalising boosts EBITDA and CFO",
+      "Assuming all R&D is capitalised"
+    ],
+    "followUps": [
+      "Why does capitalising improve CFO but not FCF?",
+      "How does US GAAP treat R&D versus IFRS?",
+      "How would you detect aggressive capitalisation in financial statements?"
+    ],
+    "ifrsNote": "IAS 38 requires development costs to be capitalised once six criteria are met (technical feasibility, intention and ability to complete, future benefits, resources, reliable measurement), while research is expensed. US GAAP expenses almost all R&D except specific software costs, so IFRS companies can show higher EBITDA, higher assets and lower CFO-to-FCF conversion than US peers.",
+    "tags": [
+      "capitalise vs expense",
+      "depreciation",
+      "r&d",
+      "quality of earnings"
+    ]
+  },
+  {
+    "id": "acc-024",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "How can a company report positive net income but have a decreasing cash balance?",
+    "keyAnswer": "Because net income is an accrual number: cash can fall when the company is building working capital (receivables and inventory growing faster than payables), spending heavily on capex or acquisitions, repaying debt, or paying dividends and buybacks. Any of these consume cash without reducing net income.",
+    "explanation": "### Operating reasons (CFO below net income)\n- **Receivables rising**: sales booked but not collected.\n- **Inventory build**: cash tied up in stock ahead of sales.\n- **Payables falling** or paying suppliers faster.\n- **Deferred revenue unwinding**: revenue recognised on cash collected in earlier periods.\n- Large cash outflows that were expensed earlier (paying an accrued restructuring charge or legal settlement).\n\n### Investing reasons\n- Capex well above depreciation (growth phase).\n- Acquisitions paid in cash.\n- Purchases of investments.\n\n### Financing reasons\n- Debt repayment, share buybacks, dividends.\n\n### Example (25% tax)\n| | $ |\n|---|---|\n| Net income | +50 |\n| D&A | +20 |\n| Increase in receivables | -60 |\n| Increase in inventory | -40 |\n| **CFO** | **-30** |\n| Capex | -50 |\n| **Change in cash** | **-80** |\n\nProfitable, but the company burned $80: a fast-growing distributor or a company \"overtrading\" looks exactly like this.\n\n### What the interviewer wants\nShow that you understand profit is not cash, name the three sections of the CFS, and give one concrete mechanism per section. Bonus points for noting that persistent CFO below net income is a **quality of earnings** red flag, while negative total cash flow due to growth capex can be perfectly healthy.",
+    "commonMistakes": [
+      "Only citing capex and ignoring working capital",
+      "Saying it is impossible under accrual accounting",
+      "Not distinguishing a healthy growth case from an earnings-quality problem"
+    ],
+    "followUps": [
+      "Give me the reverse: negative net income but positive cash flow.",
+      "How do you judge whether negative cash flow is a concern?",
+      "What is overtrading?"
+    ],
+    "tags": [
+      "net income vs cash",
+      "working capital",
+      "cash flow statement",
+      "quality of earnings"
+    ]
+  },
+  {
+    "id": "acc-025",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Give me a situation where a company has negative net income but positive cash flow.",
+    "keyAnswer": "Large non-cash charges are the usual reason: a goodwill impairment, heavy depreciation or restructuring provisions push net income below zero while cash from operations stays positive. Working-capital releases, deferred revenue collected upfront, asset sales or financing inflows can also make cash rise despite a loss.",
+    "explanation": "### Non-cash charges (most common answer)\n- Goodwill or PP&E **impairment**: e.g. net income -$60 after a $100 write-down; CFO = -60 + 100 = +$40.\n- High **D&A** in capital-intensive or recently acquired businesses (amortisation of acquired intangibles can swamp earnings for years after a deal).\n- Large **SBC**, provisions or deferred-tax charges.\n\n### Working-capital release\nA shrinking or liquidating business collects receivables and sells down inventory faster than it buys, so cash rises even as sales and profit fall. Subscription businesses collect **deferred revenue** upfront, giving CFO before profit.\n\n### Investing and financing\nSelling a division or property generates investing cash; raising debt or equity generates financing cash. Neither helps net income (a gain on sale may, but the cash is what matters here).\n\n### Example (25% tax)\n| | $ |\n|---|---|\n| Operating profit before impairment | 20 |\n| Impairment | -100 |\n| Pre-tax income | -80 |\n| Tax benefit | +20 |\n| **Net income** | **-60** |\n| Add back impairment | +100 |\n| **CFO** | **+40** |\n\n### Interpreting it\nPositive cash with negative earnings is often **healthier** than the reverse: the loss is an accounting recognition of value already lost, while cash keeps coming in. But if the cash is coming from liquidating working capital or asset sales, it is not sustainable, so always ask which section of the CFS the cash is coming from.",
+    "commonMistakes": [
+      "Only mentioning depreciation without giving a complete example",
+      "Confusing financing inflows with operating cash generation",
+      "Not asking whether the cash source is sustainable"
+    ],
+    "followUps": [
+      "Is this company healthy?",
+      "How would a large amortisation of acquired intangibles distort earnings after an acquisition?",
+      "What does it mean for valuation multiples when net income is negative?"
+    ],
+    "tags": [
+      "net income vs cash",
+      "non-cash",
+      "impairment",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-026",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What does it mean when a company has negative shareholders' equity, and what causes it?",
+    "keyAnswer": "Negative equity means liabilities exceed book assets. It arises either from accumulated losses that have wiped out contributed capital, or from large dividends and buybacks, often debt-funded, that have pushed retained earnings and treasury stock below zero. The first is a distress signal; the second is common in mature, cash-generative companies and is not necessarily a problem.",
+    "explanation": "### The two causes\n1. **Cumulative losses.** Years of net losses drain retained earnings; once the deficit exceeds paid-in capital, equity goes negative. Typical of distressed companies, early-stage biotech, or firms after a huge impairment. Often accompanied by negative cash flow and covenant pressure.\n2. **Capital returns exceeding earnings.** A company borrows to repurchase shares or pay special dividends (a leveraged recapitalisation). Treasury stock grows and retained earnings fall while assets are unchanged or shrink. Examples over the years: Domino's, McDonald's, Starbucks, Philip Morris, many post-LBO companies. These businesses generate strong cash flow; book equity is simply irrelevant.\n\n### Why book equity can be negative while market value is huge\nBook equity records historical cost, not value. A company with a brand built through expensed advertising has an asset the balance sheet never shows. Market capitalisation reflects future cash flows, so a company can have negative book equity and a $100bn market cap.\n\n### Example\n| | $ |\n|---|---|\n| Common stock + APIC | 100 |\n| Retained earnings | 150 |\n| Treasury stock | -300 |\n| **Shareholders' equity** | **-50** |\n\nThe company earned $150 cumulatively but spent $300 buying back shares.\n\n### What to check\n- Is operating cash flow positive and stable?\n- Is leverage serviceable (interest coverage, debt/EBITDA)?\n- Any covenants on net worth that could be breached?\n\nAlso note that return on equity and price-to-book become meaningless when equity is negative, so use EV-based metrics instead.",
+    "commonMistakes": [
+      "Assuming negative equity always means insolvency",
+      "Forgetting buybacks and dividends as a cause",
+      "Confusing book equity with market equity value"
+    ],
+    "followUps": [
+      "Can a company with negative equity still pay dividends?",
+      "How do you value a company with negative book equity?",
+      "What happens to P/B and ROE in this case?"
+    ],
+    "tags": [
+      "shareholders equity",
+      "treasury stock",
+      "retained earnings",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "acc-027",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is working capital, and how does the \"operating\" net working capital used in finance differ from the accounting definition?",
+    "keyAnswer": "Accounting working capital is current assets minus current liabilities. In finance we use operating net working capital, which excludes cash and debt: operating current assets (receivables, inventory, prepaids) minus operating current liabilities (payables, accrued expenses, deferred revenue). It measures how much cash the business ties up in its day-to-day operating cycle.",
+    "explanation": "### Two definitions\n| | Accounting working capital | Operating NWC |\n|---|---|---|\n| Formula | Current assets - current liabilities | (AR + inventory + prepaids + other operating CA) - (AP + accrued expenses + deferred revenue + other operating CL) |\n| Includes cash? | Yes | No |\n| Includes short-term debt? | Yes | No |\n| Used for | Liquidity (current ratio) | Cash flow forecasting, DCF, deal \"working capital pegs\" |\n\nCash and debt are excluded from operating NWC because they are **financing** items, not part of the operating cycle; a company that raises debt and parks it in cash has not changed its operations.\n\n### Example\nReceivables 80, inventory 60, prepaids 10, cash 50, payables 40, accrued 20, deferred revenue 30, short-term debt 25.\n- Accounting WC = (80 + 60 + 10 + 50) - (40 + 20 + 30 + 25) = 200 - 115 = **85**.\n- Operating NWC = (80 + 60 + 10) - (40 + 20 + 30) = 150 - 90 = **60**.\n\n### Interpreting the sign\n- **Positive NWC** (manufacturers, distributors): the company funds customers and stock before it collects; growth consumes cash.\n- **Negative NWC** (supermarkets, subscription software, airlines): customers pay upfront or suppliers are paid slowly; growth generates cash. Negative operating NWC is a feature, not a weakness, as long as the business keeps growing.\n\n### Where it shows up\nThe **change** in NWC is what appears on the cash flow statement and in free cash flow; the level matters for liquidity analysis and for setting a target in an acquisition agreement.",
+    "commonMistakes": [
+      "Including cash and debt in operating NWC",
+      "Saying negative working capital is always bad",
+      "Confusing the level of NWC with the change in NWC"
+    ],
+    "followUps": [
+      "What happens to cash when NWC increases?",
+      "Name businesses with structurally negative working capital.",
+      "How do DSO, DIO and DPO drive NWC projections?"
+    ],
+    "tags": [
+      "working capital",
+      "nwc",
+      "balance sheet",
+      "liquidity"
+    ]
+  },
+  {
+    "id": "acc-028",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What happens to cash flow when net working capital increases, and how do you calculate the change in NWC from the balance sheet?",
+    "keyAnswer": "An increase in net working capital uses cash: operating assets like receivables or inventory have grown, or operating liabilities like payables have shrunk, so cash is tied up in the business. The change is the difference between the two year-end NWC balances, and on the cash flow statement it is subtracted when positive and added when negative.",
+    "explanation": "### The rule\n- Operating **asset** increases (AR, inventory, prepaids): **use** of cash.\n- Operating **liability** increases (AP, accrued expenses, deferred revenue): **source** of cash.\n- So: cash impact = -(change in operating NWC).\n\n### Example\n| | Year 1 | Year 2 |\n|---|---|---|\n| Receivables | 100 | 130 |\n| Inventory | 80 | 90 |\n| Payables | (60) | (65) |\n| Accrued expenses | (20) | (25) |\n| **Operating NWC** | **100** | **130** |\n\nNWC rose by 30, so CFO includes **-30** from working capital. Line by line: AR -30, inventory -10, payables +5, accrued +5 = -30.\n\n### Why growth consumes cash\nA company growing revenue 30% with constant DSO and DIO must carry 30% more receivables and inventory. That cash leaves before customers pay. This is why fast-growing, positive-NWC businesses are chronically cash-hungry even when profitable, and why a shrinking business often throws off cash.\n\n### In projections and valuation\n- Forecast NWC with driver days: DSO, DIO, DPO (or as % of revenue), then take the year-on-year difference.\n- In a DCF, UFCF subtracts the increase in NWC. A sloppy model that ignores NWC overstates value for a growing manufacturer.\n- In M&A, the buyer sets a **working capital peg**; a target delivered with less NWC than the peg reduces the price.\n\n### Careful with the sign on the printed CFS\nCompanies show \"changes in operating assets and liabilities\" with the cash effect already signed, so \"(30)\" means NWC increased by 30.",
+    "commonMistakes": [
+      "Saying an NWC increase is a source of cash",
+      "Including the change in cash or short-term debt in the NWC change",
+      "Treating the level of NWC, rather than the change, as the cash flow item"
+    ],
+    "followUps": [
+      "How would you forecast working capital in a model?",
+      "Why is negative working capital a cash advantage for a growing company?",
+      "How does seasonality affect the working-capital reading at year-end?"
+    ],
+    "tags": [
+      "working capital",
+      "nwc",
+      "cash flow statement",
+      "projections"
+    ]
+  },
+  {
+    "id": "acc-029",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "In a period of rising prices, how do LIFO and FIFO affect COGS, net income, taxes, cash flow and the balance sheet?",
+    "keyAnswer": "Under LIFO the most recent, more expensive units go to COGS first, so COGS is higher, pre-tax income and taxes are lower, net income is lower, but cash is higher because of the lower tax bill; inventory on the balance sheet is stated at old, lower costs. FIFO is the opposite: higher reported profit, higher taxes, lower cash, and inventory closer to current replacement cost.",
+    "explanation": "### Mechanics\n- **FIFO** (first in, first out): oldest costs flow to COGS; ending inventory holds the newest costs.\n- **LIFO** (last in, first out): newest costs flow to COGS; ending inventory holds the oldest costs.\n- Weighted average sits between the two.\n\n### Example, rising prices, 25% tax\nBuy 1 unit at $10, then 1 unit at $14; sell 1 unit for $20.\n| | FIFO | LIFO |\n|---|---|---|\n| COGS | 10 | 14 |\n| Gross profit | 10 | 6 |\n| Tax | 2.5 | 1.5 |\n| Net income | 7.5 | 4.5 |\n| Ending inventory | 14 | 10 |\n| Cash tax saved vs FIFO | - | +1.0 |\n\nLIFO reports $3 less profit but keeps $1 more cash. In deflation the effects reverse.\n\n### Why US companies use LIFO\nPurely for tax: the US tax code requires that LIFO for tax be matched by LIFO for financial reporting (the conformity rule), so companies accept lower book earnings to pay less tax. Oil, chemicals and retail are frequent users.\n\n### Balance-sheet and ratio effects\nLIFO inventory can be decades-old cost, understating current assets and overstating inventory turnover. The **LIFO reserve** (disclosed in the footnotes) is the gap between LIFO and FIFO inventory; add it to inventory and equity to compare with FIFO peers. A **LIFO liquidation** (selling through old layers) releases very low-cost inventory into COGS and spikes profit artificially.\n\n### Cash flow statement\nNet income starts lower under LIFO, inventory changes differ, but the only true cash difference is the tax paid.",
+    "commonMistakes": [
+      "Saying LIFO results in lower cash because net income is lower",
+      "Forgetting that the balance-sheet inventory is understated under LIFO",
+      "Assuming IFRS companies can use LIFO"
+    ],
+    "followUps": [
+      "What is a LIFO reserve and how do you use it to compare companies?",
+      "What is a LIFO liquidation?",
+      "Which method gives the better measure of current profitability?"
+    ],
+    "ifrsNote": "IAS 2 prohibits LIFO; IFRS companies use FIFO or weighted-average cost. When comparing a US LIFO company with a European peer, adjust the US company's inventory and COGS using the disclosed LIFO reserve.",
+    "tags": [
+      "inventory",
+      "lifo",
+      "fifo",
+      "taxes"
+    ]
+  },
+  {
+    "id": "acc-030",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is goodwill, how is it created, and how do goodwill and other intangible assets differ in their treatment after an acquisition?",
+    "keyAnswer": "Goodwill is the excess of the purchase price over the fair value of the net identifiable assets acquired; it represents things like brand, workforce and synergies that cannot be separately recognised. It is not amortised but tested for impairment at least annually. Other acquired intangibles such as customer relationships, technology and patents are recorded at fair value and amortised over their useful lives, hitting the income statement each period.",
+    "explanation": "### How goodwill arises\nOnly in an acquisition. Simplified:\n```\nGoodwill = Purchase price\n         - Fair value of identifiable net assets\n           (book equity + write-ups of PP&E and\n            newly recognised intangibles\n            - deferred tax liability on write-ups)\n```\nExample: pay $500 for a target with book equity of $200, write up intangibles by $100 and record a $25 DTL on the write-up (25% tax). Net identifiable assets = 200 + 100 - 25 = 275. **Goodwill = 225.** (The full purchase-price allocation is an M&A topic.)\n\n### Goodwill vs other intangibles\n| | Goodwill | Identifiable intangibles |\n|---|---|---|\n| Examples | Residual plug | Customer lists, technology, trademarks, patents, licences |\n| Separable or contractual? | No | Yes |\n| Amortised? | No (US GAAP public companies) | Yes, over useful life (except indefinite-lived, e.g. some brands) |\n| Impairment test | At least annually, at reporting-unit level | When indicators exist (indefinite-lived: annually) |\n| Income statement | Only on impairment | Amortisation each year, usually in opex |\n\n### Internally generated intangibles\nA company cannot put its own brand or customer base on the balance sheet; the costs of building them (marketing, R&D) are expensed. This is why acquisitive companies carry large intangibles while organic growers carry almost none, and why book equity differs so much across similar businesses.\n\n### Analyst implications\n- Amortisation of acquired intangibles is non-cash and is added back on the CFS; many companies also exclude it from \"adjusted\" EPS.\n- Goodwill is excluded from tangible book value and from return-on-tangible-capital metrics.\n- A large goodwill balance relative to equity means a future impairment could wipe out book equity.",
+    "commonMistakes": [
+      "Saying goodwill is amortised under US GAAP",
+      "Thinking goodwill can be created internally",
+      "Ignoring the deferred tax effect of asset write-ups"
+    ],
+    "followUps": [
+      "Walk me through the impairment test for goodwill.",
+      "Why is amortisation of intangibles often added back to adjusted earnings?",
+      "What is negative goodwill?"
+    ],
+    "ifrsNote": "IFRS 3 and IAS 36 follow the same principles: goodwill is not amortised and is tested annually at the cash-generating-unit level; IFRS allows NCI to be measured at fair value (full goodwill) or at its share of net assets (partial goodwill). Private US companies may elect to amortise goodwill over up to 10 years.",
+    "tags": [
+      "goodwill",
+      "intangibles",
+      "amortisation",
+      "acquisitions"
+    ]
+  },
+  {
+    "id": "acc-031",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "How does a goodwill impairment test work under US GAAP, and how does it differ under IFRS?",
+    "keyAnswer": "Under US GAAP (ASC 350), goodwill is tested at least annually at the reporting-unit level: if the fair value of the reporting unit is below its carrying amount including goodwill, the impairment is the shortfall, capped at the goodwill balance. Under IFRS (IAS 36) the test is at the cash-generating-unit level against the recoverable amount, the higher of value in use and fair value less costs of disposal.",
+    "explanation": "### US GAAP (ASC 350, after ASU 2017-04)\n1. **Optional qualitative screen (\"step zero\")**: assess whether it is more likely than not that fair value is below carrying amount. If not, stop.\n2. **Quantitative test**: estimate the fair value of each reporting unit (usually DCF and market multiples). If carrying amount (including goodwill) exceeds fair value, record an impairment equal to the excess, limited to the goodwill allocated to that unit.\n3. Tested annually and whenever a triggering event occurs (loss of a key customer, falling market cap, adverse regulation).\n\nBefore 2017 there was a second step requiring a hypothetical purchase-price allocation; that step was removed.\n\n### IFRS (IAS 36)\n- Unit of account is the **cash-generating unit (CGU)** or group of CGUs, often smaller than a US reporting unit.\n- Compare carrying amount with **recoverable amount** = max(value in use, fair value less costs of disposal). Value in use is an entity-specific DCF with restrictions (no uncommitted restructurings or enhancement capex).\n- Impairment is allocated first to goodwill, then pro rata to other assets in the CGU.\n\n### Numerical illustration\nReporting unit carrying amount $800 including $300 of goodwill; fair value $650. Impairment = 800 - 650 = **$150**, which is below the $300 cap, so goodwill falls to $150. Net income falls by $150 (goodwill impairments are often non-deductible), no cash effect.\n\n### Signals that an impairment is coming\n- Market capitalisation below book equity.\n- Goodwill from a deal whose synergies have not appeared.\n- Guidance cuts in the segment that holds the goodwill.\n\nAnalysts often view impairments as lagging indicators: the market has typically already written the value off.",
+    "commonMistakes": [
+      "Describing the old two-step test as current",
+      "Confusing the reporting unit (US GAAP) with the CGU (IFRS)",
+      "Saying goodwill impairments can be reversed"
+    ],
+    "followUps": [
+      "Why do goodwill impairments rarely affect share prices?",
+      "What is value in use?",
+      "How does the impairment flow through the three statements?"
+    ],
+    "ifrsNote": "IAS 36 tests at the smaller CGU level, uses recoverable amount (higher of value in use and fair value less costs of disposal) rather than fair value alone, has no qualitative screen, and permits reversal of impairments on assets other than goodwill.",
+    "tags": [
+      "impairment",
+      "goodwill",
+      "asc 350",
+      "ias 36"
+    ]
+  },
+  {
+    "id": "acc-032",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Walk me through the five-step revenue recognition model under ASC 606 / IFRS 15.",
+    "keyAnswer": "Revenue is recognised when control of goods or services transfers to the customer, in an amount reflecting the consideration the company expects. The five steps are: identify the contract, identify the separate performance obligations, determine the transaction price, allocate the price to the obligations based on standalone selling prices, and recognise revenue as each obligation is satisfied, either at a point in time or over time.",
+    "explanation": "### The five steps\n1. **Identify the contract**: enforceable rights, commercial substance, collection probable.\n2. **Identify performance obligations**: distinct promises (a phone, a two-year service plan, a software licence plus support).\n3. **Determine the transaction price**: fixed amounts plus an estimate of variable consideration (rebates, bonuses, returns), constrained so a significant reversal is unlikely; adjust for significant financing components and non-cash consideration.\n4. **Allocate the price** to each obligation in proportion to standalone selling prices.\n5. **Recognise revenue** when (or as) each obligation is satisfied: **over time** if the customer consumes benefits as performed (subscriptions, long-term construction measured by progress), otherwise **at a point in time** (delivery of goods).\n\n### Example\nA telecom sells a bundle for $900: handset (standalone price $600) and 12 months of service (standalone $400), total standalone $1,000.\n- Allocate: handset 900 x 600/1000 = **$540** recognised at delivery; service 900 x 400/1000 = **$360** recognised at $30 per month.\n- Cash collected monthly at $75; at delivery the company books $540 of revenue against a **contract asset** (unbilled receivable) that unwinds as cash comes in.\n\n### Balance-sheet consequences\n- **Contract liability (deferred revenue)**: cash or billing ahead of performance.\n- **Contract asset**: performance ahead of billing.\n- **Capitalised contract costs**: sales commissions are capitalised and amortised over the expected customer life, lifting EBITDA.\n\n### Why interviewers care\nRevenue is the most manipulated line: bill-and-hold, channel stuffing, side agreements and premature recognition of multi-year deals are the classic frauds. Understanding the framework lets you test whether reported growth is backed by cash (compare revenue growth with deferred revenue and receivables trends).",
+    "commonMistakes": [
+      "Saying revenue is recognised when cash is received",
+      "Forgetting the allocation step for bundles",
+      "Not knowing the difference between a contract asset and a receivable"
+    ],
+    "followUps": [
+      "When is revenue recognised gross versus net?",
+      "How does a change in deferred revenue signal future revenue?",
+      "How do you spot aggressive revenue recognition?"
+    ],
+    "tags": [
+      "revenue recognition",
+      "asc 606",
+      "ifrs 15",
+      "deferred revenue"
+    ]
+  },
+  {
+    "id": "acc-033",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "When should a company report revenue gross versus net, and why does it matter?",
+    "keyAnswer": "A company reports gross revenue when it is the principal, meaning it controls the good or service before transferring it to the customer and bears inventory, pricing and fulfilment risk; it reports net revenue (only its fee or commission) when it is an agent arranging for another party to provide the good. The choice changes revenue and margins dramatically but not gross profit or net income.",
+    "explanation": "### Principal vs agent indicators (ASC 606 / IFRS 15)\nThe company is a **principal** (gross) when it:\n- is primarily responsible for fulfilling the promise,\n- carries inventory risk before or after the transfer,\n- has discretion in setting prices.\n\nIf it merely arranges for someone else to supply, it is an **agent** and reports its commission (net). Marketplaces (Uber, Airbnb, eBay), travel agents and many ad-tech companies are agents; Amazon's first-party retail is principal while its third-party marketplace is agent.\n\n### Example\nA marketplace sells a $100 ticket supplied by a venue, keeping a $15 fee.\n| | Gross | Net |\n|---|---|---|\n| Revenue | 100 | 15 |\n| Cost of revenue | 85 | 0 |\n| Gross profit | 15 | 15 |\n| Gross margin | 15% | 100% |\n\nNet income is identical; only presentation differs.\n\n### Why it matters\n- **Revenue multiples**: a company reporting gross looks far larger; EV/Revenue is not comparable across principal and agent models. Use gross profit or EBITDA multiples instead.\n- **Margins**: net reporters show high gross margins that can mislead.\n- **Growth optics**: companies historically pushed for gross reporting to look bigger (Groupon, early internet firms); regulators pushed back.\n- **Take rate**: for agents, analysts track gross merchandise value (GMV) and the take rate = net revenue / GMV.\n\n### Link to the statements\nNo effect on cash flow or the balance sheet from the gross/net choice itself, although a principal usually carries inventory and receivables that an agent does not.",
+    "commonMistakes": [
+      "Saying the choice affects net income",
+      "Comparing EV/Revenue across a principal and an agent",
+      "Confusing GMV with revenue"
+    ],
+    "followUps": [
+      "How would you compare an agent-model marketplace with a principal-model retailer?",
+      "What is a take rate?",
+      "What are the indicators of control under ASC 606?"
+    ],
+    "tags": [
+      "revenue recognition",
+      "gross vs net",
+      "principal agent",
+      "multiples"
+    ]
+  },
+  {
+    "id": "acc-034",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "What is the difference between an operating lease and a finance lease, and how did ASC 842 and IFRS 16 change lease accounting?",
+    "keyAnswer": "A finance lease transfers substantially all the risks and rewards of ownership (title transfer, bargain purchase option, lease term covering most of the asset life, or present value of payments near the asset value); everything else is an operating lease. Since ASC 842 and IFRS 16, both types put a right-of-use asset and a lease liability on the balance sheet, but under US GAAP operating leases keep a single straight-line lease cost in operating expenses, while IFRS 16 treats all lessee leases like finance leases, with depreciation and interest.",
+    "explanation": "### Before 2019\nOperating leases were off balance sheet: rent expense on the IS, nothing on the BS, and a large footnote of future commitments. Airlines and retailers had enormous hidden leverage.\n\n### After ASC 842 (US GAAP)\n| | Operating lease | Finance lease |\n|---|---|---|\n| Balance sheet | ROU asset + lease liability | ROU asset + lease liability |\n| Income statement | Single straight-line **lease cost** in opex (above EBITDA) | **Depreciation** of ROU asset + **interest** on liability (below EBITDA) |\n| Cash flow statement | Entire payment in **CFO** | Principal in **CFF**, interest in CFO |\n| EBITDA | Lower | Higher |\n| Expense profile | Flat | Front-loaded |\n\nClassification criteria for a finance lease: transfer of ownership, bargain purchase option, lease term for the major part of economic life (practice: 75%), PV of payments substantially all of fair value (practice: 90%), or specialised asset.\n\n### After IFRS 16\nNo classification for lessees: every lease (except short-term and low-value) is accounted for like a finance lease. So IFRS companies show higher EBITDA, higher operating cash flow and higher debt than a US GAAP peer with identical operating leases.\n\n### Why analysts care\n- **Comparability**: EV/EBITDA for an IFRS retailer includes lease liabilities in EV and lease-free EBITDA; a US GAAP peer has rent inside EBITDA. Either add leases to EV and strip rent from EBITDA for both, or use EBITDAR.\n- **Leverage ratios**: lease liabilities are debt-like; rating agencies always treated them that way.\n- **Lessor accounting** was largely unchanged.",
+    "commonMistakes": [
+      "Saying operating leases are still off balance sheet",
+      "Claiming ASC 842 and IFRS 16 are identical",
+      "Forgetting that EBITDA and CFO are higher under IFRS 16"
+    ],
+    "followUps": [
+      "Walk me through a $100 lease on the three statements under IFRS 16 versus US GAAP.",
+      "How do leases affect the EV bridge and EBITDA comparability?",
+      "What is EBITDAR and when is it used?"
+    ],
+    "ifrsNote": "IFRS 16 uses a single lessee model: all leases produce depreciation plus interest, with principal repayments in financing cash flow. US GAAP keeps the operating/finance split for lessees with straight-line lease cost and all-operating cash flows for operating leases.",
+    "tags": [
+      "leases",
+      "asc 842",
+      "ifrs 16",
+      "ebitda"
+    ]
+  },
+  {
+    "id": "acc-035",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Walk me through a 5-year lease with a $100 present value and 5% discount rate on the three statements in year 1 under IFRS 16, and contrast it with a US GAAP operating lease.",
+    "keyAnswer": "The annual payment is about $23.1. Under IFRS 16 year-1 expense is $5 of interest plus $20 of depreciation ($25), so pre-tax income falls $25 and net income $18.75 at 25% tax; on the CFS, depreciation is added back and the $18.1 principal repayment goes to financing, so CFO is about +$1.25 and total cash is -$23.1 plus a tax saving. Under a US GAAP operating lease the whole $23.1 is a straight-line operating expense, net income falls $17.3 and the full payment runs through CFO.",
+    "explanation": "### Set-up\nPV of payments = $100, 5 years, 5% rate. Annuity payment = 100 x 0.05 / (1 - 1.05^-5) = **$23.10**. At inception: ROU asset +100, lease liability +100, no IS or cash effect.\n\n### Year 1 under IFRS 16 (and a US GAAP finance lease), 25% tax\n- Interest = 5% x 100 = **$5.00**; principal = 23.10 - 5.00 = **$18.10**; liability end = $81.90.\n- Depreciation = 100 / 5 = **$20.00**; ROU asset end = $80.00.\n- **IS**: EBITDA unchanged; D&A +20, interest +5, pre-tax -25, tax -6.25, **net income -18.75**.\n- **CFS**: NI -18.75, add back depreciation +20, interest paid stays in CFO (or CFF by IFRS choice) so **CFO +1.25**; CFF -18.10 (principal); **net cash -16.85**. Ignoring the tax saving, cash out is exactly the $23.10 payment.\n- **BS**: cash -16.85, ROU asset -20, assets -36.85; lease liability -18.10, retained earnings -18.75; L + E -36.85. Balanced.\n\n### Year 1 under a US GAAP operating lease\n- **IS**: single lease cost of **$23.10** in operating expenses, so EBITDA is $23.10 lower than under IFRS 16; pre-tax -23.10, tax -5.78, **net income -17.33** (slightly better than IFRS 16 in early years because IFRS front-loads interest).\n- **CFS**: NI -17.33; the ROU asset amortisation (18.10) and liability reduction (18.10) offset within CFO, so **CFO -17.33**; nothing in CFF.\n- **BS**: ROU asset and liability both fall $18.10; cash -17.33; retained earnings -17.33.\n\n### Side-by-side year 1\n| | IFRS 16 | US GAAP operating |\n|---|---|---|\n| EBITDA | 0 | -23.10 |\n| EBIT | -20.00 | -23.10 |\n| Net income | -18.75 | -17.33 |\n| CFO | +1.25 | -17.33 |\n| CFF | -18.10 | 0 |\n| Lease liability | 81.90 | 81.90 |\n\nOver the five years total expense and total cash are identical; only timing and classification differ.",
+    "commonMistakes": [
+      "Putting the whole IFRS 16 payment in operating cash flow",
+      "Forgetting that total expense is front-loaded under IFRS 16",
+      "Saying the lease liability differs between the two frameworks (it is the same)"
+    ],
+    "followUps": [
+      "Why is EBITDA higher under IFRS 16 and how do you adjust for comparability?",
+      "How does the ROU asset amortisation work under an ASC 842 operating lease?",
+      "Where does the lease liability sit in the EV bridge?"
+    ],
+    "ifrsNote": "Under IFRS 16 the lessee may present interest paid on leases in operating or financing cash flows (IAS 7 policy choice), so two IFRS companies can show different CFO for identical leases.",
+    "tags": [
+      "leases",
+      "ifrs 16",
+      "asc 842",
+      "walkthrough"
+    ]
+  },
+  {
+    "id": "acc-036",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is EBITDA, and what are the main criticisms of using it?",
+    "keyAnswer": "EBITDA is earnings before interest, taxes, depreciation and amortisation: operating income plus D&A. It is used as a rough proxy for operating cash flow that is independent of capital structure, tax jurisdiction and depreciation policy. The main criticisms are that it ignores capex, working capital, interest and taxes, all of which are real cash costs, and that \"adjusted\" versions can strip out genuine expenses.",
+    "explanation": "### Calculation\n```\nEBITDA = EBIT (operating income) + Depreciation + Amortisation\n       = Net income + Taxes + Interest + D&A\n```\nExample: net income 60, taxes 20, interest 20, D&A 50 gives EBITDA **150** and EBIT **100**.\n\n### Why it is popular\n- **Capital-structure neutral**: strips out interest, so a levered and an unlevered company can be compared.\n- **Tax neutral**: ignores differences in tax rates and NOLs.\n- **Accounting-policy neutral**: removes differences in depreciation lives and acquisition-driven amortisation.\n- Widely used in EV/EBITDA multiples, leverage covenants (debt/EBITDA) and LBO analysis.\n\n### The criticisms\n1. **Ignores capex.** For capital-intensive businesses depreciation is a real, recurring cost of staying in business; EBITDA makes an airline look as cash-generative as a software firm. Buffett's line: \"Does management think the tooth fairy pays for capex?\"\n2. **Ignores working capital.** A growing distributor can have strong EBITDA and negative cash flow.\n3. **Ignores interest and taxes**, which the company must actually pay before anything reaches equity.\n4. **Not GAAP-defined**, so \"adjusted EBITDA\" can exclude SBC, restructuring, litigation, \"one-time\" items that recur, and even pre-opening costs. Covenant EBITDA in credit agreements can be very permissive.\n5. **Leases**: under IFRS 16 rent disappears from EBITDA, inflating it versus US GAAP peers.\n\n### When it is useful\nComparing operating performance across peers with different leverage and D&A policies, and as a starting point for cash flow. It should be read alongside capex, change in NWC and CFO.",
+    "commonMistakes": [
+      "Calling EBITDA \"cash flow\"",
+      "Forgetting that amortisation of acquired intangibles is included in the add-back",
+      "Not knowing that EBITDA is not defined under GAAP"
+    ],
+    "followUps": [
+      "When would you use EBIT instead of EBITDA?",
+      "How does EBITDA compare with operating cash flow?",
+      "What adjustments are commonly made to get to adjusted EBITDA?"
+    ],
+    "tags": [
+      "ebitda",
+      "profitability",
+      "quality of earnings"
+    ]
+  },
+  {
+    "id": "acc-037",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "EBIT, EBITDA or operating cash flow: when would you use each, and how do they differ?",
+    "keyAnswer": "EBIT (operating income) deducts D&A, so it is the better measure when capex is a real recurring cost, such as manufacturing, telecoms or airlines. EBITDA adds D&A back and suits businesses where D&A is distorted by acquisitions or where you want a rough cash proxy independent of asset age, such as software or services. Operating cash flow is the actual cash generated after taxes, interest and working capital, so it is the most honest but is affected by capital structure and timing.",
+    "explanation": "### Side by side\n| Metric | Includes D&A? | Includes interest and tax? | Includes working capital? |\n|---|---|---|---|\n| EBIT | Yes (deducted) | No | No |\n| EBITDA | No | No | No |\n| CFO | No (added back) | Yes (both deducted as paid) | Yes |\n\n### When EBIT is better\n- **Capital-intensive businesses**: depreciation approximates maintenance capex, so EBIT is closer to sustainable earnings. Comparing a railroad and a software company on EBITDA flatters the railroad.\n- When comparing companies with similar asset bases and ages.\n- EV/EBIT is often preferred in Europe for industrials for this reason.\n\n### When EBITDA is better\n- Companies with large **acquired-intangible amortisation**, which is non-cash and not a recurring reinvestment need.\n- Peers with very different asset ages or depreciation policies.\n- Leverage and covenant analysis, where lenders want a pre-interest, pre-D&A base.\n- Asset-light businesses where D&A is small anyway.\n\n### When operating cash flow is better\n- Assessing **quality of earnings**: CFO persistently below net income or EBITDA flags accrual-driven profit.\n- Liquidity and debt-service capacity.\n- It is after tax and after working capital, but it includes interest (under US GAAP), so it is a **levered** measure and not directly comparable across capital structures.\n\n### Bridge from EBITDA to CFO\n```\nEBITDA\n- cash taxes\n- cash interest (US GAAP)\n- increase in NWC\n+/- other non-cash items (SBC, provisions)\n= CFO\n```\nA wide and growing gap between EBITDA and CFO is a classic warning sign.",
+    "commonMistakes": [
+      "Saying EBITDA is always better because it is \"closer to cash\"",
+      "Forgetting that CFO is after interest under US GAAP",
+      "Not linking EBIT to maintenance capex intensity"
+    ],
+    "followUps": [
+      "Why is EV/EBIT common for industrials?",
+      "What could cause EBITDA to rise while CFO falls?",
+      "Is EBITDA a good proxy for cash flow in a software company?"
+    ],
+    "tags": [
+      "ebit",
+      "ebitda",
+      "operating cash flow",
+      "profitability"
+    ]
+  },
+  {
+    "id": "acc-038",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "Walk me from net income to cash flow from operations using the indirect method, and explain how the direct method differs.",
+    "keyAnswer": "Start with net income, add back non-cash expenses such as D&A, SBC, impairments and deferred taxes, subtract non-cash gains, then adjust for changes in operating working capital: subtract increases in operating assets and add increases in operating liabilities. The direct method instead lists actual cash receipts from customers and cash payments to suppliers, employees, interest and taxes; both arrive at the same CFO, and almost all companies use the indirect method.",
+    "explanation": "### Indirect method template\n```\nNet income\n+ Depreciation & amortisation\n+ Stock-based compensation\n+ Impairments / write-downs\n+/- Deferred income taxes\n- Gains (or + losses) on asset sales\n+/- Equity-method income net of dividends\n- Increase in accounts receivable\n- Increase in inventory\n- Increase in prepaid expenses\n+ Increase in accounts payable\n+ Increase in accrued liabilities\n+ Increase in deferred revenue\n= Cash flow from operations\n```\n\n### Worked example (25% tax already in net income)\n| | $ |\n|---|---|\n| Net income | 75 |\n| D&A | 30 |\n| SBC | 10 |\n| Gain on sale of equipment | (5) |\n| Increase in receivables | (20) |\n| Decrease in inventory | 8 |\n| Increase in payables | 12 |\n| **CFO** | **110** |\n\nThe gain is removed because the full sale proceeds belong in investing; leaving it in would double-count.\n\n### Direct method\nLists gross cash flows: cash from customers (revenue - increase in AR - decrease in deferred revenue), cash paid to suppliers (COGS + increase in inventory - increase in AP), cash paid to employees, interest paid, taxes paid. Same total CFO.\n\n### Why the indirect method dominates\n- Both FASB and IASB encourage the direct method, but companies using it must still present an indirect reconciliation under US GAAP, so almost everyone (well over 95%) files indirect only.\n- The indirect method is easier to prepare from the income statement and balance sheet and directly shows the gap between earnings and cash, which analysts want.\n- The direct method is more intuitive for understanding where cash actually comes from and goes, which is why it is favoured for small businesses and by some IFRS filers.",
+    "commonMistakes": [
+      "Adding back a gain on sale instead of subtracting it",
+      "Adding an increase in receivables",
+      "Saying the two methods give different CFO totals"
+    ],
+    "followUps": [
+      "Why do you subtract a gain on sale of an asset in CFO?",
+      "Where do interest paid and taxes paid appear under each method?",
+      "Why do most companies use the indirect method?"
+    ],
+    "tags": [
+      "cash flow statement",
+      "indirect method",
+      "direct method",
+      "cfo"
+    ]
+  },
+  {
+    "id": "acc-039",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What are the three sections of the cash flow statement, what goes in each, and where do interest and dividends appear?",
+    "keyAnswer": "Operating activities covers cash from the core business, starting from net income and adjusting for non-cash items and working capital. Investing covers purchases and sales of long-term assets and investments, mainly capex and acquisitions. Financing covers transactions with capital providers: debt issued and repaid, shares issued and repurchased, and dividends paid. Under US GAAP interest paid, interest received and dividends received all sit in operating, while dividends paid sit in financing.",
+    "explanation": "### Operating (CFO)\nNet income, add-backs (D&A, SBC, impairments, deferred taxes, losses/gains on disposals), changes in operating working capital. Also includes **interest paid, interest received, dividends received and taxes paid** under US GAAP.\n\n### Investing (CFI)\n- Capital expenditures and proceeds from asset sales.\n- Acquisitions of businesses (net of cash acquired) and divestiture proceeds.\n- Purchases and sales of marketable securities and other investments.\n- Loans made to others.\n\n### Financing (CFF)\n- Debt raised and repaid (including revolver draws, finance-lease principal).\n- Equity issued and shares repurchased.\n- **Dividends paid** to shareholders (and to NCI).\n- Debt issuance costs; proceeds from option exercises.\n\n### The classification table\n| Item | US GAAP | IFRS (IAS 7, current) |\n|---|---|---|\n| Interest paid | Operating | Operating or financing |\n| Interest received | Operating | Operating or investing |\n| Dividends received | Operating | Operating or investing |\n| Dividends paid | Financing | Financing or operating |\n| Taxes paid | Operating | Operating (unless tied to a specific investing/financing item) |\n\n### Why the placement matters\nInterest is a cost of financing, yet US GAAP puts it in CFO, so CFO is a **levered** figure: two identical businesses with different debt show different CFO. Analysts computing unlevered cash flow add back after-tax interest. Under IFRS, companies placing interest paid in financing report higher CFO than US peers, so always check the policy note before comparing CFO or FCF conversion.\n\n### Supplemental\nNon-cash investing and financing (e.g. acquiring an asset with a lease or with shares) is disclosed separately rather than in the body of the statement.",
+    "commonMistakes": [
+      "Placing interest paid in financing under US GAAP",
+      "Placing dividends paid in operating under US GAAP",
+      "Treating capex as an operating item"
+    ],
+    "followUps": [
+      "Why is CFO considered a levered measure?",
+      "How would a stock-for-stock acquisition appear on the cash flow statement?",
+      "What is the difference between CFO and free cash flow?"
+    ],
+    "ifrsNote": "IAS 7 allows the policy choices in the table. IFRS 18, effective for periods beginning 1 January 2027, removes most of them: for a typical non-financial company interest paid and dividends paid go to financing and interest and dividends received go to investing.",
+    "tags": [
+      "cash flow statement",
+      "classification",
+      "interest",
+      "dividends"
+    ]
+  },
+  {
+    "id": "acc-040",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is the difference between cash flow from operations and free cash flow?",
+    "keyAnswer": "Cash flow from operations is the cash the business generates after taxes, interest and working capital but before any investment in long-term assets. Free cash flow subtracts capital expenditures from CFO, giving the cash available to all capital providers after the reinvestment needed to sustain and grow the business. The simplest definition is FCF = CFO - capex.",
+    "explanation": "### Definitions\n```\nCFO                  = Net income + non-cash items +/- change in NWC\nFree cash flow (FCF) = CFO - Capital expenditures\n```\nExample: CFO 110, capex 40 gives **FCF 70**. If the company also spent 30 on acquisitions, some analysts show FCF after acquisitions, but the standard definition stops at capex.\n\n### Why capex is subtracted\nDepreciation was added back to reach CFO, so CFO overstates the cash a company can distribute: it ignores the spending needed to replace and expand the asset base. FCF puts that cost back. For a utility or airline, the gap between CFO and FCF is enormous; for a software company it is small.\n\n### Flavours of FCF\n- **Levered FCF (FCF to equity)**: CFO - capex (US GAAP CFO already includes interest). Sometimes also minus mandatory debt repayment. This is what is available to shareholders.\n- **Unlevered FCF (FCF to the firm)**: EBIT x (1 - tax) + D&A - capex - increase in NWC. Pre-interest, so independent of capital structure; this is the DCF cash flow and belongs to the DCF topic.\n- **Maintenance vs growth capex**: analysts sometimes split capex to estimate \"owner earnings\".\n\n### Metrics built on FCF\n- **FCF conversion** = FCF / EBITDA or FCF / net income; a conversion persistently below peers suggests heavy capex or working-capital drag.\n- **FCF yield** = FCF / market cap (levered) or FCF / EV (unlevered).\n\n### Watch-outs\n- Capitalised development costs and finance-lease principal (in CFF) escape both CFO and the simple FCF definition; adjust if material.\n- Under IFRS, interest paid might sit in financing, which inflates CFO and FCF relative to a US GAAP peer.",
+    "commonMistakes": [
+      "Defining FCF as EBITDA minus capex",
+      "Mixing levered CFO with an unlevered discount rate",
+      "Ignoring that acquisitions and lease principal sit outside the simple FCF definition"
+    ],
+    "followUps": [
+      "What is the difference between levered and unlevered free cash flow?",
+      "How can a company have strong CFO but weak FCF?",
+      "What is FCF conversion and what is a good level?"
+    ],
+    "tags": [
+      "free cash flow",
+      "cfo",
+      "capex",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-041",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What are retained earnings, and how do they change from one year to the next?",
+    "keyAnswer": "Retained earnings are the cumulative net income a company has earned since inception minus all dividends it has paid out. Each year, ending retained earnings equal beginning retained earnings plus net income minus dividends. They are a claim on the balance sheet, not a pile of cash.",
+    "explanation": "### Roll-forward\n```\nRetained earnings (end) = Retained earnings (begin)\n                        + Net income\n                        - Dividends declared\n                        +/- Prior-period adjustments (rare)\n```\nExample: beginning RE 500, net income 80, dividends 30 gives ending RE **550**.\n\n### What they are not\nRetained earnings are **not cash**. A company with $1bn of retained earnings may have spent every dollar on factories, acquisitions or working capital. Cash is on the asset side; retained earnings are a component of equity that records where some of the funding came from (profits reinvested rather than distributed).\n\n### Where they appear\n- **Balance sheet**: within shareholders' equity, alongside common stock, APIC, treasury stock and accumulated OCI.\n- **Statement of shareholders' equity**: shows the roll-forward.\n- They are the link between the income statement and balance sheet: net income flows into retained earnings, which is why a $10 non-cash expense reduces equity by $7.5 after tax.\n\n### Negative retained earnings (accumulated deficit)\nArise from cumulative losses or distributions exceeding cumulative profits. Start-ups show accumulated deficits; mature buyback-heavy companies can too. Negative RE does not mean negative equity unless the deficit exceeds paid-in capital.\n\n### Things that do not touch retained earnings\n- Share issuance and buybacks (common stock/APIC and treasury stock).\n- Unrealised gains on certain securities, FX translation, pension remeasurements (accumulated OCI).\n- Stock-based compensation credits APIC, though the expense reduces net income and hence RE.\n\n### Dividends and legal capital\nMany jurisdictions restrict dividends to distributable reserves, which are broadly retained earnings, so the balance matters for payout capacity as well as for covenants based on net worth.",
+    "commonMistakes": [
+      "Describing retained earnings as cash set aside",
+      "Reducing retained earnings for a share buyback",
+      "Forgetting that dividends, not just net income, change the balance"
+    ],
+    "followUps": [
+      "Can a company with negative retained earnings pay a dividend?",
+      "How does a stock dividend affect retained earnings?",
+      "Where does other comprehensive income go if not into retained earnings?"
+    ],
+    "tags": [
+      "retained earnings",
+      "shareholders equity",
+      "balance sheet",
+      "dividends"
+    ]
+  },
+  {
+    "id": "acc-042",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is treasury stock, and how is it accounted for?",
+    "keyAnswer": "Treasury stock is a company's own shares that it has repurchased and holds rather than cancelled. It is recorded at cost as a contra-equity account, reducing total shareholders' equity and shares outstanding, with no gain or loss on the income statement. If the shares are later reissued or retired, the differences go through APIC and retained earnings, never through earnings.",
+    "explanation": "### Mechanics (cost method)\n- **Repurchase** $100 of shares: cash -100, treasury stock -100 (shown as a negative line within equity). Shares outstanding fall; shares issued are unchanged.\n- **Reissue** those shares for $120 (e.g. for an acquisition or option exercise): cash +120, treasury stock +100, APIC +20. If reissued below cost, the shortfall reduces APIC, then retained earnings.\n- **Retire** the shares: treasury stock is eliminated against common stock (par value) and APIC, with any excess hitting retained earnings. Shares issued now fall too.\n\nNo step above touches the income statement: a company cannot profit from trading its own stock.\n\n### Why companies hold treasury shares\n- To satisfy employee stock-option and RSU exercises without issuing new shares.\n- As acquisition currency.\n- To support the share price or offset dilution.\n- Flexibility: holding rather than retiring keeps the shares available.\n\n### Effects on metrics\n| Metric | Effect of a buyback |\n|---|---|\n| Shares outstanding | Down |\n| EPS | Up (if the earnings forgone on the cash are less than the earnings per repurchased share) |\n| Book equity | Down by the cash paid |\n| ROE | Up, mechanically |\n| Leverage (debt/equity) | Up |\n\n### Equity Value uses shares outstanding, not shares issued\nWhen computing market capitalisation always use shares **outstanding** (issued minus treasury) from the cover of the latest 10-Q/10-K, then add dilutive securities. Using issued shares overstates equity value.\n\nUnder US GAAP treasury shares carry no voting rights or dividends. Some jurisdictions (e.g. parts of Europe) cap treasury holdings at 10% of share capital.",
+    "commonMistakes": [
+      "Recording a gain when treasury shares are resold above cost",
+      "Showing treasury stock as an asset",
+      "Using shares issued rather than shares outstanding in equity value"
+    ],
+    "followUps": [
+      "How does a buyback affect EPS and when is it accretive?",
+      "What is the difference between retiring shares and holding them as treasury stock?",
+      "Why might a company have negative equity after large buybacks?"
+    ],
+    "tags": [
+      "treasury stock",
+      "share buyback",
+      "shareholders equity",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "acc-043",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "What is other comprehensive income, and what kinds of items go through it instead of net income?",
+    "keyAnswer": "Other comprehensive income captures gains and losses that change equity but are kept out of net income because they are unrealised or outside management's control: foreign-currency translation of subsidiaries, unrealised gains and losses on available-for-sale debt securities, the effective portion of cash-flow hedges, and pension remeasurements. Net income plus OCI equals comprehensive income, and the cumulative balance sits in equity as accumulated OCI.",
+    "explanation": "### Why OCI exists\nStandard setters wanted net income to reflect the company's operations and realised results while still recording changes in asset and liability values on the balance sheet. OCI is the parking place for the \"dirty surplus\": items that must change equity but would make earnings volatile and misleading.\n\n### The main OCI items\n| Item | Driver |\n|---|---|\n| Foreign currency translation adjustment (CTA) | Translating foreign subsidiaries' statements at closing rates |\n| Unrealised gains/losses on available-for-sale debt securities | Market value moves on securities not held to maturity (equity securities now go through net income under US GAAP) |\n| Cash-flow hedge gains/losses (effective portion) | Derivatives hedging future transactions |\n| Pension and post-retirement remeasurements | Actuarial gains/losses, asset return differences |\n| Revaluation surplus (IFRS only) | Upward revaluation of PP&E or intangibles |\n\n### Recycling\nUnder US GAAP most OCI items are later **reclassified** into net income when realised (e.g. a security is sold, a hedged transaction occurs, a subsidiary is disposed). IFRS permits recycling for some items (CTA, debt instruments at FVOCI, cash-flow hedges) but prohibits it for others (equity instruments elected at FVOCI, revaluation surplus, pension remeasurements).\n\n### Presentation\nEither a single statement of comprehensive income or two statements (income statement, then a statement of comprehensive income). The balance sheet shows **accumulated OCI** within equity.\n\n### Why analysts look at it\n- Large negative AOCI from pensions or CTA can signal economic losses that earnings have hidden; banks' AOCI from securities losses became headline news in 2023.\n- OCI items can flip into net income on disposal, producing non-operating gains.\n- Tangible book value and regulatory capital treat some OCI items differently.\n- OCI does **not** flow through the cash flow statement because it has no cash effect; the CFS starts with net income, not comprehensive income.",
+    "commonMistakes": [
+      "Saying OCI items are part of net income",
+      "Including OCI in the starting point of the cash flow statement",
+      "Forgetting that AOCI is a component of equity"
+    ],
+    "followUps": [
+      "Why do unrealised gains on equity securities now go through net income under US GAAP?",
+      "What is recycling and when does it occur?",
+      "How can pension accounting produce large OCI swings?"
+    ],
+    "ifrsNote": "IFRS adds a revaluation surplus for PP&E and intangibles under the revaluation model, puts equity-instrument FVOCI gains permanently in OCI with no recycling, and never recycles pension remeasurements or the revaluation surplus to profit or loss.",
+    "tags": [
+      "oci",
+      "comprehensive income",
+      "shareholders equity",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "acc-044",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "How do minority interest and non-controlling interest appear in the three statements?",
+    "keyAnswer": "When a parent owns more than 50% of a subsidiary it consolidates 100% of the subsidiary's revenue, expenses, assets and liabilities, even though it does not own all of it. The portion it does not own is non-controlling interest: shown as a separate component of equity on the balance sheet, as a deduction from consolidated net income on the income statement to get net income attributable to the parent, and reflected on the cash flow statement through the starting net income and dividends paid to NCI in financing.",
+    "explanation": "### Example\nParent owns 80% of Sub. Sub has revenue 200, net income 50, net assets 300.\n\n| Statement | Line | Amount |\n|---|---|---|\n| Income statement | Consolidated revenue | 100% of Sub's 200 |\n| | Consolidated net income | includes all 50 |\n| | Less: NI attributable to NCI | (10) = 20% x 50 |\n| | NI attributable to parent | 40 + parent's own earnings |\n| Balance sheet | Assets and liabilities | 100% of Sub's |\n| | NCI (within equity) | 60 = 20% x 300 (plus 20% of goodwill if measured at fair value) |\n| Cash flow statement | Starting net income | consolidated (all 50) |\n| | Dividends paid to NCI | financing outflow |\n\n### Why full consolidation\nControl, not ownership percentage, drives the accounting: the parent directs the subsidiary's operations, so all its cash flows and assets are presented as if they were the parent's, and NCI records the other owners' slice.\n\n### Implications for valuation and ratios\n- Because EBITDA includes 100% of the subsidiary, **enterprise value must include NCI** to keep numerator and denominator consistent (the bridge mechanics belong to the EV topic).\n- EPS uses net income **attributable to the parent**.\n- ROE should use parent equity and parent net income.\n- Debt/EBITDA includes the subsidiary's debt in full, even if the parent has no recourse.\n\n### NCI roll-forward\n```\nNCI (end) = NCI (begin) + NCI share of net income\n          - dividends paid to NCI\n          +/- NCI share of OCI\n          +/- changes in ownership\n```\nBuying out the minority later is an equity transaction (no new goodwill, difference goes to APIC) under both US GAAP and IFRS.",
+    "commonMistakes": [
+      "Showing NCI as a liability",
+      "Consolidating only 80% of the subsidiary's results",
+      "Forgetting that EPS is based on net income attributable to the parent"
+    ],
+    "followUps": [
+      "Why is NCI added to enterprise value?",
+      "What happens when the parent buys the remaining 20%?",
+      "How does the equity method differ from consolidation?"
+    ],
+    "ifrsNote": "IFRS 3 allows NCI at acquisition to be measured either at fair value (full goodwill) or at the proportionate share of identifiable net assets (partial goodwill); US GAAP requires fair value. This changes the NCI and goodwill balances but not the consolidation mechanics.",
+    "tags": [
+      "non-controlling interest",
+      "consolidation",
+      "minority interest",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-045",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "When is the equity method used, and how does an equity-method investment flow through the three statements, including dividends received?",
+    "keyAnswer": "The equity method applies when an investor has significant influence but not control, usually 20-50% ownership. The investment is recorded at cost and then increased by the investor's share of the investee's net income (recognised as a single line of equity income on the income statement) and reduced by dividends received. Dividends are not income; they are a return of the investment, so on the cash flow statement equity income is subtracted from CFO as non-cash and dividends received are added back.",
+    "explanation": "### Ownership thresholds (presumptions, rebuttable by facts)\n| Stake | Method | Balance sheet | Income statement |\n|---|---|---|---|\n| Under 20% | Fair value (US GAAP: changes through net income for equity securities) or cost | Investment at fair value | Dividends and fair-value changes |\n| 20-50% | **Equity method** | One line: investment at cost + share of earnings - dividends | One line: share of investee net income |\n| Over 50% | Consolidation | 100% of assets and liabilities, NCI in equity | 100% of revenue and expenses, NCI deducted |\n\nControl can exist below 50% (board control, contractual rights) and significant influence can exist below 20%, so judgement applies.\n\n### Worked example\nInvestor buys 30% of Investee for $300. In year 1 Investee earns $100 and pays $20 of dividends.\n- **Income statement**: equity income = 30% x 100 = **$30** (below operating income, typically pre-tax with its own tax effect ignored here).\n- **Balance sheet**: investment = 300 + 30 - (30% x 20 = 6) = **$324**. Cash +6.\n- **Cash flow statement**: net income includes 30 of non-cash income; subtract 30 in CFO; add 6 of dividends received (CFO under US GAAP). Net CFO effect **+6**, matching the cash actually received.\n\n### Why it is called one-line consolidation\nThe investor's share of the investee's net assets and earnings appears in a single balance-sheet line and a single income-statement line, instead of line-by-line consolidation. Revenue and EBITDA exclude the investee entirely, which matters for valuation: equity-method investments are added to enterprise value (or their income removed from EBITDA) to stay consistent.\n\n### Other points\n- Losses reduce the investment; once it reaches zero the investor generally stops recording further losses.\n- Impairment is recognised if the decline in value is other than temporary.\n- Goodwill embedded in the purchase price is not separately amortised or tested; the whole investment is.",
+    "commonMistakes": [
+      "Recording dividends from an equity-method investee as income",
+      "Consolidating a 30% stake",
+      "Forgetting to subtract equity income in operating cash flow"
+    ],
+    "followUps": [
+      "How are equity-method investments treated in the EV bridge?",
+      "What happens if the investor's share of losses exceeds the carrying value?",
+      "What indicates control at less than 50% ownership?"
+    ],
+    "tags": [
+      "equity method",
+      "consolidation",
+      "investments",
+      "cash flow statement"
+    ]
+  },
+  {
+    "id": "acc-046",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is the difference between deferred revenue and accrued liabilities?",
+    "keyAnswer": "Both are liabilities, but they arise from opposite timing. Deferred revenue is cash received from a customer before the company has earned it, so the obligation is to deliver a product or service and it unwinds into revenue. An accrued liability is an expense the company has already incurred but not yet paid, such as wages or utilities, so the obligation is to pay cash and it unwinds through a cash payment.",
+    "explanation": "### Side by side\n| | Deferred revenue | Accrued liabilities |\n|---|---|---|\n| Timing | Cash first, revenue later | Expense first, cash later |\n| Created by | Customer prepayment | Consuming a service before being billed/paid |\n| Settled by | Delivering goods/services | Paying cash |\n| Income-statement effect when created | None | Expense recognised |\n| Income-statement effect when settled | Revenue recognised | None |\n| Cash flow when created | Inflow (source) | None (non-cash expense, so an add-back) |\n| Cash flow when settled | None (tax aside) | Outflow |\n| Typical examples | Subscriptions, gift cards, maintenance contracts, airline tickets | Wages, bonuses, interest, utilities, taxes payable |\n\n### Walkthrough reminders (25% tax)\n- Deferred revenue +$10: no IS effect, CFO +10, cash +10, liability +10.\n- Accrued liability +$10: expense +10, net income -7.5, CFO +2.5 (NI -7.5 plus the 10 add-back), liability +10.\n\n### Why the distinction matters\n- Growing **deferred revenue** is usually good news: it is future revenue already paid for and a sign of demand. Analysts track \"billings\" = revenue + change in deferred revenue for subscription companies.\n- Growing **accrued liabilities** can be benign (growing payroll) or a sign the company is slow to pay or has booked large provisions (restructuring, litigation) that will consume cash later.\n- In M&A, deferred revenue is often treated as debt-like or as part of working capital depending on the cost to fulfil it; accrued liabilities are typically working capital.\n\nBoth sit in operating net working capital and are sources of cash when they increase.",
+    "commonMistakes": [
+      "Saying deferred revenue is an expense-side item",
+      "Thinking deferred revenue has to be repaid in cash",
+      "Treating accrued liabilities as having no income-statement effect"
+    ],
+    "followUps": [
+      "Walk me through deferred revenue of $10 on the three statements.",
+      "What is the difference between accrued expenses and accounts payable?",
+      "How are billings calculated for a SaaS company?"
+    ],
+    "tags": [
+      "deferred revenue",
+      "accrued liabilities",
+      "working capital",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "acc-047",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is the difference between accounts payable and accrued expenses?",
+    "keyAnswer": "Both are short-term operating liabilities for costs not yet paid. Accounts payable are amounts owed to suppliers for goods or services already invoiced, so the amount is known. Accrued expenses are costs incurred but not yet invoiced or formally billed, such as wages earned but unpaid, interest, utilities or bonuses, so the amount is usually estimated.",
+    "explanation": "### Comparison\n| | Accounts payable | Accrued expenses |\n|---|---|---|\n| Trigger | Supplier invoice received | Expense incurred, no invoice yet |\n| Amount | Known from the invoice | Estimated |\n| Counterparty | Trade suppliers | Employees, lenders, utilities, tax authorities, service providers |\n| Typical items | Inventory purchases, raw materials, services billed | Salaries and bonuses, interest, rent, utilities, warranty, professional fees |\n| Balance-sheet label | Trade payables | Accrued liabilities / accrued expenses |\n\n### Same mechanics on the statements\nAn increase in either is a **source of cash** in operating cash flow; paying them down is a use of cash. Both are included in operating net working capital. The expense itself hits the income statement when the good or service is consumed, regardless of whether it is a payable or an accrual.\n\n### Example\n- Inventory of $10 received with an invoice: inventory +10, AP +10. No IS effect until the goods are sold.\n- Employees earned $10 of wages in the last week of December, paid in January: wage expense +10 in December, accrued liabilities +10; in January cash -10, accrued -10.\n\n### Why analysts separate them\n- **Days payable outstanding (DPO)** uses trade payables only; stretching suppliers raises DPO and flatters cash flow temporarily. A jump in DPO can signal liquidity stress or supply-chain-finance programmes (reverse factoring) that disguise debt.\n- Accruals involve judgement; rising accruals relative to revenue can hide provisions that will reverse later.\n- Interest payable is often shown within accrued liabilities but is debt-like; when calculating net debt some analysts include accrued interest.\n\n### Supply-chain finance\nWhen a bank pays suppliers early and the company pays the bank later, the obligation is still typically shown within payables. Since 2023 US GAAP requires disclosure of these programmes because they can hide what is economically short-term borrowing.",
+    "commonMistakes": [
+      "Saying accruals are not real liabilities because they are estimated",
+      "Excluding one of them from operating working capital",
+      "Treating interest payable as trade payables"
+    ],
+    "followUps": [
+      "How do you calculate days payable outstanding?",
+      "How can stretching payables inflate cash flow from operations?",
+      "What is reverse factoring and why do analysts worry about it?"
+    ],
+    "tags": [
+      "accounts payable",
+      "accrued expenses",
+      "working capital",
+      "balance sheet"
+    ]
+  },
+  {
+    "id": "acc-048",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is a balance-sheet \"plug\" in a financial model, and why does a properly built model always balance?",
+    "keyAnswer": "In a three-statement model, cash is the balancing item: it is computed from the cash flow statement rather than forecast directly, and because every cash flow item is matched by a change in another balance-sheet account, assets equal liabilities plus equity automatically. A \"plug\" in the pejorative sense means forcing the balance sheet to balance by hard-coding a difference, which hides an error in the model.",
+    "explanation": "### Why double entry makes the balance sheet balance\nEvery transaction has two sides. A $10 cash expense reduces cash and reduces retained earnings (via net income); a $100 debt-funded purchase raises PP&E and raises debt. If the three statements are linked correctly, the identity **A = L + E** holds without any manual intervention.\n\n### The role of cash in a model\n```\nEnding cash = Beginning cash + CFO + CFI + CFF\n```\nCash is derived, not assumed. Every other balance-sheet line is driven by its own schedule:\n- PP&E: beginning + capex - depreciation.\n- Debt: beginning + issuance - repayment.\n- Retained earnings: beginning + net income - dividends.\n- Working-capital lines: driver days or % of revenue.\n\nBecause each of those changes also appears on the cash flow statement with the correct sign, the change in cash equals the net change in all other accounts, and the sheet balances.\n\n### The revolver as a plug\nMany models add a **revolver** that draws automatically when cash would fall below a minimum and repays when there is excess. Cash and the revolver together act as the balancing mechanism; this is legitimate and reflects how companies actually manage liquidity.\n\n### The bad kind of plug\nIf the sheet is off, inserting a hard-coded \"other\" line to force it to balance is wrong: it masks a missing link (a forgotten non-cash add-back, a one-sided entry, a sign error in working capital, SBC expensed but not credited to APIC, or an item on the CFS that does not change any balance-sheet account).\n\n### The check\nBuild a line: total assets - total liabilities - total equity = 0 for every period. If it is off by exactly an item's amount, that item is missing from one statement; if it is off by the after-tax amount, the tax effect was handled inconsistently.",
+    "commonMistakes": [
+      "Forecasting cash as a % of revenue and then hard-coding a plug",
+      "Believing the balance sheet \"should\" need a plug",
+      "Not being able to explain which item is driving an imbalance"
+    ],
+    "followUps": [
+      "Walk me through how you would build a revolver in a model.",
+      "If the balance sheet is off by exactly the SBC amount, what did you probably miss?",
+      "What circular reference arises from interest on the revolver, and how do you handle it?"
+    ],
+    "tags": [
+      "financial modelling",
+      "balance sheet",
+      "plug",
+      "three statements"
+    ]
+  },
+  {
+    "id": "acc-049",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "Can an increase in depreciation ever increase a company's cash? Explain, and tell me what changes if the depreciation is not tax-deductible.",
+    "keyAnswer": "Yes. Depreciation itself is non-cash, but because it is tax-deductible it lowers taxable income, so a $10 increase saves $2.5 of tax at a 25% rate and cash rises by $2.5. If the depreciation is not deductible, there is no tax saving: net income falls by the full $10, the $10 is added back, and cash is completely unchanged.",
+    "explanation": "### The tax shield\n```\nCash benefit of extra depreciation = Depreciation x Tax rate\n                                   = 10 x 25% = $2.5\n```\nThe asset's cash cost was paid at purchase (in investing). Depreciation only spreads that cost over time for accounting and, crucially, for tax. More depreciation today means less tax today. That is the only cash link, which is why higher depreciation **lowers** net income but **raises** cash.\n\n### Deductible depreciation +$10\n| | $ |\n|---|---|\n| Pre-tax income | -10.0 |\n| Tax | -2.5 |\n| Net income | -7.5 |\n| Add back D&A | +10.0 |\n| CFO / cash | **+2.5** |\n\nBalance sheet: cash +2.5, PP&E -10, retained earnings -7.5.\n\n### Non-deductible depreciation +$10\n| | $ |\n|---|---|\n| Pre-tax income | -10.0 |\n| Tax | 0 |\n| Net income | -10.0 |\n| Add back D&A | +10.0 |\n| CFO / cash | **0** |\n\nBalance sheet: PP&E -10, retained earnings -10. No cash moves at all.\n\n### When is depreciation non-deductible in practice?\n- Book depreciation that differs from the tax schedule (the tax books use their own rates); the difference is temporary and produces deferred taxes rather than a permanent loss of the shield.\n- Impairments and goodwill write-downs in many jurisdictions.\n- Depreciation of assets written up in a stock acquisition without a tax step-up: book D&A rises, tax D&A does not, creating a DTL that unwinds over the asset life.\n\n### Why interviewers push on this\nIt separates candidates who have memorised \"cash goes up $2.5\" from those who understand **why**. The cleanest answer: depreciation does not create cash; the tax deduction does. Remove the deduction and the cash effect disappears.",
+    "commonMistakes": [
+      "Saying depreciation itself generates cash",
+      "Keeping the $2.5 cash benefit when the deduction is removed",
+      "Forgetting to still add back the non-deductible depreciation on the CFS"
+    ],
+    "followUps": [
+      "Why does accelerated tax depreciation create a deferred tax liability?",
+      "Would you rather own an asset with a short or long tax life?",
+      "How does this relate to the depreciation tax shield in a DCF?"
+    ],
+    "tags": [
+      "depreciation",
+      "tax shield",
+      "walkthrough",
+      "deferred taxes"
+    ]
+  },
+  {
+    "id": "acc-050",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "How would you project a company's three financial statements? What are the key drivers for each line?",
+    "keyAnswer": "Start with revenue growth, then drive costs as a percentage of revenue to get EBITDA and EBIT, with D&A tied to capex and PP&E, interest from the debt schedule, and a tax rate to reach net income. Balance-sheet working capital lines are projected with driver days or percentages of revenue or COGS, PP&E rolls forward with capex and depreciation, debt and equity come from financing assumptions, and cash is the output of the cash flow statement. The cash flow statement is then derived from the changes in balance-sheet accounts and the non-cash items.",
+    "explanation": "### Income statement\n| Line | Typical driver |\n|---|---|\n| Revenue | Growth rate, or volume x price, or units x ARPU; segment build if possible |\n| COGS, SG&A, R&D | % of revenue (or gross-margin target); fixed vs variable split for operating leverage |\n| D&A | % of beginning PP&E or of capex; from a depreciation waterfall if detailed |\n| SBC | % of revenue (non-cash, added back on CFS, credited to APIC) |\n| Interest expense | Rate x average (or beginning) debt balance from the debt schedule |\n| Interest income | Rate x average cash |\n| Taxes | Effective tax rate x pre-tax income (track NOLs if any) |\n\n### Balance sheet\n| Line | Driver |\n|---|---|\n| Receivables | DSO x revenue / 365 |\n| Inventory | DIO x COGS / 365 |\n| Prepaids / other | % of revenue or opex |\n| Payables | DPO x COGS / 365 |\n| Accrued, deferred revenue | % of opex / revenue |\n| PP&E | Beginning + capex - depreciation |\n| Goodwill, intangibles | Flat; intangibles less amortisation |\n| Debt | Beginning + issuance - mandatory and optional repayment |\n| Common stock / APIC | + issuance + SBC |\n| Retained earnings | + net income - dividends |\n| Treasury stock | - buybacks |\n| **Cash** | From the cash flow statement |\n\n### Cash flow statement\nDerived, not assumed: net income + non-cash items - change in each working-capital line (from the balance sheet) = CFO; capex and acquisitions = CFI; debt and equity flows = CFF; ending cash feeds the balance sheet.\n\n### Order of operations and circularity\n1. IS down to EBIT.\n2. BS operating lines and PP&E.\n3. Debt schedule, which needs cash to size revolver draws, while interest feeds back into net income: this creates a **circular reference**, resolved by iterative calculation or by using beginning-of-period balances.\n4. Taxes, net income, CFS, cash, balance check.\n\n### Sanity checks\nMargins vs history and peers, capex vs D&A (growing companies spend more than they depreciate), NWC days stable unless there is a reason, leverage within covenants, and the balance sheet balancing with no plug.",
+    "commonMistakes": [
+      "Projecting cash as a % of revenue instead of deriving it",
+      "Forecasting D&A unrelated to capex and PP&E",
+      "Ignoring the interest-cash circularity"
+    ],
+    "followUps": [
+      "How do you handle the circular reference between interest and cash?",
+      "Why should capex exceed D&A for a growing company?",
+      "How would you forecast working capital for a seasonal business?"
+    ],
+    "tags": [
+      "financial modelling",
+      "projections",
+      "three statements",
+      "drivers"
+    ]
+  },
+  {
+    "id": "acc-051",
+    "category": "Accounting",
+    "difficulty": "Basic",
+    "question": "What is the difference between gross profit, operating profit, EBITDA and net income?",
+    "keyAnswer": "Gross profit is revenue minus the direct cost of goods sold. Operating profit (EBIT) further deducts operating expenses such as SG&A, R&D and D&A. EBITDA is operating profit with depreciation and amortisation added back. Net income is what remains after interest, taxes and non-operating items, and it belongs to shareholders.",
+    "explanation": "### The income-statement ladder\n```\nRevenue                                 1,000\n- COGS                                   (600)\n= Gross profit                            400   (40% gross margin)\n- SG&A, R&D and other opex (ex D&A)      (200)\n= EBITDA                                  200   (20% EBITDA margin)\n- Depreciation & amortisation             (50)\n= Operating profit / EBIT                 150   (15% operating margin)\n- Interest expense                        (20)\n+/- Non-operating items                     0\n= Pre-tax income (EBT)                    130\n- Taxes at 25%                          (32.5)\n= Net income                             97.5   (9.75% net margin)\n```\n\n### What each level tells you\n- **Gross profit**: unit economics and pricing power. A software firm at 80% versus a grocer at 25% says more about the business model than about management.\n- **EBITDA**: operating cash-earnings proxy before capital-structure, tax and asset-age effects; used for EV multiples and leverage ratios.\n- **Operating profit (EBIT)**: profitability after the cost of using fixed assets; the base for unlevered cash flow (EBIT x (1 - tax)) and for EV/EBIT.\n- **Net income**: the bottom line to equity holders after lenders and the government are paid; drives EPS and P/E.\n\n### Why the gaps matter\n- A large gap between gross profit and EBITDA means heavy operating costs (sales, R&D), common in early-stage tech.\n- A large gap between EBITDA and EBIT means heavy D&A, typical of capital-intensive or acquisitive companies.\n- A large gap between EBIT and net income means heavy leverage, high taxes or big non-operating items.\n\n### Classification caveats\nD&A is often buried inside COGS and opex rather than shown on its own line, so EBITDA is rebuilt from the cash flow statement. \"Operating income\" and \"EBIT\" can differ when companies classify items like equity-method income or restructuring outside operating income.",
+    "commonMistakes": [
+      "Equating EBITDA with gross profit or with cash flow",
+      "Forgetting that D&A can sit inside COGS",
+      "Using net income for EV multiples (it is an equity-level figure)"
+    ],
+    "followUps": [
+      "Which of these levels pairs with enterprise value and which with equity value?",
+      "Why might operating income and EBIT differ on a company's statements?",
+      "Where would you find D&A if it is not on the face of the income statement?"
+    ],
+    "tags": [
+      "income statement",
+      "gross profit",
+      "ebitda",
+      "net income"
+    ]
+  },
+  {
+    "id": "acc-052",
+    "category": "Accounting",
+    "difficulty": "Advanced",
+    "question": "What are non-recurring items, how do you normalise earnings for them, and where are the traps?",
+    "keyAnswer": "Non-recurring items are gains, losses or expenses outside the ordinary, repeating course of business, such as restructuring charges, impairments, gains or losses on asset sales, litigation settlements and discontinued operations. To normalise, remove them from EBITDA, EBIT or net income on a pre-tax or after-tax basis as appropriate so that multiples and forecasts reflect the run-rate business. The traps are \"non-recurring\" items that recur every year, and adjustments that strip out real costs like SBC or acquisition integration.",
+    "explanation": "### Typical items\n| Item | Where it appears | Treatment |\n|---|---|---|\n| Restructuring and severance | Operating expenses | Add back if genuinely one-off |\n| Impairments and write-downs | Operating or separate line | Add back (non-cash) |\n| Gains/losses on sale of assets or businesses | Other income / below EBIT | Remove |\n| Litigation settlements, regulatory fines | Operating or other | Remove if isolated |\n| Discontinued operations | Below net income from continuing ops | Already separated; use continuing operations |\n| Release of a tax valuation allowance | Tax line | Normalise the tax rate |\n| Debt extinguishment gains/losses | Non-operating | Remove |\n| M&A transaction costs | Operating | Remove for the acquirer's run-rate |\n\n### Mechanics\n- For **EBITDA and EBIT**: add back pre-tax amounts.\n- For **net income and EPS**: adjust on an after-tax basis: adjustment x (1 - tax rate). Example: a $40 pre-tax restructuring charge at 25% tax raises normalised net income by $30.\n- Match the time period: an item in the last twelve months must be removed from LTM figures, and a target's forecast should exclude it.\n\n### The traps\n1. **Serial \"one-offs\"**: companies that restructure every year are reporting a recurring cost. Check the last five years.\n2. **Adjusted metrics that remove real costs**: SBC, \"pre-opening\" costs, integration expenses for a serial acquirer. Non-GAAP reconciliations in the 10-K and SEC comment letters are worth reading.\n3. **Asymmetry**: adding back losses but keeping one-off gains.\n4. **Cash reality**: a non-recurring charge may be non-cash now but a cash outflow later (accrued restructuring), affecting FCF forecasts.\n5. **Covenant EBITDA** definitions can allow add-backs for projected synergies, inflating headroom.\n\n### Why it matters\nMultiples applied to depressed or inflated earnings give wrong valuations; peers must be normalised consistently. In diligence, the quality-of-earnings report exists largely to separate run-rate EBITDA from noise.",
+    "commonMistakes": [
+      "Normalising only the charges and not the gains",
+      "Adjusting net income with the pre-tax amount",
+      "Accepting management's adjusted EBITDA without checking recurrence"
+    ],
+    "followUps": [
+      "How do you treat a gain on sale of a division in LTM EBITDA?",
+      "Is SBC a legitimate add-back in adjusted EBITDA?",
+      "What is a quality-of-earnings analysis?"
+    ],
+    "tags": [
+      "non-recurring items",
+      "normalisation",
+      "adjusted ebitda",
+      "quality of earnings"
+    ]
+  }
+]

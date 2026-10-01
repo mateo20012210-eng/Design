@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sample Deals Feed</title>
+    <link>https://example.com/deals</link>
+    <item>
+      <title>Acme Corp agrees to buy Widget Industries for $4.5 billion in all-cash deal</title>
+      <link>https://example.com/deals/acme-widget</link>
+      <description><![CDATA[<p>Acme Corp said on Monday it will <b>acquire</b> rival Widget Industries for $4.5 billion in cash, in the largest industrial deal in the United States this year.</p>]]></description>
+      <pubDate>Mon, 28 Sep 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>KKR nears €800 million buyout of German software group</title>
+      <link>https://example.com/deals/kkr-software</link>
+      <description>The private equity firm is in advanced talks to take the Frankfurt-listed company private, people familiar said.</description>
+      <pubDate>Tue, 29 Sep 2026 14:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Best deals on headphones this weekend</title>
+      <link>https://example.com/shopping/headphones</link>
+      <description>Shopping: price drop on popular models.</description>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Brazilian fintech Nubank-rival prices IPO at top of range, raising R$2.1 billion in São Paulo</title>
+      <link>https://example.com/deals/brazil-ipo</link>
+      <description>The listing on B3 is the largest in Latin America this year.</description>
+      <pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Retailer files for Chapter 11 as creditors push for debt-for-equity swap</title>
+      <link>https://example.com/deals/retailer-ch11</link>
+      <description>The company has $1.2bn of high-yield bonds outstanding.</description>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

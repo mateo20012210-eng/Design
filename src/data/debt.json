@@ -1,0 +1,309 @@
+[
+  {
+    "id": "debt-001",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "What is a company's capital structure, and how does management decide how much debt versus equity to use?",
+    "keyAnswer": "Capital structure is the mix of debt, equity and hybrids that funds a company's assets. Firms balance the tax shield and cheaper cost of debt against financial-distress and flexibility costs (trade-off theory), tend to prefer internal cash, then debt, then equity (pecking order), and anchor to what peers in their industry and their target credit rating can support.",
+    "explanation": "### What it is\n\nCapital structure describes how the right-hand side of the balance sheet is funded: senior and subordinated debt, preferred stock, convertibles and common equity. The choice matters because it changes the cost of capital, the risk borne by shareholders and how much room the company has in a downturn.\n\n### Three lenses interviewers expect\n\n1. **Trade-off theory.** Debt is cheaper than equity (lower required return, interest is tax-deductible) but each extra dollar raises the probability and cost of financial distress. Firms lever up until the marginal tax benefit equals the marginal expected distress and agency cost. Example: $100m of debt at 6% costs $6m of interest; at a 25% tax rate the tax shield is $1.5m a year, so the after-tax cost is 4.5% versus perhaps 9–10% for equity.\n2. **Pecking order.** Because managers know more than investors, issuing equity signals the shares may be overvalued. Companies therefore fund themselves first from retained cash, then debt, and issue equity only as a last resort.\n3. **Industry norms and practical constraints.** Stable, asset-heavy businesses (utilities, telecoms, real estate) carry 4–6x leverage; volatile or asset-light businesses (software, biotech) carry little or none. Management also targets a rating (often BBB to keep investment-grade access), keeps covenant headroom and preserves liquidity for M&A.\n\n### How to answer in practice\n\nSay that the \"right\" structure minimises WACC subject to keeping distress risk acceptable: predictable cash flows, hard collateral and low capex needs support more debt; cyclicality, high growth and intangible assets argue for equity. Mention that the optimum shifts with rates and the credit cycle.",
+    "commonMistakes": [
+      "Claiming more debt always lowers WACC — beyond a point the rising cost of equity and distress costs outweigh the tax shield.",
+      "Forgetting the pecking-order explanation when asked why profitable companies rarely issue equity.",
+      "Ignoring that industry and rating targets drive real-world decisions more than textbook formulas."
+    ],
+    "followUps": [
+      "Why is debt cheaper than equity?",
+      "What would make a company choose an equity issue over debt?",
+      "How does Modigliani–Miller relate to the trade-off theory?"
+    ],
+    "tags": ["capital structure", "trade-off theory", "pecking order", "wacc"]
+  },
+  {
+    "id": "debt-002",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "Compare bank debt with bonds — and within bonds, investment-grade versus high-yield — on pricing, covenants, prepayment, maturity and fixed versus floating rate.",
+    "keyAnswer": "Bank debt is usually senior secured, floating rate, shorter dated, cheaper, freely prepayable and carries maintenance covenants. Bonds are typically unsecured, fixed rate, longer dated, more expensive, protected from early repayment and governed by incurrence covenants; investment-grade bonds have very few covenants while high-yield bonds have a fuller incurrence package and higher coupons.",
+    "explanation": "### Bank debt (revolver, term loan A, term loan B)\n\n- **Pricing:** floating, quoted as a spread over a benchmark (e.g. SOFR + 250–450 bps), often with a floor. Fees include commitment fees on undrawn revolvers and upfront/OID.\n- **Security and ranking:** normally senior secured with a first lien on most assets.\n- **Covenants:** revolvers and TLAs carry maintenance covenants tested quarterly; TLBs held by institutions are mostly covenant-lite.\n- **Prepayment:** repayable at par at any time (TLBs may have a 101 soft call for six months) plus mandatory sweeps of excess cash flow and asset-sale proceeds.\n- **Maturity:** 3–7 years; TLAs amortise, TLBs amortise about 1% a year with a bullet.\n- **Holders:** banks (revolver, TLA) and CLOs, loan funds and insurers (TLB).\n\n### Bonds\n\n- **Pricing:** fixed coupon, set as Treasury yield plus a credit spread at issuance.\n- **Security:** usually senior unsecured or subordinated; secured notes exist in high-yield.\n- **Covenants:** incurrence-based only.\n- **Prepayment:** investors buy bonds for yield certainty, so issuers pay for the right to call. High-yield bonds are non-callable for the first half of their life (e.g. NC-4 on an 8-year), then callable at par plus half the coupon stepping down to par. Investment-grade bonds use a make-whole call (Treasury + small spread), which is uneconomic unless rates have risen.\n- **Maturity:** 7–10 years for high-yield, up to 30 years or more for investment-grade.\n\n### Investment-grade vs high-yield\n\n| Feature | IG (BBB− and above) | HY (BB+ and below) |\n|---|---|---|\n| Covenants | minimal (negative pledge, change of control) | limitation on debt, restricted payments, liens, asset sales |\n| Spread | roughly 50–200 bps | roughly 250–800+ bps |\n| Typical size | large, frequent issuers | leveraged or sponsor-owned issuers |\n| Buyers | insurers, pensions, IG funds | HY funds, hedge funds, CLOs for loans |\n\nFloating-rate loans suit issuers that plan to delever quickly or expect rates to fall; fixed-rate bonds lock in cost and are better for long-lived assets.",
+    "commonMistakes": [
+      "Saying bonds are always cheaper than loans — unsecured, longer and non-prepayable debt typically carries a higher coupon than a secured loan.",
+      "Mixing up call protection: loans are prepayable at par, bonds are not.",
+      "Forgetting that TLBs are mostly covenant-lite even though they are bank-style loans."
+    ],
+    "followUps": [
+      "Why do term loan B investors accept weak covenants?",
+      "When would a company prefer floating-rate debt?",
+      "What is an original issue discount and how does it affect the all-in yield?"
+    ],
+    "tags": ["bank debt", "bonds", "high yield", "investment grade", "covenants"]
+  },
+  {
+    "id": "debt-003",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "Walk me through the priority waterfall in a capital structure, and explain the difference between contractual and structural subordination.",
+    "keyAnswer": "From top to bottom: secured debt (first then second lien), senior unsecured, subordinated, preferred stock, common equity — each layer is paid in full before the next receives anything. Contractual subordination is written into the documents (a sub note agrees to rank behind senior notes); structural subordination arises from where the debt sits in the group, because holding-company creditors only get what is left after every operating-company creditor is paid.",
+    "explanation": "### The waterfall\n\n| Rank | Instrument | Typical protection |\n|---|---|---|\n| 1 | Senior secured (revolver, term loans, secured notes) | lien on assets; recovers from collateral first |\n| 2 | Second-lien / junior secured | lien behind first lien |\n| 3 | Senior unsecured notes | no collateral, pari passu with trade creditors |\n| 4 | Senior subordinated / subordinated notes | contractually agree to be paid after senior |\n| 5 | Mezzanine, PIK notes | often holdco, warrants attached |\n| 6 | Preferred stock | dividends before common, no voting |\n| 7 | Common equity | residual claimant |\n\nAdministrative claims and DIP financing in bankruptcy sit above everything. Secured lenders whose collateral is worth less than their claim become unsecured for the shortfall (the \"deficiency claim\").\n\n### Contractual subordination\n\nA subordination clause in the indenture says the subordinated holders will turn over any distribution to senior holders until the seniors are paid in full. It operates within the same legal entity.\n\n### Structural subordination\n\nSuppose HoldCo owns OpCo. OpCo borrows $300m from banks; HoldCo issues $200m of notes and downstreams the cash as equity. If OpCo is liquidated for $350m, OpCo's banks take $300m; the remaining $50m flows up to HoldCo as the equity owner and the HoldCo noteholders split it, recovering 25 cents. HoldCo creditors are structurally subordinated even if their notes are labelled \"senior\". Fixes include upstream guarantees from OpCo or making OpCo a co-issuer.\n\n### Why interviewers ask\n\nIt shows you can read a capital structure, estimate where value runs out and understand why identical coupons do not mean identical risk.",
+    "commonMistakes": [
+      "Assuming the word 'senior' in a bond's name guarantees it ranks ahead of operating-company bank debt.",
+      "Forgetting that an undersecured lender's shortfall ranks only as unsecured.",
+      "Placing preferred stock ahead of all debt."
+    ],
+    "followUps": [
+      "What is an intercreditor agreement and what does it govern?",
+      "How do upstream guarantees change the analysis?",
+      "What does pari passu mean?"
+    ],
+    "tags": ["seniority", "waterfall", "structural subordination", "secured", "subordinated"]
+  },
+  {
+    "id": "debt-004",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "What is the difference between maintenance and incurrence covenants? Give examples of each and explain what happens when a borrower breaches one.",
+    "keyAnswer": "Maintenance covenants are tested every quarter regardless of what the company does (e.g. leverage must stay below 4.0x, interest coverage above 3.0x) and are typical of bank loans. Incurrence covenants are tested only when the company takes an action such as borrowing more, paying a dividend or selling assets, and are typical of bonds. A breach is an event of default that lets lenders accelerate, but in practice it usually leads to a waiver for a fee, an amend-and-extend, an equity cure, or in bad cases a restructuring.",
+    "explanation": "### Maintenance covenants (financial covenants)\n\nTested on a trailing-twelve-month basis each quarter, with headroom of 25–35% to the base case at signing:\n\n- **Maximum total or net leverage:** Debt/EBITDA ≤ 4.0x, often stepping down over time.\n- **Minimum interest coverage:** EBITDA/Interest ≥ 3.0x.\n- **Minimum fixed-charge coverage** or **maximum capex**.\n\nExample: debt of $400m and EBITDA of $120m gives 3.3x, comfortably under a 4.0x limit. If EBITDA falls to $90m, leverage becomes 4.4x and the covenant is breached even though the company has paid every coupon.\n\n### Incurrence covenants (negative covenants)\n\nFound in high-yield indentures and covenant-lite loans; nothing is tested unless the company acts:\n\n- **Limitation on indebtedness:** may only incur new debt if pro forma fixed-charge coverage is ≥ 2.0x, plus carve-out baskets.\n- **Restricted payments:** dividends, buybacks and investments capped by a builder basket (typically 50% of cumulative net income).\n- **Limitation on liens, asset sales, affiliate transactions, mergers.**\n- **Change of control put** at 101.\n\n### What happens on a breach\n\n1. **Waiver:** lenders waive the breach for a consent fee (25–100 bps) and often a margin increase.\n2. **Amend-and-extend / reset:** covenant levels are loosened and maturities pushed out in exchange for fees, higher pricing and tighter terms (more reporting, anti-cash-hoarding).\n3. **Equity cure:** the sponsor injects equity that is counted as EBITDA for the test, usually limited to a few uses.\n4. **Event of default:** if unresolved, lenders can accelerate, block revolver draws and enforce security; cross-default clauses trip other debt and the company may need a formal restructuring.\n\nMaintenance covenants act as an early-warning tripwire that brings lenders to the table before value is destroyed; that is why their disappearance in covenant-lite loans matters to creditors.",
+    "commonMistakes": [
+      "Saying a covenant breach automatically means bankruptcy — most are waived or amended.",
+      "Confusing a technical default (covenant) with a payment default (missed interest or principal).",
+      "Forgetting that incurrence covenants restrict actions rather than measuring ongoing performance."
+    ],
+    "followUps": [
+      "What is an equity cure and why do lenders limit it?",
+      "How is 'EBITDA' defined in a credit agreement and why do add-backs matter?",
+      "What is a cross-default clause?"
+    ],
+    "ifrsNote": "Under IAS 1, if a covenant is breached at the reporting date and the lender has not granted a waiver by that date, the whole loan must be classified as current even if a waiver is obtained before the accounts are signed. Under US GAAP (ASC 470-10), a waiver obtained before the financial statements are issued can keep the debt non-current.",
+    "tags": ["covenants", "maintenance covenants", "incurrence covenants", "default", "waiver"]
+  },
+  {
+    "id": "debt-005",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "Which credit ratios would you look at to assess a company's debt burden, how are they calculated, and what do healthy versus stressed levels look like?",
+    "keyAnswer": "Leverage ratios (Debt/EBITDA and Net Debt/EBITDA) measure how many years of earnings it would take to repay debt; coverage ratios (EBITDA/Interest, EBIT/Interest, (EBITDA − Capex)/Interest and the fixed-charge coverage ratio) measure the ability to service it; Debt/Capitalisation shows the balance-sheet mix. As a rule of thumb, under 3x leverage and above 4–5x coverage is investment-grade-like, 4–6x leverage with 2–3x coverage is typical high-yield or LBO territory, and above 6–7x or below 1.5x coverage signals stress.",
+    "explanation": "### Leverage (stock of debt vs earnings)\n\n- **Total Debt / EBITDA** — gross leverage.\n- **Net Debt / EBITDA** — nets cash; used in covenants when cash is unrestricted.\n- **Senior / Secured Debt / EBITDA** — leverage through a specific tranche.\n\n### Coverage (cash earnings vs fixed charges)\n\n- **EBITDA / Interest** — most common; ignores capex.\n- **EBIT / Interest** — stricter, treats D&A as a proxy for required reinvestment.\n- **(EBITDA − Capex) / Interest** — most conservative for capital-intensive businesses.\n- **Fixed-charge coverage ratio (FCCR)** = (EBITDA − Capex − Cash taxes) / (Cash interest + Scheduled principal), sometimes including rent.\n\n### Capitalisation\n\n**Debt / (Debt + Equity)** using book values, used by rating agencies and in some bond covenants.\n\n### Worked example\n\nAssumptions: EBITDA $200m, D&A $60m (so EBIT $140m), capex $50m, cash interest $40m, scheduled amortisation $20m, total debt $700m, cash $100m, book equity $500m, tax rate 25%.\n\n```\nDebt / EBITDA            = 700 / 200          = 3.5x\nNet Debt / EBITDA        = (700 - 100) / 200  = 3.0x\nEBITDA / Interest        = 200 / 40           = 5.0x\nEBIT / Interest          = 140 / 40           = 3.5x\n(EBITDA - Capex)/Interest= 150 / 40           = 3.75x\nCash taxes               = 25% x (140 - 40)   = 25\nFCCR                     = (200-50-25)/(40+20)= 2.1x\nDebt / Capitalisation    = 700 / (700 + 500)  = 58%\n```\n\n### Reading the numbers\n\n| Profile | Debt/EBITDA | EBITDA/Interest |\n|---|---|---|\n| Strong IG (A and above) | < 2x | > 8x |\n| BBB | 2–3x | 5–8x |\n| BB | 3–4x | 3–5x |\n| B (typical LBO) | 4–6x | 2–3x |\n| CCC / distressed | > 6–7x | < 1.5x |\n\nThese bands are sector-dependent: a regulated utility or tower company can carry 5–6x and still be investment-grade, while a cyclical commodity producer at 3x may already be stretched. Always pair ratios with free-cash-flow conversion, liquidity and maturity profile.",
+    "commonMistakes": [
+      "Using net debt in the numerator while the covenant specifies gross debt (or vice versa).",
+      "Quoting a single 'good' leverage level without noting sector norms.",
+      "Forgetting capex and taxes when the question asks about ability to service debt rather than just interest coverage."
+    ],
+    "followUps": [
+      "Why might EBIT/Interest be more meaningful than EBITDA/Interest?",
+      "If EBITDA falls by 20%, what happens to leverage and coverage in the example?",
+      "Which ratio would a secured lender care about most?"
+    ],
+    "tags": ["credit ratios", "leverage", "interest coverage", "fccr", "net debt"]
+  },
+  {
+    "id": "debt-006",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "How do rating agencies like Moody's and S&P arrive at a credit rating, and why does the line between investment grade and high yield matter so much?",
+    "keyAnswer": "Agencies combine a business-risk assessment (industry, competitive position, scale, diversification, country risk) with a financial-risk assessment (leverage, coverage, cash-flow-to-debt, liquidity, financial policy), then adjust for factors such as ownership and governance; individual issues are notched up or down from the issuer rating for security and subordination. The BBB−/Baa3 threshold matters because many institutional mandates can only hold investment-grade paper, so crossing it sharply changes the investor base, spread and index membership.",
+    "explanation": "### The framework\n\n1. **Business risk profile:** industry cyclicality and barriers, market share and pricing power, product and geographic diversification, operating efficiency and sovereign/country risk. A dominant toll-road operator scores much better than a single-product chemicals company.\n2. **Financial risk profile:** core ratios such as Debt/EBITDA, FFO/Debt, Free operating cash flow/Debt and EBITDA/Interest, measured on a through-the-cycle basis and adjusted for leases, pensions and hybrids. Financial policy (dividend and M&A appetite, sponsor ownership) is assessed separately.\n3. **Matrix:** S&P maps the two profiles on a grid to an anchor (e.g. 'satisfactory' business plus 'intermediate' financial risk gives roughly BBB), then applies modifiers for diversification, capital structure, liquidity, management and comparable ratings.\n4. **Notching:** issue ratings move relative to the issuer rating: secured debt with strong recovery prospects is notched up, subordinated and holdco debt is notched down.\n\n### Scales\n\n| S&P / Fitch | Moody's | Meaning |\n|---|---|---|\n| AAA to A− | Aaa to A3 | high grade |\n| BBB+ to BBB− | Baa1 to Baa3 | lower investment grade |\n| BB+ to B− | Ba1 to B3 | speculative (high yield) |\n| CCC+ and below | Caa1 and below | substantial risk / default |\n\nIndicative leverage: roughly under 2x for A, 2–3x for BBB, 3–4x for BB, 4–6x for B, though the agencies flex these by sector.\n\n### Why the IG/HY boundary matters\n\n- Insurers, pension funds and many bond funds have mandates or capital charges that restrict high-yield holdings, so a downgrade to BB+ (a 'fallen angel') forces selling and index exclusion; an upgrade ('rising star') does the reverse.\n- Spreads step up discontinuously: a BBB− to BB+ move can add 100 bps or more.\n- Commercial paper access, derivative collateral terms and some customer contracts depend on an IG rating.\n\nThat is why many companies explicitly manage leverage to hold a BBB rating, and why rating triggers appear in debt documents.",
+    "commonMistakes": [
+      "Treating ratings as purely formulaic ratio cut-offs rather than a judgement combining business and financial risk.",
+      "Confusing issuer ratings with issue ratings.",
+      "Forgetting that the agencies adjust debt for leases, pensions and hybrid instruments before computing ratios."
+    ],
+    "followUps": [
+      "What is a 'fallen angel' and what happens to its bonds?",
+      "Why might a secured bond be rated higher than the company itself?",
+      "How do agencies treat preferred stock or hybrid bonds?"
+    ],
+    "tags": ["credit ratings", "moody's", "s&p", "investment grade", "fallen angel"]
+  },
+  {
+    "id": "debt-007",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "What is a credit spread and what drives it? Briefly, how do yield to maturity and duration fit into the picture?",
+    "keyAnswer": "A credit spread is the extra yield a bond pays over a risk-free benchmark of the same maturity to compensate for default risk, expected loss given default, liquidity and market risk appetite. Yield to maturity is the single discount rate that equates a bond's price to its promised cash flows, and duration measures how sensitive that price is to a change in yield — roughly a 1% rise in yield cuts price by the modified duration in percent.",
+    "explanation": "### Credit spread\n\nSpread = Bond yield − Risk-free yield at the same tenor (Treasuries, or swap rates in Europe). It is quoted in basis points: a 6.9% bond against a 4.0% Treasury trades at 290 bps.\n\n**Drivers:**\n\n- **Probability of default** — leverage, coverage, cash-flow volatility, rating.\n- **Loss given default** — seniority, security, expected recovery (a secured loan at 70% recovery needs less spread than an unsecured note at 40%).\n- **Liquidity premium** — small, unrated or off-the-run issues trade wider.\n- **Market risk appetite** — spreads compress in bull markets and blow out in crises regardless of issuer fundamentals; high-yield spreads above roughly 1,000 bps are conventionally labelled distressed.\n- **Technicals** — supply, fund flows, CLO formation, rate-cut expectations.\n\n### Yield to maturity (YTM)\n\nThe internal rate of return earned if the bond is held to maturity and all coupons are paid. Example: a 3-year bond, 5% annual coupon, price 95.\n\n```\n95 = 5/(1+y) + 5/(1+y)^2 + 105/(1+y)^3\n```\n\nSolving gives y ≈ 6.9%. The shortcut (coupon + annual pull to par) / average price = (5 + 5/3)/97.5 ≈ 6.8% is close enough for an interview. Price below par means YTM above coupon; a rise in yield pushes price down.\n\nFor callable high-yield bonds investors quote **yield to worst**, the lowest yield across possible call dates.\n\n### Duration\n\nMacaulay duration is the cash-flow-weighted average time to receive the bond's payments; modified duration = Macaulay / (1 + y) converts it into price sensitivity. For the bond above Macaulay duration is about 2.9 years and modified duration about 2.7, so a 100 bps rise in yield lowers price by about 2.7%, from 95 to roughly 92.4. Longer maturity and lower coupons mean higher duration; floating-rate loans have near-zero rate duration (but still have spread duration).",
+    "commonMistakes": [
+      "Equating spread solely with default probability and forgetting recovery and liquidity.",
+      "Quoting yield to maturity for a bond that is likely to be called instead of yield to worst.",
+      "Saying duration equals maturity — only a zero-coupon bond has duration equal to its maturity."
+    ],
+    "followUps": [
+      "Why do spreads widen across all issuers in a recession?",
+      "What is the relationship between coupon rate, current yield and YTM for a discount bond?",
+      "What is an option-adjusted spread?"
+    ],
+    "tags": ["credit spread", "yield to maturity", "duration", "bonds"]
+  },
+  {
+    "id": "debt-008",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "A client asks whether it can take on more debt. How would you analyse its debt capacity?",
+    "keyAnswer": "I would project the company's cash flows under base and downside cases, size the debt against market and rating constraints (leverage and coverage ratios, covenant headroom), test whether free cash flow after capex and taxes can service interest and amortisation with a cushion, and then check the qualitative five Cs — character, capacity, capital, collateral and conditions — plus the maturity profile and liquidity.",
+    "explanation": "### Step-by-step\n\n1. **Cash-flow capacity.** Build a 3–5 year forecast; stress revenue and margins. Debt should be repayable from operating cash flow within a sensible horizon, not from asset sales or refinancing hope.\n2. **Ratio screen.** Compare pro forma Debt/EBITDA, EBITDA/Interest, (EBITDA − Capex)/Interest and FCCR against peers, the target rating and the covenant package. Capacity is usually the tightest of these constraints.\n3. **Collateral and recovery.** What hard assets, receivables and inventory could secure a loan? Secured capacity is often expressed as a borrowing base.\n4. **Covenants and documents.** Can new debt be incurred under existing restricted-debt and lien covenants? What baskets remain?\n5. **Character and conditions.** Management track record, shareholder and sponsor behaviour, industry outlook, rate environment and refinancing markets.\n6. **Liquidity and maturity profile.** Undrawn revolver, cash, no maturity wall in the next two years.\n\n### The five Cs\n\n| C | Question |\n|---|---|\n| Character | Does management honour obligations and communicate? |\n| Capacity | Do cash flows cover debt service through a cycle? |\n| Capital | How much equity cushion sits below the debt? |\n| Collateral | What can lenders recover if cash flows fail? |\n| Conditions | Industry, macro and purpose of the loan |\n\n### Worked example\n\nEBITDA $150m, existing debt $300m (2.0x). Peers and the target BB rating support about 4.0x, so headline capacity is $600m, i.e. $300m of incremental debt. Check serviceability at 7%: interest becomes $42m, so EBITDA/Interest is 3.6x. With D&A of $30m, EBIT is $120m, taxable income after interest is $78m and cash tax at 25% is $19.5m; after $50m of capex, free cash flow is $150 − 42 − 19.5 − 50 = $38.5m. That repays the incremental $300m in roughly eight years without growth, so capacity is realistic but the company should keep amortisation light and preserve revolver availability. If a 20% EBITDA downside pushes leverage to 5.0x and coverage to 2.9x, you might cap the raise at $200–250m.",
+    "commonMistakes": [
+      "Sizing debt purely on a leverage multiple without confirming cash flow after capex and tax can service it.",
+      "Ignoring existing covenant baskets that may legally block the new debt.",
+      "Forgetting the downside case — capacity is set by the stress scenario, not the base case."
+    ],
+    "followUps": [
+      "What is a borrowing base?",
+      "Would your answer change if most of the company's assets were intangible?",
+      "How does the purpose of the debt (acquisition vs recap) change the analysis?"
+    ],
+    "ifrsNote": "Lenders reporting under IFRS 9 must book a 12-month expected credit loss on every loan from day one and lifetime expected losses once credit risk has significantly increased (stage 2) or the loan is impaired (stage 3). US GAAP's CECL model (ASC 326) requires lifetime expected losses from inception, so US bank provisions are front-loaded relative to IFRS.",
+    "tags": ["credit analysis", "debt capacity", "five cs", "lending"]
+  },
+  {
+    "id": "debt-009",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "What is distressed debt, and what signs tell you a company is heading into distress?",
+    "keyAnswer": "Distressed debt is debt of a company that is in or near default, trading at a deep discount — conventionally a spread of more than 1,000 bps over Treasuries or a price in the 60s or below. Warning signs include shrinking EBITDA and negative free cash flow, rising leverage and covenant pressure, a near-term maturity wall with no refinancing options, a going-concern qualification, rating downgrades into CCC, bonds trading far below par and the hiring of restructuring advisers.",
+    "explanation": "### Definition\n\nA bond or loan becomes 'distressed' when the market prices in a meaningful chance that holders will not receive full contractual payments. Common markers: yield more than 10 percentage points above Treasuries, price below roughly 70 for bonds or 80 for loans, and trading 'flat' (without accrued interest) once a coupon is missed. Distressed investors — hedge funds and special-situations arms of alternative managers — buy these claims to earn high returns on recovery or to convert into control of the company ('loan-to-own').\n\n### Financial signals\n\n- EBITDA declining for several quarters, margins compressing, negative free cash flow.\n- Leverage drifting above 6–7x and interest coverage below 1.5x.\n- Repeated covenant waivers, equity cures or amend-and-extend requests.\n- Revolver nearly fully drawn, cash falling, reliance on factoring or sale-leasebacks.\n- A large maturity inside 12–24 months with bonds trading below 80, meaning refinancing at par is impossible.\n- Altman Z-score below about 1.8.\n\n### Market and qualitative signals\n\n- Downgrades to CCC with a negative outlook; CDS spreads widening sharply.\n- Auditor 'going concern' language, delayed filings or restatements.\n- Suppliers tightening terms, customers seeking assurances, key management departures.\n- Announcements of 'strategic alternatives', hiring of restructuring bankers and counsel, or an ad hoc creditor group forming.\n- Missed coupon inside the 30-day grace period.\n\n### Why it matters in interviews\n\nRecognising these signals early is the core skill of credit analysts and restructuring bankers, because options narrow as liquidity runs out: a company with 18 months of runway can negotiate an out-of-court deal, while one with weeks of cash may be forced into a Chapter 11 filing.",
+    "commonMistakes": [
+      "Thinking distress only begins when a payment is missed — the market reprices long before.",
+      "Describing distressed investing only as buying cheap bonds and ignoring the loan-to-own strategy.",
+      "Forgetting liquidity (cash and revolver availability) as the ultimate trigger."
+    ],
+    "followUps": [
+      "Why would a hedge fund buy debt at 40 cents on the dollar?",
+      "What does it mean for a bond to trade flat?",
+      "How does a 13-week cash flow forecast fit into distress analysis?"
+    ],
+    "tags": ["distressed debt", "distress signals", "default", "loan to own"]
+  },
+  {
+    "id": "debt-010",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "Give me an overview of Chapter 11, and how does it differ from Chapter 7?",
+    "keyAnswer": "Chapter 11 is a court-supervised reorganisation in which the existing management keeps running the company as 'debtor in possession', an automatic stay freezes creditor actions, the company can raise DIP financing and reject bad contracts, and it exits by confirming a plan of reorganisation that creditors vote on by class — with cramdown available over dissenting classes. Chapter 7 is a liquidation in which a trustee sells the assets and distributes proceeds by priority; the business ceases to operate.",
+    "explanation": "### Chapter 11 timeline\n\n1. **Petition and automatic stay.** Filing immediately stops lawsuits, foreclosures and collection; interest on unsecured debt stops accruing. Management stays in control as debtor in possession (DIP) unless a trustee is appointed for fraud or incompetence.\n2. **First-day motions and DIP financing.** The court approves paying critical vendors and wages and a DIP loan, which receives super-priority (and sometimes priming liens ahead of existing secured lenders) so the company can keep operating.\n3. **Operating in bankruptcy.** The debtor can reject burdensome leases and contracts, sell assets free and clear under Section 363, and is protected by an exclusivity period (120 days to file a plan, extendable to 18 months).\n4. **Plan and disclosure statement.** The plan groups claims into classes (DIP, admin, secured, unsecured, equity) and sets each class's treatment: cash, new debt, new equity or nothing. The disclosure statement provides valuation and recovery information.\n5. **Voting.** An impaired class accepts if holders of at least two-thirds in amount and more than half in number of those voting approve. Unimpaired classes are deemed to accept.\n6. **Confirmation and cramdown.** The court can confirm over a rejecting class if at least one impaired class accepts, the plan does not discriminate unfairly and is 'fair and equitable' — essentially the absolute priority rule — and each dissenting creditor gets at least what Chapter 7 would pay (the best-interests test).\n7. **Exit.** Exit financing replaces the DIP, old equity is usually cancelled, and creditors become the new owners.\n\n### Chapter 7\n\nA court-appointed trustee shuts the business, liquidates assets and distributes cash strictly by priority: secured creditors from collateral, then administrative and priority claims, then unsecured, then equity. Recoveries are typically far lower because going-concern value is destroyed. Companies usually enter Chapter 7 only when reorganisation is hopeless or a Chapter 11 fails.\n\n### Quick contrast\n\n| | Chapter 11 | Chapter 7 |\n|---|---|---|\n| Goal | reorganise and continue | liquidate |\n| Control | management (DIP) | trustee |\n| Outcome | plan, new capital structure | asset sales, dissolution |\n| Time | months to years (pre-packs in weeks) | typically shorter |",
+    "commonMistakes": [
+      "Saying shareholders are always wiped out in Chapter 11 — they usually are, but can retain value if all senior classes are paid in full or consent.",
+      "Confusing the voting threshold (two-thirds in amount and a majority in number) with a simple majority.",
+      "Describing Chapter 11 as a liquidation."
+    ],
+    "followUps": [
+      "What makes DIP financing attractive to lenders?",
+      "What is a Section 363 sale and why do companies use it?",
+      "What is the best-interests test?"
+    ],
+    "tags": ["chapter 11", "chapter 7", "bankruptcy", "dip financing", "cramdown"]
+  },
+  {
+    "id": "debt-011",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "Explain the absolute priority rule and the concept of the 'fulcrum security'. How would you identify the fulcrum through a recovery analysis?",
+    "keyAnswer": "The absolute priority rule says that in a reorganisation each class must be paid in full before any junior class receives anything, unless the senior class consents. The fulcrum security is the class where value runs out — the first tranche that is only partially covered — and it typically converts into the new equity. You find it by estimating the enterprise value (going-concern and liquidation cases) and running it down the waterfall against the claims in each class.",
+    "explanation": "### Absolute priority rule (APR)\n\nIn a cramdown the plan must be 'fair and equitable': a dissenting class can only be impaired if no class below it gets anything. In consensual plans seniors often give a small 'tip' to juniors (gifting) to buy peace and avoid litigation, so APR is a baseline rather than an absolute outcome.\n\n### Recovery analysis\n\n1. **Value the business** both as a going concern (DCF, comparable multiples on recovered EBITDA) and in liquidation (asset-by-asset recovery percentages, minus wind-down costs).\n2. **Lay out the claims** with accrued interest, in priority order: DIP and admin claims, secured debt, unsecured, subordinated, equity.\n3. **Distribute value top-down** and compute each class's recovery.\n\n### Worked example\n\nClaims: senior secured term loan $400m, senior unsecured notes $300m, subordinated notes $150m, equity.\n\n**Going-concern value $550m:**\n\n```\nTerm loan      400 of 400  -> 100% recovery\nUnsecured      150 of 300  ->  50% recovery   <- fulcrum\nSubordinated     0 of 150  ->   0%\nEquity                     ->   0%\n```\n\n**Liquidation value $350m:**\n\n```\nTerm loan      350 of 400  -> 87.5% recovery  <- fulcrum\nEveryone else              ->   0%\n```\n\n### Why the fulcrum matters\n\n- The fulcrum class usually receives most of the reorganised equity, so investors who want control buy that tranche ('loan-to-own').\n- Every class argues about valuation: the term loan prefers a low value (they would own the company), the unsecureds argue for a high value (greater recovery and share of equity), and old equity hopes for a value above $850m to be 'in the money'.\n- Valuation disputes are resolved in court through expert testimony and are the heart of a contested confirmation hearing.\n\nGoing-concern value is typically well above liquidation value because it preserves customer relationships, workforce and intangibles; that gap is the economic justification for Chapter 11 over Chapter 7.",
+    "commonMistakes": [
+      "Treating APR as absolute — gifting and settlements regularly give juniors something.",
+      "Forgetting accrued and default interest when sizing claims.",
+      "Assuming the fulcrum is always the unsecured bonds; at low valuations it can be the secured loan, at high valuations it can be equity."
+    ],
+    "followUps": [
+      "Why does the fulcrum security often trade actively before a filing?",
+      "What is the 'new value' exception to absolute priority?",
+      "How do you value a company that will emerge with a different capital structure?"
+    ],
+    "tags": ["absolute priority", "fulcrum security", "recovery analysis", "liquidation value", "going concern"]
+  },
+  {
+    "id": "debt-012",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Basic",
+    "question": "What is a debt-for-equity swap, and why does it fix an over-levered balance sheet?",
+    "keyAnswer": "In a debt-for-equity swap creditors exchange some or all of their claims for shares in the company, cancelling debt and diluting or wiping out existing shareholders. It works because it cuts leverage and cash interest at a stroke, converting a fixed obligation the company cannot service into a residual claim whose payoff depends on recovery — the creditors become owners of a healthier business rather than lenders to a failing one.",
+    "explanation": "### Mechanics\n\nThe fulcrum class (often unsecured bondholders or second-lien lenders) agrees to swap, say, $400m of notes for 90% of the new equity. The swap can be done out of court via an exchange offer or inside a Chapter 11 plan, where it binds holdouts. Senior lenders are typically reinstated or refinanced; old shareholders keep a small stub or warrants, if anything.\n\n### Worked example\n\nAssumptions: EBITDA $100m, debt $800m at an 8% average coupon, tax rate 25%.\n\n```\n                   Before          After swap of $400m\nDebt               800             400\nDebt / EBITDA      8.0x            4.0x\nCash interest      64              32\nEBITDA / Interest  1.6x            3.1x\n```\n\nBefore, interest consumes nearly two-thirds of EBITDA, leaving almost nothing for capex and taxes. After, the company can fund growth, refinance at a lower rate because it is now a B-rated rather than CCC credit, and the stock has option value again.\n\n### Why creditors agree\n\n- Their alternative is a lower recovery in liquidation or a value-destroying drawn-out bankruptcy.\n- They capture the upside of the turnaround that would otherwise accrue to shareholders who are economically out of the money.\n- Secured lenders benefit because a stronger company below them reduces their own risk.\n\n### Accounting and tax\n\nThe company derecognises the debt and records equity at the fair value of the shares issued; if that fair value is below the carrying amount of the debt, a gain on extinguishment appears in the income statement. In the US, cancelled debt creates cancellation-of-debt income that is excluded from tax if the company is bankrupt or insolvent, but tax attributes such as NOLs are reduced instead; Section 382 may also limit NOL use after the ownership change.\n\n### Costs\n\nExisting shareholders are diluted or eliminated, control passes to former creditors (often hedge funds), management incentive plans must be reset, and if too little debt is converted the company may need a second restructuring.",
+    "commonMistakes": [
+      "Saying the swap creates cash — it reduces interest and leverage but does not add liquidity by itself.",
+      "Forgetting that old equity is diluted or wiped and that control changes.",
+      "Ignoring the cancellation-of-debt income tax consequence."
+    ],
+    "followUps": [
+      "How would you decide how much debt to convert?",
+      "Why might senior secured lenders oppose a swap by junior creditors?",
+      "What happens to the company's NOLs after the swap?"
+    ],
+    "ifrsNote": "Under IFRS (IFRIC 19) the equity issued to extinguish a liability is measured at fair value and the difference versus the liability's carrying amount goes through profit or loss. US GAAP's troubled-debt-restructuring guidance (ASC 470-60) reaches a similar answer but requires the borrower to first assess whether the creditor granted a concession, and the gain may be partly deferred when terms are only modified rather than settled.",
+    "tags": ["debt for equity", "deleveraging", "restructuring", "exchange offer"]
+  },
+  {
+    "id": "debt-013",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "Compare an out-of-court restructuring with an in-court one. What tools are used out of court, and what is a pre-packaged bankruptcy?",
+    "keyAnswer": "Out-of-court restructurings use exchange offers, amend-and-extend deals and consent solicitations to change terms by agreement; they are faster, cheaper and more discreet but cannot bind holdouts and need high participation. In-court Chapter 11 binds every creditor through class voting and cramdown and brings the automatic stay and DIP financing, at the cost of time, fees and reputational damage. A pre-packaged bankruptcy combines the two: the plan is negotiated and votes solicited before filing, so the court process takes weeks instead of months.",
+    "explanation": "### Out-of-court toolkit\n\n- **Exchange offer:** bondholders swap existing notes for new notes with longer maturity, lower principal, higher coupon or equity, often sweetened with a lien or a cash fee.\n- **Amend-and-extend:** lenders push out maturities and reset covenants in exchange for fees and a margin step-up.\n- **Consent solicitation:** holders vote to amend the indenture. Non-payment terms typically need a simple majority; payment terms (principal, coupon, maturity) need each holder's consent under the US Trust Indenture Act, which is why exchange offers are paired with 'exit consents' that strip covenants from the old notes to pressure holdouts.\n- **Equity injection, asset sales, sale-leasebacks** to raise liquidity.\n\n### Pros and cons\n\n| | Out of court | In court (Chapter 11) |\n|---|---|---|\n| Speed and cost | weeks, low fees | months to years, large professional fees |\n| Binding holdouts | no — needs 90%+ participation | yes — two-thirds in amount and majority in number per class, plus cramdown |\n| Contracts and leases | cannot reject | can reject or assume |\n| Stay on creditors | none | automatic stay |\n| New money | hard | DIP financing with super-priority |\n| Stigma and disruption | minimal | public, customer and supplier concern |\n\n### Pre-packaged and pre-negotiated filings\n\nIn a **pre-pack**, the company signs a restructuring support agreement with its key creditors, circulates the disclosure statement and collects votes before filing, then files Chapter 11 mainly to bind holdouts and use the court's powers; confirmation can occur within 30–60 days and some cases exit in a day. A **pre-negotiated (pre-arranged)** case has the support agreement signed but votes solicited after filing, typically taking two to four months. A **free-fall** filing has no agreed plan and is the longest and riskiest.\n\n### How bankers choose\n\nStart out of court if the capital structure is concentrated and the issue is maturity or covenant relief; move to a pre-pack when holdouts, trade claims or lease rejection require the court; accept a free-fall only when liquidity has already run out.",
+    "commonMistakes": [
+      "Claiming an exchange offer can force dissenting holders to accept — it cannot without a filing.",
+      "Confusing pre-packaged (votes before filing) with pre-negotiated (votes after filing).",
+      "Ignoring that in-court cases destroy value through fees and customer loss, which is why consensual deals are preferred."
+    ],
+    "followUps": [
+      "What is a restructuring support agreement?",
+      "How does an exit consent coerce bondholders?",
+      "Why do exchange offers often fail to reach the minimum participation threshold?"
+    ],
+    "tags": ["out of court", "exchange offer", "amend and extend", "pre-packaged bankruptcy", "consent solicitation"]
+  },
+  {
+    "id": "debt-014",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "What does a restructuring banker actually do, and how does debtor-side advisory differ from creditor-side advisory?",
+    "keyAnswer": "A restructuring banker advises companies in financial distress or their creditors on how to fix the capital structure: building liquidity forecasts and business plans, valuing the business, designing and negotiating the deal (exchange offers, amendments, debt-for-equity swaps, Chapter 11 plans), and raising DIP or exit financing or running a sale. On the debtor side you work for the company and try to preserve value and keep it alive; on the creditor side you represent a group of lenders or bondholders seeking the best recovery and often control.",
+    "explanation": "### Day-to-day work\n\n- **Liquidity analysis:** 13-week cash-flow forecasts to see how long the company can survive and when it must act.\n- **Business plan and valuation:** stress-test management's projections, estimate going-concern and liquidation values, and run recovery waterfalls for each class.\n- **Capital-structure design:** how much debt the business can carry post-restructuring, which instruments to convert, extend or reinstate.\n- **Negotiation:** lead talks between the company, ad hoc creditor groups, sponsors and the official unsecured creditors' committee (UCC).\n- **Financing and M&A:** raise DIP and exit financing, run Section 363 sales, or sell the business to a strategic buyer.\n- **Court work:** expert testimony on valuation and feasibility, declarations supporting first-day motions.\n\n### Debtor side vs creditor side\n\n| | Debtor advisory | Creditor advisory |\n|---|---|---|\n| Client | the company (board) | ad hoc bondholder/lender group, UCC, sponsor |\n| Objective | maximise enterprise value, keep operating, retain management where possible | maximise the group's recovery, protect its ranking, often take control via the fulcrum |\n| Information | full access to management data | relies on disclosed information and diligence |\n| Typical fee | monthly retainer plus completion fee on the restructured debt | monthly fee paid by the company plus a transaction fee |\n\n### Who does it\n\nIndependent advisers dominate because they avoid conflicts with lending arms: PJT Partners, Houlihan Lokey, Evercore, Lazard, Moelis, Perella Weinberg, Rothschild and Ducera. They work alongside restructuring counsel (Kirkland, Weil, Paul Weiss) and turnaround consultants (Alvarez & Marsal, AlixPartners, FTI), who run the operations and the 13-week forecast.\n\n### Why candidates like it\n\nThe work is counter-cyclical, blends credit analysis with valuation and negotiation, and offers deep legal and structuring exposure. Interviewers test whether you understand that your job changes completely depending on whose recovery you are trying to maximise.",
+    "commonMistakes": [
+      "Describing restructuring as only Chapter 11 work — most engagements aim to avoid or shorten court proceedings.",
+      "Mixing up the roles of the financial adviser (banker), turnaround consultant and legal counsel.",
+      "Forgetting that the creditor adviser's fees are usually paid by the debtor."
+    ],
+    "followUps": [
+      "Why do independent advisers rather than bulge-bracket banks dominate restructuring?",
+      "What is an ad hoc group and why does it form?",
+      "How does a restructuring banker's valuation differ from an M&A fairness opinion?"
+    ],
+    "tags": ["restructuring advisory", "debtor advisory", "creditor advisory", "13-week cash flow"]
+  },
+  {
+    "id": "debt-015",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "Who buys leveraged loans versus high-yield bonds, what are covenant-lite loans and PIK toggles, and how has the rise of private credit changed the leveraged finance market?",
+    "keyAnswer": "Leveraged loans are floating-rate, senior secured and bought mostly by CLOs, with loan mutual funds and insurers; high-yield bonds are fixed-rate, usually unsecured and held by bond funds, insurers, pensions and hedge funds. Covenant-lite loans drop maintenance covenants, so lenders lose their early-warning tripwire, and PIK toggles let a stressed borrower pay interest by issuing more debt instead of cash. Private credit funds now lend directly to companies, competing with syndicated markets by offering speed, certainty and flexibility at a higher price.",
+    "explanation": "### Leveraged loans vs high-yield bonds\n\n| | Leveraged loans (TLB) | High-yield bonds |\n|---|---|---|\n| Coupon | floating, SOFR/Euribor + 300–500 bps | fixed |\n| Ranking | senior secured, first lien | senior unsecured or secured notes |\n| Prepayment | par (101 soft call for 6 months) | non-call then premium |\n| Maturity | 5–7 years | 7–10 years |\n| Covenants | mostly incurrence (cov-lite) | incurrence |\n| Buyers | CLOs (roughly 60–70% of the market), loan funds, insurers, banks | HY mutual funds and ETFs, insurers, pensions, hedge funds |\n| Documentation | private credit agreement, 144A-like disclosure | public or 144A offering memorandum |\n\nCLOs matter because they are the marginal buyer: when CLO issuance slows, loan spreads widen and LBO financing dries up.\n\n### Covenant-lite loans\n\nSince the mid-2010s the large majority of institutional term loans have had no maintenance covenants, only incurrence tests and a springing covenant for the revolver. Borrowers gain flexibility, but lenders only get a seat at the table once cash runs out, which tends to lower recoveries. Loose documents also enable liability-management exercises in which sponsors move assets to unrestricted subsidiaries or offer priority-exchange 'uptiers' to a majority group at the expense of the minority.\n\n### PIK toggles\n\nA payment-in-kind toggle lets the issuer choose, period by period, to pay interest in cash or by increasing principal (usually at a 50–100 bps higher rate). Example: $200m of 10% notes toggled to PIK accrues $20m of extra principal in a year, preserving cash but compounding leverage. PIK use spikes when rates rise and cash flows weaken, which is why rising PIK income at business development companies is watched as a stress indicator.\n\n### Private credit and direct lending\n\nFunds run by managers such as Ares, Blackstone, Apollo, Blue Owl and HPS lend directly, often in a single 'unitranche' that replaces first and second lien. They offer certainty of execution, no syndication or flex risk, confidentiality and tailored terms, in exchange for 100–200 bps of extra spread, call protection and often a return of maintenance covenants. Private credit has grown to well over a trillion dollars and now finances many mid-market and some multi-billion LBOs, while banks and public markets compete back with repricings. Interviewers ask about it because it shapes who your clients are, how deals get financed and where restructuring risk sits as these loans season.",
+    "commonMistakes": [
+      "Saying loans are riskier than bonds because of floating rates — they are senior, secured and recover more; the risk difference is in ranking, not the coupon type.",
+      "Describing PIK as 'free' — it compounds the debt burden and signals stress.",
+      "Treating private credit as identical to the syndicated loan market; it is illiquid, held to maturity and privately negotiated."
+    ],
+    "followUps": [
+      "What is a CLO and how is it structured?",
+      "What is a liability-management exercise, and why do lenders now negotiate 'J.Crew' and 'Serta' blockers?",
+      "Why might a sponsor choose a unitranche over a syndicated TLB plus bonds?"
+    ],
+    "tags": ["leveraged loans", "high yield", "clo", "covenant lite", "pik toggle", "private credit"]
+  },
+  {
+    "id": "debt-016",
+    "category": "Debt, Restructuring & Credit",
+    "difficulty": "Advanced",
+    "question": "How does restructuring in Europe differ from the US? Briefly compare the English scheme of arrangement and restructuring plan and the French safeguard procedure with Chapter 11.",
+    "keyAnswer": "Europe has no single Chapter 11; each country has its own tools, which since the 2019 EU directive have converged on US-style class voting and cramdown. An English scheme of arrangement needs 75% by value and a majority in number of each class and cannot cram down a dissenting class, whereas the 2020 Part 26A restructuring plan allows cross-class cramdown; French sauvegarde is a debtor-led, court-supervised process with an automatic stay and, since 2021, creditor classes and cramdown. Historically Europe was more creditor-friendly with secured-lender enforcement, while the US is debtor-friendly with DIP control and DIP financing.",
+    "explanation": "### United States baseline\n\nChapter 11 gives the debtor control (DIP), a worldwide automatic stay, a well-developed DIP financing market, contract rejection and cramdown; it is used both by US companies and by foreign groups with US assets or debt, which is why many European issuers put New York law bonds and a US entity in the structure.\n\n### England and Wales\n\n- **Scheme of arrangement (Part 26, Companies Act 2006):** a compromise between a company and classes of creditors approved by 75% in value and a majority in number of those voting in each class, then sanctioned by the court. No automatic stay and no cross-class cramdown, so every class must approve, but it is fast, flexible and available to foreign companies with a sufficient English connection (English-law debt or COMI shift). Widely used for amend-and-extend and debt-for-equity deals.\n- **Restructuring plan (Part 26A, 2020):** same 75% threshold but no majority-in-number test, and it adds cross-class cramdown: the court can bind a dissenting class if it would be no worse off than in the relevant alternative (usually administration) and at least one class with a genuine economic interest approves. Used in Virgin Atlantic, Adler and many sponsor-backed cases, it is the closest European tool to Chapter 11.\n- **Administration** is the insolvency process (an officeholder takes control) and is often paired with a pre-pack sale of the business.\n\n### France\n\n- **Mandat ad hoc and conciliation:** confidential, consensual negotiations under a court-appointed mediator — most French restructurings start here.\n- **Sauvegarde (safeguard):** opened by a solvent-but-troubled debtor; management stays in place under a court-appointed administrator, a stay of up to 18 months applies, and a plan is adopted. The 2021 reform implementing the EU directive introduced creditor classes, voting and cross-class cramdown (previously creditors could be forced into ten-year repayment schedules). Accelerated safeguard works like a pre-pack.\n- **Redressement judiciaire** is the insolvency equivalent for companies already in cessation of payments.\n\n### Other points of difference\n\n- Germany (StaRUG, 2021) and the Netherlands (WHOA, 2021) now also offer pre-insolvency plans with cramdown.\n- European processes rely more on existing lenders for new money because there is no equivalent DIP market, and secured creditors historically had stronger enforcement rights, making Europe more creditor-friendly.\n- Cross-border recognition: a US court can recognise a foreign plan under Chapter 15, and English plans are commonly paired with Chapter 15 to bind US-law debt.",
+    "commonMistakes": [
+      "Saying Europe has 'no Chapter 11' without noting that the UK restructuring plan and post-2021 French and German tools now permit cramdown.",
+      "Confusing a scheme of arrangement (no cross-class cramdown, needs each class) with the Part 26A restructuring plan.",
+      "Forgetting that a scheme is not an insolvency proceeding and provides no automatic stay."
+    ],
+    "followUps": [
+      "What is a COMI shift and why do companies do it?",
+      "Why do European issuers often include a US co-issuer or New York law bonds?",
+      "What is the 'relevant alternative' test in a UK restructuring plan?"
+    ],
+    "tags": ["europe", "scheme of arrangement", "restructuring plan", "sauvegarde", "cross-border"]
+  }
+]

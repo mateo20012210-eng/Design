@@ -1,0 +1,618 @@
+[
+  {
+    "id": "lbo-001",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What is a leveraged buyout, and why does the structure work?",
+    "keyAnswer": "An LBO is the acquisition of a company using a large proportion of borrowed money, with the target's own cash flows servicing and repaying that debt. It works because the sponsor puts in only a slice of the price as equity, so any increase in enterprise value plus every dollar of debt repaid accrues to that small equity base, amplifying the equity return.",
+    "explanation": "A leveraged buyout is simply buying a business with mostly debt and a little equity. A private equity sponsor sets up an acquisition vehicle, raises debt from banks and institutional lenders (secured on the target's assets and cash flows), contributes equity from its fund, and uses the combined proceeds to buy the company. Over a 3–7 year hold the company uses its FCF to pay down debt, and the sponsor exits by selling or listing the business.\n\n### The house analogy\n\nBuying a $500k house with a $100k deposit and a $400k mortgage: if the house is later worth $600k and the mortgage has been paid down to $350k, your equity is $250k on $100k invested, a 2.5x return, even though the asset only appreciated 20%. An LBO is the same mechanism applied to a company, except the company itself generates the cash that pays the mortgage.\n\n### Why leverage amplifies returns\n\nThe sponsor's return is driven by **changes in equity value**, not enterprise value:\n\n```\nEquity value = Enterprise value − Net debt\n```\n\nIf EV rises or debt falls, the entire gain goes to the equity holder. With $300 of equity on an $800 purchase, a 25% rise in EV ($200) is a 67% gain in equity before any debt paydown.\n\n### What has to be true\n\n- The business must generate enough FCF to cover interest and amortisation with a margin of safety.\n- Debt must be available at a sensible cost relative to the company's cash yield.\n- There must be a credible exit at a multiple that is at least close to the entry multiple.\n\nThe flip side is that leverage cuts both ways: a 25% fall in EV in the example above wipes out two-thirds of the equity, which is why candidate selection and debt sizing matter so much.",
+    "commonMistakes": [
+      "Saying leverage 'creates value' — it does not change the enterprise value of the business, it changes how returns and risk are split between debt and equity.",
+      "Forgetting that the target, not the sponsor, is the borrower and pays the interest."
+    ],
+    "followUps": [
+      "If leverage does not change EV, where does the sponsor's extra return actually come from?",
+      "What happens to the equity if the company's EBITDA falls 20% in year two?"
+    ],
+    "tags": ["lbo", "leverage", "basics", "private equity"]
+  },
+  {
+    "id": "lbo-002",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Walk me through the steps of building an LBO model.",
+    "keyAnswer": "Set the transaction assumptions (price, leverage, fees, exit), build sources and uses, adjust the balance sheet for the deal, project the operating model and free cash flow, build the debt schedule with mandatory repayments and a cash sweep, then calculate exit value and compute IRR and MOIC and sensitise them.",
+    "explanation": "An LBO model answers one question: what return does the sponsor earn on its equity under a given price, capital structure and operating case? The build order follows the economics of the deal.\n\n1. **Transaction assumptions.** Entry EBITDA and multiple (or share price and premium), total leverage and tranche split, interest rates, fees, minimum cash, hold period and exit multiple.\n2. **Sources and uses.** Uses: purchase of equity, refinancing of existing debt, transaction and financing fees, cash to the balance sheet. Sources: each debt tranche, rollover equity, existing cash, and sponsor equity as the plug.\n3. **Pro forma balance sheet.** Start from the closing balance sheet, remove old debt and equity, add the new debt and sponsor equity, write up assets and create goodwill, capitalise financing fees. It must still balance.\n4. **Operating projections.** Revenue, margins, D&A, capex, NWC and taxes for the hold period, usually with base, upside and downside cases. The output is cash flow available for debt service.\n5. **Debt schedule.** For each tranche: opening balance, mandatory amortisation, optional prepayment from the cash sweep, closing balance and interest (on the average or opening balance). Interest feeds back into the income statement, which is the model's main circularity.\n6. **Returns.** Exit EV = exit EBITDA × exit multiple; subtract net debt at exit to get equity proceeds; compare with equity invested to compute MOIC and IRR, including any interim dividends.\n7. **Sensitivities.** IRR against entry and exit multiples, leverage, EBITDA growth; credit statistics (debt/EBITDA, interest coverage) each year to test covenant headroom.\n\nA good answer also mentions the integrated three statements in the middle (income statement, balance sheet, cash flow) because the debt schedule needs the cash flow statement and the balance sheet needs the debt balances.",
+    "commonMistakes": [
+      "Jumping straight to returns without mentioning sources and uses or the debt schedule.",
+      "Describing a merger model (accretion/dilution) instead of a returns model."
+    ],
+    "followUps": [
+      "Where is the circularity in an LBO model and how do you break it?",
+      "Which assumption has the largest effect on IRR?"
+    ],
+    "tags": ["lbo", "modelling", "walkthrough", "debt schedule"]
+  },
+  {
+    "id": "lbo-003",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Build a sources and uses table for a buyout. The target has $100 of EBITDA, is bought at 8x EV, carries $100 of debt and $20 of cash, and the sponsor raises 5x total leverage.",
+    "keyAnswer": "Uses are the equity purchase price ($800 EV less $100 debt plus $20 cash = $720), refinancing the $100 of existing debt, fees and minimum cash. Sources are the $500 of new debt, the target's existing cash and any management rollover, with sponsor equity as the balancing figure.",
+    "explanation": "Sources and uses is the deal's funds-flow statement: every dollar spent at closing must be matched by a dollar raised. Sponsor equity is always the plug.\n\n### Assumptions\n\n- Purchase EV = 8x × $100 = **$800**.\n- Existing net debt = $100 − $20 = $80, so the price paid for the shares = $800 − $100 + $20 = **$720**.\n- All existing debt is repaid at close (change-of-control).\n- Fees: financing fees 2% of $500 new debt = $10; advisory, legal and other deal costs = $15.\n- Minimum cash left in the business after close: $10.\n- Management rolls over $20 of its existing stake.\n\n```\nUSES                          SOURCES\nPurchase of equity    720     Term loan B           350\nRefinance old debt    100     Senior notes          150\nTransaction fees       25     Management rollover    20\nCash to balance sheet  10     Existing cash used     20\n                              Sponsor equity (plug) 315\nTotal uses            855     Total sources         855\n```\n\nSponsor equity = 855 − 500 − 20 − 20 = **$315**, about 37% of total sources (315 ÷ 855) and 39% of the capital structure (315 ÷ (500 + 315)).\n\n### Points interviewers probe\n\n- If you present the purchase as EV ($800) instead of equity ($720), you must not also list the old debt as a use, or you double count.\n- Fees are a real cash use and are why total uses exceed EV. Financing fees are capitalised and amortised over the debt's life; advisory fees are expensed at close and reduce retained earnings.\n- Existing cash can be used as a source only if the business can operate on the lower minimum balance.\n- Rollover equity reduces the cheque the sponsor writes and aligns management, but it also dilutes the sponsor's ownership.",
+    "commonMistakes": [
+      "Counting both the enterprise value and the refinancing of existing debt as uses.",
+      "Forgetting fees, so sources equal EV exactly and sponsor equity is understated."
+    ],
+    "followUps": [
+      "What happens to sponsor equity if the lenders will only provide 4x?",
+      "How are the financing fees treated on the income statement over time?"
+    ],
+    "tags": ["lbo", "sources and uses", "transaction structure", "fees"]
+  },
+  {
+    "id": "lbo-004",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What are the three drivers of returns in an LBO? Attribute the gain in a deal bought at 8x $100 EBITDA with $500 of debt and sold five years later at 9x $150 EBITDA with $200 of debt remaining.",
+    "keyAnswer": "Returns come from EBITDA growth, multiple expansion and debt paydown. Here entry equity is $300 and exit equity $1,150, an $850 gain: $400 from EBITDA growth, $150 from multiple expansion and $300 from deleveraging.",
+    "explanation": "Equity value at any date is EV minus net debt, and EV is EBITDA times multiple. So the change in equity can be decomposed into the three levers a sponsor can pull.\n\n### The numbers\n\n- Entry: EV = 8 × 100 = 800; debt 500; equity **300**.\n- Exit: EV = 9 × 150 = 1,350; debt 200; equity **1,150**.\n- Gain = 1,150 − 300 = **850**; MOIC = 3.83x; IRR ≈ 31% over five years.\n\n### Attribution\n\n```\nEBITDA growth:     (150 − 100) × 8 (entry multiple)  = 400\nMultiple expansion: (9 − 8) × 150 (exit EBITDA)      = 150\nDebt paydown:       500 − 200                        = 300\nTotal                                                = 850\n```\n\nThe convention is to value EBITDA growth at the entry multiple and multiple expansion on exit EBITDA, so the two pieces add up exactly to the change in EV (1,350 − 800 = 550).\n\n### How sponsors think about each driver\n\n- **EBITDA growth** is the only driver fully under management's control: revenue growth, pricing, cost programmes, add-on acquisitions. It is the most 'defensible' source of return.\n- **Multiple expansion** depends on market conditions and on repositioning the business (higher growth, better mix, scale). Investment committees usually underwrite flat multiples and treat expansion as upside.\n- **Debt paydown** is mechanical: FCF after interest, taxes and capex retires debt, transferring value from lenders to equity. Its contribution shrinks when leverage is lower or interest rates are higher.\n\nA fourth, more subtle lever is **time**: the same MOIC achieved sooner is a higher IRR, which is why sponsors consider early exits and dividend recapitalisations.",
+    "commonMistakes": [
+      "Valuing EBITDA growth at the exit multiple and multiple expansion on entry EBITDA, which leaves an unexplained cross term.",
+      "Claiming debt paydown 'creates' value for the enterprise; it only shifts value from debt to equity."
+    ],
+    "followUps": [
+      "Which of the three drivers do investment committees trust least, and why?",
+      "If the exit multiple had been 7x instead of 9x, what would the attribution look like?"
+    ],
+    "tags": ["lbo", "returns drivers", "value creation", "attribution"]
+  },
+  {
+    "id": "lbo-005",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Define IRR and MOIC. How are they related, and why does a sponsor look at both?",
+    "keyAnswer": "MOIC is total cash returned divided by cash invested, ignoring time; IRR is the annualised discount rate that makes the NPV of the equity cash flows zero, so it captures timing. For a single entry and exit, MOIC equals (1 + IRR) raised to the number of years, and sponsors use both because IRR can be flattered by a quick flip while MOIC shows absolute dollars earned.",
+    "explanation": "### Definitions\n\n- **MOIC (multiple of invested capital, or 'cash-on-cash')** = total proceeds to equity ÷ equity invested. A $300 investment that returns $900 is 3.0x, whether that takes two years or ten.\n- **IRR** is the rate r such that the sum of all equity cash flows discounted at r equals zero. It is the compound annual growth rate of the investment when there is one outflow and one inflow.\n\n### The relationship\n\nWith one cheque in and one cheque out after n years:\n\n```\nMOIC = (1 + IRR)^n        IRR = MOIC^(1/n) − 1\n3.0x over 5 years:  3^(1/5) − 1 = 24.6%\n3.0x over 3 years:  3^(1/3) − 1 = 44.2%\n```\n\nSame dollars, very different IRR. With interim cash flows (dividends, a recap) there is no closed-form link and the IRR has to be solved iteratively.\n\n### Why both matter\n\n- IRR rewards speed: returning 1.5x in 12 months is a 50% IRR but barely moves the fund's absolute profit, and the money has to be redeployed.\n- MOIC rewards magnitude but ignores how long capital is tied up: 3x over 10 years is only 11.6% a year.\n- LP fund agreements typically pay carried interest only above a **hurdle IRR** (commonly 8%), while the fund's reputation and the sponsor's absolute profit depend on MOIC. Many investment committees set a floor on both, e.g. 'at least 20–25% IRR and at least 2.5x'.\n\nA common interview trick is to ask which deal is better: 2.0x over 2 years (41% IRR) or 3.0x over 5 years (25% IRR). The right answer is that it depends on what the fund can do with the capital in years 3–5 and on the fund's mandate; there is no single correct choice.",
+    "commonMistakes": [
+      "Treating IRR as a simple average annual return rather than a compound rate.",
+      "Forgetting that interim distributions raise IRR even when they leave MOIC unchanged."
+    ],
+    "followUps": [
+      "Which would you prefer, 2x in two years or 3x in five, and why?",
+      "How do dividends paid during the hold period affect each metric?"
+    ],
+    "tags": ["lbo", "irr", "moic", "returns"]
+  },
+  {
+    "id": "lbo-006",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Without a calculator, how do you approximate the IRR of a deal that returns 2.5x in five years? What rules of thumb do you use?",
+    "keyAnswer": "Roughly 20%. I use a memorised table (2x in 3 years is about 26%, 2x in 5 is about 15%, 3x in 5 is about 25%) plus the rule of 72 for doubling and the rule of 114 for tripling, then interpolate.",
+    "explanation": "Interviewers expect you to convert a MOIC and a hold period into an IRR in your head within a few seconds. Two tools make this easy.\n\n### 1. A memorised table\n\n| MOIC | 3 years | 4 years | 5 years |\n|---|---|---|---|\n| 1.5x | 14% | 11% | 8% |\n| 2.0x | 26% | 19% | 15% |\n| 2.5x | 36% | 26% | 20% |\n| 3.0x | 44% | 32% | 25% |\n| 4.0x | 59% | 41% | 32% |\n\nThe four anchors that come up most often: **2x in 3 ≈ 26%, 2x in 5 ≈ 15%, 2.5x in 5 ≈ 20%, 3x in 5 ≈ 25%**. Exact values are 26.0%, 14.9%, 20.1% and 24.6%.\n\n### 2. The rules of 72, 114 and 144\n\n- Money **doubles** in roughly 72 ÷ rate years, so a double in 5 years implies 72 ÷ 5 ≈ 14–15%.\n- Money **triples** in roughly 114 ÷ rate years: a triple in 5 years is 114 ÷ 5 ≈ 23%, close to the true 24.6%.\n- Money **quadruples** in roughly 144 ÷ rate years: 144 ÷ 5 ≈ 29% (true 32%); a quadruple is just two doubles, so use 72 twice.\n\nThe rules lose precision above about 25% because they are linear approximations of a compound curve, so prefer the table at high rates.\n\n### 3. Interpolate\n\nFor 2.5x in five years: 2x is 15% and 3x is 25%, so 2.5x is about 20% (exact 20.1%). For 2.2x in four years: 2x in four is 19%, and 2.5x in four is 26%, so roughly 21–22% (exact 21.8%).\n\n### Sanity check in reverse\n\nIf someone says a deal did a 30% IRR over five years, 1.3^5 = 1.69 × 1.69 × 1.3 ≈ 3.7x. If the MOIC quoted is 2.5x, one of the numbers is wrong.",
+    "commonMistakes": [
+      "Dividing total return by years (2.5x in 5 is 'a 30% return per year'), which ignores compounding.",
+      "Applying the rule of 72 to a triple or quadruple instead of the rules of 114 and 144."
+    ],
+    "followUps": [
+      "What is the IRR of 3x over four years?",
+      "Why does the rule of 72 become less accurate at high rates?"
+    ],
+    "tags": ["lbo", "irr", "mental math", "rule of 72"]
+  },
+  {
+    "id": "lbo-007",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Why do private equity firms use so much debt when they buy companies?",
+    "keyAnswer": "Debt is cheaper than equity, its interest is tax deductible, and it reduces the equity cheque so that EV growth and debt paydown accrue to a smaller equity base, which raises the equity IRR. It also lets a fund buy more and larger companies with the same capital and imposes cash discipline on management.",
+    "explanation": "### 1. Leverage amplifies the equity return\n\nIf a business is bought for $800 and sold for $1,200 with no debt, the sponsor makes 1.5x. Fund $500 of the price with debt that is partly repaid from cash flow and the same $400 of EV growth (plus, say, $200 of paydown) turns $300 of equity into $900, a 3.0x. Nothing about the company changed; the slice of the value owned by equity did.\n\n### 2. Debt is a cheaper source of capital\n\nLenders accept 7–11% because they rank ahead of equity and are secured on the assets; the sponsor targets 20%+. Replacing expensive equity with cheaper debt lowers the blended cost of the purchase. The gap is widened by the **tax shield**: interest is deductible (within limits such as the 30% of EBITDA cap in the US and many European countries), so a 9% coupon costs about 6.75% after tax at a 25% rate.\n\n### 3. Capital efficiency at fund level\n\nA $5bn fund that writes 40% equity cheques can control roughly $12bn of enterprise value. More deals, more diversification and higher fee-earning assets under management.\n\n### 4. Discipline\n\nA heavy fixed interest and amortisation burden forces management to focus on cash generation, cut waste and avoid empire-building, the 'free cash flow discipline' argument.\n\n### The limits\n\nLeverage also raises financial risk: a cyclical downturn that would be survivable for an unlevered company can trigger covenant breaches and loss of the equity. That is why sponsors cap leverage at what the cash flows can comfortably service (typically 4–6x EBITDA with at least 2x interest coverage) and prefer stable businesses.",
+    "commonMistakes": [
+      "Saying only 'debt is cheaper' without linking it to the mechanics of equity returns.",
+      "Ignoring the downside: higher leverage increases the probability of losing the whole equity cheque."
+    ],
+    "followUps": [
+      "If debt is so attractive, why not finance a buyout with 95% debt?",
+      "How does a higher interest rate environment change the case for leverage?"
+    ],
+    "tags": ["lbo", "leverage", "cost of capital", "tax shield"]
+  },
+  {
+    "id": "lbo-008",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What makes a company a good LBO candidate?",
+    "keyAnswer": "Stable, predictable cash flows that can service debt, a strong market position, modest capex and working-capital needs, a reasonable purchase price, a hard asset base that can be collateral, a capable management team, little existing debt, and clear levers for growth or margin improvement plus a credible exit.",
+    "explanation": "An LBO target has to do two things: carry a lot of debt safely for several years, and be worth more at exit. The classic checklist follows from that.\n\n### Ability to carry debt\n\n- **Stable, recurring cash flows**: subscription, contracted or repeat-purchase revenue; low cyclicality; diversified customers. Lenders size debt off predictable EBITDA.\n- **Low capex and NWC intensity**: a business that must reinvest most of its EBITDA cannot pay down debt. High EBITDA-to-FCF conversion is key.\n- **Strong asset base**: receivables, inventory, property and equipment provide security and allow asset-based or secured borrowing at lower cost.\n- **Little existing debt**: new debt capacity is what matters; a company already at 4x has little room.\n- **Defensible market position**: pricing power, high switching costs or scale that protect margins through a downturn.\n\n### Ability to grow equity value\n\n- **Operational upside**: cost-reduction opportunities, under-managed divisions, pricing not yet optimised, a fragmented market suitable for add-ons.\n- **Strong, incentivisable management**, or a clear plan to upgrade the team.\n- **Reasonable entry price**: the lower the entry multiple, the less the sponsor depends on growth or multiple expansion.\n- **Clear exit routes**: strategic buyers, other sponsors or IPO markets interested in the sector.\n\n### What a sponsor avoids\n\nHigh-growth, cash-burning companies (no debt capacity), deeply cyclical commodity producers, businesses with large contingent liabilities, and sectors facing structural decline where the exit multiple is likely to be lower than the entry multiple.\n\nIn a strong answer you tie it back to the returns drivers: stability enables debt paydown, operational levers enable EBITDA growth, and sector dynamics determine the exit multiple.",
+    "commonMistakes": [
+      "Listing 'high growth' as the top criterion; fast-growing cash burners are venture or growth-equity targets, not LBOs.",
+      "Forgetting the asset base and existing leverage, both of which drive how much debt lenders will provide."
+    ],
+    "followUps": [
+      "Would a software company with 90% gross margins but negative FCF be a good LBO candidate?",
+      "How does a fragmented industry make a target more attractive?"
+    ],
+    "tags": ["lbo", "ideal candidate", "screening", "cash flow"]
+  },
+  {
+    "id": "lbo-009",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Which industries lend themselves to leveraged buyouts and which do not?",
+    "keyAnswer": "Good sectors have stable demand and high cash conversion: business services, software with recurring revenue, healthcare services, consumer staples, packaging, industrial distribution and infrastructure-like assets. Poor sectors are highly cyclical, capital-intensive or technology-disruption-prone: airlines, semiconductors, commodity producers, early-stage biotech and heavily regulated financials.",
+    "explanation": "The question tests whether you can map the ideal-candidate checklist onto real sectors.\n\n### Sectors sponsors like\n\n| Sector | Why it works |\n|---|---|\n| Business and outsourced services | Contracted or repeat revenue, low capex, fragmented markets for add-ons |\n| Mature software and data | Subscription revenue, 80%+ gross margins, negative working capital from upfront billing |\n| Healthcare services (dental, vet, labs) | Non-discretionary demand, roll-up potential |\n| Consumer staples, food, packaging | Steady volumes, pricing power, scale economies |\n| Industrial distribution and niche manufacturing | High market share in small niches, asset base for secured lending |\n| Infrastructure-like assets | Long-term contracts, inflation linkage |\n\n### Sectors sponsors avoid or lever lightly\n\n- **Cyclicals** (autos, steel, chemicals, homebuilders): EBITDA can halve in a recession, exactly when refinancing is hardest.\n- **Capital-intensive** (airlines, shipping, telecom towers excluded): most EBITDA goes to capex, leaving nothing to repay debt.\n- **Commodity producers** (oil and gas E&P, mining): cash flows depend on prices the company cannot control.\n- **Fast-changing technology and biotech**: obsolescence risk and no current cash flow to service debt.\n- **Banks and insurers**: already highly levered and regulated; debt-to-EBITDA is meaningless.\n\n### Nuances worth adding\n\n- The same sector can be a good or bad target depending on the specific company: a premium branded consumer business is very different from a private-label one.\n- Sponsors do buy cyclicals, but at lower leverage (2–3x) and with more equity, often near the bottom of the cycle.\n- Software has moved from 'too risky' to the largest LBO sector in two decades as recurring-revenue models proved stable, which shows the list is about cash-flow characteristics, not sector labels.",
+    "commonMistakes": [
+      "Saying 'technology' is bad for LBOs without distinguishing mature recurring-revenue software from early-stage hardware or biotech.",
+      "Confusing high-margin with high cash conversion; a capital-intensive business can have high EBITDA margins and still convert little to FCF."
+    ],
+    "followUps": [
+      "Why has software become the largest LBO sector despite having few tangible assets?",
+      "How would you lever a cyclical business differently from a staples company?"
+    ],
+    "tags": ["lbo", "industries", "candidate screening", "sectors"]
+  },
+  {
+    "id": "lbo-010",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "How much debt is typical in an LBO today, what share of the price comes from equity, and what does the 'equity cushion' mean?",
+    "keyAnswer": "Most buyouts are financed at roughly 4–6x total debt to EBITDA, with the sponsor contributing about 40–60% of the purchase price as equity; in the 2000s leverage was often 6–7x with equity closer to 30%. The equity cushion is that equity share of the capital structure, the loss the business can absorb before lenders are impaired.",
+    "explanation": "### Typical ranges\n\n| Period | Total debt / EBITDA | Equity contribution |\n|---|---|---|\n| 2005–2007 peak | 6–7x | 30–35% |\n| 2010–2021 | 5–6x | 40–50% |\n| 2022 onward (higher rates) | 4–5.5x | 45–60% |\n\nSenior secured debt usually accounts for 3.5–5x, with any junior layer (second lien, mezzanine, high-yield notes) on top. Larger, more stable companies get more turns of leverage; cyclical or small businesses get fewer.\n\n### What sets the ceiling\n\n- **Interest coverage**: EBITDA ÷ cash interest should stay above about 2x (lenders often want 2.5–3x). At a 9% all-in cost, 6x leverage implies interest of 54% of EBITDA, so coverage of only 1.9x, which is why higher rates mechanically cut leverage.\n- **FCF after capex and taxes** must cover amortisation and still deliver a visible deleveraging path, typically to under 4x within three to four years.\n- **Regulatory guidance**: US bank leveraged-lending guidance flags deals above 6x as problematic, pushing larger structures to private credit.\n- **Purchase multiple**: at 12x EV/EBITDA, 5x debt is only 42% of the price, so the sponsor has to fund the remaining 58% with equity. High valuations, not lender appetite, are the main reason equity shares have risen.\n\n### Equity cushion\n\nThe equity cushion is the percentage of total capitalisation sitting below the debt. A deal at 10x with 5x debt has a 50% cushion: enterprise value can fall by half before the senior lenders lose principal. Lenders price and size debt partly on the cushion, because it shows how much the sponsor has at stake and how far EBITDA or the multiple can fall before their recovery is threatened. From the sponsor's side, a thicker cushion means lower IRR per unit of EBITDA growth but a lower probability of losing the entire cheque.",
+    "commonMistakes": [
+      "Quoting 2007-era leverage of 7x and 25% equity as current practice.",
+      "Mixing up debt-to-EBITDA (a leverage multiple) with debt as a percentage of the purchase price."
+    ],
+    "followUps": [
+      "Why has the equity share of buyouts risen even in years when debt was cheap?",
+      "If rates rise 300 basis points, how does the maximum sensible leverage change?"
+    ],
+    "ifrsNote": "Under IFRS 16 nearly all leases are capitalised, so reported EBITDA is higher and lease liabilities look like debt. Leverage covenants and lender debt-to-EBITDA tests are therefore usually defined on a 'frozen GAAP' or pre-IFRS 16 basis to keep operating lease costs inside EBITDA; make sure the multiple you quote is consistent with the EBITDA definition.",
+    "tags": ["lbo", "leverage levels", "equity contribution", "equity cushion"]
+  },
+  {
+    "id": "lbo-011",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Describe the main debt tranches in an LBO capital structure, from most senior to most junior, and how they differ in pricing, amortisation, covenants and prepayment terms.",
+    "keyAnswer": "From the top: a revolving credit facility and term loans (A and B) that are senior secured, floating rate and prepayable at par; then second-lien loans; then unsecured senior or high-yield notes with fixed coupons, bullet maturities and call protection; then mezzanine or PIK notes with the highest cost and often equity warrants. Seniority and security fall as you go down, and pricing, prepayment penalties and loosening of covenants rise.",
+    "explanation": "| Tranche | Security / rank | Pricing (illustrative) | Amortisation | Prepayment | Covenants |\n|---|---|---|---|---|---|\n| Revolver | Senior secured, first lien | SOFR/Euribor + 200–400 bp, commitment fee on undrawn | None; drawn and repaid as needed | Free | Maintenance (springing) |\n| Term loan A | Senior secured, first lien, bank-held | SOFR + 250–350 bp | 5–15% a year, 5–6 yr maturity | Free at par | Maintenance |\n| Term loan B | Senior secured, first lien, institutional/CLO | SOFR + 300–500 bp, often floored | 1% a year, bullet at 7 yrs | Par, with 6–12 month 101 soft call | Covenant-lite (incurrence only) |\n| Second lien | Secured, second claim on same collateral | SOFR + 600–900 bp | Bullet, 7–8 yrs | Hard call: 102 / 101 | Incurrence |\n| Senior / HY notes | Unsecured (or secured), senior | Fixed 6–10% | Bullet, 7–10 yrs | Non-call 3–4 yrs, then premiums; make-whole | Incurrence |\n| Mezzanine / PIK | Subordinated, often holdco | 12–18% cash plus PIK, may carry warrants | Bullet, 8–10 yrs | Non-call, then premium | Light |\n| Unitranche | Single first-lien tranche replacing TLB plus second lien, private credit | SOFR + 500–700 bp | Minimal, bullet | 102 / 101 | Often one maintenance covenant |\n\n### Points to make\n\n- **Bank debt vs bonds**: term loans are floating, amortising, prepayable and secured; bonds are fixed, bullet, protected from early repayment and junior. Sponsors use loans for flexibility (they can be refinanced or swept at no cost) and bonds for certainty of long-term capital.\n- **Cash sweep** applies to term loans in order of seniority, never to bonds, which are repaid only at maturity or via a call.\n- **Pricing** reflects expected loss: as recovery in a default falls down the structure, spreads widen and lenders demand call protection to lock in their yield.\n- **Covenants** become looser lower down because junior lenders accept the equity-like risk in exchange for the higher coupon; today most TLBs are covenant-lite, so maintenance tests mostly survive in the revolver and in middle-market unitranche deals.\n- Since 2020 **private credit unitranches** have replaced syndicated TLB plus second lien in a large share of mid-market buyouts: one lender group, faster execution and higher spread.",
+    "commonMistakes": [
+      "Describing high-yield bonds as freely prepayable; the non-call period and make-whole are precisely what distinguish them from loans.",
+      "Placing second lien below unsecured notes; second lien is secured and therefore ranks ahead of unsecured bonds on the collateral."
+    ],
+    "followUps": [
+      "Why would a sponsor include high-yield bonds if term loans are cheaper?",
+      "What is a soft call and why do term loan B lenders ask for it?"
+    ],
+    "tags": ["lbo", "debt tranches", "capital structure", "term loan", "high yield"]
+  },
+  {
+    "id": "lbo-012",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What is a cash sweep in an LBO model and how does it work?",
+    "keyAnswer": "A cash sweep is the mechanism by which cash left over after operating needs, taxes, capex, interest and mandatory amortisation is applied to prepay the term loans early, usually in order of seniority. In the model it is the optional repayment line that links the cash flow statement to the debt schedule.",
+    "explanation": "### Mechanics\n\n1. Start with cash flow available for debt repayment: CFO − capex − mandatory amortisation (and any dividends or acquisitions).\n2. Add the opening cash balance and subtract the minimum cash the business needs to operate.\n3. The remainder is swept against the prepayable tranches, usually the revolver first, then term loan A, then term loan B.\n4. Non-prepayable tranches (senior notes, mezzanine) are not touched; they are repaid at maturity or refinanced.\n\n```\nCash available for sweep = beginning cash + FCF after interest\n                         − mandatory amortisation − minimum cash\nOptional repayment       = MIN(cash available, outstanding prepayable debt)\n```\n\n### Modelling detail\n\n- The sweep is usually expressed as a percentage of excess cash (100% in a simple model; credit agreements often require 50% stepping down to 25% or 0% as leverage falls).\n- Because interest is charged on the average balance and the balance depends on the sweep, the sweep creates a **circular reference**: use an iterative calculation with a circuit-breaker toggle, or compute interest on the opening balance.\n- Faster sweeps reduce future interest, which increases net income and FCF, which increases the following year's sweep. This compounding is why deleveraging accelerates over the hold.\n\n### Why it matters for returns\n\nEvery dollar swept converts directly into equity value at exit, so the sweep is the returns-driver 'debt paydown'. In a 5x-levered deal with a 100% sweep, three to four turns of debt can typically be repaid over five years, which alone can produce a 2x return even with flat EBITDA and no multiple expansion.\n\n### Lender perspective\n\nLenders include an **excess cash flow sweep** covenant in the credit agreement to make sure the sponsor deleverages rather than hoarding cash or paying dividends; it is one of the standard mandatory prepayment triggers alongside asset-sale and debt-issuance proceeds.",
+    "commonMistakes": [
+      "Sweeping cash against bonds or mezzanine, which cannot be prepaid without paying a call premium.",
+      "Forgetting to leave minimum operating cash, so the model sweeps the company to zero."
+    ],
+    "followUps": [
+      "How would you break the interest circularity created by the sweep?",
+      "What happens to the IRR if the sweep percentage is cut from 100% to 50%?"
+    ],
+    "tags": ["lbo", "cash sweep", "debt schedule", "modelling"]
+  },
+  {
+    "id": "lbo-013",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "How do you decide how much debt a company can support in a buyout?",
+    "keyAnswer": "Start from what the cash flows can service: project EBITDA and FCF under a downside case and size debt so that interest coverage stays above about 2x, leverage can fall to a comfortable level within three or four years, and there is covenant headroom. Then cross-check against what the lender market will provide for that sector and size, usually 4–6x EBITDA, and against comparable recent deals.",
+    "explanation": "Debt capacity is set at the intersection of three constraints: the company's cash flows, the lenders' rules of thumb, and the sponsor's own return and risk appetite.\n\n### 1. Cash-flow capacity (bottom-up)\n\nBuild a conservative case and test:\n\n- **Interest coverage** (EBITDA ÷ cash interest) of at least 2.0–2.5x; many lenders also look at (EBITDA − capex) ÷ interest.\n- **Fixed-charge coverage**: (EBITDA − capex − cash taxes) ÷ (interest + mandatory amortisation) comfortably above 1.0x.\n- **Deleveraging path**: cumulative FCF over the hold should retire a meaningful share of debt; a common target is net debt/EBITDA below 3–4x by exit.\n- **Liquidity**: revolver availability to cover working-capital swings and a bad year.\n\nExample: EBITDA $100, capex $15, cash taxes $12, all-in interest cost 9%. At 5x ($500) interest is $45, coverage 2.2x, FCF before debt repayment about $28 (100 − 15 − 12 − 45), so roughly 0.3x of EBITDA repaid a year. At 6x, interest is $54, coverage 1.9x and FCF only $19: thin. Five times looks like the limit.\n\n### 2. Market capacity (top-down)\n\n- Current leverage multiples on comparable syndicated and private-credit deals in the sector.\n- Lender guidance (US regulators treat more than 6x as a flag), and rating-agency thresholds for a B/B+ rating.\n- Sector norms: software and healthcare services can borrow 6–7x on recurring revenue; cyclicals 2.5–4x.\n\n### 3. Sponsor preference\n\nMore debt raises IRR but shrinks the equity cushion and the margin for execution error. Sponsors usually stop short of the maximum lenders offer, keeping a turn of headroom for add-ons and downturns.\n\nThe disciplined answer is: lender appetite sets the ceiling, the downside case sets the amount you actually take.",
+    "commonMistakes": [
+      "Sizing debt purely off a market multiple ('everyone does 5x') without checking coverage and FCF.",
+      "Using a base-case forecast; capacity must be tested on a downside scenario."
+    ],
+    "followUps": [
+      "If EBITDA is $100 and the all-in interest rate is 10%, what is the maximum leverage at 2x coverage?",
+      "Why might a sponsor borrow less than the lenders are willing to lend?"
+    ],
+    "tags": ["lbo", "debt capacity", "coverage ratios", "leverage"]
+  },
+  {
+    "id": "lbo-014",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "What covenants would you expect in LBO financing, and what is the difference between maintenance and incurrence covenants?",
+    "keyAnswer": "Maintenance covenants are financial tests, such as maximum leverage or minimum interest coverage, that the borrower must meet every quarter whether or not it does anything; incurrence covenants are restrictions triggered only when the company takes an action like raising more debt, paying a dividend or selling assets. Bank loans traditionally carry maintenance tests, while term loan B and bonds are incurrence-only ('covenant-lite').",
+    "explanation": "Covenants are the lenders' early-warning system and their protection against the sponsor extracting value or adding risk after the deal closes.\n\n### Maintenance covenants (tested periodically)\n\n- Maximum total or senior net leverage (net debt ÷ EBITDA), often stepping down over time (e.g. 6.0x at close to 4.5x after three years).\n- Minimum interest coverage or fixed-charge coverage.\n- Maximum capex.\n\nBreaching a maintenance test is an event of default even if every payment has been made on time; it gives lenders the right to accelerate, which in practice means a renegotiation with fees and a higher margin.\n\n### Incurrence covenants (tested on an action)\n\n- Debt incurrence: new debt allowed only if pro forma leverage is below a ratio or fixed-charge coverage above 2x, plus permitted baskets.\n- Restricted payments: dividends, buybacks and investments limited to a builder basket of cumulative net income or EBITDA.\n- Asset sales, liens, affiliate transactions, mergers and change of control.\n\nIf the test fails the company simply cannot take the action; it is not in default.\n\n### Covenant-lite\n\nMost large term loan Bs since the mid-2010s have no maintenance covenants at all, relying on incurrence covenants like bonds. The revolver usually keeps a 'springing' leverage covenant tested only when it is drawn above a threshold (e.g. 35%). Middle-market and private-credit loans still tend to have one or two maintenance tests.\n\n### Why it matters for the sponsor\n\n- Covenant **headroom** (usually 25–35% cushion to the EBITDA in the base case) is a key output of the model: EBITDA can fall by that much before a breach.\n- Loose incurrence covenants give the sponsor flexibility for dividend recaps and add-ons; tight baskets restrict them.\n- Definitions matter: 'EBITDA' in the credit agreement includes add-backs for synergies and one-offs, which can be more generous than reported EBITDA.",
+    "commonMistakes": [
+      "Treating a missed incurrence test as a default; it only blocks the action.",
+      "Assuming all LBO debt has quarterly leverage tests when most broadly syndicated TLBs are covenant-lite."
+    ],
+    "followUps": [
+      "What is a springing covenant?",
+      "How much EBITDA headroom would you want against a maintenance leverage covenant?"
+    ],
+    "tags": ["lbo", "covenants", "maintenance", "incurrence", "covenant-lite"]
+  },
+  {
+    "id": "lbo-015",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "How does an LBO change the target's three financial statements after closing?",
+    "keyAnswer": "The income statement shows new interest expense, extra D&A from asset write-ups and amortisation of capitalised financing fees, so net income falls; the balance sheet carries the new debt, goodwill and written-up assets, with the old equity replaced by the sponsor's contribution; the cash flow statement shows lower CFO because of cash interest and taxes, with debt repayments in financing activities.",
+    "explanation": "### Income statement\n\n- **Interest expense** rises sharply: $500 of debt at 8% adds $40 a year.\n- **D&A** increases if PP&E and intangibles are written up to fair value in purchase accounting (customer relationships, technology, brands are amortised over 5–15 years).\n- **Amortisation of financing fees**: capitalised debt issuance costs are expensed over the loan's life as part of interest (effective interest method).\n- **One-off costs** at closing: advisory and legal fees are expensed; management transaction bonuses too.\n- Pre-tax income and taxes fall; net income often turns negative in the early years even though EBITDA is unchanged.\n\n### Balance sheet (at close)\n\n- Cash: existing cash used as a source leaves; minimum cash remains.\n- Assets written up; **goodwill** = purchase price of equity − fair value of net identifiable assets.\n- Deferred tax liabilities arise on the book write-ups in a stock deal (no tax step-up).\n- **Debt** replaced entirely: old debt repaid, new tranches recorded net of capitalised fees.\n- **Equity**: old shareholders' equity is eliminated; the new equity equals the sponsor and rollover contribution less expensed transaction costs.\n\n### Cash flow statement\n\n- CFO falls because of cash interest and lower earnings, partially offset by lower cash taxes (interest shield) and non-cash add-backs (new amortisation, PIK interest, fee amortisation).\n- CFI: capex unchanged; the acquisition itself appears in the sponsor's vehicle, not the target's ongoing statements.\n- CFF: mandatory and optional debt repayments each year; at close, debt and equity inflows and the payment to selling shareholders.\n\n### What stays the same\n\nRevenue, EBITDA and the operating cash generation of the underlying business do not change on day one. The interviewer wants you to separate operating performance from the financing overlay.",
+    "commonMistakes": [
+      "Saying EBITDA falls after an LBO; interest and write-up amortisation sit below EBITDA.",
+      "Forgetting the deferred tax liability created by book write-ups in a stock purchase."
+    ],
+    "followUps": [
+      "Why can net income be negative while the company is paying down debt?",
+      "How are capitalised financing fees treated when the loan is refinanced early?"
+    ],
+    "ifrsNote": "Under IFRS a company may classify interest paid in operating or financing cash flows (US GAAP requires operating). LBO-owned European companies often show interest in financing, which makes reported CFO look higher; adjust before comparing FCF or deleveraging with a US peer.",
+    "tags": ["lbo", "three statements", "purchase accounting", "interest expense"]
+  },
+  {
+    "id": "lbo-016",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "Paper LBO: a company has $100 of EBITDA, bought at 8x with 5x debt at 8% interest. EBITDA grows 10% a year for five years, D&A and capex are each $20, no change in working capital, 25% tax, all free cash flow repays debt, exit at 8x. What are the MOIC and IRR?",
+    "keyAnswer": "Entry EV $800, debt $500, equity $300. Net income (which equals FCF here) repays about $308 of debt over five years, leaving $192. Exit EV is 8 × $161 = $1,288, so exit equity is about $1,096, a 3.65x MOIC and roughly 30% IRR.",
+    "explanation": "State assumptions out loud, then work year by year. Interest is charged on the opening debt balance for simplicity, and because D&A equals capex and NWC is flat, FCF equals net income.\n\n```\nEntry\nEV      = 8 x 100  = 800\nDebt    = 5 x 100  = 500\nEquity  = 800 − 500 = 300   (fees ignored)\n\nYear        1      2      3      4      5\nEBITDA    110.0  121.0  133.1  146.4  161.1\n− D&A      20.0   20.0   20.0   20.0   20.0\nEBIT       90.0  101.0  113.1  126.4  141.1\n− Interest 40.0   37.0   33.2   28.4   22.5   (8% x opening debt)\nEBT        50.0   64.0   79.9   98.0  118.6\n− Tax 25%  12.5   16.0   20.0   24.5   29.6\nNet income 37.5   48.0   60.0   73.5   88.9\n+ D&A      20.0   20.0   20.0   20.0   20.0\n− Capex    20.0   20.0   20.0   20.0   20.0\nFCF        37.5   48.0   60.0   73.5   88.9\n\nOpening debt 500.0 462.5 414.5 354.5 281.0\nClosing debt 462.5 414.5 354.5 281.0 192.1\n\nExit\nExit EV      = 8 x 161.1 = 1,288\nLess debt    = 192\nExit equity  = 1,096\nMOIC         = 1,096 / 300 = 3.65x\nIRR          = 3.65^(1/5) − 1 ≈ 29.6%\n```\n\n### Mental-math shortcuts an interviewer accepts\n\n- Year-5 EBITDA: 100 × 1.1^5 = 161 (1.1^5 ≈ 1.61).\n- Cumulative FCF ≈ 37.5 + 48 + 60 + 73.5 + 89 ≈ 308, so debt ≈ 500 − 308 ≈ 192.\n- IRR: 3.65x in five years sits between 3x (24.6%) and 4x (32%), so just under 30%.\n\n### Attribution\n\nGain = 796: EBITDA growth (61 × 8) = 488; multiple expansion = 0; debt paydown = 308. Even with zero EBITDA growth, net income of roughly $30–38 a year would have repaid about $170 of debt, leaving exit equity of about $470 (800 − 330), a 1.6x from deleveraging alone, which is the point of leverage.\n\nIf the interviewer wants fees, add about $25 of transaction costs to uses so equity becomes $325 and MOIC drops to 3.4x (IRR about 28%).",
+    "commonMistakes": [
+      "Taxing EBIT instead of EBT; interest is deductible, so taxes must be computed after interest.",
+      "Forgetting to update interest as debt is repaid, or charging interest on EBITDA rather than on the debt balance.",
+      "Subtracting entry debt ($500) instead of remaining debt at exit."
+    ],
+    "followUps": [
+      "What would the IRR be if the exit multiple were 7x?",
+      "How much of the return came from debt paydown versus EBITDA growth?"
+    ],
+    "tags": ["lbo", "paper lbo", "worked example", "irr", "moic"]
+  },
+  {
+    "id": "lbo-017",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Quick paper LBO: a sponsor buys a business with $50 of EBITDA at 10x using 6x debt. EBITDA rises by $4 a year, free cash flow after interest and tax is $30 a year and is all used to repay debt. The exit after five years is at 9x. Roughly what are the MOIC and IRR, and what does the lower exit multiple cost?",
+    "keyAnswer": "Entry EV $500, debt $300, equity $200. After five years EBITDA is $70, debt is $150 and the exit EV at 9x is $630, so equity is $480: 2.4x and about 19% IRR. Had the multiple held at 10x, equity would have been $550, 2.75x and about 22%.",
+    "explanation": "The question is designed to be done in under two minutes; the interviewer wants clean structure more than decimals.\n\n```\nEntry\nEV      = 10 x 50  = 500\nDebt    =  6 x 50  = 300\nEquity  = 500 − 300 = 200\n\nHold (5 years)\nEBITDA year 5  = 50 + 5 x 4        = 70\nDebt repaid    = 5 x 30            = 150\nDebt at exit   = 300 − 150         = 150\n\nExit at 9x\nExit EV        = 9 x 70            = 630\nExit equity    = 630 − 150         = 480\nMOIC           = 480 / 200         = 2.4x\nIRR            = 2.4^(1/5) − 1     ≈ 19%\n```\n\n### Multiple contraction\n\nAt a 10x exit the EV would be 700 and equity 550, a 2.75x and roughly 22% IRR. One turn of multiple on $70 of EBITDA is $70 of equity value, about 0.35x of MOIC on a $200 cheque, so the lower multiple cost roughly 3 points of IRR.\n\n### Attribution at 9x\n\n```\nEBITDA growth    (70 − 50) x 10  = +200\nMultiple change  (9 − 10) x 70   =  −70\nDebt paydown     300 − 150       = +150\nTotal gain                       = +280  (= 480 − 200)\n```\n\n### What the interviewer is checking\n\n- You set up entry EV, debt and equity before doing anything else.\n- You use **remaining** debt at exit, not the original $300.\n- You know the mental-math IRR anchors (2x in 5 ≈ 15%, 2.5x in 5 ≈ 20%, 3x in 5 ≈ 25%) and can place 2.4x just below 20%.\n- You can comment on the result: a deal underwritten at 10x that exits at 9x still returns almost 20% because of growth and paydown, but the sponsor would normally underwrite flat-to-lower exit multiples precisely for this reason.",
+    "commonMistakes": [
+      "Using the entry EBITDA at exit, or the entry debt instead of the paid-down balance.",
+      "Trying to compute interest and taxes when the question already gives FCF; use what is given."
+    ],
+    "followUps": [
+      "What would FCF need to be for the deal to hit a 25% IRR at a 9x exit?",
+      "Why do sponsors usually assume the exit multiple equals or is below the entry multiple?"
+    ],
+    "tags": ["lbo", "paper lbo", "multiple contraction", "mental math"]
+  },
+  {
+    "id": "lbo-018",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What is a dividend recapitalisation and why would a sponsor do one?",
+    "keyAnswer": "A dividend recap is when a portfolio company raises new debt and uses the proceeds to pay a special dividend to its owners. The sponsor does it to return capital early and lock in part of its gain, which raises IRR and de-risks the position, without giving up ownership or the upside of a later exit.",
+    "explanation": "### Mechanics\n\nTwo or three years into the hold, the company has paid down debt and grown EBITDA, so leverage has fallen (say from 5x to 3x). If the credit market is open, the company issues new term loans or notes to take leverage back up (to 4.5–5x) and distributes the cash to shareholders, mostly the sponsor's fund.\n\n### Effect on returns\n\nSuppose $300 of equity is invested at entry and the base-case exit in year 5 returns $1,000 (3.33x, 27% IRR). A $150 recap in year 3, funded by debt that is still outstanding at exit, reduces exit proceeds to $850:\n\n```\nNo recap:   −300, 0, 0,   0, 0, 1,000   -> MOIC 3.33x, IRR 27.2%\nWith recap: −300, 0, 0, 150, 0,   850   -> MOIC 3.33x, IRR 29.7%\n```\n\nMOIC is unchanged (slightly lower once you include the extra interest), but IRR rises because cash comes back earlier. The sponsor has also recovered half its cost, so the remaining exposure is partly 'house money'.\n\n### Why sponsors do it\n\n- Return capital to LPs and improve fund DPI (distributions to paid-in) ahead of fundraising.\n- Monetise when exit markets are weak or when the sponsor wants to hold for more growth.\n- Opportunistic use of cheap or abundant credit.\n\n### Risks and criticism\n\n- The company is re-levered, with less cushion if performance slips; several high-profile bankruptcies followed aggressive recaps.\n- Lenders and rating agencies view recaps negatively; credit agreements limit them through restricted-payment covenants.\n- Management and employees see cash leaving the business, so sponsors often pair recaps with a management payout.\n\nA well-timed recap is a legitimate tool; the test is whether the business can still deleverage comfortably afterwards.",
+    "commonMistakes": [
+      "Saying a recap increases MOIC; it mainly increases IRR by accelerating cash flows.",
+      "Ignoring that the new debt reduces exit equity, so the dividend is not free money."
+    ],
+    "followUps": [
+      "What covenants limit a company's ability to do a dividend recap?",
+      "How does a recap change the fund's DPI versus its TVPI?"
+    ],
+    "tags": ["lbo", "dividend recap", "irr", "capital return"]
+  },
+  {
+    "id": "lbo-019",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What exit routes does a private equity sponsor have, and what determines which one it chooses?",
+    "keyAnswer": "The main exits are a sale to a strategic buyer, a secondary buyout to another sponsor, an IPO, and partial monetisations such as a dividend recap or a continuation fund. The choice depends on which route gives the highest certain value, how quickly, and whether the sponsor wants a full or partial exit.",
+    "explanation": "### The main routes\n\n| Route | Typical share | Pros | Cons |\n|---|---|---|---|\n| Sale to strategic | Largest by value | Highest price (synergies), clean 100% exit, cash | Regulatory risk, strategics are slower, confidentiality concerns |\n| Secondary buyout (sale to another sponsor) | Very common in mid-market | Fast, buyers understand the asset, financing is familiar | Buyer needs its own returns, so price is capped by its model; 'passing the parcel' optics |\n| IPO | Fewer but large deals | Potential premium valuation for growth stories, keeps upside | Only partial exit (lock-ups, sell-down over years), market-window risk, costs and disclosure |\n| Dividend recap | Partial | Early cash without losing control | Re-levers the company |\n| Continuation fund / GP-led secondary | Growing | Hold a winner longer with new LP money | Conflicts of interest, needs fairness process |\n\n### Decision factors\n\n- **Valuation**: strategics pay synergies; an IPO can price a scarce growth asset above M&A comps; a sponsor pays what its LBO model allows.\n- **Certainty and speed**: a signed sale agreement beats an IPO window that may close.\n- **Size**: very large companies can only be absorbed by public markets or a few strategics; mid-sized ones go to other sponsors.\n- **Fund timing**: a fund near the end of its life needs full exits; an earlier fund may prefer a partial IPO.\n- **Credit markets**: secondary buyouts depend on debt availability.\n\n### Dual-track processes\n\nSponsors often run an IPO preparation alongside an M&A auction. The IPO keeps bidders honest and the auction gives a floor; the sponsor picks whichever delivers more at signing.",
+    "commonMistakes": [
+      "Treating an IPO as a full exit; the sponsor typically sells 20–40% at listing and the rest over several years.",
+      "Forgetting that a secondary buyer's bid is constrained by its own target IRR."
+    ],
+    "followUps": [
+      "Why might a strategic buyer still lose an auction to another sponsor?",
+      "What is a continuation fund and why has it become more common?"
+    ],
+    "tags": ["lbo", "exit", "ipo", "secondary buyout", "strategic sale"]
+  },
+  {
+    "id": "lbo-020",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "What is management rollover, and how does a management incentive plan typically work in a buyout?",
+    "keyAnswer": "Rollover means the management team reinvests part of its sale proceeds into the new holding company alongside the sponsor instead of taking all cash, which is a source of funds and aligns incentives. On top of that, a management incentive plan grants options or sweet equity worth 5–10% of the exit equity gain, vesting over time and often ratcheting up when the sponsor's MOIC or IRR exceeds hurdles.",
+    "explanation": "Sponsors want managers to think like owners, so a buyout re-cuts management's economics in two ways.\n\n### Rollover equity\n\n- Managers who own shares in the target sell most for cash but 'roll' a portion (often 25–50% of their proceeds) into the new acquisition vehicle at the same price per share the sponsor pays.\n- It appears in sources and uses as a non-cash source that reduces the sponsor's cheque: $20 of rollover on $335 of total equity gives management about 6% of the ordinary equity.\n- Benefits: skin in the game, often tax deferral on the rolled portion, and a signal to lenders that insiders believe in the plan.\n\n### Management incentive plan (MIP)\n\n- A pool of options, restricted stock or 'sweet equity' (shares bought cheaply because most of the sponsor's money is structured as preferred equity or shareholder loans in European deals) typically equal to **5–10%** of the fully diluted equity.\n- **Vesting**: time-based over 4–5 years and/or performance-based on exit MOIC or IRR; often fully vests on exit.\n- **Ratchets**: management's share of exit proceeds steps up as sponsor returns pass hurdles, e.g. 8% of gains up to 2.5x, 12% above 3.0x.\n- **Leaver provisions**: good leavers keep vested equity at fair value; bad leavers lose unvested equity and may sell vested shares at the lower of cost and fair value.\n\n### Worked illustration\n\nSponsor and rollover equity $335 at entry; exit equity $1,100, a gain of $765. A 10% MIP on the gain pays management $76.5, on top of the appreciation of their 6% rolled stake (about $46). Total management take roughly $120, a large multiple of normal pay, which is the point.\n\n### Model impact\n\nThe MIP dilutes sponsor proceeds, so IRR is calculated on the sponsor's share after the pool; ignoring it overstates returns by about 0.1–0.3x of MOIC.",
+    "commonMistakes": [
+      "Treating rollover as a cash contribution; it is the reinvestment of proceeds management would otherwise have received.",
+      "Computing sponsor IRR on 100% of exit equity without deducting the management pool."
+    ],
+    "followUps": [
+      "What is 'sweet equity' and why is it common in European deals?",
+      "How would a ratchet change the sponsor's IRR in an upside case?"
+    ],
+    "tags": ["lbo", "management rollover", "mip", "incentives", "sweet equity"]
+  },
+  {
+    "id": "lbo-021",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "Beyond financial engineering, how do private equity firms create value in their portfolio companies?",
+    "keyAnswer": "Operationally: by growing revenue through pricing, new markets, salesforce effectiveness and add-on acquisitions; by expanding margins through procurement, cost programmes and working-capital discipline; and through governance, replacing or upgrading management, setting a focused 100-day plan and tying pay to equity value. Leverage is the amplifier, but EBITDA growth is where most returns now come from.",
+    "explanation": "In the 1980s most buyout returns came from leverage and multiple arbitrage. Today, with purchase multiples high and leverage constrained, sponsors underwrite deals mainly on **operational value creation**, and interviewers expect concrete levers.\n\n### Revenue levers\n\n- Pricing optimisation and contract renegotiation.\n- Geographic and channel expansion, cross-selling across a portfolio.\n- Salesforce effectiveness, go-to-market investment, digital channels.\n- **Buy-and-build**: bolt-on acquisitions at lower multiples that add scale and capabilities.\n\n### Margin levers\n\n- Procurement savings using the sponsor's group purchasing programmes.\n- Footprint rationalisation, automation, shared services, offshoring.\n- Reviewing SKU and customer profitability; exiting low-margin lines.\n\n### Cash levers\n\n- Working-capital reduction (inventory days, receivable collection, payable terms) releases cash for debt paydown.\n- Capex prioritisation and sale-and-leaseback of non-core property.\n- Tax structuring.\n\n### Governance levers\n\n- Replacing the CEO or CFO within the first year is common; sponsors have networks of operating partners.\n- A **100-day plan** sets priorities and KPIs; monthly board reporting replaces quarterly public reporting.\n- Management equity aligns incentives with the exit value, and the absence of public-market pressure allows multi-year investment.\n\n### Exit positioning\n\nSponsors also reshape the story: reporting clean recurring metrics, carving out non-core divisions, and timing the exit to a strong market, which supports the exit multiple.\n\nA good answer gives a short example: 'A sponsor buys a $100 EBITDA distributor, moves procurement to group contracts (+$8), closes two overlapping warehouses (+$5), and adds three bolt-ons at 6x (+$20), lifting EBITDA to $133 before any organic growth.'",
+    "commonMistakes": [
+      "Answering only with cost cutting; revenue growth and add-ons are typically the larger drivers in modern deals.",
+      "Forgetting governance: the shift from public-company quarterly reporting to active board ownership is central."
+    ],
+    "followUps": [
+      "Which operational lever is quickest to implement and which is hardest?",
+      "How does a sponsor's operating partner model differ from a strategic's integration team?"
+    ],
+    "tags": ["lbo", "value creation", "operational improvement", "private equity"]
+  },
+  {
+    "id": "lbo-022",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What is the difference between an LBO model and a merger model?",
+    "keyAnswer": "A merger model combines an acquirer and a target to measure the effect on the acquirer's EPS, credit metrics and ownership, so the output is accretion or dilution. An LBO model has a financial buyer with no earnings of its own, so it measures the return on the sponsor's equity, with IRR and MOIC as the outputs and the debt schedule at the centre.",
+    "explanation": "Both models start with a purchase price, sources and uses, and purchase accounting, but they answer different questions for different buyers.\n\n| Aspect | Merger model | LBO model |\n|---|---|---|\n| Buyer | Strategic company with its own P&L | Financial sponsor via a new holding company |\n| Key output | EPS accretion/dilution, pro forma leverage, ownership split | IRR, MOIC, debt paydown, covenant headroom |\n| Consideration | Cash, stock or a mix; new shares issued | Mostly debt plus sponsor equity; no public stock |\n| Synergies | Central to the analysis | Usually none (stand-alone), except in add-ons |\n| Combined financials | Yes, acquirer plus target | Only the target's, with the new capital structure |\n| Debt | One funding source among several | Several tranches with detailed schedules and sweeps |\n| Horizon | 2–3 years of pro forma EPS | 3–7 year hold to exit |\n| Valuation logic | Is it worth it to our shareholders? | What price lets us earn our target return? |\n\n### Why the difference matters\n\n- A strategic can justify paying more because synergies raise the combined EBITDA, and because its cost of capital is often lower than a sponsor's 20%+ equity hurdle.\n- A sponsor's price is bounded by the debt the target can carry and the exit value; the model is routinely run **backwards** to solve for the maximum price at a given IRR.\n- In an auction, bankers run both: the merger model tells them what a strategic bidder can afford, and the LBO model what the sponsors can afford, which frames the expected price range.\n\n### What they share\n\nPurchase price allocation and goodwill, transaction fees, pro forma balance sheet, and financing assumptions are built the same way; an LBO model is sometimes described as a merger model where the acquirer is an empty shell.",
+    "commonMistakes": [
+      "Saying LBO models do not involve purchase accounting; goodwill and write-ups are created in both.",
+      "Claiming an LBO model has no income statement; it needs one to compute taxes and net income."
+    ],
+    "followUps": [
+      "Why can a strategic buyer often pay more than a sponsor?",
+      "Could a sponsor-backed company run a merger model for an add-on acquisition?"
+    ],
+    "tags": ["lbo", "merger model", "comparison", "modelling"]
+  },
+  {
+    "id": "lbo-023",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "In an auction, why might a strategic acquirer outbid a private equity firm, and when would the sponsor win?",
+    "keyAnswer": "A strategic can usually pay more because it captures synergies, has a lower cost of capital and a longer holding horizon, and does not need a 20%+ equity IRR. A sponsor wins when synergies are small, when the strategic faces antitrust or integration constraints, when the seller values speed and certainty, or when cheap debt and an aggressive operational plan let the sponsor's model support the price.",
+    "explanation": "### Why strategics usually have the edge on price\n\n- **Synergies**: cost savings and revenue gains raise the EBITDA the strategic is effectively buying; it can share part of that value with the seller. A sponsor buys the business stand-alone.\n- **Cost of capital**: a large investment-grade company funds with cheap debt and its own equity at a 8–10% WACC; a sponsor needs 20%+ on its equity and 8–10% on junk-rated debt.\n- **No exit requirement**: a strategic can hold forever and accept a slower payback.\n- **Earnings logic**: if the deal is accretive to EPS, the strategic's board can justify a higher multiple than the sponsor's returns model allows.\n\n### When the sponsor wins\n\n- **Few or no strategic buyers** with real synergies, or strategics distracted by their own problems.\n- **Antitrust**: the obvious strategic buyer cannot get clearance, or the seller does not want regulatory delay.\n- **Speed, certainty and confidentiality**: sponsors sign quickly with committed financing and no shareholder vote.\n- **Management preference**: the team may prefer sponsor ownership (equity upside, autonomy) and sellers often listen.\n- **Favourable credit markets**: abundant cheap leverage lets the LBO model clear a higher price; in 2006–07 and 2021 sponsors won many auctions against strategics.\n- **Sponsor-specific angles**: an existing platform in the sector gives the sponsor its own synergies, so it bids like a strategic.\n- Strategics are sometimes constrained by stock-price reaction, integration bandwidth or the dilution of issuing shares.\n\n### What the interviewer wants\n\nShow that you understand both valuation logics: the strategic's maximum price is stand-alone value plus a share of synergies; the sponsor's is set by target IRR, leverage and exit assumptions. Then explain which constraint binds in the specific situation.",
+    "commonMistakes": [
+      "Asserting strategics always win; sponsors won the majority of large auctions in several credit-boom years.",
+      "Ignoring that a sponsor with a platform company can bid with synergies too."
+    ],
+    "followUps": [
+      "How would you advise a seller choosing between a slightly higher strategic bid and a sponsor bid with certain financing?",
+      "What is 'certainty of funds' and why do sellers care?"
+    ],
+    "tags": ["lbo", "strategic vs sponsor", "auction", "synergies"]
+  },
+  {
+    "id": "lbo-024",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "What happens to the target's existing debt in an LBO, and why is it usually refinanced?",
+    "keyAnswer": "Almost all of it is repaid at closing, because loan agreements and bond indentures contain change-of-control clauses that let lenders demand repayment, and because the new lenders want a clean first-lien position. The refinancing is a use of funds, and any prepayment penalties or make-whole costs add to the price.",
+    "explanation": "### Why existing debt rarely survives\n\n- **Change-of-control provisions**: bank loans typically make a change of control an event of default; bonds give holders a put at 101% of par. Lenders will not normally consent to the far higher leverage of an LBO.\n- **Collateral and ranking**: the new term loans need a first lien on all assets; legacy secured debt would conflict.\n- **Covenants**: legacy credit agreements would be breached by the new leverage ratios.\n- **Economics**: the sponsor often wants a single, coherent structure with a maturity profile aligned to the hold period.\n\n### How it appears in the model\n\nRefinancing the old debt is a line in uses, matched by new debt and equity in sources. If the old bonds have a make-whole or call premium, that cost is also a use. Unamortised financing fees on the old debt are written off through the income statement at close.\n\n### When debt can stay in place\n\n- **Portable capital structures**: some high-yield bonds and term loans include portability clauses allowing a change of control without a put if leverage is below a threshold, increasingly negotiated by sponsors to make their companies easier to sell.\n- Low-coupon bonds in a high-rate environment are valuable: a sponsor may try to keep them and offer a consent fee rather than refinance at a higher cost.\n- Small items such as finance leases, local working-capital lines and government loans are often left outstanding.\n\n### Net debt and the price\n\nThe sponsor pays enterprise value; the seller's shareholders receive EV minus net debt (and other debt-like items). Whether the old debt is repaid by the target before closing or by the buyer at closing, the economics are the same: the equity price adjusts.\n\n### A nuance interviewers like\n\nIf the target's bonds trade below par because rates have risen, repaying them at 101 under the change-of-control put costs more than their market value; the sponsor may instead tender for them at a discount or exercise the call, whichever is cheaper.",
+    "commonMistakes": [
+      "Assuming the acquirer 'assumes' the target's debt as in many strategic deals; LBO structures almost always refinance it.",
+      "Forgetting prepayment premiums and the write-off of unamortised fees when computing uses."
+    ],
+    "followUps": [
+      "What is a portability clause and who benefits from it?",
+      "How does the treatment differ if the target's bonds are trading at 85?"
+    ],
+    "tags": ["lbo", "existing debt", "change of control", "refinancing"]
+  },
+  {
+    "id": "lbo-025",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "How do you use an LBO model to determine the maximum price a sponsor can pay? Illustrate with $100 of EBITDA, 8% annual growth, 5x debt that is paid down to $250 by year five, an 8x exit and a 20% target IRR.",
+    "keyAnswer": "You run the model backwards: fix the exit equity value and the required MOIC, solve for the equity the sponsor can invest, and add the debt to get the maximum EV. Here exit equity is about $925, a 20% IRR over five years needs 2.49x, so equity is capped at about $372 and the maximum price is roughly $872, or 8.7x EBITDA.",
+    "explanation": "Because the sponsor's return is the output of the model, you can turn it around and treat the return as the input. This 'LBO valuation' gives the price a financial buyer could pay, which bankers often show as the floor of a valuation football field.\n\n### Step by step\n\n```\n1. Exit EBITDA     = 100 x 1.08^5          = 146.9\n2. Exit EV         = 8 x 146.9             = 1,175\n3. Net debt at exit = 250   (500 raised, 250 repaid from FCF)\n4. Exit equity     = 1,175 − 250           = 925\n5. Required MOIC   = (1 + 20%)^5           = 2.49x\n6. Max equity in   = 925 / 2.49            = 372\n7. Max EV          = 372 + 500 (debt)      = 872   -> 8.7x EBITDA\n```\n\nAt a 25% target IRR the required MOIC is 3.05x, max equity falls to $303 and the maximum price to about $803 (8.0x). Fees would reduce the price further.\n\n### Why it is called a floor\n\n- A sponsor's price is capped by leverage and its return hurdle; a strategic with synergies and a lower cost of capital can usually pay more, so the LBO value tends to sit at the low end of the range.\n- It is not a true 'intrinsic' value: it tells you what one type of buyer can afford under one set of financing assumptions.\n\n### Sensitivities you would show\n\n- Target IRR (20% vs 25%) and hold period.\n- Exit multiple (equal to entry vs one turn lower).\n- Leverage available (4x vs 6x): each extra turn of debt adds $100 to the price if the equity cheque is unchanged, but also lowers FCF through interest.\n\n### In practice\n\nSponsors iterate between price and structure: at a higher price they may ask lenders for more leverage, accept a lower IRR for a lower-risk asset, or underwrite more aggressive operating improvements. When the model only clears the price with multiple expansion, investment committees typically pass.",
+    "commonMistakes": [
+      "Forgetting to add the debt back to the maximum equity when converting to enterprise value.",
+      "Keeping the debt paydown fixed when the price changes; a higher price funded with debt means more interest and less paydown."
+    ],
+    "followUps": [
+      "Why does an LBO analysis usually sit at the bottom of a football field?",
+      "If lenders offered 6x instead of 5x, what is the new maximum price at a 20% IRR?"
+    ],
+    "tags": ["lbo", "lbo valuation", "back-solve", "target irr", "floor value"]
+  },
+  {
+    "id": "lbo-026",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "A portfolio company misses its projections by 30% in year two. What happens to the deal, and what can the sponsor do?",
+    "keyAnswer": "Leverage jumps, interest coverage falls and the company is likely to breach any maintenance covenant, which is a default that gives lenders leverage over the sponsor. The sponsor can negotiate a waiver or amendment (paying fees and a higher margin), inject more equity to cure the breach, cut costs and capex to protect liquidity, or, if the business is fundamentally impaired, hand the keys to the lenders or go through a restructuring.",
+    "explanation": "### What the miss does to the numbers\n\nSuppose EBITDA was projected at $110 against $460 of debt (4.2x) and comes in at $77. Leverage is now 6.0x against a covenant stepped down to, say, 5.0x; interest of $37 is covered only 2.1x; FCF after interest, capex and taxes may be close to zero, so the deleveraging story stops. The equity, valued at 8x EBITDA less debt, has gone from $420 to about $155.\n\n### The sponsor's options, in order of escalation\n\n1. **Operational response**: cut costs, defer capex, release working capital, draw the revolver for liquidity.\n2. **Amendment and waiver**: if a maintenance covenant is breached, ask lenders to reset the ratios for a fee (typically 25–100 bp) and a margin increase. Covenant-lite loans avoid this step entirely, which is why sponsors like them.\n3. **Equity cure**: credit agreements often allow the sponsor to inject equity that counts as EBITDA for the test, usually limited to two to four times over the life of the loan.\n4. **Rescue capital**: new money from the sponsor or a third party, often as super-senior or PIK debt, to fund a turnaround.\n5. **Restructuring**: if the capital structure is unsustainable, exchange debt for equity, extend maturities or sell the company; in the worst case lenders take control and the sponsor's equity is wiped out. The detailed restructuring process belongs to credit analysis, but the sponsor's key decision is whether putting in more money has a positive expected return.\n\n### Portfolio and fund effects\n\n- A write-down of the position in fund NAV; the fund's IRR and MOIC fall.\n- Reputational cost with lenders and LPs, so sponsors tend to support businesses they believe in.\n- Time: a troubled company absorbs the deal team's attention disproportionately.\n\n### What the interviewer is looking for\n\nThat you link a miss in EBITDA to the leverage and coverage ratios, know the difference between a payment default and a covenant breach, and can list the sponsor's practical options before jumping to bankruptcy.",
+    "commonMistakes": [
+      "Jumping straight to 'the company goes bankrupt'; a covenant breach is usually resolved by amendment or equity cure.",
+      "Ignoring that covenant-lite loans have no maintenance tests, so a miss alone does not trigger default."
+    ],
+    "followUps": [
+      "What is an equity cure and why do lenders limit how often it can be used?",
+      "At what point should a sponsor stop putting new money into a struggling company?"
+    ],
+    "tags": ["lbo", "downside case", "covenant breach", "equity cure"]
+  },
+  {
+    "id": "lbo-027",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "Explain buy-and-build. How do add-on acquisitions create value through multiple arbitrage?",
+    "keyAnswer": "Buy-and-build means acquiring a platform company and then bolting on smaller competitors. Small private businesses trade at lower multiples than a scaled platform, so EBITDA bought at 5–7x is revalued at the platform's 10x at exit; add scale synergies and the combined business is worth more than the sum of the prices paid.",
+    "explanation": "### The arithmetic of multiple arbitrage\n\n```\nPlatform:   100 EBITDA bought at 10x  = 1,000\nAdd-ons:     30 EBITDA bought at  6x  =   180\nTotal invested                        = 1,180\nCombined EBITDA                       =   130\nExit at the platform multiple of 10x  = 1,300\nValue created with zero growth        =   120\n```\n\nThe $120 is the add-on EBITDA revalued from 6x to 10x (30 × 4). Add $10 of cost synergies and the gain rises to $220. Because add-ons are often funded with incremental debt rather than new equity, the effect on the sponsor's MOIC is magnified.\n\n### Why smaller companies trade cheaper\n\nLess diversified, key-person risk, limited buyer universe, no access to syndicated debt, weaker reporting. A sponsor that aggregates them creates something a strategic or a larger fund can buy with cheap capital.\n\n### Sources of value beyond arbitrage\n\n- **Cost synergies**: procurement, back office, overlapping sites.\n- **Revenue synergies**: cross-selling, national accounts that need geographic coverage.\n- **Scale premium**: larger EBITDA and lower leverage at exit attract more bidders and higher multiples.\n- **Repeatability**: a proven M&A engine is itself valued by the next buyer.\n\n### Risks and what the interviewer may press on\n\n- **Integration**: too many deals too quickly leads to accounting messes and culture clashes; synergies may never appear.\n- **Pro forma EBITDA**: lenders allow 'run-rate' add-backs for acquired EBITDA and synergies, which can hide real leverage. If exit EBITDA is based on pro forma numbers that never materialise, the arbitrage disappears.\n- **Multiple compression**: if the platform multiple falls from 10x to 8x at exit, the combined business is worth only 1,040 against 1,180 invested.\n- **Financing**: add-ons funded with incremental term loans raise leverage; the credit agreement's acquisition basket and incurrence test limit how much can be done.\n\n### Typical sectors\n\nDental and veterinary clinics, insurance brokerage, IT services, testing and inspection, HVAC and other home services: fragmented, local, recurring-revenue businesses.",
+    "commonMistakes": [
+      "Treating the arbitrage as risk-free; it depends entirely on the exit multiple holding at platform level.",
+      "Ignoring integration costs and the capacity of management to absorb many acquisitions."
+    ],
+    "followUps": [
+      "How do lenders treat EBITDA from acquisitions closed late in the year?",
+      "What is the maximum multiple the platform should pay for an add-on with no synergies?"
+    ],
+    "tags": ["lbo", "buy-and-build", "add-on", "multiple arbitrage", "platform"]
+  },
+  {
+    "id": "lbo-028",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "How does increasing leverage change the IRR of a buyout, and what limits how far you can push it?",
+    "keyAnswer": "Up to a point, each extra turn of debt raises IRR because the same enterprise value gain is spread over a smaller equity cheque and because more debt is repaid from cash flow. The limits are interest coverage and FCF (more debt means more interest and less paydown), lender appetite and regulatory guidance, covenant headroom, and the rising probability of losing the entire equity if performance slips.",
+    "explanation": "### Illustration\n\nSame company bought at $800 (8x $100 EBITDA), EBITDA grows to $150, exit at 8x = $1,200, five-year hold, 8% interest.\n\n| Debt at entry | Equity | Interest yr 1 | Coverage | Debt at exit (approx.) | Exit equity | MOIC | IRR |\n|---|---|---|---|---|---|---|---|\n| 0 | 800 | 0 | n/a | 0 | 1,200 | 1.5x | 8% |\n| 400 (4x) | 400 | 32 | 3.1x | 250 | 950 | 2.4x | 19% |\n| 600 (6x) | 200 | 48 | 2.1x | 500 | 700 | 3.5x | 28% |\n\nPaydown falls as debt rises (more interest, same EBITDA), but the smaller equity base dominates, so IRR climbs steeply.\n\n### Why it does not go on forever\n\n- **Coverage and FCF**: at 7x, interest would be $56 on $100 of EBITDA, coverage 1.8x, and after capex and taxes almost nothing is left to repay debt; a small EBITDA miss means a liquidity crisis.\n- **Cost of debt rises**: lenders charge wider spreads for the marginal turn (junior tranches at 10–14%), and beyond a point the after-tax cost of the extra debt approaches the return it generates.\n- **Market and regulatory ceilings**: syndicated lenders and rating agencies push back above roughly 6x; the regulatory leveraged-lending guidance applies to banks.\n- **Covenants and flexibility**: higher leverage means less headroom for add-ons, capex or a downturn.\n- **Risk of ruin**: in the 6x case a 25% fall in exit EV (to $900) leaves equity of $400, still 2x; a 40% fall (to $720) leaves $220, roughly break-even; a 50% fall (to $600) leaves $100, half the cheque. At 4x the same 50% fall still returns $350, 0.9x. Expected IRR goes up with leverage but so does the dispersion.\n\n### How sponsors decide\n\nThey model base and downside cases and pick the leverage at which the downside still preserves most of the equity and covenant compliance, then add a turn of 'dry' capacity for add-ons. The right answer in an interview is 'more leverage raises IRR but not value, and the trade-off is the probability of distress'.",
+    "commonMistakes": [
+      "Claiming leverage increases MOIC and IRR without acknowledging the lower absolute debt paydown and higher risk.",
+      "Saying leverage raises enterprise value; it changes the split of value between debt and equity and the tax shield at most."
+    ],
+    "followUps": [
+      "At what leverage does the marginal dollar of debt stop improving IRR?",
+      "How does a 300 bp rise in rates change the leverage you would recommend?"
+    ],
+    "tags": ["lbo", "leverage", "irr sensitivity", "risk"]
+  },
+  {
+    "id": "lbo-029",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "What is a club deal, and what are its advantages and drawbacks?",
+    "keyAnswer": "A club deal is a buyout in which two or more private equity firms jointly acquire a company, each contributing part of the equity. It lets sponsors buy targets too large for a single fund's concentration limits and spreads risk, but it complicates governance, slows decisions, and has drawn antitrust scrutiny for reducing competition in auctions.",
+    "explanation": "### Why club deals exist\n\n- **Size**: a fund usually caps any single investment at 10–20% of commitments. A $5bn fund can write a $750m cheque; a $10bn buyout needing $4bn of equity requires several funds (or heavy co-investment from LPs).\n- **Risk sharing**: a large loss is spread across firms and funds.\n- **Complementary skills**: one sponsor may bring sector expertise, another operating or regional capabilities.\n- **Competitive dynamics**: joining forces can keep a rival out of the auction.\n\n### Drawbacks\n\n- **Governance**: board seats, veto rights and exit timing must be negotiated in a shareholders' agreement; funds have different vintages and liquidity needs, so one may want to sell while another wants to hold.\n- **Decision speed** suffers, which matters in a turnaround.\n- **Dilution of control** means no single sponsor is fully accountable.\n- **Regulatory**: the 2006–07 mega-club deals (e.g. TXU, Freescale, HCA) led to class actions and a Department of Justice inquiry alleging that sponsors agreed not to compete, which made firms more cautious.\n- **LP overlap**: LPs invested in several of the club members get concentrated exposure without choosing it.\n\n### Modern alternatives\n\nSince the financial crisis the equity gap is more often filled by **LP co-investment** (pension funds and sovereign wealth funds investing directly alongside the lead sponsor, usually at reduced or no fees) and by larger fund sizes, so true multi-sponsor clubs are rarer and tend to involve two firms rather than five.\n\n### In the model\n\nSources and uses show equity split between sponsors and co-investors; returns are usually identical per dollar, but the lead sponsor may earn a monitoring fee or carried interest on co-investment capital, which slightly improves its own economics.",
+    "commonMistakes": [
+      "Confusing a club deal (several sponsors sharing control) with LP co-investment (passive capital alongside one sponsor).",
+      "Ignoring the governance and exit-timing conflicts that make clubs harder to manage."
+    ],
+    "followUps": [
+      "How does co-investment differ from a club deal for the LP?",
+      "What provisions in a shareholders' agreement deal with exit timing disagreements?"
+    ],
+    "tags": ["lbo", "club deal", "co-investment", "fund structure"]
+  },
+  {
+    "id": "lbo-030",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "What is a take-private, and why would a sponsor buy a public company rather than a private one?",
+    "keyAnswer": "A take-private (public-to-private) is a buyout of a listed company, after which it is delisted. Sponsors do them when the public market undervalues the business, when private ownership allows restructuring or investment that public shareholders would punish, and when a listed company offers scale and clean financials that make large deals possible.",
+    "explanation": "### What is different about buying a public company\n\n- **Price**: set by the share price plus a control premium, typically 25–40%; the sponsor's model must still clear the price. Premiums are measured against the unaffected price before rumours.\n- **Process**: board approval, fairness opinion, shareholder vote (or tender offer), regulatory filings, 'go-shop' periods and the risk of a topping bid. Timelines are longer and public.\n- **Diligence**: largely limited to public information plus a management presentation and a data room after a signed NDA; less access than in a private sale.\n- **Financing**: committed financing is required at signing because the target cannot carry financing risk; sponsors obtain bank commitment letters and, in the UK and much of Europe, must show 'certain funds'.\n- **Shareholder dynamics**: activists, index funds and arbitrageurs may push for a higher price; management conflicts of interest are scrutinised because the team usually rolls over and gets a new incentive plan.\n\n### Why sponsors do them\n\n- **Valuation dislocation**: when public multiples fall below private-market multiples (as in 2022–23), listed companies are the cheapest assets available.\n- **Operational freedom**: cost cuts, capex programmes, divestitures or a strategic pivot that would hurt the quarterly earnings narrative can be executed privately.\n- **Scale**: the largest buyouts are almost always take-privates because few private companies are big enough.\n- **Clean information**: audited public filings reduce diligence risk.\n\n### Why they are harder\n\nPremiums raise the entry multiple, which lowers IRR unless leverage or growth compensates; the public process creates deal-break risk; and reputational scrutiny is higher. Many sponsors therefore partner with the founder or a major shareholder who rolls over, reducing both the cheque and the vote risk.",
+    "commonMistakes": [
+      "Forgetting the control premium when estimating the purchase price.",
+      "Treating diligence access as the same as in a private auction."
+    ],
+    "followUps": [
+      "What is a go-shop provision and why do boards insist on it?",
+      "How do sponsors deal with the conflict when management is part of the buying group?"
+    ],
+    "tags": ["lbo", "take-private", "public-to-private", "control premium"]
+  },
+  {
+    "id": "lbo-031",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "How does a financial sponsor's due diligence differ from a strategic acquirer's?",
+    "keyAnswer": "A sponsor focuses on whether the stand-alone cash flows can support the debt and deliver its target return, so it leans heavily on financial, commercial and management diligence, quality-of-earnings work and debt capacity. A strategic already knows the industry and focuses on synergies, integration, cultural fit and antitrust, and tends to spend less on third-party commercial work.",
+    "explanation": "Both buyers verify the same financial facts, but they ask different questions because their investment theses differ.\n\n### Sponsor priorities\n\n- **Quality of earnings (QoE)**: an accounting firm normalises EBITDA, tests one-offs and add-backs, and confirms the net debt and working-capital peg. This EBITDA drives both price and leverage, so it is the single most important workstream.\n- **Commercial due diligence**: a consultant (Bain, McKinsey, L.E.K. etc.) tests market size, growth, competitive position and customer stickiness, because the sponsor lacks in-house sector knowledge and the exit depends on the growth story.\n- **Debt capacity and lender diligence**: downside cases, covenant headroom, cash-flow volatility; lenders will run their own review and the sponsor's model must be bankable.\n- **Management assessment**: the team stays on after the deal, so sponsors use specialist firms to assess the CEO, CFO and layer below, and plan replacements.\n- **Value-creation plan**: operating partners identify cost and revenue levers and quantify them for the investment committee.\n- **Exit analysis**: who buys the business in five years and at what multiple.\n- Also tax structuring, legal, insurance, IT and ESG, often with a tighter budget and faster timeline than a strategic.\n\n### Strategic priorities\n\n- **Synergies**: bottom-up cost and revenue synergy estimates, integration costs and timeline, which justify the premium.\n- **Integration and culture**: systems, people, customer overlap.\n- **Regulatory**: antitrust in overlapping markets, which is rarely an issue for a sponsor.\n- **Accounting**: purchase price allocation and EPS impact.\n- Commercial diligence is lighter because the strategic already knows the market; management diligence is lighter because the strategic may replace the team.\n\n### Practical consequences\n\nSponsors often move faster and accept more operating risk because they price it through leverage and returns; strategics take longer but can tolerate a higher price. In an auction, bankers prepare a vendor due diligence (VDD) QoE report precisely because every sponsor would otherwise commission the same work.",
+    "commonMistakes": [
+      "Saying sponsors do less diligence; they usually do more third-party work, but on different topics.",
+      "Forgetting that lenders are a second set of diligence eyes in an LBO."
+    ],
+    "followUps": [
+      "What is a quality-of-earnings report and what adjustments does it typically make?",
+      "Why would a seller commission vendor due diligence before launching an auction?"
+    ],
+    "tags": ["lbo", "due diligence", "quality of earnings", "sponsor vs strategic"]
+  },
+  {
+    "id": "lbo-032",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "How do you model PIK interest in an LBO, and how does it affect the three statements and returns?",
+    "keyAnswer": "PIK interest accrues to the debt balance instead of being paid in cash: each year the principal grows by the PIK rate. On the income statement it is an interest expense that reduces pre-tax income; on the cash flow statement it is added back as non-cash; on the balance sheet the debt balance compounds. It preserves cash for senior debt paydown but the compounding balance reduces exit equity.",
+    "explanation": "### Mechanics\n\n```\nPIK note: $100 at 10% PIK, 5-year bullet\nYear          1      2      3      4      5\nOpening     100.0  110.0  121.0  133.1  146.4\nPIK accrued  10.0   11.0   12.1   13.3   14.6\nClosing     110.0  121.0  133.1  146.4  161.1\n```\n\nThe balance grows at (1 + rate)^n, so $100 becomes $161 after five years; that is repaid out of exit proceeds.\n\n### Statement treatment\n\n- **Income statement**: PIK interest is recorded as interest expense (it is real economic cost), reducing EBT and taxes. Tax deductibility is generally allowed on an accrual basis, subject to interest limitation rules (and in the US the AHYDO rules can defer deductions on deeply deferred-interest instruments).\n- **Cash flow statement**: add back PIK interest in CFO as a non-cash item, like D&A. CFO is therefore higher than net income suggests.\n- **Balance sheet**: the note's carrying value increases by the accrued interest each period; equity falls by the after-tax expense.\n\n### Modelling tips\n\n- Compute PIK on the opening balance to avoid a circularity.\n- Separate cash interest and PIK interest lines so the interest coverage ratio can be shown on a cash basis, which is what lenders test.\n- Some instruments are 'PIK toggle': the borrower chooses each period whether to pay cash or PIK, usually at a higher rate for PIK (e.g. 8% cash or 9% PIK).\n\n### Effect on returns\n\nPIK keeps cash in the company, so the senior term loan is swept faster; but the PIK balance compounds at a higher rate than the senior debt it is displacing, so total debt at exit is higher than with cash-pay debt. It is a way to stretch leverage when cash flow cannot support more cash interest, typically in a holdco or mezzanine layer, and it is most sensible when the senior debt is much cheaper than the PIK rate and the sponsor expects strong EBITDA growth to cover the compounding.",
+    "commonMistakes": [
+      "Treating PIK as having no income statement impact because no cash is paid.",
+      "Forgetting to subtract the compounded PIK balance from exit EV when computing equity proceeds."
+    ],
+    "followUps": [
+      "Why would a sponsor accept 12% PIK rather than more 8% cash-pay debt?",
+      "How does PIK interest affect the interest coverage ratio lenders test?"
+    ],
+    "tags": ["lbo", "pik interest", "modelling", "mezzanine"]
+  },
+  {
+    "id": "lbo-033",
+    "category": "LBO",
+
+    "difficulty": "Basic",
+    "question": "What returns do private equity funds target, and how does the fund structure (fees, carry, hurdle rate) shape that target?",
+    "keyAnswer": "Buyout funds typically underwrite deals at a 20–25% gross IRR and 2.5–3x MOIC so that, after a roughly 2% management fee and 20% carried interest, LPs net about 15–20%. Carry is usually paid only after LPs receive their capital back plus an 8% preferred return, so the hurdle and the fee drag explain why the gross deal-level target is so high.",
+    "explanation": "### Fund structure basics\n\n- A buyout fund is a 10-year limited partnership (plus extensions). LPs (pensions, endowments, sovereign funds, insurers) commit capital; the GP (the PE firm) draws it down for deals over a 4–6 year investment period.\n- **Management fee**: around 1.5–2.0% a year on committed capital during the investment period, then on invested capital.\n- **Carried interest**: typically 20% of the fund's profits.\n- **Hurdle / preferred return**: usually 8% IRR that LPs must receive before the GP earns carry, often followed by a **catch-up** in which the GP receives most profits until it has 20% of total gains.\n- **GP commitment**: the firm invests 1–5% of the fund alongside LPs.\n- Waterfalls may be whole-fund (European) or deal-by-deal (American); the former is more LP-friendly.\n\n### Why targets are 20–25% gross\n\n1. **Fee drag**: management fees and carry take roughly 4–6 points off gross IRR, so a 22% gross deal translates to about 16–17% net.\n2. **Illiquidity and risk premium**: LPs lock up capital for 10 years and accept concentrated, levered positions; they need several points over public equities (historically 8–10%) to justify that.\n3. **Dispersion**: some deals lose money, so the underwriting target for each deal must exceed the fund-level goal.\n4. **J-curve**: fees are paid early and gains come late, depressing the fund's reported IRR in the first years.\n\n### How it feeds into deal decisions\n\nAn investment committee will typically only approve a deal that shows 20%+ IRR and at least 2.5x in the base case, and that preserves capital in the downside. Infrastructure and core-plus funds target 10–15% with less leverage; growth and venture funds target higher MOIC with wider dispersion.\n\n### Metrics LPs watch\n\nNet IRR, TVPI (total value to paid-in), DPI (realised distributions to paid-in) and PME (public market equivalent). DPI has become more important as exits slowed, which also explains the popularity of dividend recaps and continuation funds.",
+    "commonMistakes": [
+      "Quoting '20% IRR' without saying whether it is gross (deal level) or net (to LPs).",
+      "Describing the hurdle as a minimum return on each deal rather than a fund-level preferred return to LPs."
+    ],
+    "followUps": [
+      "What is a catch-up clause and how does it work?",
+      "Why has DPI become a more important metric for LPs recently?"
+    ],
+    "tags": ["lbo", "fund structure", "carried interest", "hurdle rate", "target returns"]
+  },
+  {
+    "id": "lbo-034",
+    "category": "LBO",
+    "difficulty": "Basic",
+    "question": "All else equal, what does a higher entry multiple do to a sponsor's IRR? Compare buying $100 of EBITDA at 8x versus 10x with $500 of debt in each case.",
+    "keyAnswer": "A higher entry multiple means a larger equity cheque for the same business and the same exit, so IRR and MOIC fall. At 8x the sponsor invests $300 and, if it exits with $1,000 of equity, makes 3.3x and about 27%; at 10x it invests $500 for the same $1,000, a 2.0x and about 15%.",
+    "explanation": "### The comparison\n\nAssume EBITDA grows to $150, exit at 8x ($1,200 EV), debt paid down from $500 to $200, five-year hold, no fees.\n\n```\n                        Entry 8x     Entry 10x\nPurchase EV              800          1,000\nDebt                     500            500\nSponsor equity           300            500\nExit EV (8 x 150)      1,200          1,200\nLess exit debt           200            200\nExit equity            1,000          1,000\nMOIC                    3.33x          2.00x\nIRR (5 yrs)             27.2%          14.9%\n```\n\nThe extra $200 of purchase price is funded entirely with equity (lenders size debt off EBITDA, not price), and it earns nothing because the exit value is unchanged. In practice the 10x case is worse still: the sponsor also assumed the multiple would fall from 10x to 8x, so the gain carries two turns of **multiple contraction**.\n\n### Why it matters\n\n- Entry price is the only driver the sponsor fully controls at signing; growth and exit multiple are forecasts.\n- Paying one extra turn on $100 of EBITDA costs $100 of equity; to recover it at a 20% IRR over five years, the sponsor needs about $250 of additional exit equity, i.e. $31 more EBITDA at 8x or 1.7 turns of multiple expansion.\n- High entry multiples push sponsors toward more leverage, more aggressive operating plans or longer holds, each of which adds risk.\n\n### When a higher multiple can be justified\n\nIf the higher price buys a higher-quality business (faster growth, more recurring revenue) that lenders will finance at more turns and that will exit at a sustained premium multiple, IRR may be similar. The comparison must be like-for-like, which is why 'all else equal' is the key phrase in the question.\n\n### Quick rule\n\nFor a five-year deal, each extra turn of entry multiple with the same exit roughly costs 4–6 points of IRR at typical leverage; the sensitivity table of entry versus exit multiple is the first thing an investment committee looks at.",
+    "commonMistakes": [
+      "Assuming lenders will fund part of the higher price with more debt; leverage is sized on EBITDA, so the extra price is equity.",
+      "Ignoring that a higher entry multiple combined with a flat exit multiple assumption embeds multiple contraction."
+    ],
+    "followUps": [
+      "What exit multiple would make the 10x deal return 20%?",
+      "Why do sponsors still pay 12–15x for software companies?"
+    ],
+    "tags": ["lbo", "entry multiple", "irr sensitivity", "purchase price"]
+  },
+  {
+    "id": "lbo-035",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "What role does working capital play in an LBO, both at closing and over the holding period?",
+    "keyAnswer": "At closing the purchase agreement sets a normalised working-capital target so the seller cannot strip cash by collecting receivables early or stretching payables, and the revolver is sized to cover seasonal swings. During the hold, growth in NWC absorbs cash and slows debt paydown, while releasing working capital, through better collection, inventory and payment terms, is a direct and often early source of deleveraging.",
+    "explanation": "### At closing: the working-capital peg\n\n- The sale and purchase agreement fixes a target level of NWC (usually a trailing 12-month average, excluding cash and debt). If NWC delivered at closing is below the peg, the price is reduced dollar for dollar; above, it is increased.\n- Without this adjustment a seller could run down inventory, delay supplier payments or collect receivables early, taking cash out and leaving the buyer to refund the working capital after close.\n- Items like deferred revenue, accrued bonuses or overdue payables may be treated as debt-like rather than working capital, which is a common negotiation point.\n\n### Liquidity and the revolver\n\nSeasonal businesses (retail, agriculture, toys) build inventory before peak season and collect afterwards. The revolver is sized to cover the intra-year peak funding need plus a buffer, and lenders may use a borrowing base (a percentage of eligible receivables and inventory).\n\n### Over the hold: cash absorption\n\nIn the model, increases in NWC are a use of cash in CFO:\n\n```\nRevenue grows 100 -> 110; NWC is 15% of revenue\nNWC rises 15.0 -> 16.5, absorbing 1.5 of cash\nFCF available for debt paydown falls by 1.5\n```\n\nFor a fast-growing, working-capital-heavy business this can consume much of the EBITDA growth, which is why sponsors prefer low-NWC or negative-NWC models (subscriptions billed in advance).\n\n### As a value lever\n\nSponsors routinely target 2–5 days of improvement in receivable, inventory and payable days. For a company with $1,000 of revenue, cutting the cash conversion cycle by 10 days releases about $27 of cash, immediately swept against debt. Supply-chain finance and factoring can accelerate this, but lenders and buyers treat them as debt-like at exit, so the gain can be reversed in the price.\n\n### Why interviewers ask\n\nIt links the accounting of working capital to the LBO's cash flow and shows whether you understand that EBITDA is not cash.",
+    "commonMistakes": [
+      "Treating EBITDA growth as if it all converts to debt paydown, ignoring NWC absorption.",
+      "Forgetting the working-capital peg and assuming the buyer gets whatever NWC happens to be at close."
+    ],
+    "followUps": [
+      "How would you set the working-capital target for a seasonal business?",
+      "Why might a buyer treat deferred revenue as debt-like rather than working capital?"
+    ],
+    "tags": ["lbo", "working capital", "nwc peg", "cash conversion"]
+  },
+  {
+    "id": "lbo-036",
+    "category": "LBO",
+    "difficulty": "Advanced",
+    "question": "Three years into a buyout, a sponsor can sell the company now or do a dividend recap and hold for two more years. How should it think about the decision?",
+    "keyAnswer": "Compare the IRR and MOIC of taking certain proceeds today against the expected proceeds of holding, weighted for execution and market risk. A sale locks in the gain and frees the team; a recap returns part of the capital now, keeps the upside and raises IRR if the business keeps growing, but re-levers the company and leaves the fund exposed to exit multiples later.",
+    "explanation": "### Framing the numbers\n\nEquity invested $300 at entry. Offers today (year 3) would yield $700 of equity. The sponsor's plan to year 5 projects $1,000 of exit equity.\n\n```\nSell now:          −300, 0, 0, 700           -> 2.33x, IRR 32.6%\nHold to year 5:    −300, 0, 0, 0, 0, 1,000   -> 3.33x, IRR 27.2%\nRecap 200 now,\n exit yr 5 at 800: −300, 0, 0, 200, 0, 800   -> 3.33x, IRR ~31%\n```\n\n(The recap case assumes the $200 of new debt is still outstanding at exit and ignores its extra interest, which would trim exit equity slightly.)\n\n### Interpretation\n\n- Selling now gives the **highest IRR** but the lowest MOIC and absolute profit ($400 vs $700).\n- Holding gives the most dollars but lower IRR, and the extra $300 is earned at an incremental return of (1,000 ÷ 700)^(1/2) − 1 ≈ 19.5% a year on the capital left in, which the sponsor must compare with the fund's hurdle and with what the capital could earn elsewhere.\n- The recap captures most of the IRR benefit of selling while keeping most of the MOIC, at the cost of higher leverage and more exposure to the year-5 exit multiple.\n\n### Qualitative factors\n\n- **Fund life**: a fund in its harvest period may need realised distributions (DPI) more than another turn of MOIC.\n- **Conviction in the plan**: if the remaining value creation is mostly multiple expansion, sell; if it is contracted EBITDA growth or add-ons already signed, holding is lower risk.\n- **Market window**: strong credit markets favour a recap; a hot M&A market favours a sale.\n- **Buyer universe**: if the obvious strategic buyer is at the table now, waiting may lose it.\n- **Covenant and rating constraints**: restricted-payment baskets may cap the recap size.\n\n### The answer the interviewer wants\n\nShow the trade-off between IRR and MOIC, compute the incremental return on the capital left invested, and then bring in fund-level and risk considerations. There is no universally right choice; the sponsor should hold only if the incremental return on the remaining capital comfortably exceeds its hurdle after adjusting for risk.",
+    "commonMistakes": [
+      "Choosing purely on IRR, which systematically favours early exits regardless of dollars earned.",
+      "Ignoring that recap proceeds are funded by debt that reduces the equity at the eventual exit."
+    ],
+    "followUps": [
+      "What is the incremental IRR of holding from year 3 to year 5 in this example?",
+      "How does a continuation fund change this decision?"
+    ],
+    "tags": ["lbo", "recap vs sale", "exit timing", "irr vs moic"]
+  }
+]

@@ -1,0 +1,399 @@
+[
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-001",
+    "difficulty": "Basic",
+    "question": "What's going on in the markets right now? Talk me through what you've been following.",
+    "keyAnswer": "I'd give a 60-second tour in a fixed order: where central banks and rates are, how the main equity indices have moved and which sectors are leading, what credit conditions look like, whether M&A and IPO activity is picking up or slowing, then FX and commodities, and finish with two or three specific stories I can go deeper on. Every number is refreshed the morning of the interview from the FT, WSJ, Bloomberg and the central bank websites.",
+    "explanation": "Interviewers are not testing whether you can forecast; they test whether you follow markets habitually and can organise what you know. Use a six-part framework, keep it to about a minute, and offer to go deeper on any part.\n\n### The framework\n1. **Rates and central banks.** Where the Fed funds target range, the ECB deposit rate and (for London) the BoE Bank Rate sit, the direction of the last move, and what the market is pricing for the next meeting. Mention the 10-year Treasury yield and the shape of the curve.\n2. **Equity indices and sector moves.** S&P 500, Nasdaq, Stoxx 600 or FTSE 100: year-to-date performance, distance from the all-time high, and which sectors are leading or lagging and why.\n3. **Credit conditions.** Are high-yield spreads tight or wide, is the leveraged-loan market open, are banks tightening lending standards? This decides whether deals can be financed.\n4. **M&A and IPO activity.** Is deal volume up or down year-on-year, which sectors are active, are sponsors buying or selling, is the IPO window open? Name one or two recent transactions, ideally one the bank you are interviewing with advised on.\n5. **FX and commodities.** Dollar strength or weakness, EUR/USD, oil (Brent/WTI) and gold. A **strong dollar** typically hurts emerging markets (their dollar debt becomes dearer to service and capital flows out) and weighs on commodity prices, because commodities are priced in dollars and become more expensive for non-US buyers; a weak dollar does the reverse.\n6. **Two or three stories.** One macro (inflation print, central bank decision, election, tariffs), one deal, one sector theme. Have a view on each.\n\n### How to prepare\nThe evening before, read the FT and WSJ markets pages, Bloomberg's morning briefing and the Fed, ECB and BoE websites for the current policy rates. Write the numbers on an index card and update them the morning of the interview. Rehearse the tour out loud twice.\n\n### If asked for a view\nGive one, support it with two reasons, and acknowledge the counter-argument. \"I think cuts will come more slowly than the market expects because services inflation is sticky, though weakening labour data argues the other way\" is far better than hedging.",
+    "commonMistakes": [
+      "Listing headlines with no structure.",
+      "Quoting numbers that are weeks old.",
+      "Having no opinion when asked for one.",
+      "Not knowing a recent deal the bank itself worked on."
+    ],
+    "followUps": [
+      "What is the market pricing for the next central bank meeting?",
+      "Why does a strong dollar hurt emerging markets?",
+      "Which sector would you overweight right now and why?",
+      "Tell me about a deal you have been following."
+    ],
+    "tags": [
+      "market awareness",
+      "framework",
+      "central banks",
+      "fx",
+      "commodities"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-002",
+    "difficulty": "Basic",
+    "question": "Where is the S&P 500 trading today, and where are the 10-year Treasury yield, the Fed funds rate and the ECB rate?",
+    "keyAnswer": "Give each level from memory with one line of context: the S&P closed at roughly [level], up or down about [x]% year-to-date and [y]% from its high; the 10-year is yielding about [x]%; the Fed funds target range is [a] to [b]%; and the ECB deposit facility rate is [x]%. Then add what the market expects next. Check every number the morning of the interview.",
+    "explanation": "This is the most common market-awareness question and it is binary: either you know the levels or you do not. Interviewers ask it because it is cheap to prepare and instantly separates candidates who follow markets daily from those who skimmed a summary last week. Being roughly right (within about 1% on an index, 10 bps on a yield) is fine; being blank is not.\n\n### What to know, and where to check it\n| Indicator | Where to check |\n|---|---|\n| S&P 500, Nasdaq, Dow, FTSE 100, Stoxx 600 | WSJ or FT markets page, Bloomberg |\n| 10-year and 2-year Treasury yields, 10-year Bund and Gilt | Bloomberg, FT, treasury.gov |\n| Fed funds target range (a 25 bp range) | federalreserve.gov |\n| ECB deposit facility rate (the ECB's key policy rate) | ecb.europa.eu |\n| BoE Bank Rate (for London interviews) | bankofengland.co.uk |\n| EUR/USD, GBP/USD, Brent and WTI oil, gold, VIX | any markets page |\n\n### How to answer\nGive the number, then the context that shows you understand it: \"The S&P closed yesterday around [level], about [x]% up year-to-date and roughly [y]% below its all-time high. The 10-year is near [x]% and has risen about [n] bps this month as the market pushed back cut expectations. The Fed funds target range is [a] to [b]% after [the last move]; the ECB deposit rate is [x]%.\" Add one sentence on what futures price for the next meeting.\n\n### Vocabulary that comes up when you describe an index\n- **Pullback:** a drop of roughly 5 to 10% from a recent high.\n- **Correction:** a decline of 10% or more from a recent high.\n- **Bear market:** a decline of 20% or more from a recent high; a **bull market** is a rise of 20% or more from a low.\n\nThese thresholds are conventions rather than official definitions, but using them correctly signals fluency: \"we had a correction in the spring but never entered a bear market.\"\n\n### The morning-of rule\nMarkets move overnight. Update every number on your card before you leave for the interview, and if a big release (CPI, payrolls, a central bank decision) is due that day, know what time it lands and what consensus expects.",
+    "commonMistakes": [
+      "Quoting the Fed funds rate as a single number instead of a target range.",
+      "Giving a level with no context about the trend.",
+      "Confusing the ECB main refinancing rate with the deposit facility rate.",
+      "Quoting last week's close."
+    ],
+    "followUps": [
+      "What is the difference between a correction and a bear market?",
+      "Why has the 10-year moved the way it has this year?",
+      "Where do you think the 10-year yield will be in twelve months?"
+    ],
+    "tags": [
+      "market awareness",
+      "levels",
+      "fed",
+      "ecb",
+      "bear market",
+      "correction"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-003",
+    "difficulty": "Basic",
+    "question": "If interest rates rise, what happens to bond prices, and why?",
+    "keyAnswer": "Bond prices fall. A bond's coupons are fixed, so when market rates rise those fixed cash flows are discounted at a higher rate and are worth less today; equivalently, the price must drop until the bond's yield matches what newly issued bonds offer. Longer-maturity and lower-coupon bonds fall the most.",
+    "explanation": "Price and yield move in opposite directions. This is the most basic relationship in fixed income and the answer should be instant.\n\n### Two ways to see it\n1. **Discounting.** A bond is a stream of fixed cash flows. Price equals each cash flow divided by (1 + yield) to the power of t, summed. Raise the yield and every denominator grows, so the present value falls.\n2. **Competition.** If you hold a bond paying a 5% coupon and new bonds are issued at 6%, nobody will pay you par for yours. The price must fall until a buyer earns 6% on it through the coupons plus the pull to par at maturity.\n\n### Worked example\nA 5-year bond, $100 face, 5% annual coupon, issued when yields were 5%, so it trades at par. Yields rise to 6%.\n- Coupons: $5 a year for 5 years discounted at 6%, roughly 5 x 4.21 = $21.1\n- Principal: $100 / 1.06^5, roughly $74.7\n- New price about **$95.8**, a fall of about 4.2% for a 1-point rise in yield.\n\n### What determines how much the price moves\n- **Maturity (duration):** the further away the cash flows, the harder a higher discount rate hits them. A 30-year bond might lose 15% or more on the same 1-point move; a 1-year bond loses about 1%.\n- **Coupon:** low-coupon and zero-coupon bonds have more of their value in the distant principal, so they are more sensitive.\n- **Starting yield:** at low yields the same move causes a bigger percentage price change.\n\nA quick approximation: percentage price change is roughly minus modified duration times the change in yield. A duration of 4.3 and a 1-point rise gives about minus 4.3%, close to the exact answer above.\n\n### Why it matters in banking\nRising rates mean mark-to-market losses for existing bondholders (the 2023 US regional bank episode is a good example to cite), higher funding costs for issuers, and a higher discount rate for every asset, which is why equity and private company valuations also tend to fall when rates rise sharply.",
+    "commonMistakes": [
+      "Saying the coupon changes; only the price and the yield change.",
+      "Mixing up floating-rate instruments, whose prices are far less sensitive, with fixed-rate bonds.",
+      "Forgetting that the effect is larger for longer maturities."
+    ],
+    "followUps": [
+      "Which falls more when rates rise, a 2-year or a 30-year bond?",
+      "What is duration?",
+      "What happens to the value of a floating-rate loan when rates rise?"
+    ],
+    "tags": [
+      "bonds",
+      "interest rates",
+      "duration",
+      "fixed income"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-004",
+    "difficulty": "Basic",
+    "question": "How do higher interest rates affect valuations, M&A, LBO activity and the IPO window?",
+    "keyAnswer": "Higher rates raise discount rates, so valuations fall; they make debt more expensive, so leveraged buyers can pay less and LBO volume drops; strategic M&A slows because financing costs more and buyer and seller price expectations diverge; and IPOs stall because investors demand lower prices and volatility rises. Falling rates reverse all of this.",
+    "explanation": "This question links the macro picture to deal flow, which is exactly what a banker lives on. Walk through each channel.\n\n### Valuations\nThe risk-free rate is the base of every discount rate. When it rises, both the cost of equity and the cost of debt rise, so future cash flows are worth less today and multiples compress. Long-duration assets, meaning companies whose value sits in profits many years away (growth technology, biotech), fall the most, exactly like long-dated bonds.\n\n### LBO activity\nSponsors pay with a mix of debt and equity. If a target generates $100m of EBITDA and lenders will provide 6x leverage at an 8% cost, interest is $48m a year; at 11% it would be $66m, so lenders cut leverage to perhaps 4.5x to keep coverage acceptable. Less debt and dearer debt mean the sponsor must put in more equity (which lowers returns) or pay a lower price. Sellers resist lower prices, so volume falls and the bid-ask gap widens. Exits also slow, which freezes fundraising.\n\n### Strategic M&A\nCorporates are less rate-sensitive than sponsors but still affected: acquisition debt costs more, so cash deals are less accretive; stock-funded deals depend on the acquirer's own share price, which has probably fallen; and boards grow cautious when the outlook is uncertain. The deals that still happen tend to be strategic consolidations and distressed sales rather than growth acquisitions.\n\n### The IPO window\nAn IPO needs three things: a stable, rising equity market so investors will take on new risk; low volatility (a VIX in the teens rather than the thirties) so pricing is predictable; and recent IPOs that traded up, which gives the next issuers confidence. Rising rates hurt all three, and growth-company IPOs suffer most because their valuations are the most rate-sensitive. The window \"opens\" when the index is near highs, volatility is low and a few well-received deals have printed; it can close within weeks when any of these reverse.\n\n### Putting it together in the interview\nDescribe the current rate environment, then say what you see in each channel: whether sponsors are returning as rates fall, whether private credit is filling the gap left by banks, and whether the IPO calendar is rebuilding. That shows you connect the news to the business.",
+    "commonMistakes": [
+      "Mentioning only the discount-rate effect and forgetting the financing channel.",
+      "Assuming M&A stops entirely when rates rise; distressed and strategic deals continue.",
+      "Ignoring that volatility, not just the level of rates, drives the IPO window."
+    ],
+    "followUps": [
+      "Why does private credit grow when banks pull back from lending?",
+      "Which sectors' valuations are most sensitive to rates and why?",
+      "What signs would tell you the IPO window is reopening?"
+    ],
+    "tags": [
+      "interest rates",
+      "m&a activity",
+      "lbo activity",
+      "ipo window",
+      "deal flow"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-005",
+    "difficulty": "Advanced",
+    "question": "What is the yield curve, and what does it mean when it inverts?",
+    "keyAnswer": "The yield curve plots government bond yields against maturity; normally it slopes upward because investors demand more for lending longer. It inverts when short-term yields exceed long-term yields, which usually means the market expects the central bank to cut rates because growth is slowing, and historically an inversion has preceded most US recessions by roughly 6 to 18 months.",
+    "explanation": "### What it is\nPlot Treasury yields from 3 months out to 30 years. The normal shape slopes upward: investors want compensation (a term premium) for inflation and rate uncertainty over longer horizons. The most-watched measures are the spread between the 10-year and the 2-year (\"2s10s\") and between the 10-year and the 3-month bill.\n\n### Why it inverts\nShort-term yields are anchored by the central bank's policy rate. Long-term yields reflect the average of expected future short rates plus a term premium. If the central bank has raised rates aggressively and investors believe growth and inflation will slow, they expect cuts ahead, so long-term yields sit below today's short rate. Investors also buy long bonds as a safe haven, pushing those yields down further.\n\n### Why people care\n- **Recession signal.** Inversions of the 3-month/10-year spread preceded every US recession of the past several decades, though the lead time varies and the curve usually re-steepens before the downturn arrives (a \"bull steepening\", where short rates fall as cuts begin).\n- **Bank profitability.** Banks borrow short (deposits) and lend long (mortgages, loans). An inverted curve squeezes net interest margins and makes banks less willing to lend, which itself slows the economy.\n- **Deal implications.** An inverted curve often coincides with tighter credit, lower leverage and a cautious IPO market.\n\n### Example\nIf the 2-year yields 4.8% and the 10-year yields 4.3%, the 2s10s spread is minus 50 bps: inverted. If a year later the 2-year has fallen to 3.5% while the 10-year is 4.0%, the spread is plus 50 bps and the curve has normalised through falling short rates.\n\n### How to discuss it\nSay what the curve looks like now, why (what the market expects from the central bank), and whether the usual recession read-through seems right this time. Acknowledging that the signal is not infallible, and that heavy Treasury issuance or quantitative tightening can distort the long end, shows more sophistication than quoting the rule mechanically.",
+    "commonMistakes": [
+      "Saying inversion causes recessions rather than signalling expectations.",
+      "Forgetting that the curve typically normalises before the recession starts.",
+      "Mixing up which end of the curve the central bank controls."
+    ],
+    "followUps": [
+      "Why do banks suffer when the curve inverts?",
+      "What is a bear steepener versus a bull steepener?",
+      "What is the term premium?"
+    ],
+    "tags": [
+      "yield curve",
+      "inversion",
+      "recession",
+      "treasuries",
+      "macro"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-006",
+    "difficulty": "Advanced",
+    "question": "What is the equity risk premium, and what does it mean for markets if it rises?",
+    "keyAnswer": "The equity risk premium is the extra return investors demand for holding stocks instead of risk-free government bonds; it is typically estimated at around 4 to 6% in the US. If it rises, investors want more compensation for risk, so the cost of equity goes up and, all else equal, share prices and valuation multiples fall until expected returns are high enough again.",
+    "explanation": "### Definition\nERP = expected return on the equity market minus the risk-free rate. It is the price of risk: the premium an investor needs to accept the volatility and potential loss of equities over a safe government bond. It is forward-looking, so it is estimated rather than observed: from long-run historical excess returns, from implied methods (solving for the discount rate that equates today's index level with expected dividends and buybacks), or from surveys. Damodaran's implied US ERP, updated monthly, is the figure most often cited.\n\n### What a rising ERP means\nA company's cost of equity is the risk-free rate plus beta times the ERP. If the ERP rises from 5% to 6% for a company with beta 1.0 and a 4% risk-free rate, the cost of equity moves from 9% to 10%. The same future cash flows are now discounted more heavily, so fair value falls. At the index level a rising ERP shows up as falling price-to-earnings multiples even when earnings forecasts have not changed.\n\nA rising ERP usually signals **risk aversion**: a growth scare, a credit event, a geopolitical shock or policy uncertainty. Investors sell equities and buy safe assets, so stock prices fall while government bond yields often fall too; the gap between what equities must return and what bonds pay widens. A falling ERP means the opposite: risk appetite, rising multiples and \"risk-on\" markets.\n\n### Earnings-yield shortcut\nPractitioners compare the market's earnings yield (earnings divided by price, the inverse of the P/E) with the 10-year yield. If the S&P trades at 20x earnings, the earnings yield is 5%; with a 4% 10-year, the gap is 1 point, thin by historical standards, which suggests equities are priced for a low premium. This is a rough proxy, not the ERP itself, because it ignores growth, but it is a useful talking point.\n\n### Why interviewers ask\nIt tests whether you understand that valuation is driven by two things, cash flows and the rate used to discount them, and that the rate has a macro component (the risk-free rate) and a sentiment component (the premium). It also lets you connect current events to prices: \"multiples compressed this year not because earnings fell but because both the risk-free rate and the risk premium rose.\"",
+    "commonMistakes": [
+      "Confusing the market ERP with a single stock's premium, which is beta times the ERP.",
+      "Treating the historical average as the current ERP.",
+      "Saying a rising ERP is bullish because expected returns are higher, without noting that prices must fall first to get there."
+    ],
+    "followUps": [
+      "How would you estimate the ERP today?",
+      "Why is the ERP usually higher in emerging markets?",
+      "If the risk-free rate rises but the ERP falls, what happens to the cost of equity?"
+    ],
+    "tags": [
+      "equity risk premium",
+      "cost of equity",
+      "risk aversion",
+      "valuation multiples"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-007",
+    "difficulty": "Basic",
+    "question": "If I gave you $1 million to invest today, what would you do with it?",
+    "keyAnswer": "First I'd clarify the goal, horizon and risk tolerance, because the answer differs for a 25-year-old and a retiree. Assuming a long horizon and no immediate need for the cash, I'd keep a small cash buffer, put the core in low-cost diversified equity and bond funds, and express one or two specific views I can defend with a modest slice, explaining why given where rates and valuations are today.",
+    "explanation": "There is no right portfolio; the interviewer wants structure, awareness of the current environment and the ability to defend a view. A good answer has four parts.\n\n### 1. Clarify, then assume\nAsk about horizon, liquidity needs and risk appetite. If the interviewer says \"just answer\", state your assumptions: \"I'll assume this is my own money, a ten-year-plus horizon and that I can tolerate drawdowns.\"\n\n### 2. Set a core allocation\nGive a simple, sensible split and justify it with the macro picture. For example: 5% in cash or T-bills as a buffer (and say what that currently yields), 55 to 65% in global equities through index funds, 20 to 30% in bonds with a stated duration view, and the remainder for active ideas. Mention diversification and low costs; interviewers respect candidates who do not pretend they can beat the market with the whole pot.\n\n### 3. Express one or two views\nThis is where market awareness shows. Pick positions tied to what you have been following and give reasons on both sides:\n- A sector view (\"I'd overweight X because of Y, even though valuations are rich\").\n- A rates view (\"with the curve where it is, I'd hold intermediate rather than long bonds because...\").\n- A geographic or style view (US versus Europe, small versus large caps, value versus growth).\n\nName specific instruments (an ETF, a stock) if you can; vagueness reads as bluffing.\n\n### 4. Say what would change your mind\n\"If inflation re-accelerates I'd cut duration\" or \"if earnings revisions turn negative I'd trim equities\" shows you think in scenarios, which is how bankers and investors actually operate.\n\n### What not to do\nDo not say you would put it all in one stock or in crypto without a serious framework, do not describe a day-trading strategy, and do not recite a textbook 60/40 with no reference to today's market. Keep it to two minutes and invite questions.",
+    "commonMistakes": [
+      "Giving an allocation with no reasoning tied to the current environment.",
+      "Being unable to name a single concrete instrument.",
+      "Overconfidence (an all-in bet) or the opposite, refusing to express any view."
+    ],
+    "followUps": [
+      "Why that stock specifically?",
+      "What would make you sell?",
+      "What if the horizon were two years instead of ten?"
+    ],
+    "tags": [
+      "investing",
+      "portfolio",
+      "market view",
+      "fit crossover"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-008",
+    "difficulty": "Basic",
+    "question": "Quick: what is 17 times 23? And what is 15% of 240?",
+    "keyAnswer": "17 times 23 is 391: split it as 17 times 20 plus 17 times 3, which is 340 plus 51. 15% of 240 is 36: 10% is 24, 5% is 12, add them. Say the method out loud with the answer so the interviewer can see you are not guessing.",
+    "explanation": "Mental math questions test composure as much as arithmetic. Narrate the method, give the answer, and if you slip, correct yourself calmly.\n\n### Multiplying two-digit numbers\n- **Split one factor.** 17 x 23 = 17 x 20 + 17 x 3 = 340 + 51 = **391**.\n- **Difference of squares** when the numbers straddle a round figure: 17 and 23 are both 3 away from 20, so 17 x 23 = 20 squared minus 3 squared = 400 minus 9 = 391. Likewise 48 x 52 = 2,500 minus 4 = 2,496.\n- **Round and adjust.** 19 x 34 = 20 x 34 minus 34 = 680 minus 34 = 646.\n- **Squares near 50.** 47 squared = (50 minus 3) squared = 2,500 minus 300 + 9 = 2,209.\n\n### Percentages\n- Build from 10% and 1%: 15% of 240 = 24 + 12 = **36**; 23% of 150 = 30 + 3 + 1.5 = 34.5.\n- Swap the operands: 8% of 25 is the same as 25% of 8, which is 2.\n- Percentage change: from 80 to 92 is a change of 12 on 80, which is 15%.\n\n### Multiplying by 1.x (growth, margins, taxes)\n- Growing 120 by 7%: 120 x 1.07 = 120 + 8.4 = 128.4.\n- After-tax at 25%: 320 x 0.75 = 240.\n- A 30% EBITDA margin on $450m of revenue: $135m.\n- Two successive changes: up 20% then down 20% is 1.2 x 0.8 = 0.96, a net loss of 4%, not back to even.\n\n### Dividing\nTurn division into a multiplication check: 391 / 17: 17 x 20 = 340, the remainder 51 is 17 x 3, so the answer is 23. For rough work, 1/7 is about 0.143, 1/8 is 0.125 and 1/12 is about 0.083; they are worth memorising.\n\n### Practice regime\nFive minutes a day with random two-digit products and percentage changes, spoken aloud, for two weeks before interviews. The goal is an unhurried voice while computing; interviewers forgive a small slip corrected quickly far more than a long silence.",
+    "commonMistakes": [
+      "Going silent while calculating instead of narrating.",
+      "Adding successive percentage changes instead of multiplying them.",
+      "Dropping a zero when scaling, for example 34 x 20."
+    ],
+    "followUps": [
+      "What is 2,496 divided by 48?",
+      "Revenue grows 8% a year for three years from 100; where does it end up?",
+      "What is 35% of 80?"
+    ],
+    "tags": [
+      "mental math",
+      "multiplication",
+      "percentages",
+      "brain teaser"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-009",
+    "difficulty": "Basic",
+    "question": "Without a calculator: roughly what is the present value of $100 received in five years at a 10% discount rate, and which has the higher IRR, a 2x return over four years or a 1.5x return over two years?",
+    "keyAnswer": "About $62: 1.1 to the fifth power is roughly 1.6, and 100 divided by 1.6 is a little over 62 (the exact value is $62.09). The 1.5x over two years has the higher IRR, roughly 22%, versus roughly 19% for 2x over four years, although the 2x deal makes more money in absolute terms.",
+    "explanation": "### Compounding approximations\nYou need (1 + r) to the power n in your head. Three tools:\n1. **Rule of 72.** Money doubles in about 72 / r years at r percent. At 10% that is 7.2 years; at 8% it is 9 years; at 6% it is 12 years; at 12% it is 6 years. Reverse it to find the rate: doubling in 4 years means about 18%.\n2. **Binomial shortcut.** (1 + r)^n is roughly 1 + n x r + n(n minus 1)/2 x r squared. For r = 10% and n = 5: 1 + 0.5 + 0.1 = 1.6. The exact figure is 1.611.\n3. **Anchors.** Memorise 1.1^2 = 1.21, 1.1^3 = 1.331, 1.1^5 is about 1.61, 1.1^7 is about 1.95, 1.05^10 is about 1.63, 1.08^10 is about 2.16.\n\n### PV of $100 in five years at 10%\nPV = 100 / 1.1^5, roughly 100 / 1.6, about **$62**; exact $62.09. Sanity check: at 10% value halves in about 7 years, so after 5 years it should be a bit above half, which $62 is. At 5% the same cash flow is worth about $78; at 15% about $50.\n\n### Comparing IRRs quickly\nFor a single cash-in, cash-out investment, IRR = MOIC^(1/years) minus 1.\n- **2x over 4 years:** rule of 72 gives 72 / 4 = 18%; exact 2^(1/4) minus 1 = **18.9%**.\n- **1.5x over 2 years:** the square root of 1.5 is about 1.225, so about **22.5%**. Quick route: 1.2 squared is 1.44 and 1.25 squared is 1.5625, so the answer sits between 20% and 25%, closer to 22%.\n\nSo the 1.5x deal wins on IRR, but the 2x deal doubles the money. Say both: \"higher IRR on the two-year deal, higher multiple on the four-year deal; which is better depends on whether I can redeploy the capital at a similar return after year two.\"\n\n### Benchmarks worth knowing\n| MOIC and holding period | Approximate IRR |\n|---|---|\n| 2x in 3 years | 26% |\n| 2x in 5 years | 15% |\n| 3x in 5 years | 25% |\n| 2.5x in 4 years | 26% |\n| 1.5x in 3 years | 14% |\n\nKnowing a few of these lets you sanity-check any returns conversation instantly.",
+    "commonMistakes": [
+      "Dividing 100 by 1.5 (simple interest, 1 + 5 x 10%) and getting $67.",
+      "Assuming the deal with the higher multiple must have the higher IRR.",
+      "Applying the rule of 72 to tripling without adjusting; tripling takes roughly 114 / r years."
+    ],
+    "followUps": [
+      "What is the PV of $100 a year for five years at 10%?",
+      "What IRR does 3x over five years come out at?",
+      "How long does money take to triple at 10%?"
+    ],
+    "tags": [
+      "mental math",
+      "rule of 72",
+      "present value",
+      "irr",
+      "compounding"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-010",
+    "difficulty": "Basic",
+    "question": "How many golf balls would fit inside a Boeing 747?",
+    "keyAnswer": "I'd estimate the usable interior volume, estimate the space one ball effectively occupies, and divide. A 747 fuselage is roughly 70 metres long and 6 metres wide, about 2,000 cubic metres; take half as usable, so 1,000. A golf ball is about 4 centimetres across, so roughly 15,000 fit in a cubic metre. That gives on the order of 15 million golf balls.",
+    "explanation": "Estimation questions are graded on process, not on the exact number. Interviewers want a clear structure, explicit assumptions, sensible inputs and a sanity check at the end. Narrate every step.\n\n### A four-step structure for any estimation\n1. **Clarify** what is being asked (whole fuselage or just the cabin? balls loose or boxed?). State your interpretation and move on.\n2. **Break it down** into quantities you can estimate: total volume, usable share, space per ball.\n3. **Estimate each piece** with round numbers and say where they come from.\n4. **Compute, then sanity-check**, and comment on which assumption drives the answer.\n\n### Worked estimate\n- **Fuselage volume.** Length about 70 m, diameter about 6 m. Treat it as a cylinder: pi x 3 squared x 70, roughly 28 x 70, about 2,000 cubic metres.\n- **Usable share.** Seats, galleys, cockpit, floors and structure take space; assume 50% usable, so roughly 1,000 cubic metres.\n- **Space per ball.** A golf ball is about 4.3 cm across. Treat each as occupying a 4 cm cube, 64 cubic centimetres. Spheres leave gaps, but random packing fills about 64% of space, so the slightly undersized cube is a reasonable net figure. One cubic metre is 1,000,000 cubic centimetres, so about 15,000 balls per cubic metre.\n- **Answer.** 1,000 x 15,000 = **15 million**, so say \"on the order of 10 to 20 million.\"\n\n### The sanity check\nSay what would move the number: a stripped-out freighter might be 75% usable, giving about 23 million; boxed balls would give fewer. Showing that you know the answer is a range, and why, is what earns the mark.\n\n### Other classics with the same structure\nHow many petrol stations are there in the UK, how much does a city's rubbish weigh in a year, how many windows are there in New York. Always: clarify, decompose, estimate, compute, check.",
+    "commonMistakes": [
+      "Jumping to a number without a framework.",
+      "Using absurd inputs, such as a 747 that is 10 metres long.",
+      "Forgetting to convert units between centimetres and metres.",
+      "Refusing to commit to a final number."
+    ],
+    "followUps": [
+      "How would your answer change for tennis balls?",
+      "Which of your assumptions are you least sure of?",
+      "How many 747s would you need to carry every golf ball sold in the US each year?"
+    ],
+    "tags": [
+      "estimation",
+      "brain teaser",
+      "fermi",
+      "structure"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-011",
+    "difficulty": "Advanced",
+    "question": "How would you estimate the number of coffee shops in a city of one million people?",
+    "keyAnswer": "I'd use a bottom-up demand approach and cross-check it top-down. Bottom-up: estimate how many coffees are bought out each day and divide by what one shop can serve. If 40% of residents buy coffee out about three times a week, that is roughly 170,000 cups a day; a shop serving around 400 a day implies about 425 shops. Top-down: a benchmark of one shop per 2,000 to 3,000 people gives 330 to 500, so the two methods agree.",
+    "explanation": "Market-sizing questions test structured thinking and whether you can triangulate. Show two routes and reconcile them.\n\n### Top-down versus bottom-up\n- **Top-down** starts from a large known figure (population, GDP, total market revenue) and applies filters or ratios to narrow to the answer. It is fast but depends on the benchmark being right.\n- **Bottom-up** builds the answer from unit economics (customers per day, spend per visit, capacity per outlet). It is slower but shows deeper understanding and surfaces the key drivers.\n\nIn an interview, lead with one, cross-check with the other, and comment if they disagree.\n\n### Bottom-up worked example (city of 1,000,000)\n1. **Who buys coffee out?** Exclude young children and non-drinkers; assume 40% of residents, so 400,000 people.\n2. **How often?** About 3 purchases a week on average, so 400,000 x 3 / 7, roughly 170,000 cups per day.\n3. **Shop capacity.** A viable shop serves perhaps 400 customers a day (around 40 an hour over a 10-hour day, with a morning peak).\n4. **Shops needed.** 170,000 / 400, about **425 shops**.\n\n### Top-down cross-check\nIn many Western cities there is roughly one coffee shop per 2,000 to 3,000 residents. For one million people that gives 330 to 500 shops. The two approaches overlap around 400 to 450, which gives you confidence.\n\n### Adjustments to mention\n- Tourists and commuters add demand not captured by resident population.\n- Supermarket counters, bakeries and restaurants also sell coffee; clarify whether they count.\n- Density matters: a dense European city has far more shops per head than a car-based suburb.\n- Chains versus independents: chains run higher throughput, so fewer shops per cup.\n\n### Turning it into revenue, if asked\n170,000 cups x $4 average ticket x 365 days is about $250 million of annual out-of-home coffee spend, or around $580,000 per shop, a plausible figure for a small outlet.",
+    "commonMistakes": [
+      "Doing only one method with no cross-check.",
+      "Forgetting to convert weekly frequency to daily.",
+      "Using a capacity figure that is wildly off, such as 4,000 customers a day for a small shop.",
+      "Not stating assumptions out loud."
+    ],
+    "followUps": [
+      "How would your answer change for a tourist city?",
+      "How would you size the revenue pool rather than the number of shops?",
+      "What is the biggest uncertainty in your estimate?"
+    ],
+    "tags": [
+      "market sizing",
+      "estimation",
+      "top-down",
+      "bottom-up",
+      "brain teaser"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-012",
+    "difficulty": "Basic",
+    "question": "What is the angle between the hour hand and the minute hand of a clock at 3:15?",
+    "keyAnswer": "7.5 degrees. At 3:15 the minute hand points exactly at the 3, which is 90 degrees from 12, but the hour hand has moved a quarter of the way from 3 towards 4. Each hour is 30 degrees, a quarter of that is 7.5 degrees, so the hands are 7.5 degrees apart.",
+    "explanation": "The trap is assuming the hour hand sits exactly on the 3. It moves continuously, so at a quarter past it has already crept a quarter of the way towards the 4.\n\n### The two speeds\n- The **minute hand** sweeps 360 degrees in 60 minutes: **6 degrees per minute**.\n- The **hour hand** sweeps 360 degrees in 12 hours: 30 degrees per hour, or **0.5 degrees per minute**.\n\n### Compute at 3:15\n- Minute hand: 15 x 6 = 90 degrees from 12.\n- Hour hand: 3 x 30 + 15 x 0.5 = 90 + 7.5 = 97.5 degrees from 12.\n- Difference: 97.5 minus 90 = **7.5 degrees**.\n\n### General formula\nAngle = |30H minus 5.5M|, where H is the hour (0 to 11) and M the minutes. For 3:15: |90 minus 82.5| = 7.5. If the result exceeds 180, subtract it from 360 to get the smaller angle.\n\n### Practice variants\n- 3:00: |90 minus 0| = 90 degrees.\n- 3:30: |90 minus 165| = 75 degrees.\n- 9:45: |270 minus 247.5| = 22.5 degrees.\n- 12:20: |0 minus 110| = 110 degrees.\n- 2:50: |60 minus 275| = 215, so the smaller angle is 145 degrees.\n\n### Related questions\n\"How many times a day do the hands overlap?\" The minute hand gains 330 degrees on the hour hand every hour (360 minus 30), so it laps it every 360/330 = 12/11 hours, giving 11 overlaps per 12 hours and **22 per day**. \"When after 3:00 do they first overlap?\" Set 90 + 0.5M = 6M, so 90 = 5.5M and M is about 16.36 minutes, roughly 3:16:22.\n\nThe interviewer wants to see you notice the moving hour hand and reason in degrees per minute; answering \"zero\" shows you did not think.",
+    "commonMistakes": [
+      "Answering 0 degrees because both hands appear to be at the 3.",
+      "Forgetting the hour hand's 0.5 degrees per minute.",
+      "Giving the larger (reflex) angle without noting the smaller one."
+    ],
+    "followUps": [
+      "What is the angle at 9:45?",
+      "How many times do the hands overlap in 24 hours?",
+      "At what time after 3:00 do the hands first overlap?"
+    ],
+    "tags": [
+      "brain teaser",
+      "clock angle",
+      "logic"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-013",
+    "difficulty": "Advanced",
+    "question": "Two quick logic puzzles. One: three switches outside a room control three bulbs inside; you may enter the room only once. How do you work out which switch controls which bulb? Two: two ropes each burn in exactly 60 minutes but at uneven rates along their length. How do you measure exactly 45 minutes?",
+    "keyAnswer": "Switches: turn the first on for ten minutes, then switch it off and turn the second on, then go in; the lit bulb is switch two, the warm but dark bulb is switch one, the cold dark bulb is switch three. Ropes: light rope A at both ends and rope B at one end; when A has burnt out, 30 minutes have passed, so light B's other end; B's remainder burns in 15 more minutes, 45 in total.",
+    "explanation": "Both puzzles reward the same habit: ask which dimension of the problem you are not yet using.\n\n### Puzzle 1: three switches, one visit\nLight alone gives one bit of information per bulb (on or off), and you cannot see the bulbs while flipping. The hidden dimension is **heat**: a bulb stays warm after it is turned off.\n1. Turn switch 1 on and leave it for about ten minutes.\n2. Turn switch 1 off and turn switch 2 on.\n3. Enter the room. The bulb that is **on** belongs to switch 2; the bulb that is **off but warm** belongs to switch 1; the bulb that is **off and cold** belongs to switch 3.\n\nIf the interviewer says the bulbs are LEDs that stay cool, it is a cue to look for another dimension (a bulb left on long enough might show a timer, or you could unscrew one); the real test is whether you search for the extra variable rather than give up.\n\n### Puzzle 2: two ropes, 45 minutes\nBecause the ropes burn unevenly, you cannot say \"half the length is 30 minutes.\" What you do know is that a rope lit at **both ends** burns out in exactly half its time, 30 minutes, however uneven the rate, because the two flames meet precisely when the remaining burn time is zero.\n1. At t = 0, light rope A at both ends and rope B at one end.\n2. Rope A finishes at t = 30 minutes. Rope B now has exactly 30 minutes of burn left (not necessarily half its length).\n3. Immediately light rope B's other end. Its remaining 30 minutes is now consumed from both ends, so it finishes in 15 minutes.\n4. Rope B burns out at t = **45 minutes**.\n\nWith the same two ropes you can measure 15, 30, 45 and 60 minutes; with a third rope you can also get 7.5 or 22.5 by lighting remaining pieces at both ends again.\n\n### How to present\nState the key insight first (\"the trick is heat\" or \"lighting both ends halves the time no matter how uneven the burn\"), then give the steps. If you have seen the puzzle before, say so and solve it anyway; interviewers usually ask a variant to check that you understand rather than remember.",
+    "commonMistakes": [
+      "Trying to measure the rope by length.",
+      "Forgetting that a rope lit at both ends takes exactly half the time even with uneven burn.",
+      "In the switch puzzle, turning two switches on without using the warm-bulb trick."
+    ],
+    "followUps": [
+      "What if the bulbs were LEDs that stay cool?",
+      "Can you measure 15 minutes with one rope?",
+      "With the same two ropes, what other durations can you measure?"
+    ],
+    "tags": [
+      "brain teaser",
+      "logic",
+      "switches",
+      "burning ropes"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-014",
+    "difficulty": "Advanced",
+    "question": "You have eight identical-looking balls and one is slightly heavier. Using a balance scale only twice, how do you find the heavy one?",
+    "keyAnswer": "Split them 3, 3 and 2. Weigh three against three: if they balance, the heavy ball is in the leftover pair, so weigh those two against each other. If one side is heavier, take that group of three and weigh one against one; the heavier one is it, and if they balance, the third ball is the heavy one.",
+    "explanation": "### Why 3-3-2, not 4-4\nA balance gives three outcomes per weighing: left heavier, right heavier, or balanced. Two weighings therefore give 3 x 3 = 9 outcomes, enough to distinguish up to nine candidates. Splitting 4-4 wastes the \"balanced\" outcome (it can never happen) and leaves four candidates for one weighing, which can separate only three. Splitting 3-3-2 uses all three outcomes.\n\n### Step-by-step\n1. **Weighing 1:** balls 1, 2, 3 versus balls 4, 5, 6; balls 7 and 8 stay aside.\n2. **Balanced:** the heavy ball is 7 or 8. Weighing 2: 7 versus 8; the heavier side wins.\n3. **Left heavier:** the heavy ball is among 1, 2, 3. Weighing 2: 1 versus 2. If 1 drops it is 1; if 2 drops it is 2; if they balance it is 3.\n4. **Right heavier:** the same logic with 4, 5, 6.\n\n### The information argument, which interviewers love\nState the general principle: with n weighings you can find one heavy ball among up to 3 to the power n balls. So two weighings handle 9 balls, three handle 27, and 100 balls need 5 (3^4 = 81 is too few, 3^5 = 243 is enough). Saying \"eight is not the limit, nine is\" shows you understood the structure rather than memorised a trick.\n\n### The harder cousin\n\"Twelve balls, one is different but you do not know whether heavier or lighter; three weighings.\" Each ball now has two possible states, so there are 24 possibilities, and 3^3 = 27 outcomes is just enough. The solution requires rotating balls between the pans in the second weighing. If asked, explain the counting argument first, then start with a 4-4-4 split; it is fine to say you would need a minute to reconstruct the full tree.\n\n### Presentation tips\nDraw the decision tree aloud: \"if balanced, then...; if left is heavier, then...\". Cover every branch. Interviewers mark down candidates who get the first weighing right but hand-wave the second.",
+    "commonMistakes": [
+      "Starting with 4 versus 4.",
+      "Not addressing the balanced case in the second weighing.",
+      "Claiming it cannot be done in two weighings."
+    ],
+    "followUps": [
+      "What is the maximum number of balls you could handle in two weighings?",
+      "What if you did not know whether the odd ball was heavier or lighter?",
+      "How many weighings would 100 balls need?"
+    ],
+    "tags": [
+      "brain teaser",
+      "logic",
+      "balance scale",
+      "information"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-015",
+    "difficulty": "Basic",
+    "question": "Three quick probability questions: what is the probability that two dice sum to seven, what is the expected value of one roll of a fair die, and what is the probability of at least one head in three coin flips?",
+    "keyAnswer": "Sum to seven: 6 of the 36 equally likely outcomes, so 1/6. Expected value of a die: the average of 1 through 6, which is 3.5. At least one head in three flips: one minus the chance of all tails, which is 1 minus 1/8, so 7/8.",
+    "explanation": "Interview probability stays at the level of counting outcomes, expected values and the complement rule. Narrate the method.\n\n### Two dice summing to seven\nThere are 6 x 6 = 36 equally likely ordered outcomes. The pairs that make seven are (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): six of them. Probability = 6/36 = **1/6**. Seven is the most likely sum; a sum of 2 or 12 has probability 1/36, and a sum of 8 has 5/36. Count ordered pairs; the classic error is treating (3,4) and (4,3) as one outcome.\n\n### Expected value of a die\nEV = sum of each outcome times its probability = (1 + 2 + 3 + 4 + 5 + 6) / 6 = 21 / 6 = **3.5**. The expected value need not be an achievable outcome. Follow-up: the expected sum of two dice is 3.5 + 3.5 = 7, by linearity of expectation.\n\n### At least one head in three flips\nUse the **complement**: P(at least one head) = 1 minus P(no heads) = 1 minus (1/2)^3 = 1 minus 1/8 = **7/8**, or 87.5%. \"At least one\" almost always means \"use the complement.\" For n flips the probability is 1 minus (1/2)^n; for ten flips it is 1 minus 1/1024, about 99.9%.\n\n### Other favourites and their answers\n- Exactly two heads in three flips: 3 ways (HHT, HTH, THH) out of 8, so 3/8.\n- Both dice show the same number: 6/36 = 1/6.\n- Expected number of rolls to get a six: 1 / (1/6) = 6.\n- Flip a coin until you get heads; expected number of flips: 2.\n- You pay $3, roll a die and win the face value in dollars. Expected payoff is $3.50, so the game is worth playing by $0.50 on average; this is the standard way to frame \"should you take this bet.\"\n\n### How to present\nDefine the sample space, count or use the complement, state the answer as a fraction and a percentage. If a question seems to need heavy formulas, it usually has a counting shortcut; look for it before reaching for Bayes or binomial coefficients.",
+    "commonMistakes": [
+      "Counting unordered pairs for the dice and getting 3/36.",
+      "Computing \"at least one\" by adding probabilities of each flip (3 x 1/2 = 1.5, impossible).",
+      "Forgetting that an expected value can be a non-integer."
+    ],
+    "followUps": [
+      "What is the probability of exactly two heads in three flips?",
+      "What is the expected sum of two dice?",
+      "How many rolls on average until you see a six?"
+    ],
+    "tags": [
+      "probability",
+      "expected value",
+      "brain teaser",
+      "dice",
+      "coin flips"
+    ]
+  },
+  {
+    "category": "Markets & Brain Teasers",
+    "id": "mkt-016",
+    "difficulty": "Advanced",
+    "question": "Why are manhole covers round?",
+    "keyAnswer": "Mainly because a circle cannot fall through its own hole: every diameter is the same, so however you turn the cover it cannot drop in, whereas a square cover could slip through diagonally. Round covers are also easy to roll, need no alignment to replace, and are cheapest to cast and machine.",
+    "explanation": "This is the archetypal \"silly\" question. Its purpose is to see whether you can think out loud, generate several plausible reasons quickly and keep your composure when a question seems pointless.\n\n### The answers\n1. **Safety: it cannot fall in.** A circle has constant width, so no orientation lets it pass through a slightly smaller circular opening. A square cover's diagonal is about 1.41 times its side, so tipped on edge it would drop through. (Other constant-width shapes, such as a Reuleaux triangle, also work; mentioning this is a bonus, not a requirement.)\n2. **Handling.** A heavy round cover can be rolled by one worker rather than carried.\n3. **Replacement.** No need to rotate it to line up corners; it drops in from any angle.\n4. **Manufacturing and strength.** Round shapes are easiest to cast and machine to a tight tolerance, they spread loads evenly with no corner stress points, and round holes are easier to cut.\n5. **Standardisation.** Once a standard exists, every tool, ring and truck is built around it.\n\n### How to handle \"silly\" questions gracefully\n- **Do not scoff or stall.** Treat it as a mini case: \"Interesting. Let me think about what a cover has to do.\"\n- **Generate, then prioritise.** List three or four reasons quickly, then say which you think is the main one and why.\n- **Keep it brief.** Sixty to ninety seconds. Rambling is the most common failure.\n- **Stay cheerful.** The interviewer is watching your demeanour at least as much as your answer. A smile and a structured reply beat a correct answer delivered with irritation.\n- **If you know the famous answer, still show reasoning.** \"The diagonal of a square is longer than its side, so it can fall through\" shows you understand it rather than recall it.\n\n### Other questions in the same family\n\"How many ping-pong balls fit in this room?\", \"If you were an animal, which would you be?\", \"Why is the sky blue?\", \"How would you design an alarm clock for the deaf?\" The approach is identical: clarify, structure, give a view, keep it short, and be pleasant about it.",
+    "commonMistakes": [
+      "Saying \"I don't know\" and stopping.",
+      "Giving only one reason.",
+      "Treating the question as beneath you.",
+      "Talking for five minutes."
+    ],
+    "followUps": [
+      "Can you think of another shape that would also not fall through?",
+      "How would you design a better manhole cover?",
+      "How many manhole covers are there in Manhattan?"
+    ],
+    "tags": [
+      "brain teaser",
+      "silly questions",
+      "composure",
+      "logic"
+    ]
+  }
+]

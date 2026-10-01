@@ -1,0 +1,877 @@
+[
+  {
+    "id": "fit-001",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Walk me through your resume.",
+    "keyAnswer": "Tell a 2-to-3-minute chronological story with a thread: where you started, two or three experiences that each taught you something and pushed you toward banking, and a close on why investment banking and why this bank now.",
+    "explanation": "### Framework\n\nThink of it as a story with a beginning, a middle and an end, not a reading of the document the interviewer already has. Aim for roughly 2 to 3 minutes. Beginning: one or two sentences on background and what first sparked your interest in finance. Middle: two or three experiences in order, and for each one say what you did, what you learned, and why it moved you a step closer to banking. End: the logical conclusion is investment banking, at this bank, now.\n\n### Strong answer structure\n\n- **Origin**: where you grew up or studied and the early interest (an economics class, a family business, a stock club). One concrete spark beats a vague \"always loved finance\".\n- **Experience 1** (earliest relevant): what you were responsible for, one skill gained (e.g. building a budget model, presenting to a client), and what it revealed about what you want.\n- **Experience 2 and 3**: show deliberate choices. \"I took the consulting internship to test strategy work, and realised I preferred the transaction side when I worked on the carve-out analysis.\" Each step narrows toward IB.\n- **Close**: \"That is why I am pursuing banking, and why this group specifically\" with one sentence tied to the bank. End confidently; do not trail off.\n- Plant hooks for follow-ups you want (a deal, a leadership role) and skip items you do not want probed.\n\n### What they're testing\n\nCan you communicate clearly and concisely? Does your path make banking a logical next step rather than a sudden lunge at prestige? Do you sound confident and self-aware? Almost every interview starts here, so the first three minutes set the tone for everything after.",
+    "commonMistakes": [
+      "Reciting bullet points line by line, including irrelevant high-school items",
+      "Running over four minutes or ending without a clear close on why IB and why this bank",
+      "No connecting thread, so each job sounds like an accident",
+      "Apologising for weak points before anyone asks about them"
+    ],
+    "followUps": [
+      "Why did you choose that university or major?",
+      "What was the hardest part of your last internship?",
+      "Why did you leave that role after one year?"
+    ],
+    "tags": [
+      "fit",
+      "story",
+      "resume",
+      "tell me about yourself"
+    ]
+  },
+  {
+    "id": "fit-002",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Why investment banking?",
+    "keyAnswer": "Give two or three specific reasons rooted in your own experience: the steep learning curve in valuation and corporate finance, exposure to the most important transactions a company undertakes, and a demanding team environment, then back each with proof that you have tested the interest.",
+    "explanation": "### Framework\n\nThree reasons, each anchored to something you have actually done, plus evidence that you understand the job. The structure is \"reason, personal proof, why that matters to me\". Avoid any reason that applies equally to a hedge fund or a consulting firm without modification.\n\n### Strong answer structure\n\n1. **The work itself**: you want to understand how companies are valued and how strategic decisions get made and financed. Proof: a valuation project, a student fund, a prior internship where you touched a model or a deal.\n2. **Transaction exposure**: advising on a sale, acquisition or capital raise is the highest-stakes decision a management team makes, and you want to be in the room while it happens. Proof: a deal you followed and found fascinating, or a networking call where a banker described a live process.\n3. **The environment**: steep learning curve, smart and demanding colleagues, measurable output. Proof: a period in your life where you worked at a high tempo and enjoyed it.\n4. **Confirmation**: mention the bankers you have spoken with and what you learned about the reality of the job (long hours, repetitive early work) and why that did not put you off.\n\nKeep it under 90 seconds and finish with a sentence that makes the next question \"why this bank\" feel natural.\n\n### What they're testing\n\nWhether you know what the job really is, whether the motivation is durable enough to survive a 2 a.m. turn of comments, and whether you have done your homework. Interviewers hear \"fast-paced environment\" and \"exit opportunities\" dozens of times a day; concrete evidence is what separates candidates.",
+    "commonMistakes": [
+      "Leading with compensation, prestige or private equity exits",
+      "Describing a trading or research job by mistake (markets, daily P&L)",
+      "Generic phrases such as \"fast-paced\" and \"learning curve\" with no personal evidence"
+    ],
+    "followUps": [
+      "Why not go straight into private equity?",
+      "What do you think the worst part of the job is?",
+      "What will you do if you do not get a banking offer this cycle?"
+    ],
+    "tags": [
+      "fit",
+      "motivation",
+      "why ib"
+    ]
+  },
+  {
+    "id": "fit-003",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Why do you want to work at our bank specifically?",
+    "keyAnswer": "Name two or three concrete, verifiable reasons: the platform type and what it means for your experience, specific people you have spoken with and what they told you, and deals or group strengths you have researched.",
+    "explanation": "### Framework\n\nPlatform, people, proof. Platform: what kind of bank it is and why that suits you. People: named conversations and what you learned. Proof: deals, league-table position or group strengths that you looked up. Two or three well-researched points beat six generic ones.\n\n### Strong answer structure\n\n- **Platform type**. A **bulge bracket** offers a full-service model (lending, capital markets, M&A, global reach), large deal teams and structured training; say you want the breadth and the balance-sheet-driven deal flow. An **elite boutique** is advisory-only, with lean teams, more senior exposure per analyst and a heavy M&A or restructuring mix; say you want to be stretched early and focus on advisory. A **middle-market** bank runs smaller deals with more of them per analyst, closer sponsor relationships and more end-to-end involvement; say you want reps and ownership. Know which one you are sitting in and describe it accurately.\n- **People**. \"I spoke with two analysts and an associate in the industrials group; one described how a first-year was given the model on a live sell-side within three months.\" Named, specific, and consistent with what the interviewer knows about the group.\n- **Proof**. One or two recent deals the bank actually advised on, ideally in your target sector, and what they say about the franchise (e.g. strength in sponsor-backed sell-sides, a top-three position in a league table you cite correctly).\n\nHow to research: the bank's press releases and deal announcements, the annual report or 10-K for public banks, league tables (LSEG, Dealogic, Bloomberg), recent financial press, and your own networking notes.\n\n### What they're testing\n\nGenuine interest and research effort, whether your personality fits the platform, and the probability you would accept an offer. A candidate who cannot distinguish a boutique from a bulge bracket signals they are mass-applying.",
+    "commonMistakes": [
+      "Citing a deal the bank was not actually on, or a league table ranking that is wrong",
+      "Describing an elite boutique as if it had a lending or capital markets platform",
+      "Criticising competitors instead of praising this bank",
+      "Saying only \"culture\" and \"prestige\" without a specific observation"
+    ],
+    "followUps": [
+      "Which other banks are you interviewing with and how do we compare?",
+      "What do you know about our recent deal in your sector?",
+      "What would make you choose us over a competitor offer?"
+    ],
+    "tags": [
+      "fit",
+      "why this bank",
+      "bulge bracket",
+      "boutique",
+      "research"
+    ]
+  },
+  {
+    "id": "fit-004",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Why this group? Would you rather be in a product group or a coverage group?",
+    "keyAnswer": "Explain that coverage groups own the client relationship and sector expertise while product groups (M&A, leveraged finance, ECM, DCM, restructuring) bring execution depth across industries, then state your preference with evidence and show you know how this bank organises the two.",
+    "explanation": "### Framework\n\nShow you understand the organisational model, state a preference with evidence, and stay flexible. Interviewers in a specific group want to hear why that group, not a generic answer that could be given to any desk.\n\n### Strong answer structure\n\n- **Define the difference accurately.** Coverage (industry) groups own the client relationship, pitch continuously and develop deep sector knowledge; at many banks they also run the M&A execution for their clients. Product groups specialise in a transaction type: M&A (valuation and process work across sectors), leveraged finance (debt financing for sponsors and leveraged issuers, heavy credit modelling), ECM and DCM (capital markets execution, more market-facing, lighter modelling), restructuring (distressed situations, counter-cyclical).\n- **Know this bank's structure.** Some banks have a standalone M&A group that is staffed on every deal; others embed M&A within coverage. Check with the people you networked with and say what you learned.\n- **State the preference with reasons.** For coverage: \"I want to become genuinely expert in healthcare services and understand the strategic logic behind each deal.\" For a product group: \"I want the modelling intensity and cross-sector breadth that leveraged finance gives in the first two years.\"\n- **Evidence.** A relevant internship, a sector you have followed, specific deals this group has done.\n- **Flexibility.** Close by saying you would be happy wherever you can learn fastest, so the interviewer does not think you would reject a placement.\n\n### What they're testing\n\nWhether you understand how a bank is organised, whether your expectations are realistic (for example, that ECM is not a modelling-heavy seat), and whether you will be content where you are placed.",
+    "commonMistakes": [
+      "Assuming ECM and DCM involve the same modelling depth as M&A or leveraged finance",
+      "Saying you want M&A only because it leads to private equity",
+      "Describing a group structure that does not match how this bank actually works"
+    ],
+    "followUps": [
+      "What do you think a leveraged finance analyst does differently from an M&A analyst day to day?",
+      "If we placed you in a different group, would you still accept?",
+      "Which sectors interest you most and why?"
+    ],
+    "tags": [
+      "fit",
+      "why this group",
+      "coverage",
+      "product group"
+    ]
+  },
+  {
+    "id": "fit-005",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Why banking and not consulting, private equity, sales and trading, or a corporate finance role?",
+    "keyAnswer": "For each alternative, show you understand what it does and then name the specific feature of banking you prefer: transaction focus over strategy projects, breadth and training over investing from day one, longer-horizon advisory over daily market P&L, and many companies over one.",
+    "explanation": "### Framework\n\nRespect each alternative, describe it accurately in one sentence, then contrast it with the specific thing banking offers that you prefer. Never belittle the other path; the interviewer may have friends or a spouse there. Prepare each comparison separately because interviewers usually ask about the one on your resume.\n\n### Strong answer structure\n\n- **Consulting**: operational and strategic questions, longer engagements, sometimes implementation. You prefer the transaction setting where analysis culminates in a priced, financed, closed deal, and the financial depth of valuation work.\n- **Private equity**: investing the fund's own capital, few deals per year, deep diligence. Honest framing: PE firms hire from banking because the training and deal reps come first, and you want the breadth of seeing many sectors and deal types before specialising. Do not present PE as the real goal with banking as a stepping stone.\n- **Sales and trading**: markets-driven, short time horizon, performance measured daily, products rather than companies. You prefer the longer arc of a deal, building a model and a relationship over months, and advising rather than making markets.\n- **Corporate finance or FP&A**: one company, internal budgeting and planning, slower pace. You want to see many companies and transactions and a steeper early curve.\n\nClose by connecting to something you have done: \"I tested this with a consulting internship and noticed I enjoyed the valuation workstream far more than the operating diagnostics.\"\n\n### What they're testing\n\nWhether banking is a considered choice or the default, whether you know what the alternatives actually involve, and whether you will leave the moment a PE recruiter calls.",
+    "commonMistakes": [
+      "Saying private equity is better but you need banking first",
+      "Not knowing the difference between sales and trading and investment banking",
+      "Disparaging the alternative rather than explaining your preference"
+    ],
+    "followUps": [
+      "You interned in consulting; what did you dislike about it?",
+      "Would you take a PE offer if you got one today?",
+      "What makes you think you will like the lifestyle better than in consulting?"
+    ],
+    "tags": [
+      "fit",
+      "why not consulting",
+      "why not pe",
+      "why not trading"
+    ]
+  },
+  {
+    "id": "fit-006",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What does an investment banking analyst actually do day to day?",
+    "keyAnswer": "An analyst splits time between pitching (industry pages, comps, company profiles, buyer lists), executing live deals (operating and merger models, CIMs and management presentations, data rooms, buyer tracking, diligence support) and internal process work, mostly in Excel and PowerPoint, with hours driven by deliverable deadlines rather than a fixed schedule.",
+    "explanation": "### Framework\n\nGroup the work into three buckets and then describe a typical day and a typical deal timeline. Showing that you know the unglamorous parts (formatting, comments turns, logistics) is as important as naming the models.\n\n### Strong answer structure\n\n- **Pitching**: building pitch books for potential mandates: industry overviews, trading and transaction comps, company profiles, valuation summaries, buyer or investor lists. Much of the first year is pitch work.\n- **Execution**: on a live mandate, the analyst maintains the operating model and valuation (DCF, comps, LBO or merger model), drafts sections of the confidential information memorandum and management presentation, manages the virtual data room and buyer tracker, coordinates diligence requests, and prepares board materials.\n- **Process and internal**: working group lists, scheduling, compliance and conflict checks, turning comments from associates and VPs, checking every number.\n\nA typical day: morning news and inbox, turning overnight comments, model updates, a staffing check-in, and the heaviest work after senior comments arrive in the evening. Hours are deliverable-driven: a quiet Tuesday can turn into a 2 a.m. finish when a board deck moves up.\n\nA sell-side timeline the analyst supports: pitch and mandate, CIM and model build, buyer outreach, indications of interest, management meetings and data room, final bids, purchase agreement negotiation, closing. The analyst builds the materials at each stage and keeps the process organised.\n\n### What they're testing\n\nRealistic expectations. Candidates who think analysts negotiate deals or spend all day building DCFs are a retention risk. Mentioning conversations with current analysts shows you did not learn the job from a brochure.",
+    "commonMistakes": [
+      "Claiming analysts lead negotiations or client meetings",
+      "Ignoring PowerPoint and formatting, which is a large share of the work",
+      "Describing a trader or research analyst role instead"
+    ],
+    "followUps": [
+      "What do you think will be the hardest part for you?",
+      "Which tools and data providers have you used?",
+      "What makes the difference between a good and a great analyst?"
+    ],
+    "tags": [
+      "fit",
+      "analyst role",
+      "day to day",
+      "pitch books"
+    ]
+  },
+  {
+    "id": "fit-007",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What is your greatest strength?",
+    "keyAnswer": "Pick one strength that matters in banking, prove it with a specific example and a measurable result, and say how it will show up in the analyst seat.",
+    "explanation": "### Framework\n\nClaim, evidence, result, relevance. One strength, one story, under 90 seconds. Have two or three prepared because a common follow-up is \"give me another one\". Choose from traits bankers actually value: stamina and work ethic, attention to detail, quantitative rigour, clear communication, resilience, team orientation, speed of learning.\n\n### Strong answer structure\n\n- **Claim**: \"My strongest trait is that I learn new technical material very fast and apply it under pressure.\"\n- **Evidence**: a specific situation with details that could not be invented: \"Two weeks into my internship I was asked to rebuild a three-statement model from a broken template; I taught myself the circularity handling and finished it over a weekend.\"\n- **Result**: measurable or verifiable: \"The associate used it for the client deliverable and asked me to train the other intern.\"\n- **Relevance**: \"As a first-year analyst I expect to be handed unfamiliar models and asked for a fast, accurate turn; that is where this helps.\"\n\nPick the strength that complements rather than contradicts your weakness answer. If your weakness is delegation, do not claim leadership as the main strength without reconciling the two.\n\n### What they're testing\n\nSelf-awareness, whether you understand which traits matter in the job, and whether you can support an assertion with evidence. Anyone can say \"hard-working\"; the story is what they remember.",
+    "commonMistakes": [
+      "Listing four or five strengths with no evidence for any of them",
+      "Choosing a strength irrelevant to banking without linking it to the role",
+      "A story so generic the interviewer cannot tell whether it happened"
+    ],
+    "followUps": [
+      "What is another strength?",
+      "How would your last manager describe your strengths?",
+      "How will that strength help you in the first six months here?"
+    ],
+    "tags": [
+      "fit",
+      "strengths",
+      "self-awareness"
+    ]
+  },
+  {
+    "id": "fit-008",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What is your greatest weakness?",
+    "keyAnswer": "Name a real weakness that is not fatal for the job, give one example of when it hurt you, describe the specific steps you have taken to fix it, and show evidence of improvement.",
+    "explanation": "### Framework\n\nReal, non-fatal, remediated. The weakness must be genuine (interviewers can smell \"I work too hard\"), must not undermine the core of the job (attention to detail, numeracy, deadlines, working with people), and must come with a credible improvement plan and proof of progress.\n\n### Strong answer structure\n\n1. **Name it in one sentence**, without hedging. Acceptable examples: discomfort with public speaking; a tendency to take on work yourself rather than delegate; being too direct when giving feedback; over-preparing and being slow to act under ambiguity; difficulty saying no and overcommitting.\n2. **One concrete instance** where it cost you something: \"In a case competition I rewrote a teammate's section the night before instead of coaching them, and we presented a weaker, less coherent deck.\"\n3. **The remedy**, specific and verifiable: joined a speaking club, set a rule to assign and review rather than redo, asked a mentor for monthly feedback.\n4. **Evidence of improvement**: a later situation where the new behaviour worked, with an outcome.\n5. **Honesty about the remaining gap**: \"It is still something I monitor\" sounds more credible than \"fully solved\".\n\nKeep it under a minute and move on; dwelling makes it seem bigger than it is.\n\n### What they're testing\n\nHonesty, self-awareness and coachability. Analysts receive blunt feedback daily; the interviewer wants to know you can hear it. It is also a red-flag screen: a candidate who admits to carelessness or dislike of long hours has disqualified themselves.",
+    "commonMistakes": [
+      "A disguised strength (\"perfectionism\", \"I care too much\")",
+      "A fatal weakness for banking such as attention to detail or working under pressure",
+      "No remediation plan or evidence of change",
+      "Over-sharing deeply personal issues"
+    ],
+    "followUps": [
+      "Give me another weakness.",
+      "What critical feedback did you receive in your last internship?",
+      "How would your teammates describe your weaknesses?"
+    ],
+    "tags": [
+      "fit",
+      "weaknesses",
+      "self-awareness"
+    ]
+  },
+  {
+    "id": "fit-009",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "How would your friends or your last manager describe you? Give me three words.",
+    "keyAnswer": "Choose three adjectives that cover work ethic, analytical ability and interpersonal style, back each with a one-sentence example, and make sure they match your resume, your weakness answer and what your references would actually say.",
+    "explanation": "### Framework\n\nThree words that cover three dimensions: how you work (reliable, relentless, organised), how you think (analytical, curious, precise) and how you are with people (collaborative, calm, direct). Each word gets one sentence of evidence. For the \"manager\" version, use language that appeared in real feedback or a performance review; for the \"friends\" version, you can be slightly warmer and more personal.\n\n### Strong answer structure\n\n- **Word one, work**: \"Dependable. My manager at the fund said I was the intern she stopped double-checking by week three because my numbers tied to source every time.\"\n- **Word two, thinking**: \"Curious. I ask why a number is what it is; on the comps I built, I flagged that one peer's EBITDA excluded lease costs under IFRS and adjusted it so the multiple was comparable.\"\n- **Word three, people**: \"Even-keeled. Friends say I am the one who stays calm the night before a deadline and keeps the group moving.\"\n- **Consistency check**: the three words must not contradict your stated weakness or strength, and they should be the words the people on your reference list would use unprompted.\n- If asked for balance, offer one developmental word your manager would add and what you are doing about it.\n\nKeep it to 45 seconds; this is a quick consistency test, not a monologue.\n\n### What they're testing\n\nSelf-awareness, whether your self-image matches your story and your references, and soft skills that predict how you will behave at 1 a.m. with a team. Interviewers also listen for words that do not fit banking (relaxed, spontaneous) and for a mismatch between the \"friends\" and \"manager\" versions.",
+    "commonMistakes": [
+      "Generic words such as smart, passionate or hard-working with no story",
+      "Words that conflict with the weakness you gave earlier",
+      "Choosing traits that signal a poor fit for team-based, detail-heavy work"
+    ],
+    "followUps": [
+      "Which of those three would your manager disagree with?",
+      "What is one word your critics would use?",
+      "Can you give me an example of the second one?"
+    ],
+    "tags": [
+      "fit",
+      "three words",
+      "self-awareness",
+      "references"
+    ]
+  },
+  {
+    "id": "fit-010",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a time you demonstrated leadership.",
+    "keyAnswer": "Use a STAR story where you set a direction, got others on board, allocated work and dealt with a problem person or setback, and finish with a measurable result and what you learned about leading.",
+    "explanation": "### Framework\n\nSTAR plus reflection: Situation, Task, Action, Result, and what you learned. Leadership does not require a title; it means taking ownership of an outcome, making decisions, and getting other people to execute. Spend roughly 20% of the time on context, 60% on your specific actions, and 20% on the result and lesson.\n\n### Strong answer structure\n\n- **Situation and task**: brief and specific: a case competition team of five with two weeks, a student society with falling membership, a shift at work where the supervisor was absent.\n- **Actions, in the first person**: set a clear goal and timeline; divided work according to each person's strength; established checkpoints; handled the hard moment (a teammate who missed a deadline, a disagreement about direction) by talking to the person directly and reallocating work; made a call under uncertainty and explained it.\n- **Result with a number**: placed second of 40 teams, grew membership 60%, delivered the project a day early.\n- **Reflection**: what you would do differently (set checkpoints earlier, address the weak link sooner) and how it maps to an analyst: owning a workstream, managing an associate's expectations upward, coordinating with other juniors across groups.\n\nChoose a story where something went wrong; a frictionless story teaches nothing and sounds invented.\n\n### What they're testing\n\nInitiative and ownership, people judgement, and whether you can tell a structured story. They are also checking whether you say \"I\" when describing your actions and \"we\" when sharing credit, which signals both accountability and humility.",
+    "commonMistakes": [
+      "Saying \"we\" throughout so the interviewer cannot identify what you did",
+      "Describing a title (president, captain) without concrete actions",
+      "No result, or a story with no obstacle"
+    ],
+    "followUps": [
+      "What would you do differently?",
+      "How did the teammate who missed the deadline react?",
+      "How does that translate to being a first-year analyst with no formal authority?"
+    ],
+    "tags": [
+      "fit",
+      "leadership",
+      "star",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-011",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Describe a time you worked successfully as part of a team.",
+    "keyAnswer": "Tell a STAR story that makes your individual contribution clear, shows how you helped others perform, deals with a real team difficulty, and ends with a concrete result and a lesson about collaboration.",
+    "explanation": "### Framework\n\nSTAR with emphasis on two things: what you personally contributed and how you made the team better. The best stories involve a diverse team, a disagreement or a weaker member, and a result that depended on collaboration rather than on you alone.\n\n### Strong answer structure\n\n- **Situation**: a four-person group project with a tight deadline and members from different backgrounds (an engineer, two finance students, a designer, for example).\n- **Your role**: specific and bounded: \"I owned the financial model and coordinated the timeline.\"\n- **How you supported the team**: set up a shared tracker, held short daily check-ins, paired with the member who was struggling on the valuation section instead of taking it over, gave credit for the designer's work in the presentation.\n- **The difficulty**: a disagreement about approach or a member falling behind, and how it was resolved through a direct, respectful conversation and a small re-scoping of tasks.\n- **Result**: a grade, a ranking, a client decision, with a number if possible.\n- **Lesson and link**: deal teams are small and work long hours together; the junior who communicates early, shares the load and does not hoard credit is the one people want to staff again.\n\n### What they're testing\n\nWhether colleagues would want to spend 80 hours a week with you. They are listening for humility, communication habits, how you treat weaker teammates, and whether you can describe your own contribution without diminishing others.",
+    "commonMistakes": [
+      "A story where you did all the work and the team was a burden",
+      "Complaining about teammates",
+      "No conflict, no obstacle and no lesson"
+    ],
+    "followUps": [
+      "What role do you naturally take in a team?",
+      "Tell me about a time a teammate let you down.",
+      "How do you handle a teammate who is not contributing?"
+    ],
+    "tags": [
+      "fit",
+      "teamwork",
+      "star",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-012",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a conflict you had with a teammate or a superior and how you handled it.",
+    "keyAnswer": "Pick a real, professional disagreement; explain how you listened first, separated the issue from the person, used facts to propose a solution, escalated appropriately if needed, and preserved the relationship.",
+    "explanation": "### Framework\n\nSTAR with the emphasis on process: how you raised the issue, how you understood the other side, what you proposed, and what the outcome was for both the task and the relationship. Pick a disagreement about work (approach, priorities, data interpretation, deadlines), not personality.\n\n### Strong answer structure\n\n- **Situation**: concise: an associate on your internship wanted to use an EBITDA figure that you believed double-counted a one-off gain; or a teammate wanted to skip the sensitivity analysis to save time.\n- **Your first move**: ask questions privately to understand their reasoning before pushing back. Often they have context you do not.\n- **Make it about the facts**: bring the source document, the alternative calculation, or the time estimate. \"I showed the footnote and the two versions of the multiple side by side.\"\n- **Propose, do not demand**: offer a path that addresses their concern (keep both numbers with a footnote; do the sensitivity on a reduced grid).\n- **For a superior**: show respect for the hierarchy while still flagging the risk: \"It is your call, but I want to make sure you have seen this before it goes to the client.\"\n- **Result**: what was decided, and that the working relationship was intact or stronger afterwards.\n- **Lesson**: raise concerns early, with evidence, and without ego about who was right.\n\n### What they're testing\n\nMaturity and emotional intelligence; whether you can push back on a senior without being insubordinate, and whether you can be corrected without sulking. Banking is full of high-pressure disagreements and the interviewer wants to know you will not create drama.",
+    "commonMistakes": [
+      "Claiming you never have conflicts",
+      "A story in which you won by being louder or going over someone's head immediately",
+      "Blaming the other person or badmouthing a former boss"
+    ],
+    "followUps": [
+      "What if the superior had still insisted on the wrong number?",
+      "Have you ever been wrong in a disagreement like that?",
+      "How do you give difficult feedback to a peer?"
+    ],
+    "tags": [
+      "fit",
+      "conflict",
+      "behavioral",
+      "star"
+    ]
+  },
+  {
+    "id": "fit-013",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a failure or a mistake you made and what you learned from it.",
+    "keyAnswer": "Describe a genuine failure with real consequences, take full ownership, explain what you did immediately to fix it and the systematic change you made afterwards, then give evidence that the new habit has worked since.",
+    "explanation": "### Framework\n\nFailure, ownership, fix, lesson, proof. Choose something real with stakes, in a professional or academic context, that does not reveal a disqualifying trait. The quality of the answer is in the ownership and the systematic change, not in the drama of the failure.\n\n### Strong answer structure\n\n1. **State the failure plainly** in one or two sentences: \"I sent a client-ready deck with the wrong share count in the valuation summary; the associate caught it ten minutes before the meeting.\"\n2. **Own it**: no excuses about the hour or the template. \"I had updated the model but not relinked the output page, and I did not re-check the summary against the source.\"\n3. **Immediate action**: flagged it yourself, fixed it, confirmed nothing else was affected.\n4. **Systematic change**: a tie-out checklist that you now run on every deliverable; printing and reviewing final pages; building checks into the model so outputs flag mismatches.\n5. **Proof the lesson stuck**: a later situation where the checklist caught an error before anyone else saw it.\n6. **Reflection**: errors are inevitable in banking; what matters is catching them early and raising them fast.\n\nKeep the story under 90 seconds and resist the urge to minimise the mistake; the interviewer wants to see you can sit with it.\n\n### What they're testing\n\nAccountability and how you react when you are wrong. Analysts make mistakes constantly; the dangerous ones hide them or blame the template. The interviewer is also checking that the lesson is specific, not \"I learned to be more careful\".",
+    "commonMistakes": [
+      "A fake failure that is really a success (\"I failed to win first place\")",
+      "Blaming others or circumstances",
+      "A failure that exposes a fatal trait (missing deadlines, cutting corners)",
+      "A vague lesson with no concrete change in behaviour"
+    ],
+    "followUps": [
+      "How did your manager react?",
+      "What is a mistake you made more than once?",
+      "How would you handle discovering an error in a deck that already went to the client?"
+    ],
+    "tags": [
+      "fit",
+      "failure",
+      "mistakes",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-014",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Describe a time you had to juggle multiple deadlines or work under intense pressure.",
+    "keyAnswer": "Give a concrete story with overlapping deliverables, explain your prioritisation method (deadline and stakeholder importance), how you communicated early with the people affected, what trade-offs you made, and the outcome.",
+    "explanation": "### Framework\n\nSTAR plus method. The interviewer is less interested in the fact that you survived than in how you decided what to do first, how you communicated, and whether the result held up. A credible answer includes a trade-off; one where everything was done perfectly is not believable.\n\n### Strong answer structure\n\n- **Situation**: specific and quantified: final exams, a case competition submission and 25 hours a week at a part-time job in the same ten days; or two associates on an internship each assuming you were free.\n- **Method**: listed every deliverable with deadline, owner and importance; ranked by hard deadline and by who was waiting on it; broke each into chunks that fit the available windows; protected quality on the highest-stakes item.\n- **Communication**: told each stakeholder early what they would get and when, and asked one for a 24-hour extension on a lower-priority piece rather than delivering it late without warning.\n- **Execution**: planned sleep and breaks deliberately; avoided switching tasks every ten minutes.\n- **Result**: all critical items delivered on time, the extended item delivered as agreed, and a specific outcome (grade, placing, praise).\n- **Lesson**: the biggest risk under pressure is silence; people can handle a re-prioritised deadline but not a surprise.\n\nTie it to banking: analysts are staffed on several projects at once, and the first-year who tells the staffer about a collision early is trusted more than one who quietly misses something.\n\n### What they're testing\n\nStamina, prioritisation, calm, and above all whether you communicate under stress. They also want to hear that you have a method rather than a slogan.",
+    "commonMistakes": [
+      "Saying \"I thrive under pressure\" with no method or example",
+      "A story in which nothing had to be traded off",
+      "Not mentioning that you told anyone you were overloaded"
+    ],
+    "followUps": [
+      "What do you do when two VPs both say their project is the priority?",
+      "How do you keep quality high when you are exhausted?",
+      "What is the longest sustained stretch of long hours you have worked?"
+    ],
+    "tags": [
+      "fit",
+      "pressure",
+      "prioritisation",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-015",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Give me an example of a time you used data or quantitative analysis to solve a problem.",
+    "keyAnswer": "Walk through the question, the data you gathered, the method you used, the specific numerical insight, and the decision that changed because of it, and mention the limits of the analysis.",
+    "explanation": "### Framework\n\nProblem, data, method, insight, impact, limits. Choose a situation where the analysis actually changed a decision, and be able to quote the key numbers from memory. The interviewer wants to see structured thinking and comfort with numbers, explained in plain language.\n\n### Strong answer structure\n\n- **Problem**: one sentence: \"The student fund was debating whether to add a logistics company, and the group was split on whether its margins were sustainable.\"\n- **Data**: what you gathered and from where (five years of filings, competitor margins, segment disclosures) and what you had to clean or adjust.\n- **Method**: described simply: built a unit-economics model, ran a sensitivity of margin to fuel cost, benchmarked against four peers. If you used a regression or a scenario model, say why that tool fitted the question.\n- **Insight with a number**: \"Each 10% rise in fuel cost reduced EBIT margin by roughly 1.5 points, and the company had hedged only a third of exposure versus two-thirds for peers.\"\n- **Impact**: the fund passed, or sized the position at half the original proposal; a manager changed a pricing decision; a club reallocated its budget.\n- **Limits**: what the analysis could not tell you, which signals intellectual honesty.\n- **Link**: analysts must turn a messy question into a model and then explain the answer in two sentences to a VP.\n\n### What they're testing\n\nNumeracy, structure and communication. They are also checking whether you can explain a technical analysis without jargon, and whether you did the thinking or just followed instructions.",
+    "commonMistakes": [
+      "Jargon with no visible logic",
+      "No number in the result",
+      "An example in which you executed someone else's method without understanding it"
+    ],
+    "followUps": [
+      "What would you do differently with more time?",
+      "How did you check the data was reliable?",
+      "How did you present the result to a non-quantitative audience?"
+    ],
+    "tags": [
+      "fit",
+      "analytical",
+      "quantitative",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-016",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a time your attention to detail made a difference.",
+    "keyAnswer": "Describe a specific error you caught through a repeatable process rather than luck, the consequence it avoided, and the checking system you use on every deliverable.",
+    "explanation": "### Framework\n\nStory plus system. Banking deliverables must be error-free, so the interviewer wants both an example of catching something and evidence that you have a process (checklists, tie-outs to source, re-footing totals, version control) that makes catching errors routine.\n\n### Strong answer structure\n\n- **Situation**: a deliverable with stakes: a valuation page going to a client, a grant application, an inventory count, a published report.\n- **The detail**: concrete: a share count that was pre-split; a model summing a range that excluded the last row; a currency mismatch between a filing in euros and a comps sheet in dollars; a date typo in a legal document.\n- **How you found it**: the method, not chance: \"I always tie every output number back to its source before sending; the equity value did not match the market cap I had checked that morning.\"\n- **Consequence avoided**: the multiple would have been overstated by 15%; the client would have seen an inconsistency in the first meeting.\n- **Your system**: a printed review of every final page, a checklist (totals foot, dates and units consistent, footnotes match, formatting standard), model integrity checks (balance check, sources equal uses), and a rule to re-check anything touched after midnight.\n- **Link**: the first job of an analyst is to produce pages a VP can trust without re-checking.\n\n### What they're testing\n\nWhether you understand that accuracy is the baseline, not a bonus, and whether you have habits rather than good intentions. A candidate who claims never to make mistakes is less credible than one who explains how they catch them.",
+    "commonMistakes": [
+      "Claiming you never make errors",
+      "A story with no stakes and no process",
+      "Describing a check that depended on luck"
+    ],
+    "followUps": [
+      "How do you check a 60-page deck at 3 a.m.?",
+      "What do you do when you find an error in someone else's work?",
+      "Tell me about a mistake that slipped through anyway."
+    ],
+    "tags": [
+      "fit",
+      "attention to detail",
+      "behavioral",
+      "process"
+    ]
+  },
+  {
+    "id": "fit-017",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Where do you see yourself in five years?",
+    "keyAnswer": "Say you aim to be an associate on the path to VP at this bank, with growing sector or product expertise and more client-facing responsibility, and show the commitment without sounding scripted or ruling out that your interests may develop.",
+    "explanation": "### Framework\n\nHonest, ambitious and aligned with the bank. The safe and credible answer is a career in advisory: two years learning the craft, promotion to associate, then developing a specialism and starting to manage juniors and client interactions. You do not need to promise a 30-year career, but you must not describe banking as a two-year ticket to somewhere else.\n\n### Strong answer structure\n\n- **Years one to two**: become the analyst the group trusts with the model and the first draft; learn execution across a few deal types.\n- **Year three onward**: associate, taking ownership of workstreams, mentoring new analysts, building sector knowledge so you can contribute to the pitch rather than only format it.\n- **Year five**: senior associate or early VP track, with relationships forming with client teams and a reputation for a particular kind of deal or sector.\n- **Why this is credible for you**: tie it to what you have said about enjoying client-facing work, advisory, or the sector.\n- **Honesty**: \"I am open to how my interests develop, but what I know is that I want to learn as much as possible here first.\" This is better than a rigid speech or a vague \"I do not know\".\n\n### What they're testing\n\nRetention risk, ambition and honesty. Banks invest heavily in training; an interviewer who hears \"private equity\" or \"start my own company\" will expect you to leave at the first opportunity. Equally, an over-rehearsed \"managing director by 32\" sounds hollow.",
+    "commonMistakes": [
+      "Naming private equity, a hedge fund or a startup as the goal",
+      "Saying you do not know",
+      "An obviously scripted climb up the title ladder with no reasoning"
+    ],
+    "followUps": [
+      "What if you find you dislike the job after a year?",
+      "Would you consider moving to the buy side?",
+      "What kind of banker do you want to be known as?"
+    ],
+    "tags": [
+      "fit",
+      "career goals",
+      "five years"
+    ]
+  },
+  {
+    "id": "fit-018",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What are you looking for in a firm?",
+    "keyAnswer": "Name three criteria that this bank demonstrably meets, such as training and deal flow, culture and mentorship, and platform strengths in your target sector, each supported by something you learned from research or networking.",
+    "explanation": "### Framework\n\nThree criteria, each matched to something this firm offers and each backed by evidence. The answer is really \"why this bank\" from a different angle, so your criteria must be ones the interviewer's bank can satisfy better than or as well as competitors.\n\n### Strong answer structure\n\n1. **Learning and deal flow**: you want to be on live transactions early, with structured training and a range of deal types. Evidence: \"Analysts I spoke with here described being staffed on a sell-side within the first quarter.\"\n2. **People and culture**: small deal teams with senior exposure, an associate class that teaches, and a reputation for treating juniors as professionals. Evidence: a specific thing an analyst or associate told you, or something you observed at an event.\n3. **Platform fit**: strength in the sector or product you care about, a global footprint if that matters to you, or a middle-market focus if you want end-to-end involvement. Evidence: a deal, a league table position or a group that is growing.\n4. **Close**: \"Those are the three things I weighed, and they are why this group is at the top of my list.\"\n\nIf the bank is weaker on one dimension, do not list it; an interviewer at a boutique does not want to hear that you value a global capital markets platform.\n\n### What they're testing\n\nWhether your priorities match what they offer, whether you have researched them, and whether you are likely to accept and stay. Criteria that fit a competitor better suggest you are shopping.",
+    "commonMistakes": [
+      "Leading with compensation, hours or work-life balance",
+      "Criteria that describe a different type of bank",
+      "No evidence that this firm meets the criteria"
+    ],
+    "followUps": [
+      "Which of those three matters most?",
+      "How do you know we actually offer that?",
+      "What would make you turn down an offer from us?"
+    ],
+    "tags": [
+      "fit",
+      "why this bank",
+      "criteria",
+      "culture"
+    ]
+  },
+  {
+    "id": "fit-019",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Tell me about a recent deal you have been following.",
+    "keyAnswer": "Structure the answer in seven parts: the parties and advisers, the size, the strategic rationale, the valuation and multiples versus comparables, the financing and structure, the market reaction, and your own view on whether it makes sense and what the risks are, all in about two minutes with precise numbers.",
+    "explanation": "### Framework\n\nPrepare two or three deals in depth, ideally one the bank advised on and one in your target sector. Use the same seven-point structure every time so you can deliver it in two minutes and then survive follow-ups. Sources: the press release and investor presentation, the merger proxy or offer document, and reporting in the financial press.\n\n### Strong answer structure\n\n1. **Parties**: acquirer, target, announcement date, advisers on each side, whether it is a strategic or sponsor deal.\n2. **Size**: EV and equity value, stated separately, and the price per share.\n3. **Rationale**: why the buyer, why now: market entry, product adjacency, scale, cost synergies, a strategic review or activist pressure at the target.\n4. **Valuation**: EV/EBITDA and EV/Revenue (or P/E for financials), the premium to the unaffected price, and how that compares with trading comps and precedent transactions.\n5. **Financing and structure**: cash, stock or a mix; new debt raised and resulting leverage; exchange ratio and resulting ownership if stock.\n6. **Market reaction**: acquirer and target share moves on announcement, analyst commentary, regulatory or antitrust risk, competing bids.\n7. **Your view**: would you have advised the buyer to pay this; what has to go right; what you would watch (synergy delivery, leverage, integration, regulatory timeline).\n\nIllustrative numbers: acquirer buys target for an EV of 10bn at 12x LTM EBITDA of about 830m, a 30% premium, 60% cash and 40% stock, with 4bn of new debt. Net debt of 2bn implies equity value of 8bn, so the unaffected equity value was roughly 8bn / 1.3 = 6.15bn and the premium paid is about 1.85bn. Run-rate synergies of 300m, taxed at 25%, are 225m after tax; capitalised at 10x they are worth about 2.25bn, which exceeds the premium, so the deal creates value for the acquirer only if the synergies are delivered.\n\n### What they're testing\n\nGenuine interest in the industry, ability to think like a banker, numeracy under questioning, and whether you can form and defend an opinion. The follow-ups are where strong candidates separate themselves.",
+    "commonMistakes": [
+      "Choosing the mega-deal everyone chooses and knowing only the headline number",
+      "Confusing enterprise value with equity value or quoting the wrong multiple",
+      "Not knowing who advised on the deal when interviewing at one of the advisers",
+      "Having no view of your own"
+    ],
+    "followUps": [
+      "What multiple did they pay compared with where the target was trading and with precedent deals?",
+      "How was it financed and what does pro forma leverage look like?",
+      "Who else could have bought the target and why did they not?",
+      "If you were advising the target board, would you have accepted that price?"
+    ],
+    "tags": [
+      "fit",
+      "recent deal",
+      "deal discussion",
+      "market awareness"
+    ]
+  },
+  {
+    "id": "fit-020",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Tell me about a recent IPO or a market event that caught your attention and why it matters for our business.",
+    "keyAnswer": "For an IPO, cover the business, deal size and primary versus secondary split, pricing versus the range, implied valuation, bookrunners, first-day and subsequent performance, and your view on pricing; for a market event, explain what happened, why, how it transmits to deal activity and financing, and what you would watch next.",
+    "explanation": "### Framework\n\nTwo templates, one for an IPO and one for a market event. In both cases the answer must end with the link to investment banking: what it means for M&A volumes, financing costs, the equity issuance window or a specific sector. Choose something from the last few months and know the numbers.\n\n### Strong answer structure\n\n**IPO**\n- Business in two sentences and why it is coming to market now (growth capital, sponsor exit, debt paydown).\n- Deal size, number of shares, primary versus secondary, the price range and the final price (priced above, within or below range), implied market capitalisation and a valuation multiple (EV/Revenue or EV/EBITDA) versus listed peers.\n- Exchange, lead bookrunners, any cornerstone investors, lock-up terms.\n- First-day move and performance since. A 40% first-day pop suggests money was left on the table; a break below issue price suggests mispricing or a weak book.\n- Your view: was it priced well for the issuer and for investors, and what it signals for the issuance window in that sector.\n\n**Market event** (a central bank decision, a credit event, a tariff announcement, a sharp index move)\n- What happened and the immediate cause, in two sentences.\n- The transmission mechanism: higher rates raise the cost of acquisition debt and lower the multiples sponsors can pay; volatility closes the IPO window; sector-specific shocks create forced sellers or distressed opportunities.\n- Who benefits and who is hurt: leveraged finance desks, restructuring groups, ECM.\n- What you would watch next and your view.\n\n### What they're testing\n\nWhether you follow markets out of genuine interest, whether you can connect a headline to the economics of the bank's business, and whether you can hold an opinion with numbers behind it.",
+    "commonMistakes": [
+      "Fuzzy numbers: not knowing the deal size or the first-day move",
+      "No link to how the event affects deal activity or financing",
+      "Drifting into political opinion"
+    ],
+    "followUps": [
+      "Why do you think it priced where it did?",
+      "Which sectors do you expect to see more issuance from next year?",
+      "How does that event change what you would advise a client considering a sale?"
+    ],
+    "tags": [
+      "fit",
+      "ipo",
+      "market event",
+      "market awareness"
+    ]
+  },
+  {
+    "id": "fit-021",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Pitch me a stock.",
+    "keyAnswer": "Give a two-minute pitch: the recommendation with price and target, the business in two sentences, two or three thesis points about what the market is missing, a valuation that supports the target, catalysts with timing, and the key risks with what would change your mind.",
+    "explanation": "### Framework\n\nRecommendation first, then support. Pick a company you can discuss in depth, preferably a mid-cap outside the names every candidate pitches, and know its key numbers from memory: revenue and growth, EBITDA margin, net debt, share count, current multiple versus peers. Have a short idea as well in case they ask.\n\n### Strong answer structure\n\n1. **Headline**: \"I would buy X at 30, with a 12-month target of 40, roughly 33% upside.\"\n2. **Business**: what it does, who it sells to, how it makes money, in two sentences.\n3. **Thesis** (two or three points): a growth driver the market under-appreciates, a margin expansion path, a capital allocation change (buybacks, disposal of a weak division), or a mispricing after a temporary issue.\n4. **Valuation**: \"It trades at 8x EV/EBITDA versus peers at 11x. With EBITDA of 500m, net debt of 1bn and 100m shares, EV is 4bn and equity value 3bn, or 30 per share. At a still-discounted 10x, EV is 5bn, equity value 4bn and the share is worth 40.\" Say why the discount should close.\n5. **Catalysts and timing**: an earnings print, a disposal closing, a contract renewal, an investor day.\n6. **Risks and what would change your mind**: two concrete risks and the signal that would make you exit.\n\nKeep the pitch to two minutes and leave room for questions; the depth of your answers matters more than the polish of the pitch.\n\n### What they're testing\n\nWhether you think like an investor and a banker: structured, numerate, aware of valuation, and able to hold a view against pushback. They also learn whether you genuinely follow markets or memorised a name.",
+    "commonMistakes": [
+      "Pitching a company because you like its products, with no valuation",
+      "No risks and no catalysts",
+      "Choosing a mega-cap or a stock in the headlines that every candidate pitches",
+      "Not knowing the current price or multiple"
+    ],
+    "followUps": [
+      "What is the bear case?",
+      "Why is the market wrong, who is on the other side of your trade?",
+      "What would you short?",
+      "How would you value it on a DCF rather than multiples?"
+    ],
+    "tags": [
+      "fit",
+      "stock pitch",
+      "investing",
+      "valuation"
+    ]
+  },
+  {
+    "id": "fit-022",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Why should we hire you over the other candidates?",
+    "keyAnswer": "Make three points: evidence that you can do the work, evidence that you can sustain the pace, and evidence that you fit this team and want this bank specifically, then close with confidence.",
+    "explanation": "### Framework\n\nThree pillars and a close: ability, endurance, fit. Keep it to about a minute, draw on the strongest examples you have already given in the interview so the answer feels like a summary rather than a new speech, and never compare yourself to other candidates you have not met.\n\n### Strong answer structure\n\n- **Ability**: technical readiness and relevant experience. \"I have built three-statement and LBO models on live work, I have passed your technical questions today, and I can start adding value from the first week.\"\n- **Endurance**: proof you can sustain the hours with quality. \"I worked 60-hour weeks across a full course load and a part-time job for two years, and my grades went up during that period.\"\n- **Fit and intent**: why this bank, with a specific reason, and a signal that you would accept. \"I have spoken with four people in this group, I like how it staffs analysts across sectors, and this is my first choice.\"\n- **Close**: \"I am confident I would be an analyst your associates ask to be staffed with.\" Then stop; do not keep selling.\n\nAdapt the pillars to what the interviewer has told you the group values. If the VP mentioned that the group needs people who can run processes, put organisation and ownership in the first pillar.\n\n### What they're testing\n\nConfidence without arrogance, self-knowledge, and the ability to synthesise under pressure. It is also a closing question: they want to see whether you can finish strongly and make them want to advocate for you.",
+    "commonMistakes": [
+      "Being so modest that the answer sounds like a request rather than a case",
+      "Repeating the resume instead of summarising why it matters",
+      "Comparing yourself negatively or positively to unknown candidates"
+    ],
+    "followUps": [
+      "What would your biggest risk be as a hire?",
+      "What would you do in your first 90 days?",
+      "If we offered you today, would you accept?"
+    ],
+    "tags": [
+      "fit",
+      "why hire you",
+      "closing"
+    ]
+  },
+  {
+    "id": "fit-023",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Do you have any questions for me?",
+    "keyAnswer": "Always have four to six prepared questions, pick the two or three that fit the interviewer's level and what was discussed, avoid anything about pay, hours or exits or anything on the website, and use the moment to show curiosity and to close with interest.",
+    "explanation": "### Framework\n\nPrepare a tiered list and choose based on who is across the table. Junior interviewers can speak to day-to-day life and what distinguishes strong analysts; senior interviewers can speak to strategy, pipeline and what they look for. Ask two or three, listen actively, and ask one follow-up based on their answer. Never say \"No, you have covered everything\".\n\n### Strong answer structure\n\n**For analysts and associates**\n- \"What separates the analysts who get the best staffings and early promotion from the rest?\"\n- \"How is staffing run in this group: a generalist pool or sector alignment, and how much choice do analysts get?\"\n- \"What is something you wish you had known in your first three months?\"\n\n**For VPs and MDs**\n- \"How is the group positioned for the next year given [a specific sector trend you have researched], and how does that change the mix of pitch versus execution work for analysts?\"\n- \"Which recent deal did you find most interesting and why?\"\n- \"What do you look for when deciding whom to staff on your deals?\"\n\n**For anyone**\n- A follow-up on something they said earlier in the interview, which proves you were listening.\n- To close: \"What are the next steps in the process?\" and a sentence restating your interest.\n\nAvoid: compensation, hours, exit opportunities, vacation, anything answerable from the website, \"what is the culture like\" without a sharper angle, and questions already answered.\n\n### What they're testing\n\nCuriosity, preparation, judgement about what is appropriate to ask, and whether you listened. Interviewers often decide between two similar candidates on this moment, because it reveals what you actually care about.",
+    "commonMistakes": [
+      "Having no questions",
+      "Asking about pay, hours or exits in a first round",
+      "Asking something answered five minutes earlier",
+      "Asking a question designed to show off rather than to learn"
+    ],
+    "followUps": [
+      "What else would you want to know before accepting an offer?",
+      "Is there anything about the role that concerns you?"
+    ],
+    "tags": [
+      "fit",
+      "questions for interviewer",
+      "closing",
+      "strategy"
+    ]
+  },
+  {
+    "id": "fit-024",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Your GPA is below our usual cut-off, you are from a non-target school, and you are switching careers. Why should that not concern us?",
+    "keyAnswer": "Acknowledge the point in one sentence without excuses, pivot to the evidence that offsets it (upward trend, hard courses, work hours, self-study, certifications, networking effort, transferable skills), and redirect to why you are ready now.",
+    "explanation": "### Framework\n\nAcknowledge, explain briefly, offset, redirect. The question is partly a stress test, so tone matters as much as content: calm, factual, unapologetic. Never lie about a number; transcripts and references are checked.\n\n### Strong answer structure\n\n**Low GPA**\n- One sentence of context, not an excuse: \"My first year was weak because I was working 25 hours a week and chose the wrong major.\"\n- Offset: upward trend (\"3.8 in my last four semesters\"), strong grades in quantitative courses, a demanding workload, a finance certification or modelling course completed on your own time.\n- Redirect: \"I think the better predictor is the work I have done since, and I am happy to be tested on any of it today.\"\n\n**Non-target school**\n- Lead with hustle: the number of informational calls, how you found the people, what you learned, and the fact that you are sitting here because of that effort.\n- Offset with technical readiness you built yourself: self-study, a student fund, an internship you had to fight for.\n\n**Career switch**\n- \"Toward, not away\": what the previous career gave you (client management, analytical rigour, stamina), what was missing that banking provides, why now (a natural break point), and what you have done to confirm the interest (courses, networking, a relevant project).\n\nKeep the whole answer under a minute. The longer you talk, the bigger the issue seems.\n\n### What they're testing\n\nResilience, honesty, self-awareness and how you behave when challenged, which is exactly what a client or MD will do. The content of the explanation matters less than the composure and the evidence.",
+    "commonMistakes": [
+      "Defensiveness or a long story about a difficult professor",
+      "Over-apologising, which makes the gap sound larger",
+      "Rounding a GPA upward or omitting it when it is requested"
+    ],
+    "followUps": [
+      "What was your grade in corporate finance?",
+      "How many bankers have you spoken to during this process?",
+      "Why did you not try to move internally in your previous company?"
+    ],
+    "tags": [
+      "fit",
+      "low gpa",
+      "non-target",
+      "career switch",
+      "resilience"
+    ]
+  },
+  {
+    "id": "fit-025",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Where else are you interviewing, and do you have any offers?",
+    "keyAnswer": "Be honest and consistent: describe the category of firms (similar banks, similar groups) rather than a long list, state any offers factually with their timelines, and express a specific reason this firm is your preference without bluffing or appearing desperate.",
+    "explanation": "### Framework\n\nHonest, consistent, strategic. Banks talk to each other and offers are verified informally, so bluffing is dangerous. The answer should support your story: if you say you want healthcare M&A, your other interviews should look like healthcare M&A, not consulting and trading.\n\n### Strong answer structure\n\n- **Describe the set, not the list**: \"I am in process with a few other bulge brackets and two boutiques, mostly in industrials coverage and M&A.\" This signals demand without inviting a comparison of each name.\n- **Consistency**: show the pattern reflects a genuine preference for this type of work. If you are also interviewing in consulting, be ready to explain why banking is the first choice.\n- **Offers**: state them factually and with the deadline: \"I have one offer from a middle-market bank that expires in two weeks.\" Do not use it as leverage in a first round; do mention it to a recruiter if you need a decision accelerated.\n- **Preference**: give one specific reason this firm ranks first for you (the group, the people, the platform), which is more convincing than \"you are my top choice\" alone.\n- **If you have no other interviews**: say so briefly and pivot to why you are focused on this process; do not invent competition.\n\n### What they're testing\n\nWhether your story is consistent, how much demand there is for you, whether you are honest, and how you would handle an exploding offer. They also want to gauge the likelihood that you would accept.",
+    "commonMistakes": [
+      "Lying about offers or process stages",
+      "Listing a random mix of industries that contradicts your \"why banking\" answer",
+      "Using an offer as a threat in an early round",
+      "Saying \"you are my only interview\" in a way that signals desperation"
+    ],
+    "followUps": [
+      "If that other offer expires before we decide, what will you do?",
+      "How do those banks compare with us in your view?",
+      "Why are you also interviewing in consulting?"
+    ],
+    "tags": [
+      "fit",
+      "other offers",
+      "interview process",
+      "honesty"
+    ]
+  },
+  {
+    "id": "fit-026",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "How do you feel about working 80 to 100 hours a week, including weekends?",
+    "keyAnswer": "Show you understand the reality (long and unpredictable hours, cancelled plans), give evidence that you have sustained a comparable workload before, describe how you manage energy, and explain why the trade-off is worth it for you.",
+    "explanation": "### Framework\n\nRealism, evidence, method, motivation. The interviewer is not looking for enthusiasm about sleep deprivation; they want to know you have thought about it honestly, have done something comparable, and will not quit or complain in month four.\n\n### Strong answer structure\n\n- **Show you know the reality**: it is not only the length but the unpredictability: comments arriving at 11 p.m., weekend work when a deal moves, plans cancelled at short notice. Mention that analysts you have spoken with described exactly this.\n- **Evidence of comparable stamina**: a sustained period rather than one bad week: a full course load alongside a 30-hour-a-week job for a year; a summer internship with regular 1 a.m. finishes; a varsity sport with a heavy training schedule during exams. Say what the schedule actually was.\n- **Method**: how you keep quality high when tired: protecting sleep when you can, exercise, planning the week around deliverables, a checklist for late-night work when errors creep in.\n- **Why it is worth it**: the compression of learning, the responsibility, and the fact that the work is interesting to you, which is what makes the hours bearable.\n- **Honesty**: it is fine to say you do not love the hours but you accept them as the price of the training.\n\n### What they're testing\n\nRealism and stamina, and whether you will be the analyst who complains in the bullpen. They also want to know whether you have a support system and habits that will stop you burning out, because a burned-out analyst is a cost to the whole team.",
+    "commonMistakes": [
+      "Claiming to love long hours",
+      "Dismissing the question as not an issue",
+      "No evidence of a sustained period of hard work",
+      "Showing no awareness of the unpredictability"
+    ],
+    "followUps": [
+      "What is the longest you have ever worked without a day off?",
+      "How will you keep relationships outside work?",
+      "What would you do if a weekend trip collided with a deal?"
+    ],
+    "tags": [
+      "fit",
+      "long hours",
+      "stamina",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "fit-027",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Describe a time you persuaded someone to change their mind.",
+    "keyAnswer": "Tell a STAR story in which the other person had a legitimate position, and explain how you understood their incentives, gathered evidence, framed the argument in their terms, handled their objections and reached an outcome that kept the relationship intact.",
+    "explanation": "### Framework\n\nSTAR with the emphasis on technique. Persuasion in banking is rarely about winning an argument; it is about understanding what the other person cares about and showing them a path that meets it. Choose a story where the other side was reasonable, so the persuasion required skill rather than volume.\n\n### Strong answer structure\n\n- **Situation and stakes**: a club treasurer who would not fund a new event; a manager who wanted to keep a legacy process; a teammate who refused to change the structure of a presentation.\n- **Understand first**: you asked what their concern was and found the real objection (risk of losing money, fear of a mistake in transition, pride in prior work).\n- **Evidence**: you gathered the data that addressed that specific concern: a budget showing break-even at 60% attendance, a pilot on one workflow, a side-by-side of the two slide structures tested on an outside reader.\n- **Framing**: you put the proposal in their terms (\"this reduces the risk you are worried about\") rather than yours.\n- **Objections and compromise**: you addressed the remaining pushback and offered a staged approach or a fallback.\n- **Result and relationship**: the decision changed, the outcome was good, and the person later supported you or asked for your input again.\n- **Link**: analysts must persuade an associate to restructure a page, or a VP that a number is wrong, without authority.\n\n### What they're testing\n\nInfluence without authority, emotional intelligence and communication. They want to see that you understand people, not just data, and that you can disagree without damaging a relationship.",
+    "commonMistakes": [
+      "Persuasion by persistence or by escalating",
+      "Not showing that you understood the other person's position",
+      "A story in which you were obviously right and the other person obviously wrong"
+    ],
+    "followUps": [
+      "What if they had still said no?",
+      "Tell me about a time you failed to persuade someone.",
+      "How would you persuade an MD that a slide he likes should be cut?"
+    ],
+    "tags": [
+      "fit",
+      "persuasion",
+      "influence",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-028",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Tell me about an ethical dilemma you faced, or how you would respond if an MD asked you to change a number in the model to make a deal look better.",
+    "keyAnswer": "Follow the principles of clarifying intent, presenting both versions transparently, pushing back with evidence, and escalating through the associate, VP or compliance if asked to misrepresent to a client or board; never act alone and never ignore the request.",
+    "explanation": "### Framework\n\nTwo forms of the question: a past experience (use STAR) or a hypothetical. In both cases the answer rests on the same principles: comply with law and firm policy, protect the client and the firm's reputation, clarify before assuming bad intent, escalate through proper channels, and document. Show judgement rather than either blind obedience or dramatic refusal.\n\n### Strong answer structure\n\n**Hypothetical: the MD wants the synergy assumption raised so the deal shows accretion**\n1. **Clarify intent**: there may be a legitimate reason (new information from the client, a different synergy phasing). Ask what the basis for the change is.\n2. **Present both**: build the sensitivity showing accretion under both assumptions, clearly labelled, so the decision is transparent.\n3. **Push back with evidence**: if the new number is unsupported, say so politely: \"I want to make sure we can defend this if the board asks where it comes from.\"\n4. **Escalate if needed**: if you are asked to present an unsupported number to a client or board as fact, raise it with the associate or VP, and with compliance if necessary. Do not decide alone and do not go to a regulator as a first step.\n\n**Past experience**: pick a real professional situation (pressure to inflate hours, a request to share confidential information, an offer to use material non-public information from a friend, a teammate copying work) and describe what you did, the cost, and the outcome.\n\nRelated rules to show you know: confidentiality and information barriers, no trading on material non-public information, fair treatment of all bidders in a process.\n\n### What they're testing\n\nIntegrity, judgement and knowledge of basic rules. They want someone who neither does whatever the MD says nor creates a crisis out of a misunderstanding, and who knows when and to whom to escalate.",
+    "commonMistakes": [
+      "\"I would just do what the MD says\"",
+      "Refusing outright without asking why, or going straight to a regulator",
+      "A trivial dilemma such as returning extra change at a shop",
+      "Naming real colleagues or companies in a negative light"
+    ],
+    "followUps": [
+      "What if the MD insists and says it is his responsibility?",
+      "What would you do if a friend at another bank asked what deal you were working on?",
+      "Have you ever reported someone?"
+    ],
+    "tags": [
+      "fit",
+      "ethics",
+      "integrity",
+      "situational"
+    ]
+  },
+  {
+    "id": "fit-029",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a time you received critical feedback and what you did with it.",
+    "keyAnswer": "Describe specific feedback, your honest first reaction, how you sought to understand it, the concrete plan you made, and the measurable change in your work afterwards.",
+    "explanation": "### Framework\n\nFeedback, reaction, understanding, action, result. The content of the feedback matters less than what you did next. Choose feedback that was genuinely uncomfortable and specific, and show the arc from initial reaction to changed behaviour.\n\n### Strong answer structure\n\n- **The feedback**: specific and from someone whose judgement mattered: \"At my mid-internship review the associate said my work was accurate but slow, and that I asked for help too late when I was stuck.\"\n- **Honest first reaction**: a sentence of candour: \"My instinct was to defend myself because I had been trying to avoid bothering anyone.\"\n- **Seeking to understand**: you asked for examples and what good would look like; you learned that a 15-minute question at the right time saves hours.\n- **Plan**: concrete rules: a 30-minute limit before asking, a daily end-of-day note of open items to the associate, time-boxing tasks.\n- **Result**: at the final review the same associate noted the change, and you were given the model on the next project; or an offer, a grade, a promotion.\n- **Lesson**: feedback is information, not judgement, and the people who improve fastest in banking are the ones who ask for it early and often.\n\n### What they're testing\n\nCoachability, which is the single most important trait in a first-year analyst, and ego management. An interviewer who hears defensiveness or \"I have never really received negative feedback\" will assume you will be hard to manage.",
+    "commonMistakes": [
+      "Trivial or flattering feedback (\"be more confident\")",
+      "Showing defensiveness even while describing the story",
+      "No measurable change afterwards"
+    ],
+    "followUps": [
+      "What feedback do you expect to receive in your first year here?",
+      "How do you give feedback to others?",
+      "Tell me about feedback you disagreed with."
+    ],
+    "tags": [
+      "fit",
+      "feedback",
+      "coachability",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-030",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What do you do outside of work and school?",
+    "keyAnswer": "Share two or three genuine interests, including one with real depth that shows discipline and one that is social, and be ready to talk about each for several minutes; let the traits come through without forcing a link to banking.",
+    "explanation": "### Framework\n\nAuthentic, specific, and conversational. This is the \"airplane test\": would the interviewer want to sit next to you for a six-hour flight, or share a bullpen at 2 a.m.? Pick two or three interests, know them well, and let your personality show.\n\n### Strong answer structure\n\n- **One interest with depth**: something you have pursued for years or to a high standard: distance running, a musical instrument, chess, cooking, a language. Mention a specific achievement or routine (\"I have run three marathons and train at 6 a.m. most days\"), which quietly signals discipline.\n- **One social or team interest**: a sport, a club, volunteering, which signals that you work well with people.\n- **Optionally one unusual interest**: something memorable that starts a conversation (restoring old radios, competitive trivia), as long as it is true.\n- **Be ready for depth**: the interviewer may share the hobby and ask detail. Only mention things you can discuss for five minutes.\n- **Link lightly**: you do not need to say \"this makes me a better analyst\"; the interviewer draws the inference. If pressed, mention the discipline or teamwork honestly.\n\nAvoid \"reading the Financial Times\" as a hobby; it sounds like you have no life outside finance. Avoid politics and religion unless they are a central and uncontroversial part of your story.\n\n### What they're testing\n\nPersonality, likeability and authenticity, whether you have outlets that will keep you sane under stress, and whether you are someone the team would want around. Interviewers also catch invented hobbies quickly.",
+    "commonMistakes": [
+      "Listing financial news or stock trading as your only interest",
+      "Naming a hobby you cannot discuss in any depth",
+      "Too many interests, which sounds like a list rather than a life"
+    ],
+    "followUps": [
+      "How will you keep that up with banking hours?",
+      "What is the last book you read that was not about finance?",
+      "Tell me more about the marathon training."
+    ],
+    "tags": [
+      "fit",
+      "interests",
+      "personality",
+      "airplane test"
+    ]
+  },
+  {
+    "id": "fit-031",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Explain a financial concept, such as a leveraged buyout or a DCF, to someone with no finance background.",
+    "keyAnswer": "Pick a concept you understand deeply, give a one-sentence definition, an everyday analogy such as buying a house with a mortgage, then explain why it matters and check for understanding, all without jargon and in under two minutes.",
+    "explanation": "### Framework\n\nDefinition, analogy, why it matters, check. Choose a concept you can go deep on if the interviewer then switches to the technical version. The best analogies map every moving part of the concept to something familiar, so the listener could reason about it afterwards.\n\n### Strong answer structure\n\n**Leveraged buyout**\n- Definition: a firm buys a company using mostly borrowed money, runs it for a few years and sells it.\n- Analogy: buying a rental house with 20% of your own money and an 80% mortgage. The rent pays the mortgage down, so each year you own more of the house. If you also improve the house and prices rise, you sell in five years and get back far more than the 20% you put in. The return comes from three sources: paying down the loan, higher rent, and a better sale price. The risk is that if the rent stops, you still owe the bank.\n- Why it matters: it explains why buyers look for companies with steady cash flow and why too much debt can sink a good company.\n\n**DCF**\n- Definition: a company is worth the cash it will generate in future, discounted because money later is worth less than money now.\n- Analogy: valuing an apartment by adding up the rent you expect over the years you will own it plus the eventual sale price, then reducing each future amount because you would rather have the money today and because the rent is not guaranteed.\n\n**Enterprise value versus equity value**\n- The house is worth 500k (enterprise value); you have a 300k mortgage; your equity is 200k. A buyer of the whole house pays 500k, but you receive only 200k.\n\nClose with \"Does that make sense?\" and be ready to add one layer of detail.\n\n### What they're testing\n\nWhether you truly understand the concept (you cannot simplify what you do not understand), communication skill, and client-facing potential. Banks need people who can explain a valuation to a founder as well as to a CFO.",
+    "commonMistakes": [
+      "Slipping into jargon such as EBITDA or WACC without defining it",
+      "Choosing a concept too complex to explain in two minutes",
+      "Sounding condescending"
+    ],
+    "followUps": [
+      "Now explain it to me at the technical level.",
+      "Where does the analogy break down?",
+      "Explain why interest rates affect company valuations to the same person."
+    ],
+    "tags": [
+      "fit",
+      "communication",
+      "explain simply",
+      "analogy"
+    ]
+  },
+  {
+    "id": "fit-032",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Walk me through a deal on your resume.",
+    "keyAnswer": "Prepare each deal as a one-page brief: context and parties (respecting confidentiality), your specific workstreams, the key issues such as valuation or financing, the outcome, and what you learned, and be ready for a technical drill-down on the numbers.",
+    "explanation": "### Framework\n\nContext, your role, key issues, outcome, lessons. Anything on your resume is fair game at any depth, so prepare a brief for each transaction and be honest about what you did. Overclaiming is caught within two follow-up questions.\n\n### Strong answer structure\n\n1. **Context**: type of deal (sell-side, buy-side, financing), client and counterparty if public, size, sector, status. If the deal is confidential, describe it generically: \"a roughly 400m sell-side of a specialty packaging business to a strategic buyer\".\n2. **Your role, precisely**: the workstreams you owned or supported: built the trading comps, updated the operating model for management's revised forecast, drafted the industry section of the CIM, maintained the buyer tracker and data room, prepared the management presentation. Use \"I supported\" where that is the truth.\n3. **Key issues**: the valuation debate (management case versus banker case, which multiple the buyers anchored on), a diligence finding (customer concentration, a working capital adjustment), a financing question (how much leverage the sponsor bidders could raise), process dynamics (how many first-round bids, why the winner won).\n4. **Outcome**: closed at an implied multiple, abandoned, still ongoing, and why.\n5. **What you learned**: one technical lesson (e.g. why normalised working capital mattered for the purchase price) and one process lesson.\n6. **Readiness for drill-down**: the multiples, the premium, the structure, what you would have done differently, who else could have bought it.\n\nRehearse the technical side: if you built the comps, expect to be asked which peers you chose and why, and how you treated a peer with a different fiscal year end.\n\n### What they're testing\n\nHonesty about your contribution, technical understanding of work you touched, and the ability to discuss a transaction strategically rather than mechanically. It also tests discretion: breaching confidentiality is disqualifying.",
+    "commonMistakes": [
+      "Exaggerating your role on the deal",
+      "Not knowing the headline numbers of a deal you worked on",
+      "Naming a confidential client or target",
+      "Being unable to explain why the valuation landed where it did"
+    ],
+    "followUps": [
+      "What multiple did it close at and how did that compare with comps?",
+      "Which part of the model did you build yourself?",
+      "What would you have advised differently?",
+      "Why did the losing bidders drop out?"
+    ],
+    "tags": [
+      "fit",
+      "deal on resume",
+      "deal experience",
+      "preparation"
+    ]
+  },
+  {
+    "id": "fit-033",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about a time you went above and beyond what was asked of you.",
+    "keyAnswer": "Contrast what was asked with what you delivered, explain why you saw the need, describe the extra work and its cost, and give the result and recognition, linking it to anticipating the next question in a deal team.",
+    "explanation": "### Framework\n\nAsked versus delivered, the reason, the effort, the result. The strongest stories are about anticipation (you saw what would be needed next and prepared it) rather than about hours alone. Keep it tight and let the contrast between the request and the delivery do the work.\n\n### Strong answer structure\n\n- **What was asked**: a bounded task: \"The associate asked me to update the comps with the latest quarter.\"\n- **What you noticed**: while updating, you saw that two peers had announced acquisitions that would change their forward numbers, and that the VP would be asked about them in the client meeting.\n- **What you did**: pulled the announcements, built pro forma estimates for the two peers, added a footnoted page showing the impact on the median multiple, and flagged it in your email rather than silently adding it.\n- **The cost**: it took three extra hours on a Friday evening; you checked with the associate first that it was worth doing.\n- **Result**: the client asked exactly that question, the VP had the page, and you were staffed on the next phase. Or in a non-finance context: a customer retained, a project delivered with a feature nobody had asked for but everyone used.\n- **Link**: the best analysts anticipate the next question from the VP and the client; the extra page is how juniors earn trust.\n\nMake sure the \"beyond\" was useful and welcomed; working all night on something nobody needed is a different story.\n\n### What they're testing\n\nInitiative, ownership and judgement about where extra effort pays off. They also listen for whether you communicated what you were doing, since unrequested work that surprises a senior can be a problem.",
+    "commonMistakes": [
+      "Measuring \"above and beyond\" only in hours worked",
+      "Describing something that was required anyway",
+      "Grandiose claims with no concrete deliverable"
+    ],
+    "followUps": [
+      "How did you decide it was worth the extra time?",
+      "Has your initiative ever backfired?",
+      "How do you balance initiative with doing exactly what you were asked?"
+    ],
+    "tags": [
+      "fit",
+      "initiative",
+      "ownership",
+      "behavioral"
+    ]
+  },
+  {
+    "id": "fit-034",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "Tell me about your networking: why did you reach out to people here, and what have you learned from bankers you have spoken with?",
+    "keyAnswer": "Explain that you reached out to understand the job beyond the brochure and test your fit, describe who you spoke with and how, and give two or three concrete things you learned that shaped your view and confirmed your interest.",
+    "explanation": "### Framework\n\nWhy, who, what you learned, what it changed. The interviewer wants evidence that your interest is informed, that you can build relationships professionally, and that you listened. Concrete learnings matter far more than the number of calls.\n\n### Strong answer structure\n\n- **Why you reached out**: to understand what analysts actually do, how groups differ, and whether you would enjoy the work; and to find people you would want to work with.\n- **Who and how**: alumni through the university database, people met at information sessions, warm introductions; a rough count and the mix of levels (\"about fifteen conversations, mostly analysts and associates, two VPs\"). Name individuals only if they would remember you well and if the interviewer is likely to know them.\n- **Two or three concrete learnings**: for example, that this group staffs analysts across sub-sectors rather than in silos, which you liked; that the hardest part of the first year is managing several associates' expectations at once; that a particular deal was won on a creative structuring idea rather than on price. Each learning should be specific enough that it could only have come from a real conversation.\n- **What it changed**: it moved this group to the top of your list, or shifted you from a product group to coverage, or made you realise the hours are more unpredictable than long and that you were fine with that.\n- **Close**: thank the people who helped without gushing.\n\n### What they're testing\n\nDiligence, initiative and the authenticity of your interest; also whether people inside the bank would vouch for you. Interviewers frequently check with the people you name.",
+    "commonMistakes": [
+      "Name-dropping without any substance from the conversation",
+      "Quoting a number of calls with nothing learned",
+      "Mentioning a conversation that went badly or a person who would not remember you",
+      "Inventing a conversation"
+    ],
+    "followUps": [
+      "Who did you speak with in our group?",
+      "What was the most surprising thing you heard?",
+      "Did anything you learned put you off?"
+    ],
+    "tags": [
+      "fit",
+      "networking",
+      "informational interviews",
+      "interest"
+    ]
+  },
+  {
+    "id": "fit-035",
+    "category": "Fit / Behavioral",
+    "difficulty": "Advanced",
+    "question": "Why did you leave your previous role, and why switch into banking now?",
+    "keyAnswer": "Frame the move as toward banking rather than away from the old job: what the previous role gave you, what was missing that banking provides, why this is the right moment, and what you have done to prepare, without criticising your former employer.",
+    "explanation": "### Framework\n\nToward, not away. Interviewers expect a positive, forward-looking rationale with good timing and preparation. Never criticise a former boss, team or company, even if the criticism is fair; the interviewer will assume you would say the same about them one day.\n\n### Strong answer structure\n\n1. **What the previous role gave you**: credit it genuinely: client management, analytical discipline, exposure to how an operating business works, stamina. \"I learned how a manufacturing company plans capacity, which is useful context for valuing one.\"\n2. **What was missing**: the specific thing banking offers that the old role did not: transaction exposure, a steeper technical curve, working on several companies and strategic decisions rather than one. Be precise; \"I wanted more challenge\" is weak.\n3. **Why now**: a natural break point: a project completed, a degree finished, a promotion cycle that would have locked you in, or recruiting timing. Show that leaving was a decision, not drift.\n4. **Preparation**: what you did to make the switch credible: modelling courses, networking, a relevant side project, a CFA level, informational interviews that confirmed the choice.\n5. **If you were laid off**: state it in one factual sentence (restructuring, the whole team) and move on to the forward-looking part.\n6. **Confidence**: why you expect to succeed in the new seat and why you will not switch again in a year.\n\nKeep it under a minute and keep the tone appreciative of the past and energised about the future.\n\n### What they're testing\n\nFlight risk, judgement and attitude. A candidate who left because of a bad manager may leave here for the same reason; a candidate who moved toward something specific, at a sensible time, with preparation, is a safer bet.",
+    "commonMistakes": [
+      "Complaining about the boss, the hours or the pay",
+      "Vagueness (\"I just did not enjoy it\")",
+      "No explanation of timing, so the move looks like drifting"
+    ],
+    "followUps": [
+      "Why not move internally into corporate development there?",
+      "How would your former manager describe your departure?",
+      "What will you miss about the old role?"
+    ],
+    "tags": [
+      "fit",
+      "career switch",
+      "why leave",
+      "motivation"
+    ]
+  },
+  {
+    "id": "fit-036",
+    "category": "Fit / Behavioral",
+    "difficulty": "Basic",
+    "question": "What is your biggest accomplishment?",
+    "keyAnswer": "Choose something genuinely difficult with a measurable outcome and a personal role, tell it as a STAR story, and explain why it matters to you so the interviewer learns about your values as well as your capability.",
+    "explanation": "### Framework\n\nDifficulty, personal role, measurable result, meaning. The accomplishment can be professional, academic, athletic or personal, as long as it required sustained effort and shows traits that matter in banking: discipline, resilience, ownership, teamwork. Explain why it matters to you; that is what reveals character.\n\n### Strong answer structure\n\n- **Set up the difficulty**: why it was hard for you specifically: a time constraint, a skill you did not have, an obstacle outside your control.\n- **Your role**: what you personally decided and did, especially if it was a team achievement. \"As treasurer I rebuilt the budget and negotiated the sponsorship that funded the trip\" is better than \"our society raised 20k\".\n- **The work**: a sentence or two on the sustained effort: months of training, nights of learning a tool, repeated rejection before a yes.\n- **Result**: measurable: a time, a placing, an amount raised, a grade, a job secured, a system adopted.\n- **Why it matters**: what it taught you about yourself, or what value it reflects (finishing what you start, supporting a family, proving a doubter wrong). This is what makes the story memorable.\n- **Link**: one sentence connecting the trait to the analyst role.\n\nChoose something that is not obviously expected of a candidate like you; getting into university is rarely a strong answer unless the circumstances were unusual.\n\n### What they're testing\n\nDrive, values and humility. The interviewer learns what you consider worth striving for, whether you credit others appropriately, and whether you can tell a story with a clear result without boasting.",
+    "commonMistakes": [
+      "A team award in which your own role is unclear",
+      "Something expected (graduating, getting an internship) with no unusual difficulty",
+      "Boasting without a result or a lesson"
+    ],
+    "followUps": [
+      "What did you sacrifice to achieve that?",
+      "What is an accomplishment outside academics or work?",
+      "What are you working toward now?"
+    ],
+    "tags": [
+      "fit",
+      "accomplishment",
+      "behavioral",
+      "values"
+    ]
+  }
+]
