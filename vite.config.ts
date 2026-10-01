@@ -58,5 +58,16 @@ export default defineConfig({
       devOptions: { enabled: false },
     }),
   ],
-  build: { sourcemap: false, chunkSizeWarningLimit: 1500 },
+  build: {
+    sourcemap: false,
+    chunkSizeWarningLimit: 1500,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('/src/data/')) return 'questions';
+          if (id.includes('node_modules/react') || id.includes('node_modules/scheduler')) return 'vendor';
+        },
+      },
+    },
+  },
 });

@@ -49,7 +49,7 @@ export function AppShell() {
     <nav className="flex flex-col h-full" aria-label="Main">
       <div className="px-4 pt-5 pb-4" style={{ paddingTop: 'calc(1.25rem + var(--safe-top))' }}>
         <div className="flex items-center gap-2.5">
-          <div className="h-9 w-9 rounded-xl bg-navy-800 text-white dark:bg-accent-500 flex items-center justify-center font-black text-sm tracking-tight">IB</div>
+          <div className="h-9 w-9 rounded-xl bg-navy-800 text-white dark:bg-accent-700 flex items-center justify-center font-black text-sm tracking-tight">IB</div>
           <div>
             <div className="font-bold leading-tight">IB Interview Prep</div>
             <div className="text-xs muted">Flashcards · Market Pulse</div>
@@ -132,7 +132,11 @@ export function AppShell() {
                     {n.icon}
                   </span>
                   {n.label}
-                  {n.to === '/pulse' && hasNewEdition && <span className="absolute top-2 right-[22%] h-2 w-2 rounded-full bg-accent-500" aria-label="New edition" />}
+                  {n.to === '/pulse' && hasNewEdition && (
+                    <span className="absolute top-2 right-[22%] h-2 w-2 rounded-full bg-accent-700" aria-hidden>
+                      <span className="sr-only">New edition</span>
+                    </span>
+                  )}
                 </NavLink>
               ))}
             </div>
@@ -150,14 +154,14 @@ function SideLink({ to, label, icon, end, badge }: { to: string; label: string; 
       to={to}
       end={end}
       className={({ isActive }) =>
-        cn('flex items-center gap-3 rounded-xl px-3 h-11 text-[0.95rem] font-medium transition-colors focus-ring', isActive ? 'bg-navy-800 text-white dark:bg-accent-500 dark:text-white' : 'text-fg hover:bg-surface-2')
+        cn('flex items-center gap-3 rounded-xl px-3 h-11 text-[0.95rem] font-medium transition-colors focus-ring', isActive ? 'bg-navy-800 text-white dark:bg-accent-700 dark:text-white' : 'text-fg hover:bg-surface-2')
       }
     >
       <span aria-hidden className="text-lg w-6 text-center">
         {icon}
       </span>
       <span className="flex-1">{label}</span>
-      {badge && <span className="rounded-full bg-accent-500 text-white text-[10px] font-bold px-1.5 py-0.5">NEW</span>}
+      {badge && <span className="rounded-full bg-accent-700 text-white text-[10px] font-bold px-1.5 py-0.5">NEW</span>}
     </NavLink>
   );
 }

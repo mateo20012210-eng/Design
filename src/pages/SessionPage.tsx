@@ -158,7 +158,7 @@ export function SessionPage() {
           {index + 1} / {total}
         </div>
       </div>
-      <ProgressBar value={(index + (revealed ? 0.5 : 0)) / total} color={CATEGORY_META[card.category].bar} className="mb-4" />
+      <ProgressBar value={(index + (revealed ? 0.5 : 0)) / total} color={CATEGORY_META[card.category].bar} className="mb-4" label="Session progress" />
 
       <div {...swipe} className="touch-pan-y" style={{ touchAction: 'pan-y' }}>
         <Flashcard

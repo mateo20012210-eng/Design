@@ -94,7 +94,7 @@ export function StudyPage() {
                   aria-pressed={active}
                   className={cn('w-full text-left flex items-center gap-3 px-2 py-3 rounded-xl transition-colors focus-ring tap', active ? 'bg-navy-50 dark:bg-navy-700/50' : 'hover:bg-surface-2')}
                 >
-                  <span className={cn('h-5 w-5 rounded-md border flex items-center justify-center text-xs shrink-0', active ? 'bg-navy-800 border-navy-800 text-white dark:bg-accent-500 dark:border-accent-500' : 'border-navy-300')} aria-hidden>
+                  <span className={cn('h-5 w-5 rounded-md border flex items-center justify-center text-xs shrink-0', active ? 'bg-navy-800 border-navy-800 text-white dark:bg-accent-700 dark:border-accent-700' : 'border-navy-300')} aria-hidden>
                     {active ? '✓' : ''}
                   </span>
                   <span className="text-lg w-7 text-center" aria-hidden>
@@ -107,7 +107,7 @@ export function StudyPage() {
                         {cards.length} cards · {dueHere} due
                       </span>
                     </span>
-                    <ProgressBar value={mastery} color={CATEGORY_META[cat].bar} className="mt-1.5 h-1.5" />
+                    <ProgressBar value={mastery} color={CATEGORY_META[cat].bar} className="mt-1.5 h-1.5" label={`${cat} mastery`} />
                   </span>
                   <span className="text-xs muted w-10 text-right tabular-nums">{pct(mastery)}</span>
                 </button>
@@ -179,10 +179,10 @@ function ModeCard({ icon, title, body, cta, onClick, primary, shortcut }: { icon
       <span className="flex-1 min-w-0">
         <span className="flex items-center justify-between gap-2">
           <span className="font-bold">{title}</span>
-          <span className={cn('text-xs font-semibold rounded-full px-2 py-0.5', primary ? 'bg-accent-500 text-white' : 'bg-surface-2 muted')}>{cta}</span>
+          <span className={cn('text-xs font-semibold rounded-full px-2 py-0.5', primary ? 'bg-accent-700 text-white' : 'bg-surface-2 muted')}>{cta}</span>
         </span>
         <span className="block text-sm muted mt-1">{body}</span>
-        {shortcut && <span className="block text-[11px] muted mt-2 opacity-70">{shortcut}</span>}
+        {shortcut && <span className="block text-[11px] muted mt-2">{shortcut}</span>}
       </span>
     </button>
   );

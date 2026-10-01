@@ -17,7 +17,7 @@ export function NewsItemCard({ item, rank }: { item: NewsItem; rank?: number }) 
   return (
     <article className="surface p-4 sm:p-5">
       <div className="flex flex-wrap items-center gap-1.5 mb-2">
-        {rank && <span className="h-6 w-6 rounded-full bg-navy-800 text-white dark:bg-accent-500 text-xs font-bold flex items-center justify-center">{rank}</span>}
+        {rank && <span className="h-6 w-6 rounded-full bg-navy-800 text-white dark:bg-accent-700 text-xs font-bold flex items-center justify-center">{rank}</span>}
         <span className={cn('rounded-full px-2 py-0.5 text-[11px] font-semibold', DEAL_TYPE_CLS[item.dealType])}>{item.dealType}</span>
         <span className="rounded-full px-2 py-0.5 text-[11px] font-semibold bg-surface-2 muted">{item.region}</span>
         {item.dealSize && <span className="rounded-full px-2 py-0.5 text-[11px] font-bold bg-navy-50 text-navy-700 dark:bg-navy-700 dark:text-navy-100">{item.dealSize}</span>}

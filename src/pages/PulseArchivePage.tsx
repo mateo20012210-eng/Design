@@ -24,7 +24,7 @@ export function PulseArchivePage() {
                   </span>
                 </span>
                 <span className="text-sm muted">
-                  {e.items} items {e.week === index.latest && <span className="ml-1 rounded-full bg-accent-500 text-white text-[10px] font-bold px-1.5 py-0.5">LATEST</span>}
+                  {e.items} items {e.week === index.latest && <span className="ml-1 rounded-full bg-accent-700 text-white text-[10px] font-bold px-1.5 py-0.5">LATEST</span>}
                 </span>
               </Link>
             </li>

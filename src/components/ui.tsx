@@ -13,7 +13,7 @@ export function Button({ variant = 'secondary', size = 'md', className, ...rest 
   const sizes = { sm: 'text-sm px-3 h-9', md: 'text-[0.95rem] px-4 h-11 tap', lg: 'text-base px-5 h-12 tap' };
   const variants = {
     primary: 'bg-navy-800 text-white hover:bg-navy-700 dark:bg-navy-100 dark:text-navy-900 dark:hover:bg-white',
-    accent: 'bg-accent-500 text-white hover:bg-accent-600',
+    accent: 'bg-accent-700 text-white hover:bg-accent-800',
     secondary: 'bg-surface-2 text-fg hover:bg-navy-100 dark:hover:bg-navy-700 border border-base',
     ghost: 'bg-transparent text-fg hover:bg-surface-2',
     danger: 'bg-rose-600 text-white hover:bg-rose-700',
@@ -49,7 +49,7 @@ export function Chip({ active, children, className, ...rest }: React.ButtonHTMLA
       type="button"
       className={cn(
         'inline-flex items-center gap-1 rounded-full border px-3 h-9 text-sm font-medium whitespace-nowrap transition-colors focus-ring',
-        active ? 'bg-navy-800 text-white border-navy-800 dark:bg-accent-500 dark:border-accent-500' : 'bg-surface border-base text-fg hover:bg-surface-2',
+        active ? 'bg-navy-800 text-white border-navy-800 dark:bg-accent-700 dark:border-accent-700' : 'bg-surface border-base text-fg hover:bg-surface-2',
         className,
       )}
       aria-pressed={active}
@@ -60,9 +60,9 @@ export function Chip({ active, children, className, ...rest }: React.ButtonHTMLA
   );
 }
 
-export function ProgressBar({ value, color, className }: { value: number; color?: string; className?: string }) {
+export function ProgressBar({ value, color, className, label = 'Progress' }: { value: number; color?: string; className?: string; label?: string }) {
   return (
-    <div className={cn('h-2 w-full rounded-full bg-surface-2 overflow-hidden', className)} role="progressbar" aria-valuenow={Math.round(value * 100)} aria-valuemin={0} aria-valuemax={100}>
+    <div className={cn('h-2 w-full rounded-full bg-surface-2 overflow-hidden', className)} role="progressbar" aria-label={label} aria-valuenow={Math.round(value * 100)} aria-valuemin={0} aria-valuemax={100}>
       <div className="h-full rounded-full transition-[width] duration-500" style={{ width: `${Math.max(0, Math.min(1, value)) * 100}%`, background: color ?? 'var(--color-accent-500)' }} />
     </div>
   );

@@ -57,9 +57,9 @@ export function Onboarding() {
         <h2 className="text-xl font-bold">{slide.title}</h2>
         <div className="muted mt-2 text-[0.95rem] leading-relaxed">{slide.body}</div>
         <div className="flex items-center justify-between mt-6">
-          <div className="flex gap-1.5" aria-label={`Step ${step + 1} of ${slides.length}`}>
+          <div className="flex gap-1.5" role="group" aria-label={`Step ${step + 1} of ${slides.length}`}>
             {slides.map((_, i) => (
-              <span key={i} className={`h-2 rounded-full transition-all ${i === step ? 'w-5 bg-accent-500' : 'w-2 bg-navy-200 dark:bg-navy-600'}`} />
+              <span key={i} className={`h-2 rounded-full transition-all ${i === step ? 'w-5 bg-accent-700' : 'w-2 bg-navy-200 dark:bg-navy-600'}`} />
             ))}
           </div>
           <div className="flex gap-2">

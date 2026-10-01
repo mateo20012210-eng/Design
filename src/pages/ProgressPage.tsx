@@ -77,7 +77,7 @@ export function ProgressPage() {
                     {mast}/{cards.length} mastered · {pct(m)}
                   </span>
                 </div>
-                <ProgressBar value={m} color={CATEGORY_META[cat].bar} />
+                <ProgressBar value={m} color={CATEGORY_META[cat].bar} label={`${cat} mastery`} />
               </li>
             );
           })}
@@ -153,7 +153,7 @@ function BoxRow({ label, count, total, color }: { label: string; count: number; 
         <span>{label}</span>
         <span className="muted tabular-nums">{count}</span>
       </div>
-      <ProgressBar value={total ? count / total : 0} color={color} className="h-1.5" />
+      <ProgressBar value={total ? count / total : 0} color={color} className="h-1.5" label={label} />
     </li>
   );
 }
