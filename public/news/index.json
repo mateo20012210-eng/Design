@@ -1,4 +1,12 @@
 {
-  "latest": null,
-  "editions": []
+  "latest": "2026-W40",
+  "editions": [
+    {
+      "week": "2026-W40",
+      "from": "2026-09-28",
+      "to": "2026-10-04",
+      "items": 40,
+      "generatedAt": "2026-10-05T12:55:27.202Z"
+    }
+  ]
 }
