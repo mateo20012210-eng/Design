@@ -1,0 +1,569 @@
+{
+  "week": "2026-W41",
+  "from": "2026-10-05",
+  "to": "2026-10-11",
+  "top": [
+    "n2edda936",
+    "n587598f2",
+    "nb8fc3f43",
+    "ncf8dc1a3",
+    "n8f8a3a61"
+  ],
+  "items": [
+    {
+      "id": "n2edda936",
+      "title": "What a $30bn Aussie data centre IPO debacle actually means",
+      "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-10-12T05:00:06.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "Europe",
+      "dealSize": "$30bn",
+      "excerpt": "Misery, thy name is pulled IPO",
+      "score": 65.3,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n587598f2",
+      "title": "Starbucks has explored takeover of Chipotle in restaurant megadeal",
+      "url": "https://www.ft.com/content/79cef26a-e5e9-41d0-9af2-876dc23a9a7d?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-08T20:15:03.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "dealSize": "$41bn",
+      "excerpt": "Purchase of $41bn market-value burrito chain would rank as largest restaurant acquisition of all time",
+      "score": 62.5,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nb8fc3f43",
+      "title": "McKesson and CD&R strike $5.8bn deal to buy infusion services provider",
+      "url": "https://www.ft.com/content/0bc54eaf-d545-4591-bb7c-ec3cbc1cb89a?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T13:52:19.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "dealSize": "$5.8bn",
+      "excerpt": "Acquisition of Option Care Health is latest buyout of a healthcare services company trading below historic valuation multiples",
+      "score": 58.4,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ncf8dc1a3",
+      "title": "Billionaire Weston family to buy Boots in $8.9bn deal",
+      "url": "https://www.ft.com/content/68c0fcb8-a69e-4767-a7fc-f84acb04cbd7?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T13:50:35.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$8.9bn",
+      "excerpt": "Canadian owner of Loblaws and Shoppers Drug Mart to buy UK pharmacy chain from private equity firm Sycamore Partners",
+      "score": 57.7,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n8f8a3a61",
+      "title": "One Equity Partners agrees $725m deal for DCC Energy’s Nexora tech division",
+      "url": "https://www.pehub.com/one-equity-partners-agrees-725m-deal-for-dcc-energys-nexora-tech-division/",
+      "source": "PE Hub",
+      "publishedAt": "2026-10-12T12:48:22.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$725m",
+      "excerpt": "Nexora is the technology division of DCC Energy, which Energy Capital Partners and KKR have agreed to acquire. The post One Equity Partners agrees $725m deal for DCC Energy’s Nexora tech division…",
+      "score": 55.9,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n08bcbb50",
+      "title": "DOWNLOAD: Private equity fundraising turns a corner",
+      "url": "https://www.privateequityinternational.com/download-private-equity-fundraising-turns-a-corner/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-08T11:38:15.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "dealSize": "$702bn",
+      "excerpt": "PE funds raised $702bn between Q1 and Q3 2026, around $101bn or 17% more than the same period in 2025.",
+      "score": 55.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n5c02cb41",
+      "title": "David Ellison built a Hollywood colossus. Now he needs to run it",
+      "url": "https://www.ft.com/content/76adb82b-3181-4d05-a383-a8131bdb19af?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T10:28:22.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Europe",
+      "dealSize": "$111bn",
+      "excerpt": "Media mogul faces a steep challenge after closing his $111bn deal to bring together Paramount and Warner Bros",
+      "score": 55.7,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n88df2cef",
+      "title": "Private equity’s future after the boom and bust",
+      "url": "https://www.ft.com/content/99968044-a1f7-4722-b407-2a7310b27ca9?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T04:00:22.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Europe",
+      "dealSize": "$22tn",
+      "excerpt": "The mood in the $22tn private capital industry was captured on Tuesday at the FT’s Private Capital Summit",
+      "score": 55.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ne98e98f2",
+      "title": "Largest-ever US utility megadeal faces backlash in Virginia",
+      "url": "https://www.ft.com/content/70308419-20a2-4236-a03e-346b4626997b?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T04:00:17.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$67bn",
+      "excerpt": "Rising power bills and concerns about monopoly power prompt officials to intervene in NextEra’s $67bn Dominion takeover",
+      "score": 53.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n24949399",
+      "title": "Informa to buy rival events business Clarion from Blackstone for £2.2bn",
+      "url": "https://www.ft.com/content/0c8c0122-cc24-4ea5-bc7f-09bfc95d3dd1?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T13:13:55.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Europe",
+      "dealSize": "£2.2bn",
+      "excerpt": "FTSE 100-listed company is also separating its academic business to focus on live operations",
+      "score": 47.4,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n06ef09ea",
+      "title": "AstraZeneca CEO says Summit drug could drive next generation of cancer combinations after $2 billion investment",
+      "url": "https://www.cnbc.com/2026/10/05/astrazeneca-ceo-says-summit-drug-could-drive-future-cancer-combos.html",
+      "source": "CNBC Business",
+      "publishedAt": "2026-10-05T19:44:30.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$2bn",
+      "excerpt": "Pascal Soriot spoke exclusively with CNBC from the site of AstraZeneca's new $1 billion R&D facility in Kendall Square in Cambridge, Massachusetts.",
+      "score": 43.6,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n372137b0",
+      "title": "Boka targets $300m for third defence fund",
+      "url": "https://www.privateequityinternational.com/boka-targets-300m-for-third-defence-fund/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-07T12:47:59.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "dealSize": "$300m",
+      "excerpt": "The firm started raising the strategy in Q2 and aims to reach final close by Q1 next year as more funds emerge in this space, Private Equity International has learned.",
+      "score": 43.3,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nafa6287b",
+      "title": "CVC sought to hush Israel defence deal to avoid controversy",
+      "url": "https://www.ft.com/content/6235bf20-80da-42c0-b9cc-e4d996d6c135?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-10-12T04:00:07.000Z",
+      "dealType": "M&A",
+      "region": "Middle East & Africa",
+      "excerpt": "Private equity firm made unusual decision not to announce its acquisition of a 40% stake in camouflage maker Fibrotex",
+      "score": 31.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n60c98424",
+      "title": "Private equity puts string of UK high street names up for sale",
+      "url": "https://www.ft.com/content/48b8c4ce-b2bf-44e2-badf-8159a9d664e4?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-10-12T11:00:02.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Europe",
+      "excerpt": "Owners of PizzaExpress, Morrisons and Third Space seeking exits as buyout groups cool on sector",
+      "score": 27.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nf05ed1b9",
+      "title": "Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires Wisconsin business",
+      "url": "https://www.pehub.com/orlando-bravo-ai-is-reshaping-investment-research-tigertails-hvac-platform-acquires-wisconsin-business/",
+      "source": "PE Hub",
+      "publishedAt": "2026-10-12T13:03:06.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "excerpt": "Tigertail launched in 2024 with initial backers including family offices and industry executives. The post Orlando Bravo: AI is ‘reshaping’ investment research; Tigertail’s HVAC platform acquires…",
+      "score": 25.9,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n1932ba4e",
+      "title": "Ardian-backed HR Path acquires AI governance and compliance startup SnapAI",
+      "url": "https://www.pehub.com/ardian-backed-hr-path-acquires-ai-governance-and-compliance-startup-snapai/",
+      "source": "PE Hub",
+      "publishedAt": "2026-10-12T12:57:09.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "North America",
+      "excerpt": "SnapAI is a startup specializing in artificial intelligence and regulatory compliance. The post Ardian-backed HR Path acquires AI governance and compliance startup SnapAI appeared first on PE Hub .",
+      "score": 25.9,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n3f74ef54",
+      "title": "Tigertail Capital Partners’ Advantage Distribution Holdings acquires HVAC distributor Badger Metals",
+      "url": "https://www.pehub.com/tigertail-capital-partners-advantage-distribution-holdings-acquires-hvac-distributor-badger-metals/",
+      "source": "PE Hub",
+      "publishedAt": "2026-10-12T12:34:43.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "excerpt": "Badger Metals distributes HVAC equipment, parts and supplies to contractors across Wisconsin from four branches. The post Tigertail Capital Partners’ Advantage Distribution Holdings acquires HVAC…",
+      "score": 25.9,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ne2f9f951",
+      "title": "Market Talks: Equity",
+      "url": "https://latinfinance.com/magazine/2026/10/12/market-talks-equity/",
+      "source": "LatinFinance",
+      "publishedAt": "2026-10-12T04:20:00.000Z",
+      "dealType": "Restructuring",
+      "region": "Latin America",
+      "excerpt": "Latin America’s equity market is still waiting for a proper IPO revival, with follow-ons doing most of the work this year. Bankers expect that to continue through year-end as creditors in Brazilian…",
+      "score": 25.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n959d0dbb",
+      "title": "Private equity can cut ‘best’ deals in current climate, says Permira boss",
+      "url": "https://www.ft.com/content/b42bb760-3eda-430d-adfd-69c359425c1d?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-10-11T04:00:16.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Latin America",
+      "excerpt": "Lower valuations and reduced competition should help sector to ‘exceptional returns’, says Dipan Patel",
+      "score": 25.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nadcfeeb3",
+      "title": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-10T18:14:28.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "excerpt": "Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+      "score": 24.4,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nbee6f729",
+      "title": "Starbucks says it is not buying Chipotle after takeover speculation",
+      "url": "https://www.cnbc.com/2026/10/12/starbucks-denies-chipotle-takeover.html",
+      "source": "CNBC Business",
+      "publishedAt": "2026-10-12T13:23:41.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "excerpt": "\"Starbucks is not buying Chipotle,\" a Starbucks spokesperson told CNBC.",
+      "score": 24,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n0906bc91",
+      "title": "Data snapshot: Dry powder builds up in post-2021 PE funds",
+      "url": "https://www.privateequityinternational.com/data-snapshot-dry-powder-builds-up-in-post-2021-pe-funds/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-12T11:48:21.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "excerpt": "Private equity funds raised in recent years hold far more undeployed capital than earlier vintages at the same stage in their life, PEI Group data shows.",
+      "score": 23.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n75fb1950",
+      "title": "Private Credit: Credit Where It&#8217;s Due",
+      "url": "https://latinfinance.com/magazine/2026/10/12/private-credit-credit-where-its-due/",
+      "source": "LatinFinance",
+      "publishedAt": "2026-10-12T04:20:00.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Global",
+      "excerpt": "While private credit wobbles in the US, Latin America’s version is still small, lends to borrowers with little debt, and works alongside the banks. The test is whether it stays that way as money…",
+      "score": 21.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nb9b26c35",
+      "title": "Infrastructure Finance: Borrow Now, Fix Later",
+      "url": "https://latinfinance.com/magazine/2026/10/12/infrastructure-finance-borrow-now-fix-later/",
+      "source": "LatinFinance",
+      "publishedAt": "2026-10-12T04:20:00.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "excerpt": "As the carry trade unwinds and rates stay high, infrastructure sponsors across Latin America are turning to short-term loans. They are betting that cheaper money will come before the bill does.",
+      "score": 21.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nb53d1787",
+      "title": "Why Starbucks and Chipotle really don’t belong together",
+      "url": "https://www.ft.com/content/4dabb3fd-70fd-46f1-9773-f38411ecb162?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-09T04:00:40.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "The overlap between the two brands is unlikely to be enough to justify a takeover premium",
+      "score": 19.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nf51b8910",
+      "title": "Starbucks’ new era of financial engineering?",
+      "url": "https://www.ft.com/content/e8b65126-4bb3-4a54-9027-8f121892b8c1?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-09T04:00:31.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "The world’s leading coffee shop chain has explored a takeover of Chipotle",
+      "score": 19.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ndfd62643",
+      "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+      "url": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+      "source": "CNBC Business",
+      "publishedAt": "2026-10-08T20:12:33.000Z",
+      "dealType": "M&A",
+      "region": "APAC",
+      "excerpt": "Starbucks has reportedly been working with advisers on a takeover proposal for Chipotle, but a potential deal comes with pros and cons for investors.",
+      "score": 18.5,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nfd6d053e",
+      "title": "Sopris Capital completes carve-out of Edinburgh AI firm Blackford from Bayer",
+      "url": "https://www.pehub.com/sopris-capital-completes-carve-out-of-edinburgh-ai-firm-blackford-from-bayer/",
+      "source": "PE Hub",
+      "publishedAt": "2026-10-09T14:10:12.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "excerpt": "Blackford’s AI orchestration platform gives radiology departments access to more than 130 imaging AI applications from over 45 vendors. The post Sopris Capital completes carve-out of Edinburgh AI…",
+      "score": 18,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n2ac135f9",
+      "title": "Germany blocks Chinese acquisition in its largest seaport",
+      "url": "https://www.ft.com/content/3616b259-723d-4797-a96c-be617d673feb?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T11:08:50.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "Berlin rejects state-owned Cosco’s takeover of a Hamburg port logistics group ‘on security concerns’",
+      "score": 17.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n516a9aca",
+      "title": "Inside PEI Group&#8217;s inaugural Private Markets 100 ranking",
+      "url": "https://www.privateequityinternational.com/inside-pei-groups-inaugural-private-markets-100-ranking/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-08T10:29:56.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Latin America",
+      "excerpt": "Read our full report for details of the 100 firms that make the ranking as well as our insight and analysis of each constituent asset class: private equity, private credit, infrastructure, real…",
+      "score": 17.7,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nf7bd014d",
+      "title": "Sainsbury’s search for scale puts mergers back on the table",
+      "url": "https://www.ft.com/content/b53870b9-aa82-499a-9898-b5f7475939f8?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T09:41:24.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "Talks with Morrisons reflect Sainsbury’s renewed confidence that regulators would approve a deal to consolidate industry",
+      "score": 17.7,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ne3b38e70",
+      "title": "France’s BPCE buys ‘friendly’ stake in Spain’s Sabadell",
+      "url": "https://www.ft.com/content/aba4589e-070a-493b-8c16-512070c20b60?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T06:59:43.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "7% acquisition bolsters Spanish bank a year after hostile approach from domestic rival BBVA collapsed",
+      "score": 17.4,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n974a7afd",
+      "title": "Bank mergers arrive in Europe with a whimper rather than a bang",
+      "url": "https://www.ft.com/content/8178bed1-ef14-4ebc-b291-921cef8866e7?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T04:00:22.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "More banking consolidation requires things that don’t yet exist, such as harmonised regulation and acquiescent local politicians",
+      "score": 17.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n17e0cc4c",
+      "title": "The creditor bloodbath in UK telecoms",
+      "url": "https://www.ft.com/content/0e4afbdc-c018-4ee4-86b3-4248ae3e97ab?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-06T04:00:27.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "excerpt": "BT struck a deal to buy TalkTalk but the majority of the struggling broadband provider’s creditors are likely to be left with nothing",
+      "score": 17.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "na8bffc96",
+      "title": "Private equity’s growing complexity calls for inclusive expertise",
+      "url": "https://www.privateequityinternational.com/private-equitys-growing-complexity-calls-for-inclusive-expertise/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-08T16:00:29.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "excerpt": "Slow progress has been made on gender diversity, but the experience of senior female leaders could help steer PE through market challenges and inspire greater representation.",
+      "score": 16.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "ne4b3b5e1",
+      "title": "Data snapshot: Regional and strategy differences emerge amid fundraising slowdown",
+      "url": "https://www.privateequityinternational.com/data-snapshot-regional-and-strategy-differences-emerge-amid-fundraising-slowdown/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-08T15:29:29.000Z",
+      "dealType": "M&A",
+      "region": "APAC",
+      "excerpt": "Europe has proven comparatively resilient, while venture capital – especially in Asia-Pacific – continues to bear the brunt of the industry’s fundraising slowdown.",
+      "score": 16.1,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n0516773e",
+      "title": "Side Letter: Riders on the storm",
+      "url": "https://www.privateequityinternational.com/side-letter-riders-on-the-storm/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-08T10:37:13.000Z",
+      "dealType": "M&A",
+      "region": "Latin America",
+      "excerpt": "In today's edition, Failure to prepare is preparing to fail, LP heavyweights warn; Wealthy individuals acquire a taste for co-investments; Climate risk could soon hit asset prices.",
+      "score": 15.7,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nd5e9d885",
+      "title": "Blue Owl to launch ‘big push’ into insurance",
+      "url": "https://www.ft.com/content/47c82e53-aa63-4b0d-95fd-ecc04d81e6ab?syn-25a6b1a6=1",
+      "source": "Financial Times M&A",
+      "publishedAt": "2026-10-07T04:00:22.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Europe",
+      "excerpt": "Group at centre of recent private credit turmoil says it is ‘not managing enough capital’",
+      "score": 15.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nf86a94bc",
+      "title": "Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday. Here's how we got here",
+      "url": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html",
+      "source": "CNBC Business",
+      "publishedAt": "2026-10-06T15:06:53.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "North America",
+      "excerpt": "Paramount has faced competing bids and an antitrust hurdle since its earliest attempts to take over WBD. Here's a timeline of key events.",
+      "score": 14.1,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n6d413a90",
+      "title": "Side Letter: Fundraising sneak peek",
+      "url": "https://www.privateequityinternational.com/side-letter-fundraising-sneak-peek/",
+      "source": "Private Equity International",
+      "publishedAt": "2026-10-07T12:49:06.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "excerpt": "In today's edition, Fundraising was up in Q3, per preliminary PEI Group data; Why the Fed's rate hike is unlikely to derail private equity dealmaking; A VC manager is back in the market with its…",
+      "score": 13.9,
+      "alsoCoveredBy": []
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-10-12T13:47:26.888Z",
+    "sourcesOk": [
+      "CNBC Finance",
+      "CNBC Business",
+      "Wall Street Journal Markets",
+      "Wall Street Journal Business",
+      "Financial Times Companies",
+      "Financial Times M&A",
+      "NYT DealBook",
+      "PE Hub",
+      "Private Equity International",
+      "LatinFinance"
+    ],
+    "sourcesFailed": [
+      {
+        "name": "PitchBook News",
+        "error": "HTTP 403"
+      },
+      {
+        "name": "Mergers & Acquisitions (The Middle Market)",
+        "error": "HTTP 403"
+      },
+      {
+        "name": "Google News · M&A",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Private equity",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · IPOs",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Leveraged finance",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Restructuring",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Europe deals",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Latin America deals",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Asia-Pacific deals",
+        "error": "HTTP 503"
+      },
+      {
+        "name": "Google News · Middle East & Africa deals",
+        "error": "HTTP 503"
+      }
+    ],
+    "totalFetched": 126,
+    "totalRelevant": 46
+  }
+}
