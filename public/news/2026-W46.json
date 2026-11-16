@@ -1,0 +1,822 @@
+{
+  "week": "2026-W46",
+  "from": "2026-11-09",
+  "to": "2026-11-15",
+  "top": [
+    "n1720d04b",
+    "nbb57615f",
+    "n3cda0548",
+    "nfd0955cc",
+    "n9e152cae"
+  ],
+  "items": [
+    {
+      "id": "n1720d04b",
+      "title": "Coal India's Mahanadi Coalfields seeks $9.6 billion valuation in IPO",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2FDVE1sa0FDd3JZWkh4Z1JFX0lsdFk3VG52TzN5MkdPMHVycVp0bEhEWExvV1JOQ1UzakVJTE1SSGdBM0o0YU9YUEZOOU9SbFRkV0JFdU0xTktrRkI4dlhRYy1TUHo0c2F6bzBJQ2dtelpYYks2VkF2dDlLSmNUQzhNVzJBZU9zOEc5S2tWcnNfSmE3NXh1TW9kRTVIZ0o2bFUzQmJzcVNsbzY2WW4yU0JRX2VFZWVPcnVWOUVuTGFvSEU1TE8wVktSQlo5REpVcWpj?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-11-16T02:29:00.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "dealSize": "$9.6bn",
+      "excerpt": "Coal India's Mahanadi Coalfields seeks $9.6 billion valuation in IPO TradingView",
+      "score": 258.9,
+      "alsoCoveredBy": [
+        {
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcmItdko4YXY5SlBHb2MxYXQ3a190cG9xWU02X2tLM1IyVFVoajgtbE5LUkhJNUl1aWFNdFFwY0VLbUk2Nk1zM2gzUUtvZnZsenE4b2NrM05iTjlCLW51VzUzbGRWTnBUVnhMaGJPUVMyREZieFczWG0xNzFZZjJoVXZHUjdHN2poY0thblBpSVNWSFkwUER6cDlYcG9odEtRMzZxblNBcWg1S01MYl9PWVB1Sk0?oc=5"
+        },
+        {
+          "source": "Traders Union",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTF9ock9pcF9UQjJsQ25yNXJSN0JnNmdfSU9kdzRyVGlhSmhZZ3JiZ2RIaHgtcTB2SnZaZUZySm5MNFc5LVBpcEI4Y24wUVdneU1PaHh6OGl2YTlBanlwRlNoN3J5dlBldVhucHpBb3MwSHUtNjRmcmtIR3VxMjlHd1pjam53SGZZQUFZSTFGMlEyNV9TYXItSg?oc=5"
+        },
+        {
+          "source": "ET EnergyWorld",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdXUzYnBhbFdaZVVjVnZqaTNzdWg1TWFnU09oREhLaW1EV2J0Q2hSeVZWVFZBeVdwMWktWlFnWjRnUnZHVTEwYzJkOUwwSHhrYmhpRk0xRHZheWJ1UU1aejkyd2tsWVZTY3hmRmE3MVVUX2g4QUttd2pIaFR1Q2JMVWxqYV9QU2dkelJweS15cGVWOVNGUTdZb3hPa25id1V1VzNmVGNpT2E3TE56S2h2S0dwR1FYRkotV3FQc0pqWl85M0gwbWFraGt30gHPAUFVX3lxTE1Ld2E2YnJVOTFuck1LSERxMTNzallKcEstQi1NVlNra1JsZTY3dWRXdWVRV3ZvQzVabmNhVGdUNUV0MXF5a3FPMFk2b3lFTDRpM3V0Z0dad0lsX2FodHpFc3ZPZ1RmUFhpV0dVVVZVNVZ0dG9IQVVReE9SRGFTY2tDRGg5TllQM1ltWWRQTHB1SHB1UTEwdnA3SEFBSkFBd2dwNWZsbmNMdTZ0VmJWdjZrQkpiSmtjRy1KVlY1MHhSdzdDd01QWVY3Z0w4OU5SVQ?oc=5"
+        },
+        {
+          "source": "Business Standard",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWFYyNVFvRVJVdm9UMy13ekdELXFtZ0tyLWRRLTV0VlZyNEZNcnZ0a01yZFAwbE1LeTVyeGNDZWdHRVJaTF8yTEpGWEVwUmRSbGIyZjRHN2h4QUFKT2pVUkNLc3YteFk5aFhGS1E0cE9uc0VnSEdBSUI0M3N0Nm9nYnF2SE5vUDF5MnBKSVlyUmtJRVlpZDFTN1d6U05ZMEJOQlVoUEFJWFptekJISFJYcHBhQTNNNjdBVnlJc1ZWSS1ETEVTeWdvTXdsczNjY3BCdmhr0gHYAUFVX3lxTE5LSHViTkF0WjNyMW9lWEZ6RHBScjU2cDNyRUM2ZWZuQk02S1FzY1g3MVdaMElDOEEyZXdKQXUwSUdJQnFkOS1qRi1TR3lEQzZDS1JUaUtELUtvNHRYSFU0ZUUtX1g3ZEhLZEpDZm5TWkhIbkpaQlpTLXhRYTl4MzNxT2tOMFJSd2JTdEZjN3JmeGJsT0ljbFpOODdHQmg0cjZocHR5Z1kzLTFSZjlpb1RpanhqeGxnb1JvbXZJVGEzU29iLW81bDgyNFY3NG9fQjRESXRQNDFOdg?oc=5"
+        },
+        {
+          "source": "BusinessLine",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQXJ2NkFDcDNvNDBKRGg2SUxLOV9Za2dsX2RtY1h1ZEdpTU5FLXFwMTY1MWp1RGhMTDlYMDk0R041bGtSX3NCR21HWXFXeW9PbjFsdXljZlhBNVg4NmsyN3prZXZNYzJKbERWa1QtcjRuYklBY0RSOExrNzZBTGpCdVpabHlDVkUwSEp6d1FuRzVWdkZzVFNnM1NhT01qeUFRekgxa2Zob0lkRm9XbzI0VDhNSVNTX3ZObVpPNW9kZzBjYmlDYUg0OUdMUWFiaDBZeU1B0gHaAUFVX3lxTE9vMF9ieHlTdFJVNlZpUmlvVl9rcEhQZTFzbnRBLUFSeFBoV0pmZThiVWdnNWV3Rnd6blJoT3FQbTl3cHNZZ2ZwV3lUTzVXZWtNdDEwVGg1d21vVUhscTN4YlozSHlhVmNoSzRjbFdTdjBnY1l4MG5GS0RuSzlBUVlid1VyOUwzVXkxLXdVdFd4UGpiazd4X2ZuWm9ocUNmT3NCVEpsLUtxRVc0Y200VlVXVXZMeVpXTHVGbUJVRFh4bUN3dGhfa1h5U2RsWG5yQ3JPTW9vNjhOeGxn?oc=5"
+        },
+        {
+          "source": "Mezha.net",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQnBHd0V4dUFpZVZnaGtCM3p2UFMtLTJWZlZ1ZHFtakp1aXZwaDljeE5yZWRRbEloelJweVotb24wNGlxVGlnQ00xQm5JeFpMeFIxM0ZJVHEwZExZd3NfSFdGTWUydVdDQ2xZX0ZTaFBRdHpvajg3dzhLM1Jvc1E?oc=5"
+        },
+        {
+          "source": "MLQ.ai",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMHdkX0RoME5raEJ3ZEhJcGJJci1jTUdYc0t0aGd1ZXFIazd3MnBuRlFnQjdJenhtTWpobHlOUDNTOUZ1YTRzRDVUTDVHV0t1dlltdFdFV1hDRGF0RFNXeW1LdVUxYk1vNS1EX0F0eVduZWxOVmtvVVEyVkM0WjlKZ0NjV3p6a1dHME5KNEpUNjJFR1Etbk96cEdiOGI4dkM5U2xGUVhVMGk5Wk5vVlhXUDEzWGZjbGs?oc=5"
+        },
+        {
+          "source": "marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb2JrSTNrS05DMnEyNVduVFdPaXBWZzBzTV9WdHJ3bHE0ODYyVDBPTnNyNER1M3VRT0Z0NzBjWnUxaTdYLS1lMkZqX1hSQUZqbW92Qk1ENVBZNHIzT1p2bFNMX3E2ZkZXWDZqc0MwVHdfWW5RY3FJLW15REFwTUFYWUhCR1FEaVJkelVuVW0xMy1fS3Q0bzRjWk9nRndGWFNiVmxwSEhXdWRLQ1JtU25hZnNYSTNZdjVMNXo0N3E5aVNuckFm?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nbb57615f",
+      "title": "Australia's IDP rebuffs Blackstone's third buyout attempt at $564.5 million valuation",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQWJRQTM2Z3lBYkl6SVBUckZ6dUp3MEt4bVRuLS10TFlnSERzUVEwVVNkQmdRQnNqdWpaUVRaTjB4Zkk0VkpCTUlVNFA1RUJwVHhzck5vTm9uMWl3MFhzUGVkSjlQZnIxU3ljQ2tJbF9PZ21IM2F2M2Q1ZFJGZjNfbl8wT0NWUzF5WDBEMmdIamF2bzZhTWZ4eFE2TWduMGFoTXFFVUxMUWRPVHdtTkZjVGVnR1FEdlBjb092cWRkSVo2cmpMOF9RTldaSjZ1OUtGOV9F?oc=5",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-11-15T22:06:13.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "APAC",
+      "dealSize": "$564.5m",
+      "excerpt": "Australia's IDP rebuffs Blackstone's third buyout attempt at $564.5 million valuation marketscreener.com",
+      "score": 149.9,
+      "alsoCoveredBy": [
+        {
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNY2w4bFVudUhVeWlXVHZGcUM1dlhUbWo1c0ZlOUdZbnJSOHBTNDQ1c1A2UkplV1RsRkpLc1FnQW1xWE1aVDRwMzliUmZUVXpTNFNYT2h0ckVfeDZFMlNwQUpHRWFkYmlGY2ZVVGpqTHc2RmpNRjhmN1J0T0lLaFo1c2wxdkZ6bE9JQU5BRHdEa21YWWxqaE1LNDZFUnFueEo5RUhEZFRtYVNDVFBKTmJWUDJJWmxTQ0UtRU1nX005eFFDUTU1SEtLSGNXbThCNXZ6REdyTS1yWUp4TnhicXlqbG5hZC1vZy01S0E?oc=5"
+        },
+        {
+          "source": "The Lufkin Daily News",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPWGFOOUs0R2tIQ0cteU03b2YyY3dqejNYc3ZvT0oyM1BCekZBZnQ2YldCQ3VNZjl3dk11S3QyWmQzM2pxQ2wyVlVCbDFSV2xMSVhURWhzM0J6U3ItRjdnTnBuY0h1VUpIZzJxSkl4VlAzOTBOUnQ3R1FDWnlYV28temJkQWdQdlVjeHZuVmN2MHRvQ0s3YVhVc1hEQ3htdWJLanRnWVFORC04cFJUNzBvWjlXbEtsRVdiejkyZVJaSWZxUWZlTXZpMUl2YzdJRDlidXlVQi1NUThkY1p5TnRranlyUGczS0ctRVlpQ2l3clFXSWJYVlNEdVA0akVBakFGcVFtd2s1SWhFY1VpbDM4?oc=5"
+        },
+        {
+          "source": "Fresno Bee",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SczdtTXRfTnFFajBab2d6XzUtR3RTa0M1RmVrYjF2VkpicS1EdmNSakVIVTh3ejRvLUw1bnpua2ZkN2pvMzBUeGVrdk5ERFdZa2FJcXJ2b080Y3BZdUpIa0MzQW9qdkFXOE1wbDVn?oc=5"
+        },
+        {
+          "source": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS0I0NlpfQ0JBZldjZVJRMVBxUzFoVzg5V1FCSGpFbWotWDVyeXZlQ2xxUnBNc3ZKNnNrN3MzbEtuVmJtNjZCUzd0V24xYlBXQ2piU0F1bW8zUFpBcU1ISlFKOS1Sd3Zaek1jYUZ3SV92Umpkc0hUWFY3YjFUbUtiWm82c0NMV3l2UTl3TFBFcVJ6aXVtMVlWNGxEUnJxdlBjLUlISEFoT3JjTld2RC1PQ0owRW9yVHZVRFRtVjJiYlFVQk1vdUV0X19MVWs3MWJUX3ZHNg?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n3cda0548",
+      "title": "J&J strikes $2.2 billion buyout deal for eye disease biotech",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd1NCalMyQUV3MnhKa2JWY0F5bmlIQ1hrR2EycnpKenBQR0txUVJGUFhyckduTGVCb1BMU0JYaXBMenlTZXQtelE4V2FWM0M4M1hjQ1pUYzRza2tjSFBRbUFuZGE2eVRteGhlVUtDaFRhUDJ3N2N6NjgxeUhMWlNTRHRZS0R2X2hmakc1OGNoeV93dUNWMXdfUkh5NXI4X3dTQzFhUl93cUlzN3ZBR3NLVkZfOFBCTEg0QUVKY0xWR3JBMl9ETlVaOQ?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-11-16T13:02:53.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Europe",
+      "dealSize": "$2.2bn",
+      "excerpt": "J&J strikes $2.2 billion buyout deal for eye disease biotech TradingView",
+      "score": 130.3,
+      "alsoCoveredBy": [
+        {
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOGMtOXhKbUJWVGR0ckFuVXhLTTJHODRRaExuTERnTlBCTFNTUFY1VUd2aXp5SUJrRHJCSkpIVFVZdVhaSzVWdk9xcW1rR05USV9rdjhTbkpGOHNvWWVkeUpackJYNUdaZnZjUUY2LVk3NTdFZDJybFg3RGdRbG9nd2hNZnEwZTZ5M2owakVjbUF4eXRUdEJlS3JNbWJZLUtpS0R6OEQ1OG1OZzlOc25hUVdjbWRrLU5nbndfWGswRGFUNE9NaXc?oc=5"
+        },
+        {
+          "source": "Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEFpYTkxeGZCUFJoRDBpN3lJZ195d3dMQzFtazVKRjFzOXllRkkyampjd04zdXF4OVJZb0ZjaHNRVUs4TXNBRlRVWjlxaF9QdEhpaW01RDV4c0xLYjBnaEpRWEswbTZtZlQ5aG9vN3NzaFY2XzBNVE5CZW83aUdCMWl5bWYzQXEwM2J3bU42SDJHWHhWNHVUSmVvc202VEwtdEM4MG05VjBfSEpoYkhKSTNmbF9aYXF0c1JWdDVGOW9oeVc2bHZoSGJ4Um4?oc=5"
+        },
+        {
+          "source": "WTVB",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNemNJdUhXalU5V1h3VUlyeE92d3V3U2prbWg4QlZHeTlsbzFuTGl3U1pMLWJuY1liTDk2dmxTUmx2dkRZQkZFQ0dTWFMxc2hEemdjTXVrbzdGTE1seHVLY18zQ1d0SHZ6ZllyeU9QUmZCeFR2aml1Q1JPRWFkRnFHTGpBUWhCVEFNODk2bW52SFRkTC1hWnhhNDUwXzA2VzNUbmVJcHAwcFZNRm8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nfd0955cc",
+      "title": "Medtronic Plans $380 Million Acquisition of Contego Medical",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWDF0eHBwaGJ3RHFfWS1GN3VDSmFSRmFjRzZmdVMybm0xNHdickdjNDZOTGQ1MVRadE5ocmRPUDhsUjFXY2JfRlpSWDBKX1Y5REVDeTQ0QWMwWEVBWHJWZkFvUzc4Wml1TEdKUmlfdTZ5M3g0bGNhZzVfYUdFay0yNmRQUkxwWUtiMHVZTUh3?oc=5",
+      "source": "Securities.io",
+      "publishedAt": "2026-11-16T12:11:23.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "dealSize": "$380m",
+      "excerpt": "Medtronic Plans $380 Million Acquisition of Contego Medical Securities.io",
+      "score": 122.9,
+      "alsoCoveredBy": [
+        {
+          "source": "Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZEYxRmVETUJSMGVfenlobVNKSFRUbm52ZTFiTzliUjhtT0hCaW5sQzdRRXB1OWs4NXl4VVFFN05zMWUxSDFBNWtfb3ZVYnBLcjZTeW9OXzhacWp3UmFNMVp5MGtoZ1I0OEREb1JqakZvaFJqbEIwMUxjWlJqSlZsblFNQW9vOTJJR0tpcFE2b0ZrcmtUOUMxNUQ5RF9pR3Z3dEhHT1hsSHdyZzhhQng3NHppZU5TMzJySHYwVnh0dkNIT3BtRy1pNUxB?oc=5"
+        },
+        {
+          "source": "Crypto Briefing",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUS0wRnZMY0dDNU1KWjlQQ0NxUVZnRlk1dUQycS1SakZOTlhMcXpHTVMwa21MWl80R05MM0Mxa3VINlRGa0ptVzhGQkpGQnVnY2xrQUh2dnZNZFdZdlNmUkhsNWlVYklJcDRkQWlBdHljMDNJSDh6Ylk3X1A2UTB1VVBrSHA?oc=5"
+        },
+        {
+          "source": "grafa.com",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUFk5WWJQdkFYV1h6dzdydVlGcS05ZVFvWTNmZGR0Mzh4d08teTN0S19DbXVYNlEyVWZqZjN6ME9LX0dVaGl1RTJ5U3VWZWs2VFlrRGdGMXlJSUhyS3YxczBERkF4SVljVlRuMlJpYkZWaVBqMVNndnc1TWZPZ243VEFZWlNHTzJZSVkyY21fMG5jZTBSWTBycW5pOFJNVldVaThtalZVNm4zaTdRMDhaTFduc0ZHOWZOenRDcmlMaURLeG1VVnE1MHliWG44Y0diM3BvZ3BRM04wbjRJTHdNZTh1SDZBWHlZWE15b2hqRQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n9e152cae",
+      "title": "Walker & Dunlop Arranges $285 Million Refinancing for Fort Lauderdale Luxury Multifamily Tower",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXFkUmctektRelBKSGVQaWxVOGZOazNwbW43SVJvT1pEajhvakFtR2c2aEc3NW10Y3haeEVkN1VNdG9CY3RSV01ZLXRObmxMSGpKZ0FEdXc2U2RoX2FobEo5Zy1JLXpmWkV0NlNvT3JCanVteUM3OExJMHJWU2VxdXRaWXhXSW5KdzlDUXVQOFg2ZVp5dDJtWUFMNVp4UzlXY04xTGNn?oc=5",
+      "source": "Financial Times",
+      "publishedAt": "2026-11-16T11:30:00.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Global",
+      "dealSize": "$285m",
+      "excerpt": "Walker & Dunlop Arranges $285 Million Refinancing for Fort Lauderdale Luxury Multifamily Tower Financial Times",
+      "score": 122,
+      "alsoCoveredBy": [
+        {
+          "source": "Bluefield Daily Telegraph",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQS3BRV1E4OEVzdFFOdVBJNXlvLXlmczh5TERmT2NJN0hOVWR4R2NxS0hKWHNJeWhXa2ZZU3plRzhMcWM5dUU4dnd0SkU0cXpnRjRyVTBsUkZCUGJoT1lpcXB1QkxybFVZTmxyTTRiOEpSQ0lVNjVMLTJkWklHMk52T0UyajBzVXJRa2N2Mnh6TUJlVGw2MkNuOVFvZWd6Rm1wRlJOLWdjS2c3MVdmdnB6cFNOR0k3ODZZZWRDV19zcHhWREJ4aVlpTGtmSjlWNVZiZTFSRHdkTDNIS0lTakJLcEZxbjdxT0dSWWR5eElRWHcyc3lhdHFKOGdmclhhZEdJXzl5SA?oc=5"
+        },
+        {
+          "source": "巴士的報",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQXB0RlBvTG5HckZyalZJSXhXbFJCUWlGLXZDTk1IWjFsN2F3ZVVuVmt4TmZvYjhYazg0NmN2R1VKSGozdmtCMHRXNEctSlQza09tVG5SLXJHX0txOHNDOVc2U1cxODIzd0FjQzZOTnJkS1laRWtJNGh6cmxadlJnNU0yd0diempNZzd2LUhQMnFsS3dtNW1leVBBQXVjZjE0azV6QmtXUVhGdG8zZ1NqOVF2ZE5GdWdGZnNOODNuTFdxZVRldUJ1a2dfTGhHUWRRY2tVaXZta1R2Uzg?oc=5"
+        },
+        {
+          "source": "citybiz",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUEVLcFNJd1dPaEFKWVJZTld3eV93b25IZUhpaHE5MWd0aEtaRUd6UV9mNll4aWFxYUpaZUtqaFJiS0dUUXFxWHYxQXp5aGxjeXNYdHZaVG9LR3JfeEFjajBuZDlWcTg3aHhNeGlwMEpMZVpBaUhLT3FvRWY3WklHSFBjRVgtSENtd21CSV9uQkJhM0V0S2JnRHFTUkxWUkk3V3NSdDFyNEVRQzdEZkRJNmFUYThyLWQxLUE?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n9813ec49",
+      "title": "ASSA ABLOY acquires Rometal in Brazil",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbDJmelNBdDJucUROTVRhN2dXRzJQTTJyOEY3a1hXNzZDQUpNaWU5NVJkbndHUGwxOUtIemlUQ0JlQzdhM1JhanRzdXg5UTM5RFl3S0tFbmY1cGRCOUp5RTlYTmdmdVNDZHJSZloyQUhKZ0xaNHhrdTVPeGF3UWd5R3dPeWhqZ1k?oc=5",
+      "source": "Assa Abloy",
+      "publishedAt": "2026-11-12T07:00:00.000Z",
+      "dealType": "M&A",
+      "region": "Latin America",
+      "excerpt": "ASSA ABLOY acquires Rometal in Brazil Assa Abloy",
+      "score": 113.4,
+      "alsoCoveredBy": [
+        {
+          "source": "Security Informed",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa3FtazMyMFpUYlhoUlg3clJqQ0ZhS3F1UEVsMllmNXROLUNFYUdjd1ZTeHN1X01XbUxDTzhjMmJ3QkRnQ0F3dThadnR0ZjNHdkM3d2E4Qjl5ZEVodU8wNFNjN3I2MVVCZnNSNmx6Zy1TY0RPN3Z0d1g3LWRyUVNBRTZERkk2Y1JvY1RTRHhjLVdhdVIxMUVkWFYtVTlueWNPUHhvUFdJZE50LVQ3cmdmdmVvSUI?oc=5"
+        },
+        {
+          "source": "marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNazZQU0FEdVRuUlFJcXEwdnVmVkJjaEliUkMzUF9td3h5alNBZDRvVzJSUjVIQkhfYzNjei03QmM5cXZEMnFITkh4RTZuX3B1OU5kLTM4VmM3WDhoOV9HQlB2N2wyb1JfdEstR0NFRE9wM0hQR3ViWVVPbEhDRDgxNGR1ZW5PeFZXam1Fa2ZEd01zMS1FaWE3ZEZsTGFOQmprUzJjUGtWbmRtZ21kNFAyVG5acWlTOENh?oc=5"
+        },
+        {
+          "source": "Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZjFrTlA2azNYSklwYlFCenBBMERnT041TmFuSW1ZZ0c1N25uM1o0NGdTYVR4dFRVTGtpQVFzTTZpbGppN25vQ1lBNGRReVkxSXE3NFpsUF93TUZVTGc3Nzk0SW9tRnVlSWNVWk1vLWxGU2JHTnNXOGRPRzNHVzc2Z25YQ2pNV3JEZ25IdFFCc1JiRGZmQlJkS0Fn?oc=5"
+        },
+        {
+          "source": "AL Circle",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRi1BTzd3cU1aOU4zeVpfQk03TXpkcERxZVpqcUhXRWpQNHZrZy13a0I3R0RvTEhudVVLNGlQdlhmWXB1MjMxM0lUZlRDY19BZzlManVxTldLWTNNVGNaaGttNHV2RGRTbm1mY1QtdGY3TVFPdWx5U2JrVzJCOGRDS1lKOFJCUnRMZUJGaE9kUVBKUVViLTlMYlRUbXQ5d3Za?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n75ec02af",
+      "title": "Alibaba plans Hong Kong IPO for its semiconduct...",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWVJ1XzN5djJnYjVlZFl3UzgzX1oyQkdJV18yUlR0V0xHeHFkQkp6MFBZNWxuVzg0WmtmRTl4SjVtSlhKWExxVERaOE1RUlZscG43UDR1QlFTQVFWQk9MV3h5R3hDQUdxaXowVnFRcE5mVzdZQTlqRzl4cnNsSDMzUkxpdDJUU0dqYjlvajdJd1psWDN2RUw4WQ?oc=5",
+      "source": "Pluang",
+      "publishedAt": "2026-11-11T03:28:53.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "excerpt": "Alibaba plans Hong Kong IPO for its semiconduct... Pluang",
+      "score": 109.1,
+      "alsoCoveredBy": [
+        {
+          "source": "CNA",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNl9TOW5IRWhqYUNzNVFWY1VwZDFiM0dyRXBhNkd1aVZEWXpaTE1xZTVqRlpEUTc5cENKd2ROMnRjTC1vbGhyWnExYk54X2JHbm5rcnRqb3ptV3dISmJHaXlwTXdtamhXZktaTGJtVldxbkpnS1pFSzRKQTRiVm92WXZ4bjB6R2pMZjZ3R0VMbEFuVV81X05n?oc=5"
+        },
+        {
+          "source": "24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLVJUNDdyb3lsVkpyRld6Mk5fNDlndlJwb3hLVWh1eno1aVREWEdFOWh0SFhGLTl6ekROeGdRWVpBOHZoUVI0TXpfLUhMNjRtTjJYbTRQbDNzZ0NyNFJJbkc0QWFjMXBYVDMxYWkzRXVRRWVBXzlNdmV2QkZuR2YzRENJM0E0Mlg0R3pVeDFpa0dLRVNya3NYd1Zmb1A0S0Z0WlFlelBn?oc=5"
+        },
+        {
+          "source": "Central Oregon Daily",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUURmNE1jTy1SU1pTR0JOYmxwdUhmUkRQdkFwWGtDTExMWTZaUVNOLUg0UVp2WjlSVFZTMWY4VHpwQi04OGJUaU0zWFhBUVRab2lNRHJTMTlJcy02WU1oalhYSExLaUlYRERSTnZDTWtYM19kZGg0U2hpbkpFZXFtVWhWRjZRUXNiZmRCdmxNZmZoTEduNE5VeS1sbFdmY1o5OE80N2RDcjl4V19YelJsU3JCTWRUQnRXUWxtVENvcmVydm5Za3ZxUnU2bmJsMjlCdVNTOG9taTREN1BucFlka1pyRzU?oc=5"
+        },
+        {
+          "source": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGRSdmR5OFBJVHJJWU5YZXl4M3pvaExGRUg5NjZXVnd1aGwtZGV4TUlJX1pnUDZZRU15SG5PQTZRUFFVbUw4Tk9UY2Q0MEVjZ2hqcEowZTZRTTZET3A3UzhWTG9JemxxcER6OEZ2TW1zdU05RHVqODV5TjBrZUhsOGxwRHI1QTF6YUdOQUtBZmtHRHhHVmw5ajdQMEZhcjRoT0RIVWxwYXJOYU9jN1E?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n31d615ce",
+      "title": "Diamondback Nears Acquisition of Double Eagle V for About $5 Billion",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5yVEVfOHgtUjZpMFpMRWtXLThLbUpwRzFPZkg5ak8xVHJkdVgyclAzVU81SHd6UzZVaFRINkRQd0hlc294VnByVHpoVFdYQXRZWm9iOVVDaGE?oc=5",
+      "source": "TOKENPOST",
+      "publishedAt": "2026-11-15T20:25:02.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$5bn",
+      "excerpt": "Diamondback Nears Acquisition of Double Eagle V for About $5 Billion TOKENPOST",
+      "score": 104.4,
+      "alsoCoveredBy": [
+        {
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPak5qVG9xemYzbWdyN0pwZFNadmtCSEZWcWZZUTNhSmp4UG9yTGhvWDZLZ2RLV2cwWFBUR0g4SmFXdmpTeDVnaVNqLXlBYUJTazB6bEttckdyVFgyREdQdmY4amNyOXdDRklWTW85UFBsWTVuNEZNdzBhZFAzTEdjQW5kUzd6bjhzOU92M09WdmR6VVJXLXRDQ1gyWXNTdzlpdHltc0RnMlBJUXhSdEVMN2dpQQ?oc=5"
+        },
+        {
+          "source": "grafa.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFNkLWstU3VWaS1pSVdRRHRrVTVRV1hkZmdMZGlIQW9BWkhqMHRxblBrVExQRFByQnN0N2VTcWxuRjVmWWdSVWlTREF2RUdJM2FUcFFpc0FxQ1RlR1BPX182d0xwUmFwb295T2toa3RZZE1mdlJWZ3ZfczljUHI5UjRRaGZ4WllNaldmVWh4andQSHVibFdIc1BEQTZfNllwa3NpWG5fUWN1QzA?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n343be0ec",
+      "title": "EasyJet shareholders approve £5.7 billion Apollo takeover",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWF9EOFBOelFYUVhLOHVHTEh1VGdNWHN1ZzNHcHV4UXk1dFJtRjZnRGxHVTVKT2RYM2VnVGhxVy1JYmNVSjBqTmVUWDNoWlA0X1gzNHNIQ001YmlCN2lVTXVOMXQ5ZFJiLU9qMFI4WUw4empULTl1RTBqUWFMVWlabllYOXhKYk9qMHhUaF9ZT3hULXAyakU4dkJYb0xabnFoUnc?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-11T17:23:29.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Europe",
+      "dealSize": "£5.7bn",
+      "excerpt": "EasyJet shareholders approve £5.7 billion Apollo takeover Reuters",
+      "score": 96.6,
+      "alsoCoveredBy": [
+        {
+          "source": "AeroTime",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbTZMLW5Vbjk1bFpfcTVreHp0QkZ5bTM4Y25LbWFIYi1rZEtNeDV2aUN1b3htNUZNa2VaS3pwTGRYczBIclhmZ3ZacHNfUXdzTWhkRE5LN294eV9PRjYyM2ZRVWJrM3NVOTlaRUU5V3FuRmJWbEpBc2ktRURCZVNVRlZRcGZpQdIBiwFBVV95cUxNYURpSVJyd1pSUEtnUnI0TWRVRHJydllpOGNjdUxGMENLRFEwdDBIOEZqYThFcFRxRXNsaGRPbHdITDNCSnhPWnpfYVhhdF9RX0pnUHJieWdyUFhfaUtocl9QckxOUzJtVkpXRFVyc2U5UW5tcjVMX2tzRkJTNm9jeENVNXJncEE0NWhZ?oc=5"
+        },
+        {
+          "source": "Business Insider Africa",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYWtuU2tVWmM4OFdndzN0MjJ2ZFRQZDh2Vk1CQ1YzUnNyVGFIS1NidkdQUThBalJ5REtWMVNkS0I1UEhuUTdPQ05CeGpyekE5Mm9KN1pFTTdPQUNBOE5oZlk3Snk0eXR4QzV5bE9yTzVKSWhuZGFSMm1RMU5haE1ncUZuczdVcFc0dHRnR3dnb2JIejRDU05OaTFSbmdSVHZRMy1zSWw5ZThiZG00RVNTbmlEUlZBWFVBMWdGY1hQeHp2SUl4ZEY3NUt2aXZ5Y1J4U21TUnRfYw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n8222e54b",
+      "title": "Stocks dip ahead of Nvidia earnings, Anthropic IPO",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3g3MVMxZ2lSN1ZpTmpaWkdYR25ZdDZ4M3BELXQ3ZC1PZDhtNTVjYmpQdHlJZUFtLWxiUkFLbXhUVHM0OHNScEUyTWFHUU5MMmZYb0EyVW51dXd1OWJFak1NbVFwazhlVzBIcHB3TENzRG1IZ2FvVFlpS0xubFBadXlPYw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-16T01:35:00.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "Global",
+      "excerpt": "Stocks dip ahead of Nvidia earnings, Anthropic IPO Reuters",
+      "score": 93.9,
+      "alsoCoveredBy": [
+        {
+          "source": "Sharecast.com",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT1lxSU5LdmJoYlVibGNnQUEteHBmb195djdocHQ1WGg0eklfOWpDZDhaaERzajRjem1pRXgyYkVFREh0ckUxZ05vOF8tMDl5eERNZFVqU0l2MFNGV3dFV3piR1hwTVNLa3oydHFXQm4wVzkzZXpPbkg2Z1EwbjE3d3RZMWFfajNyVTY2NWVrT3hJYTFfRGtmQmxuekdvWHZ6U3dQeE9vZkVOQWdRSnVLQjE3RDVySVpUbnp0ZUtqby1wWTk3SV83RWUxbU5WQQ?oc=5"
+        },
+        {
+          "source": "Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTFjMXlJeldkX0ZiWUZKanBsenJ0cUQ2RXFkNXE5ZWgtR0FkMEhfS1FNa1ctVXVKTTdlb0hFV3lkeEgzVERLWURydVMydVhKaHdmSzRrX1plZGJUZ0lpN0gwNTF4RFNJUDBlV3dkM0VHSXpiTTRSWHAtM2tyVy1sdU1WZUI1MGJNRF81RkZKbDByY2JRRmRZUU5aMmJlZ0NxLVFtaXZJLTgwZnM?oc=5"
+        },
+        {
+          "source": "SSBCrack",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWlVwc0wyTkVfa3dwaWcwYy1idkw0RWZsTnl0Y1BablBGUXZuWlRTb2JnNm9hODhZMzFNVlhIYnA2RlM1Z0ptMjRwSml2Rlo0NmhJbmd3OTJpZm9QQTdrSEVUVnBFc3NPcGh0UlJmY2NqdDg0YjVfckY4OVJZSEhjUFdHRmJuaXV6N3pSV09XOTJyaEpnQjJxbjRDcDhJMGxKMHltdWhCcVAyOWduWmhjZnV0X2lzZDRIMkRPelZYZjRtQWVocFRmQkpB?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n5952d15c",
+      "title": "Danone Completes Acquisition of Australia’s Made Group",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMlY3ektQVHdhOEQxSGpTWk9HbWt2bFRqTkc1UWdNUllQYUFobnpEMEx2RW4xSTBRQ3UxQktjdHViSnN2bWxRcDRCdEY2YzdYREdMUUUwRHFFTV9rd1d6UUlpMWZuNHBEQXdxSTBUNGpXTEdjRVpQUGl2NE9ZaHhmUktod3RicFAwYUk4Wl91dzZOVVVTcXJyTTU1d3g4N0RDNjM4WFFGdEF3Si1oajNRYkM2d3BBWHVzam1ndk5Rd2huc1ROdHNPVG1lWkE5Q2lJc0pzbw?oc=5",
+      "source": "Food Processing",
+      "publishedAt": "2026-11-12T21:25:11.000Z",
+      "dealType": "M&A",
+      "region": "APAC",
+      "excerpt": "Danone Completes Acquisition of Australia’s Made Group Food Processing",
+      "score": 87.6,
+      "alsoCoveredBy": [
+        {
+          "source": "Idéal Investisseur",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQlZ5Si12NFA5MG8tbmN3R2F4Wi13b0VpN21rR05nREhSVC1uVGo1V21CeGhRbm5BUVEybW4td3dWbjVxQkwwZlMyNGxRN3RpQUlpRE9waVFUQks2X3M5YkhJeXctMWdHZUU2VGVnMXhCODN0LUU2OTNyeGdzdm16UnpxNklYUno5UzlRV1RQN2NqWGJmaGRhdHVzN25oTW5SQWdkSkhndVdzR0RxaEJWa1FpSmVPblAyOEdPSE1tbFpqLTVJQ3BVQ1pya2hjQUlPYktIekptNGc3dw?oc=5"
+        },
+        {
+          "source": "Food Business Middle East & Africa",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjbTlBcXZnaDFYRkVpdC1vUlo2ZnZVamN1Ymg5X0xTYkUxeXJaTDNCeGdWRWJ3S1BzTHl6M0lBZUVnR2tmYVZZQXJUb2t2bTJ0VEpQdlFmR3VEb0JCWDdCUkY3aGxKRmZJZEN3bkVZUVdvX2M5Zi1qWWx3VjE?oc=5"
+        },
+        {
+          "source": "Dairy Business Middle East & Africa",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNEVqZ0N3X2NPbkJCTWhMS0FpQ3Zyb1JQWEtsSEtES19FRER6bllMYnkzZUJLeWlrOXhvbThrX1A4d1dpQVpkMmEyTHVEUVJfbUQyTFpBU0M5aGVXcWhkSTBLNkFVY25mM3NIUFh0ZWZzbDRMaFVNbmJyV3RfT2xkV1dQWXFhUldtRHh1aGkzUlk?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nca87de28",
+      "title": "SpaceX’s Big Day: A Historic Starship Launch, a Tesla Merger Under Scrutiny, and a $74 Billion AI Bet",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWDZJMHVySTJIZTlCX3hmeHIxWEJCQTZUblRPU0poOENiY0xsVEgxSkt4UEh5Zm9qc2pJcmRsZWtWT0lpYXM3aDVUZEw1d2JQMGZiYjhISUE5V0Ezc0owLWhSY281cVp6bjRFV3VybHZKaDRPc1hBaXVsV01yVlNpajgwSXRSbEx1M0twS0J4akZBX0FyZ0tNMm1kTS1LenB1UXdUMnZkRGwtc2NEWGU3U0J5S0dzazFkbnh2U05hYWxVem5iRFQ5UGpiMjhWQnZzS0R0cndR?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-13T19:25:00.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$74bn",
+      "excerpt": "SpaceX’s Big Day: A Historic Starship Launch, a Tesla Merger Under Scrutiny, and a $74 Billion AI Bet The Motley Fool",
+      "score": 81.4,
+      "alsoCoveredBy": [
+        {
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ29uN2J3RW1VN3RySTRzOVdiX21JSDEzTHpqNXROaWxNc1lfZjVxcEd5WXVxUmNyWk5faFpnU3lGRmhUQ0hUdjBjaVlQQkYyTDFTRWZxQmtScjdtVkdLbldqbDZ2NXJGejQwcXFTWUVyRUV0THRSNThINVJadzhhTzU4RG5PNWFLTGFqdFdLOFlUUmxWd0pCUlhQMmk?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nbe405b34",
+      "title": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR01NUUl6YnU5Mk1pTEdmVldEWGN6UFltTG5DcVRDa3BOaXp2SVg3UUg5Q1poOWQ0QVRDOWJqXzVtVUVhRXA3VFJ1RUhDemcxRkNORVFYTEFuY2ZaOWR3YnJFeTRxaEIyMzJOTzU1WkFtcW5BcFdIS29ZUjdSUVdKZUhUOE9oek1WV3pxRVg4TlFYbkVKZ2d5TFAzR3ltUVJEN19GQUZBY3k4akRNZEE?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-16T12:31:18.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$1.5bn",
+      "excerpt": "Eli Lilly Agrees to Buy Calytrix Bio for Up to $1.5 Billion Bloomberg.com",
+      "score": 79.1,
+      "alsoCoveredBy": [
+        {
+          "source": "Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVTk1Z0FBN3VndzJ6N3ctTXlWX0xjVXpsb0dLVm9oSXN6MHFpU2ZWM0MyU1o3b1YzRWU2TUcxOV92bnhRa3JOenQ3MGFITE51cTZGTGtvREtLc3VNcVFNUkdzLWkycklFNkgzcDRHbFIzSGkwdzJVRVdKVjFYdjBOaDZTOU91dXR6ZkxVUGt2QlVTNTFDWVcwLUV1VklCZUk3R0V4S1ZJTzI5Q1MzOE1JaEJMSVluWFllNFN6Vmt3Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n54a3781c",
+      "title": "Sun Pharma eyes $4 billion loan for Organon buy, five banks likely to anchor refinancing",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxORnRpSVFCOXNaSG02ci1EQUpWNGppR0c4V3R3QmZBbnpxUVJjMHp6cTUxX2VpRXNPXzBpbV9BdnVnQ2NkM0R0MzVnM25DR0RkYmhlQV9FOHYyQzhGMS1IYUsyLXQ2Y0NqemgxZ2lEbUxWaFVteUduV2JlVk9zQmFCTVFMYUpfdEVjS3BGMUVDajBpS0NUWUhkeFRDY0tLSGEtRDJfRzNqOTl6YmRLZUFnOFczQ1dtT0xLSERqQ0Jlc1JtdkJQWmRSbE9ZMUpTbGRSWGJ2RUxNLVgtazc2M1RTNFF2S2tRaTZtbHNCc3EtVjVaSmRMUmFIYktwalJ1Qy16TzFtNklUc2llSS1hU3hqSUdR0gGXAkFVX3lxTE1nMmJ5RHMtVTRfWFZEMXFOQm82NVlsd21mZnM1RWVRb2NScHZzeVd2LUFaeTRVV3BieXdyOWhUc0RlUUpCemRrX2FwTFNSY0NCemdBQTRORm5wQWpZeC01YnBxeXpwMlNEZTBlUGl1TXZFdzc4bXFOOEZva2RYZlB3R0hMWVJKTm9SaF9RTDAtZVk0Q1JuX084dkpiSEhvY3lUbXdoS0VOWHB6amVmY0VzVDFhY0RtNWVXNW43c3p4RjgyazRFMVdZcXRZdVh5czlOamFQSkRhbnhTZ0Q0ajVfM2piVldOa2FSbHZsS19TWl81N2dSeWM0S2pHWkg0OXpZQ2c0S2pKWk1PS2U1cXlWcDRhLW5rRQ?oc=5",
+      "source": "The Economic Times",
+      "publishedAt": "2026-11-15T18:54:58.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Europe",
+      "dealSize": "$4bn",
+      "excerpt": "Sun Pharma eyes $4 billion loan for Organon buy, five banks likely to anchor refinancing The Economic Times",
+      "score": 78.6,
+      "alsoCoveredBy": [
+        {
+          "source": "Sahi",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM0tXZE4tMHYyS1NTWDg3bWRqeXU3bDFLS0pPUGlDemdGNHQ4dnMtM0dFQ3BkVWUxbWlpaDh6MVRNa2Z5b1phcVNLVjJ0cWxoaktqNjBrcEpEcHcwYk5BRzRhazllMjZ0TEp1bXR3cHpLcHVWcy1iTHgyX0J4VDBhcFhmekRST19kLXhTV3QzN1dOS2l0R01yeGZLMEVrODNtNmhCaXhSdw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "ne2df6d86",
+      "title": "News | H&R REIT investors reject $6.4 billion takeover offer led by Go Residential REIT, Blackstone",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd3Rrd0FPTlczQ1BpYzJ0UlJkcjByQ3lCUGVuYVlZUzJLRDl6RkxDTDRYcE5XbzhHaWczQTNCc3dOdFVXRE9sNUVQaGxqVlpZVDVNYk96dlliaUZRclhPa3RGNGJGclU3d1dHa1VnQnZ4SkREd2Rmd3gyYk9VSnNqamJ5a0lKa0xTeE1fNVZlU1ROZnB2bnNyWDM4RmZWVHNqZHJHdUtXeU8zdXpNYkQwRXBTWUVXb3AyU1BvOWVvU0dGdkJISnpFc3h6ODVzTVk3YTllbmZMR3E?oc=5",
+      "source": "CoStar",
+      "publishedAt": "2026-11-13T20:01:30.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "dealSize": "$6.4bn",
+      "excerpt": "News | H&R REIT investors reject $6.4 billion takeover offer led by Go Residential REIT, Blackstone CoStar",
+      "score": 76.1,
+      "alsoCoveredBy": [
+        {
+          "source": "citybiz",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWGprcGUzS0w3eXRPUWl0Yy02dnpvb1RCZTBEdXZWbUFtbFdkTll3Mk91dkl3SkhnLVZWQ05MS3lUN0N4YjJraUlVUVZwaGRGUzBOVEp5UFZSaXI1amtJaHFNSDBCbzViVWlFVzNqdC13R3I2SjkwckNHU2FFUGcyVGRocTNBRGxfMURCdXhfcjMtOXhDYXdaM0ZvOFFuVkZSWW5sZ2UtRHBJbkNBQWpTaVJULVQtR3ZDb3ZTSmx5cVliNEZvVGwwbkhwcFBtcVplb0RfQ3Z3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nf7414332",
+      "title": "IDP Education rejects Blackstone’s $564.5 million takeover bid for third time",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaUFZOHpWQmZhSlNGU0ctUl9ucDBnZ1hvT3pqTGgtbVVnTlRPSW1lVkdOV0VYODgxXzBqWGdUa3p5U1kyYS1ub3d3WDYwejMtYWVmTHFBcWExZWNBZ3pIX1I5bjhERm1OMmM1d1RTR3gxSzhZUHpVdjhUbjR4amdYNUV0aGlDbXAtYm1RSmJ5eUZKczR2MFVqU0N2VWxTNlNxNUlUZVc3TGdWbFRSeDJTRDcxWVNWcnFhTjZRN2FjTVVyRnFoeDRMb3B1QQ?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-16T00:45:56.000Z",
+      "dealType": "M&A",
+      "region": "APAC",
+      "dealSize": "$564.5m",
+      "excerpt": "IDP Education rejects Blackstone’s $564.5 million takeover bid for third time Investing.com",
+      "score": 75.1,
+      "alsoCoveredBy": [
+        {
+          "source": "Times Higher Education",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VR2FFUzA5d1pJNEZiNGg2U0xpNkpfODg3RFZTa0JELVZZUUtvMmM2c0tnUVR1STFFcm1WTWUwczZ2S0hXYjhYMHJxLUZBZTliZmxmOENHNkpBRVFIZTFxdGliUlRVS05qLWtqbmdMWURiQ2VZSVVyWGhNZEU?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nd4106eb0",
+      "title": "Sinotau International Pharmaceutical Launches HK$446 Million Hong Kong IPO",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOU2FndVA2M2t6ME5ia2lhTWdGbmJ4NzVLV2h4RnpfWFZLMHBPUE9hSnQ5S2E1X2JaVzlTV1FycHpRbWE3d1U2SjZHSEpNUnVMVzhKLXdsVHV5eHdhQVNXdnAyRFFsNkpuVkp6MUxiT1NBeTBEMHpKMEVRZTg3NXAxdVFjT2gyRXk1VnI0VVRIX05iNnE0WlJUc0JUN1h5WnFhUEctTm9lQ3RTeE5WMDZxQjVORzdBTm83ckI4a3NZWndlalQyb3c?oc=5",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-11-16T01:43:12.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "dealSize": "HK$446m",
+      "excerpt": "Sinotau International Pharmaceutical Launches HK$446 Million Hong Kong IPO marketscreener.com",
+      "score": 72.5,
+      "alsoCoveredBy": [
+        {
+          "source": "Finimize",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0Q4c2xDZmtIUmNud3RqZzE5alFPYnBUaXQ5a2RZbG0tTUxCX0hrUFdyLUZkcXY1VTJxcDloZkE5eUpMeXlaS25SS2Nha1RKczQzUy1HUEZhUVJxblZYQzgwWGJGR19HQ1Fvd0UwYWk1cFlHQnNQSENiLXBrRHFaY0ZEcjRjaFhGdUJlVXJzaw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nf8e8c543",
+      "title": "GFL Environmental rejects $22 billion buyout offer from PE funds- Globe",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOE5rLXNybzh3bkRtX3BoeXFpLTNtSS1scDR2V2FRR3Z6YzVPNG9uMnpNU2N1WFRieDhzNGhmVUI0N1ZkajFDc0o5akhPc1dGRGRhRGVaS3A1aHh6S1NmYjN0VGREcGktc0UtdzhJNU5fU1J4WGJEcTNJR3c0cEFKUURkbDdVLXg0bUxyOXNzMWdNUm00d3dhd293blVmLUowUXNFOV9jRFlMaVh1cVppYlMxRlNCSzF0MnpHTHpOcUFsV3NwQmd5Q0hibw?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-10T02:07:41.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "dealSize": "$22bn",
+      "excerpt": "GFL Environmental rejects $22 billion buyout offer from PE funds- Globe Investing.com",
+      "score": 72,
+      "alsoCoveredBy": [
+        {
+          "source": "MLQ.ai",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeV9HX2RibmE1UzRqQkxlVF9oOWdXY0J1b0l3Y3gzSllBQ2VSUFQ4bHRKRlBtM3lCQTRoVnBLa1RUR1gtRkM2bXJLbURBY1RPSG5CQ3ROUzBaZEZ5WEw2UFFReUo5dG9lRDZ3U0U0VHdSUi13MGhTNHFra016YnlpbWlIczBBV2V4bTFGaGxjRGZhTG51aEozVEc4SVE5SS1fbVhrY3Iya1BnNC1YS0xOTjBZb0w4VVlXWVJNNkZnV0o4VnZ2NnpSVlFn?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n2758166b",
+      "title": "Sigma Lithium closes $125M convertible bond offering, refinancing 2027 debt",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRVpJZTgtSW5IYV9Nb3N4am1QS1RaOE9aZXNySTVXMk10RUhzVU5vZXBYZDloLVBUcTVTS09fUXkzbUN4S2ZsUUxSVHJ4T3lNWVBjak9PNG9YT1BqTnlqNkgtV0JBWm9RVUh6SHU4R0ljUHkzMFFCbThjdUZmUjRjM3MySV9YVkxQWmJ5WWZZbG1hLTZ5UDNMbXhGYWI5QjlFY2MyYnhRQkd6UG9UcFJKZC16bmxycG5lbHYxeWhGeXhaS1ZuMkswMm00ZGhHLUwxbExOUw?oc=5",
+      "source": "StreetInsider",
+      "publishedAt": "2026-11-16T12:07:25.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "Global",
+      "dealSize": "$125m",
+      "excerpt": "Sigma Lithium closes $125M convertible bond offering, refinancing 2027 debt StreetInsider",
+      "score": 71.5,
+      "alsoCoveredBy": [
+        {
+          "source": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPdlFReWdycTZmNklIZFVOMVFZZ3dkVC1RdDhMbVF3VkxLdFlueUVJLTF1UFlQQkZtZ0JtOXp2aGVoSERuY2pWaEI2RXFDUmhqcDJoX3BKVUN0UG5lZElONWtXX1hVV0t6S0I2NlFfQThXSHprRGFhMDd2WHZrMjlmUkdNTThwV1lvckZ6Zm1IX2htcW1GWkRvZmw1c0k4MjhPWUo2OGdaRU5mVkwyTXJ2T1kwX29KUEwwaGRQM1JBcmR4S3lhM3BZbExZY2p4S2REang4TzRPYzg0RzVNMDBGVEFKWk0zenpDLVJCYm1sQnZCUUhlcGFtTEdud3NPUmJsQUhuLWttTDJIaXpBdzRaaDVkb2w3ekJadEZQUlA4VXQwdHdJREpYSTBtR0NyZEhIR2dUYXR0alR5ZFpNVmZNaXFtQmRrempv?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "na907007f",
+      "title": "Coal India Prices Mahanadi Coalfields IPO In A Tight Band",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTUZ5WkY2bkdHajl6ZHJHdXFaTmZ2dWFkNWxRb1gxb21DRjdpaTBCQ0hibVRkUTlWRG9FdW52ejBrRzZJR0FwZGFaYnR4a2NmRTJQeXJmSU4zTFpXNUxsRXcwR2h1RlhZREhqTE9RX2J2QUtKeFJITkw2VGNCbDh1WnNvTjdZSklnTmFzUUwyQQ?oc=5",
+      "source": "Finimize",
+      "publishedAt": "2026-11-16T03:19:01.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "excerpt": "Coal India Prices Mahanadi Coalfields IPO In A Tight Band Finimize",
+      "score": 69.1,
+      "alsoCoveredBy": [
+        {
+          "source": "Fortune India",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM2dDTHowREdTblBFM0FFRlA0U1l0N0RXWlRObE8ybDVQRmtZZW1hMVlYQVZBT0VpRGtkdS1vN292WUJWd3BMakw1ejNKajJMalVZZVR5d0QyWVc5cjU5bnF6M0xfd2RaNk52N1RZWmFlNFFRVXY2SlJPeTd3WURRTjVhRmpHZUpudGlZZngxYXM5bVhsYllSd0RoR3ZoQUYyZEwtSlZ1UERnUGJKckFzZ0ZvblFXRHhfak44Y0N1eG1QTkc5d0NTR2I5b1FDaGJGZUFpSFJYak5QMkhZ0gHqAUFVX3lxTFBFSmpTX0ROaUJqWV9Sc21mZXg4eV9jOFM4dUJiamJKelJqMGJsRUttSW9IcDdHbDZtZ24xSXRQMUJtVjh2T3ZRWEtZZ1k1MG9GaThkZTNxeEsySEc5THJnLXhXc1Z6bTloa3VwYlVZZ0hJNnM0bjlrVnZWaUJEQXdjMzFQNnBBUFdhMVFOTENWWWVwcGstdmtDZ3JKV1hRZ0ZCU3lxYkdWQlMyam5Uamp1WUFBaUFnYUlmb2VyQTdjeklhSWxvdUFLS0syWFVyY2daZ1A1dzZ3Qlo4eDNmaER0TkRLVGtCT0JiZw?oc=5"
+        },
+        {
+          "source": "The Financial Express",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcm9fNk9YM0ZMalAteU93WnVRdHVJbDVad0dCN0Zjd3JWeTJBR1JGZUxXWnhwV1BQdTVIRWRhUFJPdGVGVFprT3FaNm0zTDczWWs0aXhzX1ZTZGo2VUFxX0RDTTFuTzlBUVZucHhxZ2FEMmRuT25KWWoxRG5YUXZHV21vQVFUM01VRndRam4xZm9zSTZZZ01ER3NhNmdCMmhIZDg1YnlqUkx5V19hVDA3WUtXVWZmbmZwd2NWS0c5NnhHcG8yX0k4eWdkNDI1ZzJWbEk3VzAxYy1Ndzk40gHjAUFVX3lxTE1abGJCQjNiNS1kWkJ6MVFBclc0Sm1UWHRXa2pFRFlpVGMtMktsSGNVbGloZ2RKQ2xwQ0I3RDhHVm9Qa2VZaktOMFh2QWFSNHhJZFFzLW5uWHpyRzlvMEtOaDRzdzc2UF9zbWQwZldteklsTmtiazV2Q09hR2JtdU94RHAzSmMyMnJZMkp5OWdidVkyMFJRQlJxcDdLenBMVl8tSjFzUjVSUEdQcTd6Ym1LSkRYbUFXRFl3ZDJFSWxLQUxMenc2V2twX21MZHZoMHctYXliR1ZKUFJLNHNTTWwwWFhF?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n051d15b0",
+      "title": "argenx Agrees to Buy Unnatural Products in Up to $1.15 Billion Deal",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGVJR05KSW9wVmFfY0t3bG1uQzY1d3pIVVloYjFXSG5fQVV6TGhTV3pHcVNxekNhNnVvUzUwVVNwUUFMLVp6enRzN2dmcEpPRldHeUpoZXdKa3VaMlVZUVZYMXlaSGhaZTBvOHVSejBpXzZSTWhZWlVhcVRZdWgwU0ZXWG9ndE51X0ItX1NpLVM2Z0tPaENrdEd5UWJrRmZvTGNCNXByUGZ6ejFxQjFv?oc=5",
+      "source": "BioPharm International",
+      "publishedAt": "2026-11-09T16:46:25.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$1.15bn",
+      "excerpt": "argenx Agrees to Buy Unnatural Products in Up to $1.15 Billion Deal BioPharm International",
+      "score": 66.6,
+      "alsoCoveredBy": [
+        {
+          "source": "Pulse 2.0",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlZ6SU5YZWc3YjhJT0NRVmdkUUFFOUtiLW5EUl9oZjhRWEhTT1BmbnBlV1EydkwyampBTm1sbXV0QmRnZEx6bnJkQy1SY3pjZTE4WEw0dFc2cUUxR1B3R21UWkNnaFZMSWlzTXQ1OTdsOGRIRkhweEZpYTZ0dFJ0YWZOSU8zV01CaXhaYVhqSjkwRFFZUHQyRzAwTGw5YUxyc2tlLW9RVEdjeWVxa0o1b045Nk10R0NuTklsV2J3?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nc7a56fd3",
+      "title": "Peak 10 Energy Announces $500 Million Acquisition Finance Facility with U.S. Bank",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbGwtNE40RjNlOThITnIzZHdaMm05U0pVbzkyQTBLWkhzOWh3R1hrdkVPNG1zZDlLTlVQdGE0LXNkaW5fbzRJM3ZMNUMtbnZ1dk96dk1vODVKYjRTdjBqMVlVZm10NlJBc2JTNndPaTZyaHQ1anpJeEs4NXhGZUNWbUw0X3N1dFlfU3pIcWZnNVg0Q19EaGZIUTBnZmlFTjFyVzhyYVNYRENEdUpjaDlsTkpQQUxwOWo0RGRxTklJM2hDMW9GR3FHdTRrY0NSeGdOaElMQlFR?oc=5",
+      "source": "Morningstar",
+      "publishedAt": "2026-11-12T11:40:00.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$500m",
+      "excerpt": "Peak 10 Energy Announces $500 Million Acquisition Finance Facility with U.S. Bank Morningstar",
+      "score": 65.7,
+      "alsoCoveredBy": [
+        {
+          "source": "citybiz",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0EtdUwyOHBtSkJ5QkdNSndkQlJfbGl5OVVWQUNsS3V2QVhyczFpSXdwSVFUZlVvVkFDdVh3U2prZnY2dUFWUWRwZ2NhaDZPVDRpTjZaVGs4WkZRYzVPV1RXRWozMUF4M1hsemw1elNQaDJYd1psbk1jR0Y3TThDcTE1X3Q4eUZyT3hnWktFemFGbEltUVBuODQ1a1ZENVNTa3VZeXFwQ25VdnB0TmFqaVBPSnd3azVRTVE?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n14531d24",
+      "title": "Windward raises $175M in IPO, adds $50M from Sanofi",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVnN1aVd0cUlsZ1dWVUNyLURSa2o0UW5nR0hmUDgxNWlxNlNJMGhoWFE1dFpuakJ5Vl83Q0ZVaDk2ZldYSUZ6eGduNDVTTEtEY3pJbnZHd0dxdW5oa2JqMVlyYlBCRUNkcnlEVGV0VEdPU2tPZElPSUZSX25TOXVQOGt3QkEwejZsVGJSRXZpQmJEVUw5Y1BHcFZBVmg?oc=5",
+      "source": "European Biotechnology Magazine",
+      "publishedAt": "2026-11-13T16:58:59.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "Europe",
+      "dealSize": "$175m",
+      "excerpt": "Windward raises $175M in IPO, adds $50M from Sanofi European Biotechnology Magazine",
+      "score": 65,
+      "alsoCoveredBy": [
+        {
+          "source": "The Pharma Letter",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLXFhVm9BZFpCdThZS255M0J0Z1FEQnN6bzBUQlgtSWk4THREU09ZanVkTzlTejBHQ0lfclhkMHFxX3ozNkpvSmR1djY3ZHVNOGxQWWlSN3VJWEJxWjdhbjVOaEx5N0hFdm0xa2FOamJjLUZjLXA3ekxUSEJVckJpTDlMZ09FTUFFR3pWS0l1UVNhZ3ZPQzRtcGc5VzkzdlNVMUZkbGZHSElJYmdlV1lBdWo3bzkybE1FTFdZd2hjUVFxUTlsdDJyaFFPdlpDT19IYjRFcG1uMEVYTUZ5?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nb97fa01c",
+      "title": "Pizza Hut Looks to Sell $1 Billion of Bonds to Fund Its Buyout",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb3ZxUzdIMG5ZT0pJRHV4d2NWQ2xoY1h3M3NfS1A4REJpMXpxUzdzc0p2X1B2dDlWbGxSeHJ2WXY4OXZHWHZYeEZZSFBDNkxqTFlMLXdQUEZlWXJQLUg5RWZiRWwtU3RRUjYtNW0zaXNXYXpyeE13a1JfMmh5TmFGVkI5cHJYY3ZKWDlOMkx4YW1vRGZGWk4yM1FGdldDMS1pSDM4b05zODNwNklialhaa09B?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-10T19:01:24.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "Global",
+      "dealSize": "$1bn",
+      "excerpt": "Pizza Hut Looks to Sell $1 Billion of Bonds to Fund Its Buyout Bloomberg.com",
+      "score": 64.4,
+      "alsoCoveredBy": [
+        {
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLVFlbTZNOHA2S3ptWEo5S1VQX3ZzZVZzdjZJSG1LbVh6aV9GVkFkbEpRZkdvNG80QnB5RnBkZUNmUkMyRERIX2k4WmFZYXBOSnczTmNpVzh5d1lHeGJxZnZmQ2hPSWdDV21XWkxqbTZMMUhfWG5va3EtUzlteGswUlVyM0c0NHE2Z25tS2NWSVFqRWRfcWFGMV91UTYybmRHbUc1a1BWbjVuRFBXUVQ1MTh0N0VucHhWSExYQVdCV0JYZw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nc2d01110",
+      "title": "Sanofi-backed Windward Bio raises $225M in Nasdaq IPO",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR3pLNnpOcWY5OTNKRXBLcGNpNG5tMEVpX2VXelh0T09tQ2xQa0V1TnM0cjFrc2JsUHlLZ1h6bG9aT3ljRWRSUjRyamxrQy0zUVlobFp3bEFaaGRhWVdRNDBhcXBVVmdVM2l4UU9ROWhSSTFzcXVpMktVZVdLSFJCOW9UTXNzZU5SSmVJQXpNbw?oc=5",
+      "source": "Dealroom",
+      "publishedAt": "2026-11-13T00:00:52.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "North America",
+      "dealSize": "$225m",
+      "excerpt": "Sanofi-backed Windward Bio raises $225M in Nasdaq IPO Dealroom",
+      "score": 64.3,
+      "alsoCoveredBy": [
+        {
+          "source": "DirectorsTalk Interviews",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmtMelduTW9rWEpwZnhCYjhlV1lQMUZPM3RVZ201TUlMNDlqRkhFRTJEYWlXWGZGczQ2TC0wR21qaUNTVmdJWHZLNHdNbm55b2VrVDlTUUZyMXNhSE1tNlFybmd4LTJNRDdBQm1fTG5tV2NfVDZXcm81bFM2MzdHYW1Ddkt0NnJLc2xBNEFUWndBQVprUE1kdkpnVHBIaW0yaHVoSzYzWTc1cEF6NnNNRGFDZWJLQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nab4f1112",
+      "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
+      "url": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-11-16T13:12:30.000Z",
+      "dealType": "M&A",
+      "region": "North America",
+      "dealSize": "$5bn",
+      "excerpt": "Acquisition is latest in the heartland of the US shale boom amid volatile energy prices caused by Iran war",
+      "score": 63.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n8d00ad1d",
+      "title": "Novo Holdings-backed Windward Bio raises $175 million in US IPO",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXJHRjRPLXFqTmVrQXdfcXdtc1c1ZkR5allkREFBVUl4Y0dFOUx3N1JIVmpCdjk1WUtBaF80VlFaelZKVTYyQkhhY1I5Z3h4VmM3SElGUnhUd3VjU2xSWXNBVFlHYU8zZVhMYWN4NUFPQmlNdVM0dkhneFpoRURYYjlkeHctRkhPTVE?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-11-13T00:02:00.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "North America",
+      "dealSize": "$175m",
+      "excerpt": "Novo Holdings-backed Windward Bio raises $175 million in US IPO Yahoo Finance Singapore",
+      "score": 63.5,
+      "alsoCoveredBy": [
+        {
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMkFLS3FIQ3JWZkdINWdVRW9vc0U5UldxQlNVWU9UWU1DeDdObW84cUtzUEx1ejJ1ZjIyVjBpUVhQckJjLTJTOWJ2QUh0bFp5Vy1rWHFtQ2tuLWlSZVZ5SHRWaFFwNGJPaEtIb1hBZW9oN0ZLVnVXcE9yVlFxWTdzTlltNm1VTVZCZXZZVjlQYnN4RU12d3loaFFsM3I1WXdHb0N3LXl3aFlpRHBlV1NmSFViQjd5Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "n35d571f8",
+      "title": "Johnson & Johnson buys eye disease biotech for up to $3.3bn",
+      "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-11-16T13:55:36.000Z",
+      "dealType": "M&A",
+      "region": "Europe",
+      "dealSize": "$3.3bn",
+      "excerpt": "Drugmaker’s acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector",
+      "score": 62.6,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n28caa9ab",
+      "title": "Anthropic IPO Targets $1.4 Trillion Valuation, Six Times Oversubscribed Ahead of Nasdaq Debut",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQkpsM3RNOG8yMjhtWkNGNDZqRzJfZGRfNTFYN3BBSVJIb0wySnFZVzduaHl4Y2pVMnVsQlhCOFFibEVTWkQ3dUpWb3NhTEtqNXJzdUctc1g2a3lUak1DV0N5eVJ5N2M4TUVhbFRkcHNPUG1oT2k2Zlc4azlvSFNtTUE0a2wxd1JQQ2FQX1FNQ1E?oc=5",
+      "source": "OpenTools",
+      "publishedAt": "2026-11-16T08:08:52.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "North America",
+      "dealSize": "$1.4tn",
+      "excerpt": "Anthropic IPO Targets $1.4 Trillion Valuation, Six Times Oversubscribed Ahead of Nasdaq Debut OpenTools",
+      "score": 61.5,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nb7bb57eb",
+      "title": "Billionaire Investor Dan Loeb Bought Back Into Union Pacific and Norfolk Southern In Q2 — Here's Where the $85 Billion Rail Merger Stands",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlReUZuMW93LVJNcWExM0tUdlJuNjZCdTVYYVYtUllTalBuMDJNeWlfR0ZKbEdQNDNZbGRPNk12cHRiT1hjLXp3dnAtRWRsQjMyaFNhWUthQkVSRTd0cV91SzBoNGpNTm1Zb0p4OWVqOVZlZkhpMnR2dUxtYmJjYzZmdF9LYkxUazFyUlJMbnBqeWUzS0JiNFFRcmRwNldsVUNJ?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-16T03:30:00.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$85bn",
+      "excerpt": "Billionaire Investor Dan Loeb Bought Back Into Union Pacific and Norfolk Southern In Q2 — Here's Where the $85 Billion Rail Merger Stands Yahoo Finance",
+      "score": 61.1,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n78f483b0",
+      "title": "Hong Kong developer New World’s shares tumble 40% on $3.2bn rights issue plan",
+      "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
+      "source": "Financial Times Companies",
+      "publishedAt": "2026-11-16T08:59:48.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "dealSize": "$3.2bn",
+      "excerpt": "Ailing property group to offer new stock at 80% discount as it moves to slash debts",
+      "score": 60.1,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "nc74254b7",
+      "title": "Quebecor Bids C$31 Billion for Canadian Telecom Rival Telus",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemRzeFpVTDBTRlJMM0RKWkRQQmlPVjRfX3ZRWHc2Zi1ZMUh4MUR2MW41eE5QeXk2dmltWlhqUkx6MDBWWlZPQUQ2TV9mWWJWMFJKT2dRT0hNVjY1blQyc1MxNUhoYTJvZWtyWnZHNUE4LVIxdzJLRm1PNzhMWVh3Z21XS2lfV2ZQU1kwRjdUdGRjWVFQQ2FfUEdvMWluemJ6c01mNXgwbmRzSVVLcGV3LS1GTWducHR5UnhsRTA1eHg2cDNVX1hpNEFGYw?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-16T13:43:50.000Z",
+      "dealType": "Restructuring",
+      "region": "North America",
+      "dealSize": "C$31bn",
+      "excerpt": "Quebecor Bids C$31 Billion for Canadian Telecom Rival Telus Bloomberg.com",
+      "score": 60,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "naed47cd7",
+      "title": "Coal India to use MCL IPO proceeds for ₹1 trillion diversification plan",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNXJMTl9BTUo0Yjd5MXlWcXR3V0VxSmVYQmhkNUxJcmhsVUp0RnFMLWEzS1h5dUNXN250MDlOZ2VDVUpZMGV2UjRNOEJIQzNqUGxONDU5Y0p6NWJYaThKakV3a3Y3TnA4YlIzdTl2dnpBUE9xZm9CQ2Z5WWNxd3hhM3FmZHliOThlc29TOTVyaFJ1OXI2NUR2aW84czlEbHoxY3JHSjltZm9mODNtVzEwR2l1U29SVzh2TjRwZlR0Y0F6NjFIUnU5QzcxTEMwQk4tbUlqa2pB0gHbAUFVX3lxTE9zMy02OTFicHNGOFhJMEVoNjRERldRVmJoSkl6Q3F0cTVvbzJqcDg1T0FiaVpQS2staVc4YWFuSTdJZVgwNm1rQjFab3c5OUZnXzRQUjNhdE9ud1phcUpTcFJTcXkzX1ZRTmE3R1UyWHdXQ1pKS1dPdW9FNnFKY29VY3ZTTjBIUDViY0VRbmNYTlpxU1haZGRHbmRpVDhFSThrTXNqZldxVWRQa0ZkdzFneHZaT0FvbldKZXoyQnJhSnZlaWJHV3E5WVBfMnNzSEo5bzdlTkxTQUdfcw?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-11-16T13:41:09.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "APAC",
+      "dealSize": "₹1tn",
+      "excerpt": "Coal India to use MCL IPO proceeds for ₹1 trillion diversification plan Business Standard",
+      "score": 60,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n1231b97e",
+      "title": "Telus conducting ‘thorough review’ of $31B takeover offer from Québecor",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Da1ZsZHFKblh6U2ppVzYwczB6R0hKaGZLNlE5N0xoaV9fVlpXN1BwQmlyaV9KaC0zbElQWFRrc3N1T0YzcDhtTzh2OEozUWlBRWN4aGRESk9vMXIzaUFnUmVJME9fdkItQ3hmQ1JHLWFncUJpbkE?oc=5",
+      "source": "Global News",
+      "publishedAt": "2026-11-16T13:32:50.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$31bn",
+      "excerpt": "Telus conducting ‘thorough review’ of $31B takeover offer from Québecor Global News",
+      "score": 59.9,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n2a0d5d9e",
+      "title": "China’s Auto-Industry Takeover Cost Carmakers $270 Billion",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVUtTWG8xMGllTVZvQjV3WkhlVDFQb255akVHeW04T1UtSU4tcnZaYzhya21kcldxRGJmbFE4aHc3YlhMR3ZNRDI3cl9DZ1QzZFo4RUVxcGxFTXVDYUVDRy1QdjgyOGozV0p1OTVaTGdYSEg2VUJ0UXlwRWduUnhSOV93azVrZ2JBMXc0TTVvMkl5YUlQNktaNXZsMmRtVFlVdHVmSk9kREdMNnZBTV9IZg?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-16T12:00:01.000Z",
+      "dealType": "M&A",
+      "region": "APAC",
+      "dealSize": "$270bn",
+      "excerpt": "China’s Auto-Industry Takeover Cost Carmakers $270 Billion Bloomberg.com",
+      "score": 59.8,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n56da35ff",
+      "title": "India's private equity and VC raise record $29.5B this year",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY0pCOFBiSmN2d2tfcHhSRExZTUQ0RUw3d0oxR3RsMEJkY1p5dFJzMTM2OVR3OG5rYmlHamViVTdUeHBIa1Fad1dVdDV3Zmc5Y3lWV3hhQzZtXzFUS21rUG1YWlowS2Ywa2F6dkE3NS1LeHJsZE5OcXFFb1YtNmY0Und1Rl9oMmFkV0JINmdhazAxcDRMX1FjcF8yb3FBYmFHSVBFY0xuaw?oc=5",
+      "source": "NewsBytes",
+      "publishedAt": "2026-11-16T04:33:58.000Z",
+      "dealType": "Private Equity / Buyouts",
+      "region": "APAC",
+      "dealSize": "$29.5bn",
+      "excerpt": "India's private equity and VC raise record $29.5B this year NewsBytes",
+      "score": 59.2,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n156e5940",
+      "title": "Fed Says Banks Are Strong. The $2.6 Trillion Private Credit Market Is Another Story.",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaXpOZ3h2MGxXSHFpVTdPTlNrdURMbS1KT19qOEg2dlpmREczNThoWHJFd2pQV19PUWo1Y283XzdQcGZqdloxZElZSVk0NV9QaDhESDFNUVRDWHVHZ050bGV1ZGVjcmtYSTl5aXpPbjczclhRNjN3b2tYbzRyNTdUZGRKWmVBLUZKdXJVc0c5U0o1cDRZRS00dmJqTTcwRWszeGQ5eUFqcDBYdEJOajN0RmlRWjI?oc=5",
+      "source": "The Wealth Advisor",
+      "publishedAt": "2026-11-15T19:37:39.000Z",
+      "dealType": "DCM / Leveraged Finance",
+      "region": "North America",
+      "dealSize": "$2.6tn",
+      "excerpt": "Fed Says Banks Are Strong. The $2.6 Trillion Private Credit Market Is Another Story. The Wealth Advisor",
+      "score": 58.5,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n54bf2e11",
+      "title": "E-waste gold recycler Modern Mining raises $40M in NYSE American IPO",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYkVzdlNZMWNqMGVqT2JYeGtpWlIyRDdCRkd2ZldscHM5QjZpRTN0WlhlQ190dEREd1llZ1VpYTQxeUxpbUJhU1pmN0lSTjJDR096S0xYOFBKYmVsZkFxTGxMLU5lZFhLMlFCNXVuaUsyY01LNjNzRDNMNUpIanFRd3M5MnVwYmZRYk01SzJvYWE2S29OSWU3dEJzRlJKNmloS01R?oc=5",
+      "source": "Dealroom",
+      "publishedAt": "2026-11-12T15:16:24.000Z",
+      "dealType": "ECM / IPOs",
+      "region": "North America",
+      "dealSize": "$40m",
+      "excerpt": "E-waste gold recycler Modern Mining raises $40M in NYSE American IPO Dealroom",
+      "score": 58.4,
+      "alsoCoveredBy": [
+        {
+          "source": "Resource Recycling",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYXcycVpPbkxPeERIS0E4U2w5OHBfRzJtZmIxTVdYSFRPVTc0RnV4Zk12NGlpUVIybzBQSFFubWNZWTlHLWFBR2JVX3phbzZBRGxMczI5T29wSGVNaFlZa0ZiZGowYzJTcUZoNkQ5RUVvTHc2NDFPMlVNOFY1dzYwWnRwam54VGpndGxFN190dERHVG8?oc=5"
+        }
+      ]
+    },
+    {
+      "id": "nc45ecd29",
+      "title": "Third-party funding may unlock ₹4.38 trillion in insolvency claims",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWWNRaU81MnQzRkVEbTdQRlR2TF9sSV9TY3Y0UWxJR3JEZ3JyY2pNOGlvMXV1TnZRSlRfdjMtbWh5Wmt4SEgxUTh4WW9vLTkwXzZqSjJTWjd3R2VjeExtV2dLTkFiY2ZndHJrTEZ1dHhwaFI3SW9PODVMS1V2b1dwQkVUdDgyQkowMWxPMUM0ZlFkT0JaVmNlSnE5NHBHREJMalI3YzNidldJQ1ZCcWM1YllULW1CU1VqelJRS2hWT1ZiemFjMzdKS1gtamFnMmZLWS1qSGViUWNRQkd1ZFHSAeMBQVVfeXFMTk9RTXRaTmZoQXZ3MnhuZzhvM0xUb0F4NWM0eGlxSUg3YjV0TzlTdzFJRzk4WFc4eEdmY0ZSdmFDMWxVZXFhd2djY2NyamgwWEN2Ui1sU2d6UGFITW9UbG02bUVETlJLQXlaa3NKdnlXRDJGS1k0Z1g1aHBfNjJ3VGdVbGZvS3FvNV9sUEZIUDQzSHRGbjZWWThSYU9qUFZXYkpxYWs4QTM1V0Z1UjNrTWYtQzc3M1d0UDU1M096YVRRb0otcDg0NHFjcl9mN1ZGTkx4UHpjLTltSVZpTTM1WUhubVU?oc=5",
+      "source": "Business Standard",
+      "publishedAt": "2026-11-15T09:47:13.000Z",
+      "dealType": "Restructuring",
+      "region": "APAC",
+      "dealSize": "₹4.38tn",
+      "excerpt": "Third-party funding may unlock ₹4.38 trillion in insolvency claims Business Standard",
+      "score": 57.6,
+      "alsoCoveredBy": []
+    },
+    {
+      "id": "n24107616",
+      "title": "Lumentum Holdings (LITE) Heads Into An $82.1 Billion All Stock Takeover",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYnNzTm94ZXpNbmNlNjBReEdvVHR4TThwNXpYS2l6NjhrR0tJY0JZVmZGV1BVU0RXRGROQ2I3czNoVkVuVXZQdE9lX2xJQmd3LWJ5blFlZkxnZzlWaDhSRFE3VDBaVmtGZi1pVGsxQ2QwYlp1UERqakdnaEdOSFhFMWtPWHNFUDVvLUdrSnBFM1ZyQjY1MGxNa0g3bms?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-15T09:08:12.000Z",
+      "dealType": "M&A",
+      "region": "Global",
+      "dealSize": "$82.1bn",
+      "excerpt": "Lumentum Holdings (LITE) Heads Into An $82.1 Billion All Stock Takeover Yahoo Finance",
+      "score": 57.6,
+      "alsoCoveredBy": []
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-11-16T14:12:15.073Z",
+    "sourcesOk": [
+      "CNBC Finance",
+      "CNBC Business",
+      "Wall Street Journal Markets",
+      "Wall Street Journal Business",
+      "Financial Times Companies",
+      "Financial Times M&A",
+      "NYT DealBook",
+      "LatinFinance",
+      "Google News · M&A",
+      "Google News · Private equity",
+      "Google News · IPOs",
+      "Google News · Leveraged finance",
+      "Google News · Restructuring",
+      "Google News · Europe deals",
+      "Google News · Latin America deals",
+      "Google News · Asia-Pacific deals",
+      "Google News · Middle East & Africa deals"
+    ],
+    "sourcesFailed": [
+      {
+        "name": "PE Hub",
+        "error": "Not an RSS/Atom feed"
+      },
+      {
+        "name": "Private Equity International",
+        "error": "Not an RSS/Atom feed"
+      },
+      {
+        "name": "PitchBook News",
+        "error": "HTTP 403"
+      },
+      {
+        "name": "Mergers & Acquisitions (The Middle Market)",
+        "error": "HTTP 403"
+      }
+    ],
+    "totalFetched": 646,
+    "totalRelevant": 498
+  }
+}
